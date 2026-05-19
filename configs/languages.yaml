@@ -1,0 +1,14 @@
+# Supported languages and per-language defaults.
+
+supported: [zh, en]
+default: zh
+
+zh:
+  asr_initial_prompt: ""      # empty to avoid prompt leak (HF pipeline known issue)
+  llm_system_prompt_lang: zh
+  intent_labels: [陈述, 提问, 同意, 反对, 提议, 总结, 命令, 澄清, 确认, 打断, 寒暄, 回应]
+
+en:
+  asr_initial_prompt: ""
+  llm_system_prompt_lang: en
+  intent_labels: [statement, question, agree, disagree, proposal, summary, command, clarification, confirmation, interruption, smalltalk, acknowledgment]

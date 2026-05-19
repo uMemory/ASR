@@ -1,0 +1,135 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\bibstyle{ieeetr}
+\HyPL@Entry{0<</S/D>>}
+\HyPL@Entry{1<</S/D>>}
+\citation{radford2022whisper}
+\citation{vaswani2017transformer}
+\citation{radford2022whisper}
+\citation{bredin2023pyannote,bredin2024pyannote31}
+\citation{wang2024llm}
+\citation{bain2023whisperx}
+\@writefile{toc}{\contentsline {section}{\numberline {1}引言}{4}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}研究背景与问题定义}{4}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}系统面临的关键技术挑战}{4}{subsection.1.2}\protected@file@percent }
+\citation{park2022diarization}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}本文的技术路线与核心贡献}{5}{subsection.1.3}\protected@file@percent }
+\citation{vaswani2017transformer}
+\citation{gulati2020conformer}
+\citation{radford2022whisper}
+\citation{bain2023whisperx}
+\citation{babu2021xlsr}
+\citation{gong2023whisperat}
+\@writefile{toc}{\contentsline {section}{\numberline {2}国内外研究现状}{6}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}自动语音识别技术演进}{6}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}国际研究进展}{6}{subsubsection.2.1.1}\protected@file@percent }
+\citation{zhang2022wenetspeech}
+\citation{gao2022improving}
+\citation{fan2021cn}
+\citation{xiao2022multi}
+\citation{park2022diarization}
+\citation{bredin2023pyannote,bredin2024pyannote31}
+\citation{wang2023wespeaker}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2}国内研究进展}{7}{subsubsection.2.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}说话人分割聚类技术演进}{7}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}国际研究进展}{7}{subsubsection.2.2.1}\protected@file@percent }
+\citation{huang2024comparative}
+\citation{wang2023wespeaker}
+\citation{zhang2023target}
+\citation{chen2024survey}
+\citation{wang2024llm}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}国内研究进展}{8}{subsubsection.2.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}LLM辅助语音后处理}{8}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}国际研究进展}{8}{subsubsection.2.3.1}\protected@file@percent }
+\citation{stolcke2000dialogue}
+\citation{ouyang2022instructgpt}
+\citation{liu2019roberta}
+\citation{reimers2019sbert}
+\citation{chen2024bge}
+\citation{cormack2009rrf}
+\citation{defossez2021demucs,rouard2023demucs}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}国内研究进展}{9}{subsubsection.2.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}文本嵌入与跨模态检索}{9}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}音频前端音源分离}{10}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}本节小结}{10}{subsection.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}系统设计}{10}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}总体架构}{10}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}核心设计原则}{11}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}工程实现的关键挑战与解决方案}{12}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}关键技术方案}{12}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}语音活动检测（VAD）对齐}{12}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}端到端说话人分离管线}{13}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}语音识别与N-best候选生成}{14}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}统一LLM语义后处理架构}{14}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}5a层：上下文驱动的ASR纠错}{14}{subsubsection.4.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}5b层：说话人一致性交叉验证}{15}{subsubsection.4.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}5c层：12类对话行为意图标注}{16}{subsubsection.4.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 12类对话行为意图标签体系}}{16}{table.1}\protected@file@percent }
+\newlabel{tab:intent_labels}{{1}{16}{12类对话行为意图标签体系}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}BGE-M3双模检索编码器}{16}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}稠密向量编码}{16}{subsubsection.4.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2}稀疏词权重与词法匹配}{17}{subsubsection.4.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}五维异构复合检索与RRF融合}{17}{subsection.4.6}\protected@file@percent }
+\citation{fu2021aishell4}
+\citation{yu2022m2met}
+\citation{carletta2005ami}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 五维检索的维度定义、实现机制与权重配置}}{18}{table.2}\protected@file@percent }
+\newlabel{tab:retrieval_dims}{{2}{18}{五维检索的维度定义、实现机制与权重配置}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}实验设计}{18}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}数据集}{18}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}评估指标}{19}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}实验配置}{19}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}实验结果与分析}{20}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}说话人分离性能}{20}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces AISHELL-4测试集DER评测结果（20文件，各60秒截取）}}{20}{table.3}\protected@file@percent }
+\newlabel{tab:der}{{3}{20}{AISHELL-4测试集DER评测结果（20文件，各60秒截取）}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}语音识别}{21}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces CER消融实验结果（60秒截取窗口）}}{21}{table.4}\protected@file@percent }
+\newlabel{tab:cer}{{4}{21}{CER消融实验结果（60秒截取窗口）}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}管线时序分析}{21}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces 管线各阶段平均处理时间（60秒音频，RTX 4060 Laptop 8GB）}}{21}{table.5}\protected@file@percent }
+\newlabel{tab:timing}{{5}{21}{管线各阶段平均处理时间（60秒音频，RTX 4060 Laptop 8GB）}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}检索系统性能}{22}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces BGE-M3五维检索系统性能（5段文本，RTX 4060）}}{22}{table.6}\protected@file@percent }
+\newlabel{tab:retrieval}{{6}{22}{BGE-M3五维检索系统性能（5段文本，RTX 4060）}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}定性功能验证}{23}{subsection.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}讨论}{23}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}研究发现的意义}{23}{subsection.7.1}\protected@file@percent }
+\citation{carletta2005ami}
+\citation{babu2021xlsr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}局限性与改进方向}{24}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}未来工作展望}{24}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}结论}{25}{section.8}\protected@file@percent }
+\bibdata{references}
+\bibcite{radford2022whisper}{{1}{}{{}}{{}}}
+\bibcite{vaswani2017transformer}{{2}{}{{}}{{}}}
+\bibcite{bredin2023pyannote}{{3}{}{{}}{{}}}
+\bibcite{bredin2024pyannote31}{{4}{}{{}}{{}}}
+\bibcite{wang2024llm}{{5}{}{{}}{{}}}
+\bibcite{bain2023whisperx}{{6}{}{{}}{{}}}
+\bibcite{park2022diarization}{{7}{}{{}}{{}}}
+\bibcite{gulati2020conformer}{{8}{}{{}}{{}}}
+\bibcite{babu2021xlsr}{{9}{}{{}}{{}}}
+\bibcite{gong2023whisperat}{{10}{}{{}}{{}}}
+\bibcite{zhang2022wenetspeech}{{11}{}{{}}{{}}}
+\bibcite{gao2022improving}{{12}{}{{}}{{}}}
+\bibcite{fan2021cn}{{13}{}{{}}{{}}}
+\bibcite{xiao2022multi}{{14}{}{{}}{{}}}
+\bibcite{wang2023wespeaker}{{15}{}{{}}{{}}}
+\bibcite{huang2024comparative}{{16}{}{{}}{{}}}
+\bibcite{zhang2023target}{{17}{}{{}}{{}}}
+\bibcite{chen2024survey}{{18}{}{{}}{{}}}
+\bibcite{stolcke2000dialogue}{{19}{}{{}}{{}}}
+\bibcite{ouyang2022instructgpt}{{20}{}{{}}{{}}}
+\bibcite{liu2019roberta}{{21}{}{{}}{{}}}
+\bibcite{reimers2019sbert}{{22}{}{{}}{{}}}
+\bibcite{chen2024bge}{{23}{}{{}}{{}}}
+\bibcite{cormack2009rrf}{{24}{}{{}}{{}}}
+\bibcite{defossez2021demucs}{{25}{}{{}}{{}}}
+\bibcite{rouard2023demucs}{{26}{}{{}}{{}}}
+\bibcite{fu2021aishell4}{{27}{}{{}}{{}}}
+\bibcite{yu2022m2met}{{28}{}{{}}{{}}}
+\bibcite{carletta2005ami}{{29}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{29}

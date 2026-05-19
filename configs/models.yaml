@@ -1,0 +1,66 @@
+# Model configuration — switch between local debug (4060 8GB) and cloud (T4 16GB).
+# All paths are relative to the project root. Absolute paths also work.
+
+profile: local   # local | cloud
+
+local:
+  asr:
+    backend: transformers        # HF snapshot — same code path local+cloud
+    model: ./models/whisper-medium
+    compute_type: float16        # float16 on GPU, int8 on CPU
+    language: null               # null = auto-detect; "zh" or "en" to force
+    beam_size: 5
+    n_best: 5
+  diarization:
+    pipeline_config: ./models/speaker-diarization-3.1/config.yaml
+    segmentation_model: ./models/segmentation-3.0/pytorch_model.bin
+  alignment:
+    zh: ./models/wav2vec2-large-xlsr-53-chinese-zh-cn
+    en: WAV2VEC2_ASR_BASE_960H   # torchaudio built-in
+  embedding:
+    model: ./models/bge-m3
+    use_fp16: true
+  separation:
+    enabled: false                # off by default; enable for film/TV audio
+    model: htdemucs_ft            # demucs auto-downloads model on first run
+    two_stems: vocals
+
+cloud:
+  asr:
+    backend: transformers        # cloud: same HF code; switch to faster-whisper later if needed for speed
+    model: openai/whisper-large-v3
+    compute_type: float16
+    language: null
+    beam_size: 5
+    n_best: 5
+  diarization:
+    pipeline_config: pyannote/speaker-diarization-3.1
+    segmentation_model: pyannote/segmentation-3.0
+  alignment:
+    zh: jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn
+    en: WAV2VEC2_ASR_BASE_960H
+  embedding:
+    model: BAAI/bge-m3
+    use_fp16: true
+  separation:
+    enabled: false                # off by default; enable for film/TV audio
+    model: htdemucs_ft
+    two_stems: vocals
+
+device: cuda                     # cuda | cpu
+
+# ── LLM post-processing ──────────────────────────────────────────────
+# All LLM backends read credentials from .env (DEEPSEEK_API_KEY, etc).
+# Toggle individual post-processing steps below.
+llm:
+  enabled: true                   # master switch
+  correction: true                # context-aware ASR error correction
+  consistency: true               # speaker identity cross-check
+  intent_tagging: true            # dialogue act labelling
+
+# ── Retrieval index ──────────────────────────────────────────────────
+# Build the BGE-M3 search index as part of the pipeline (Stage 6).
+# Disabled by default — enable when you need retrieval functionality.
+retrieval:
+  build_index: false              # auto-build after pipeline
+  store_path: ./outputs/index     # where to save the index

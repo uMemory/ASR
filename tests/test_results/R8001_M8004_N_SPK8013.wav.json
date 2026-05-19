@@ -1,0 +1,48 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\615f2ca0bb70e087f65d5d15aad534f0b82744f8ea14ee29ad4a96f822269043\\R8001_M8004_N_SPK8013.wav",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.6,
+      "speaker": "B",
+      "text": "今天我们公司新出了一款手机产品进行一下这个研讨会首先咱们确定一下咱们产品的目标这个人群 客户群这一块首先谈谈他们大家伙的一个看法你再谈一下吧我覺得黃天鵬这个",
+      "speaker_original": "SPEAKER_UNKNOWN"
+    },
+    {
+      "start": 1.6,
+      "end": 2.52,
+      "speaker": "B",
+      "text": "是不要太去",
+      "speaker_original": "SPEAKER_UNKNOWN"
+    },
+    {
+      "start": 2.52,
+      "end": 66.0,
+      "speaker": "B",
+      "text": "对 因为他可能是去的地方你再查一下吧跨度大一点是吧好然后你觉得嗯就针对性",
+      "speaker_original": "SPEAKER_UNKNOWN"
+    },
+    {
+      "start": 66.0,
+      "end": 114.0,
+      "speaker": "B",
+      "text": "也可以说是有一种反差其实还是比较轻的好如果可以根据年龄和智能对峙或者是做下去跟互办公可以多做一些18到15岁的更新年资料首先咱们就确定说这个手机从这个特点来说可能就是说年龄段要跨路大一点大家都同意是吧",
+      "speaker_original": "SPEAKER_UNKNOWN"
+    },
+    {
+      "start": 116.0,
+      "end": 117.0,
+      "speaker": "A",
+      "text": "就年轻男子就年轻吧是吧",
+      "speaker_original": "SPEAKER_01"
+    }
+  ],
+  "timing": {
+    "diarization": 12.22,
+    "asr": 7.5,
+    "alignment": 0.01,
+    "total": 19.9
+  },
+  "num_speakers": 2,
+  "meeting_summary": {}
+}

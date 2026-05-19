@@ -1,0 +1,36 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Large artifacts
+models/
+dataset/
+data/
+cache/
+outputs/
+*.tar
+*.tar.gz
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.pt
+*.bin
+*.safetensors
+*.msgpack
+*.h5
+
+# Logs
+*.log
+logs/

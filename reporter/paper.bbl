@@ -1,0 +1,151 @@
+\begin{thebibliography}{10}
+
+\bibitem{radford2022whisper}
+A.~Radford, J.~W. Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever,
+  ``Robust speech recognition via large-scale weak supervision,'' {\em arXiv
+  preprint arXiv:2212.04356}, 2022.
+
+\bibitem{vaswani2017transformer}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  {\L}.~Kaiser, and I.~Polosukhin, ``Attention is all you need,'' {\em Proc.
+  NeurIPS}, vol.~30, 2017.
+
+\bibitem{bredin2023pyannote}
+H.~Bredin, ``pyannote.audio 2.1 speaker diarization pipeline: Principle,
+  benchmark, and recipe,'' in {\em Proc. INTERSPEECH}, pp.~1983--1987, 2023.
+
+\bibitem{bredin2024pyannote31}
+H.~Bredin and A.~Plaquet, ``{Pyannote.audio} 3.x: Speaker diarization with pure
+  {PyTorch},'' {\em Hugging Face Blog}, 2024.
+
+\bibitem{wang2024llm}
+S.~Wang, Z.~Chen, H.~Wang, C.~Liang, B.~Zhang, and Y.~Qian, ``Leveraging large
+  language models for context-aware {ASR} error correction,'' {\em arXiv
+  preprint arXiv:2403.12681}, 2024.
+
+\bibitem{bain2023whisperx}
+M.~Bain, J.~Huh, T.~Han, and A.~Zisserman, ``{WhisperX}: Time-accurate speech
+  transcription of long-form audio,'' in {\em Proc. INTERSPEECH},
+  pp.~4489--4493, 2023.
+
+\bibitem{park2022diarization}
+T.~J. Park, N.~Kanda, D.~Dimitriadis, K.~J. Han, S.~Watanabe, and S.~Narayanan,
+  ``A review of speaker diarization: Recent advances with deep learning,'' {\em
+  Computer Speech \& Language}, vol.~72, p.~101317, 2022.
+
+\bibitem{gulati2020conformer}
+A.~Gulati, J.~Qin, C.-C. Chiu, N.~Parmar, Y.~Zhang, J.~Yu, W.~Han, S.~Wang,
+  Z.~Zhang, Y.~Wu, and R.~Pang, ``Conformer: Convolution-augmented transformer
+  for speech recognition,'' in {\em Proc. INTERSPEECH}, pp.~5036--5040, 2020.
+
+\bibitem{babu2021xlsr}
+A.~Babu, C.~Wang, A.~Tjandra, K.~Lakhotia, Q.~Xu, N.~Goyal, K.~Singh, P.~von
+  Platen, Y.~Saraf, J.~Pino, A.~Baevski, A.~Conneau, and M.~Auli, ``{XLS-R}:
+  Self-supervised cross-lingual speech representation learning at scale,'' {\em
+  arXiv preprint arXiv:2111.09296}, 2021.
+
+\bibitem{gong2023whisperat}
+Y.~Gong, S.~Khurana, L.~Karlinsky, and J.~Glass, ``{Whisper-AT}: Noise-robust
+  automatic speech recognizers are also strong general audio event taggers,''
+  in {\em Proc. INTERSPEECH}, 2023.
+
+\bibitem{zhang2022wenetspeech}
+B.~Zhang, H.~Lv, P.~Guo, Q.~Shao, C.~Yang, L.~Xie, X.~Xu, H.~Bu, X.~Chen,
+  C.~Zeng, D.~Wu, and Z.~Peng, ``{WenetSpeech}: A 10000+ hours multi-domain
+  mandarin corpus for speech research,'' {\em arXiv preprint arXiv:2110.03370},
+  2022.
+
+\bibitem{gao2022improving}
+Z.~Gao, L.~Xie, and H.~Bu, ``Improving mandarin speech recognition with hybrid
+  {CTC/Attention} architectures and multi-domain training data,'' in {\em Proc.
+  ISCSLP}, 2022.
+
+\bibitem{fan2021cn}
+C.~Fan, J.~Yi, J.~Tao, Z.~Tian, B.~Liu, and Z.~Wen, ``Gated recurrent fusion
+  with joint training framework for robust end-to-end speech recognition,''
+  {\em IEEE/ACM Trans. Audio, Speech, Language Process.}, vol.~29,
+  pp.~198--209, 2021.
+
+\bibitem{xiao2022multi}
+X.~Xiao, N.~Kanda, Z.~Chen, T.~Zhou, T.~Yoshioka, S.~Chen, Y.~Zhao, G.~Liu,
+  Y.~Wu, J.~Wu, S.~Liu, and J.~Li, ``Multi-channel multi-speaker {ASR} with
+  target-speaker {ASR} and a joint training system,'' in {\em Proc. IEEE
+  ICASSP}, 2023.
+
+\bibitem{wang2023wespeaker}
+H.~Wang, C.~Liang, S.~Wang, Z.~Chen, B.~Zhang, X.~Xiang, Y.~Deng, and Y.~Qian,
+  ``{WeSpeaker}: A research and production oriented speaker embedding learning
+  toolkit,'' in {\em Proc. IEEE ICASSP}, 2023.
+
+\bibitem{huang2024comparative}
+Z.~Huang, X.~Wang, and M.~Li, ``A comparative study of speaker diarization
+  methods for mandarin conference scenarios,'' {\em Journal of Signal
+  Processing Systems}, 2024.
+
+\bibitem{zhang2023target}
+W.~Zhang and Y.~Qian, ``Target-speaker voice activity detection with improved
+  {Cross-Attention} mechanism,'' {\em IEEE Signal Process. Lett.}, 2023.
+
+\bibitem{chen2024survey}
+M.~Chen, Y.~Su, D.~Cai, and Y.~Wang, ``Large language models for speech and
+  audio: A survey,'' {\em arXiv preprint arXiv:2405.15337}, 2024.
+
+\bibitem{stolcke2000dialogue}
+A.~Stolcke, K.~Ries, N.~Coccaro, E.~Shriberg, R.~Bates, D.~Jurafsky, P.~Taylor,
+  R.~Martin, M.~Meteer, and C.~V. Ess-Dykema, ``Dialogue act modeling for
+  automatic tagging and recognition of conversational speech,'' {\em
+  Computational Linguistics}, vol.~26, no.~3, pp.~339--373, 2000.
+
+\bibitem{ouyang2022instructgpt}
+L.~Ouyang, J.~Wu, X.~Jiang, D.~Almeida, C.~L. Wainwright, P.~Mishkin, C.~Zhang,
+  S.~Agarwal, K.~Slama, A.~Ray, J.~Schulman, J.~Hilton, F.~Kelton, L.~Miller,
+  M.~Simens, A.~Askell, P.~Welinder, P.~Christiano, J.~Leike, and R.~Lowe,
+  ``Training language models to follow instructions with human feedback,'' in
+  {\em Proc. NeurIPS}, 2022.
+
+\bibitem{liu2019roberta}
+Y.~Liu, M.~Ott, N.~Goyal, J.~Du, M.~Joshi, D.~Chen, O.~Levy, M.~Lewis,
+  L.~Zettlemoyer, and V.~Stoyanov, ``{RoBERTa}: A robustly optimized {BERT}
+  pretraining approach,'' in {\em arXiv preprint arXiv:1907.11692}, 2019.
+
+\bibitem{reimers2019sbert}
+N.~Reimers and I.~Gurevych, ``{Sentence-BERT}: Sentence embeddings using
+  siamese {BERT}-networks,'' in {\em Proc. EMNLP-IJCNLP}, pp.~3982--3992, 2019.
+
+\bibitem{chen2024bge}
+J.~Chen, S.~Xiao, P.~Zhang, K.~Luo, D.~Lian, and Z.~Liu, ``{BGE M3-Embedding}:
+  Multi-lingual, multi-functionality, multi-granularity text embeddings through
+  self-knowledge distillation,'' {\em arXiv preprint arXiv:2402.03216}, 2024.
+
+\bibitem{cormack2009rrf}
+G.~V. Cormack, C.~L.~A. Clarke, and S.~Buettcher, ``Reciprocal rank fusion
+  outperforms condorcet and individual rank learning methods,'' in {\em Proc.
+  ACM SIGIR}, pp.~758--759, 2009.
+
+\bibitem{defossez2021demucs}
+A.~D\'{e}fossez, ``Hybrid spectrogram and waveform source separation,'' in {\em
+  Proc. NeurIPS Workshop on Machine Learning for Audio}, 2021.
+
+\bibitem{rouard2023demucs}
+S.~Rouard, F.~Massa, and A.~D\'{e}fossez, ``Hybrid transformers for music
+  source separation,'' in {\em Proc. IEEE ICASSP}, 2023.
+
+\bibitem{fu2021aishell4}
+Y.~Fu, L.~Cheng, S.~Lv, Y.~Jv, Y.~Kong, Z.~Chen, Y.~Hu, L.~Xie, J.~Wu, H.~Bu,
+  X.~Xu, J.~Du, and J.~Chen, ``{AISHELL-4}: An open source dataset for speech
+  enhancement, separation, recognition and speaker diarization in conference
+  scenario,'' in {\em Proc. INTERSPEECH}, pp.~3565--3569, 2021.
+
+\bibitem{yu2022m2met}
+F.~Yu, S.~Zhang, Y.~Fu, L.~Xie, S.~Zheng, Z.~Du, W.~Huang, P.~Guo, Z.~Yan,
+  B.~Ma, X.~Xu, and H.~Bu, ``{M2MeT}: The {ICASSP} 2022 multi-channel
+  multi-party meeting transcription challenge,'' in {\em Proc. IEEE ICASSP},
+  pp.~9166--9170, 2022.
+
+\bibitem{carletta2005ami}
+J.~Carletta, S.~Ashby, S.~Bourban, M.~Flynn, M.~Guillemot, T.~Hain, J.~Kadlec,
+  V.~Karaiskos, W.~Kraaij, M.~Kronenthal, G.~Lathoud, M.~Lincoln, A.~Lisowska,
+  I.~McCowan, W.~Post, D.~Reidsma, and P.~Wellner, ``The {AMI} meeting corpus:
+  A pre-announcement,'' {\em Proc. MLMI}, pp.~28--39, 2005.
+
+\end{thebibliography}

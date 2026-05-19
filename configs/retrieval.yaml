@@ -1,0 +1,35 @@
+# Multi-dimensional retrieval configuration.
+
+dimensions: [semantic, keyword, speaker, time, intent]
+
+semantic:
+  encoder: bge-m3                # uses configs/models.yaml -> embedding.model
+  top_k: 20
+  metric: cosine
+
+keyword:
+  backend: bge-m3-sparse         # bge-m3 sparse weights; fallback to BM25
+  top_k: 20
+
+speaker:
+  match: exact                   # exact match on speaker id
+
+time:
+  granularity_seconds: 1.0
+
+intent:
+  match: any-of                  # support multiple intents per query
+
+fusion:
+  method: rrf                    # Reciprocal Rank Fusion
+  k: 60                          # RRF constant
+  weights:
+    semantic: 1.0
+    keyword: 1.0
+    speaker: 1.5
+    time: 1.0
+    intent: 1.2
+
+index:
+  store_path: ./outputs/index
+  segment_min_chars: 4           # ignore ultra-short segments (e.g., "嗯")

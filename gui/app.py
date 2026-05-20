@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import argparse, asyncio, base64, io, json, queue, re, shutil
 import struct, sys, threading, time, wave
+from html import escape
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -15,7 +16,7 @@ import numpy as np
 import soundfile as sf
 import torch
 
-from src.pipeline import run, _build_speaker_map
+from src.pipeline import run
 from src.utils.config import project_root
 
 
@@ -42,6 +43,8 @@ def audio_to_base64(audio: np.ndarray, sr: int) -> str:
 # ══════════════════════════════════════════════════════════════
 
 _last_result: dict | None = None
+_last_file_results: list[dict] = []
+_last_audio_files: list[tuple[str, str]] = []  # (label, filepath)
 _last_segments_raw: list[dict] = []   # 未映射的原始段
 _index_path: Path = project_root() / "outputs" / "index"
 _output_dir: Path = project_root() / "tests" / "test_results"
@@ -84,46 +87,32 @@ class RealtimePipeline:
         sr = 16000
         dia = self.dia_backend.diarize(waveform, sample_rate=sr)
         prompt = self.lang_cfg.get("asr_initial_prompt")
-        asr = self.asr_backend.transcribe(waveform, language=self.language, initial_prompt=prompt)
+        from src.pipeline import _transcribe_speech_chunks
+        asr = _transcribe_speech_chunks(
+            self.asr_backend, waveform, sr, dia["segments"], self.language, prompt,
+        )
 
-        # Word-level speaker assignment + turn aggregation
-        import pandas as pd
-        from src.pipeline import _aggregate_words_to_turns
+        # Pre-filter artifacts. Do not pre-split before alignment because
+        # fake time windows make click playback drift from the actual audio.
+        from src.pipeline import _filter_asr_artifacts, _filter_unreliable_turns, _presplit_segments
+        asr_segs = _filter_asr_artifacts(asr["segments"])
 
-        asr_words = asr["segments"]  # word-level now
-        word_segs = []
-        for w in asr_words:
-            txt = w.get("text", "").strip()
-            if not txt:
-                continue
-            word_segs.append({"word": txt, "start": w["start"], "end": w["end"], "score": 0.5})
-
-        aligned = {
-            "segments": [{
-                "start": word_segs[0]["start"] if word_segs else 0.0,
-                "end": word_segs[-1]["end"] if word_segs else 0.0,
-                "text": " ".join(w["word"] for w in word_segs),
-                "words": word_segs,
-            }],
-            "word_segments": word_segs,
-        }
-        dia_segs = dia["segments"]
-        diarize_df = pd.DataFrame([
-            {"start": s["start"], "end": s["end"], "speaker": s["speaker"]}
-            for s in dia_segs
-        ])
-        import whisperx
-        result = whisperx.assign_word_speakers(diarize_df, aligned)
-        merged = _aggregate_words_to_turns(result.get("word_segments", []))
+        # Segment-level speaker assignment (fast path — no forced alignment)
+        from src.alignment import align_segments
+        merged = align_segments(dia["segments"], asr_segs)
+        merged = _presplit_segments(merged)
+        merged = _filter_unreliable_turns(merged)
 
         # Hallucination cleanup + speaker map
         from src.llm.corrector import clean_hallucination, zh_simplify
+        from src.pipeline import _dedupe_turn_boundaries, _merge_adjacent_turns
         for seg in merged:
             txt = clean_hallucination(seg.get("text", ""))
             seg["text"] = zh_simplify(txt)
-        spk_map = _build_speaker_map(merged)
+        merged = _merge_adjacent_turns(merged)
+        merged = _dedupe_turn_boundaries(merged)
         for seg in merged:
-            seg["speaker"] = spk_map.get(seg.get("speaker", ""), seg.get("speaker", ""))
+            seg["speaker_original"] = seg.get("speaker", "")
         return merged
 
     def process_llm(self, merged: list[dict]) -> list[dict]:
@@ -168,10 +157,7 @@ def find_audio_files(path_str: str) -> list[str]:
 
 
 def _speaker_label(speaker: object) -> str:
-    label = str(speaker or "?").strip()
-    if re.fullmatch(r"[A-Z]", label):
-        return f"Speaker {label}"
-    return label
+    return str(speaker or "?").strip()
 
 
 def _render_seg_html(
@@ -182,10 +168,10 @@ def _render_seg_html(
 ) -> str:
     """渲染单个段为 HTML 可点击行。"""
     ts = f"[{fmt_time(seg['start'])} - {fmt_time(seg['end'])}]"
-    spk = _speaker_label(seg.get("speaker", "?")).replace("<", "&lt;")
+    spk = escape(_speaker_label(seg.get("speaker", "?")))
     txt = seg.get("llm_text", "") or seg.get("text", "")
-    txt = txt.replace("<", "&lt;").replace(">", "&gt;")
-    orig = seg.get("text", "").replace("<", "&lt;").replace(">", "&gt;")
+    txt = escape(txt)
+    orig = escape(seg.get("text", ""))
     phase = seg.get("phase", "")
     intent = seg.get("llm_intent") or seg.get("intent", "")
     if isinstance(intent, list): intent = "+".join(intent)
@@ -211,7 +197,7 @@ def _render_seg_html(
         f"onmouseout='this.style.background=\"transparent\"'>"
         f"<span style='color:#e67e22'>▸</span> {prefix} "
         f"<span style='color:#888;font-family:monospace;font-size:0.9em'>{ts}</span> "
-        f"<b style='color:#c0392b'>{spk}</b>: {txt}{note}{intent_html}</div>"
+        f"<b data-speaker='{spk}' style='color:#c0392b'>{spk}</b>: {txt}{note}{intent_html}</div>"
     )
 
 
@@ -224,8 +210,9 @@ def process_files(
     output_dir_str: str,
     llm_model: str,
     progress=gr.Progress(),
-) -> tuple[str, str, str, str, str]:
-    global _last_result, _last_segments_raw, _current_audio_b64, _current_audio_sr
+) -> tuple[str, str, str, str, str, str, object, object]:
+    global _last_result, _last_file_results, _last_audio_files
+    global _last_segments_raw, _current_audio_b64, _current_audio_sr
 
     # 收集文件
     files: list[str] = []
@@ -241,7 +228,12 @@ def process_files(
                 files.append(df)
 
     if not files:
-        return ("<p style='color:#888'>请选择音频文件或输入目录路径</p>", "", "", "", "")
+        return (
+            "<p style='color:#888'>请选择音频文件或输入目录路径</p>",
+            "", "", "", "", "",
+            gr.update(choices=[], value=None),
+            gr.update(choices=[], value=None),
+        )
 
     out_dir = _project_path(output_dir_str.strip()) if output_dir_str.strip() else _output_dir
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -251,6 +243,8 @@ def process_files(
     saved_files: list[str] = []
     primary_audio_b64 = ""; primary_audio_sr = 16000
     _last_segments_raw = []
+    _last_file_results = []
+    _last_audio_files = []
 
     for fi, fpath in enumerate(files):
         fname = Path(fpath).name
@@ -277,7 +271,10 @@ def process_files(
             html_parts.append(f"<p style='color:red'>✗ {fname}: {e}</p>")
             continue
 
+        result["file"] = fpath
+        result["name"] = fname
         _last_result = result; segs = result["segments"]
+        _last_file_results.append(result)
         _last_segments_raw.extend(segs)
         timing = result.get("timing", {})
 
@@ -319,10 +316,11 @@ def process_files(
                    f"{n_spk}人 · {len(segs)}段 · "
                    f"总耗时 {timing.get('total',0):.1f}s"
                    f"{' +LLM' if timing.get('llm') else ''}")
+        rename_panel = _build_rename_panel(segs)
         html_parts.append(
             f"<details open style='margin:8px 0;border:1px solid #f0d0a0;border-radius:6px;padding:8px'>"
             f"<summary style='cursor:pointer;font-weight:bold;color:#e67e22'>{summary_label}</summary>"
-            f"{file_audio_html}<div style='margin-top:6px'>{summary_html}{seg_html}</div>"
+            f"{file_audio_html}<div style='margin-top:6px'>{rename_panel}{summary_html}{seg_html}</div>"
             f"</details>"
         )
 
@@ -338,18 +336,20 @@ def process_files(
     progress(1.0, desc="完成")
     _current_audio_b64 = primary_audio_b64; _current_audio_sr = primary_audio_sr
 
-    # 保存第一个音频文件供播放器使用
+    # 保存音频文件供播放器手动切换使用
     audio_file_path = ""
-    if files:
-        first_audio = files[0]
-        audio_copy = out_dir / "_current_audio.wav"
+    for ai, audio_src in enumerate(files):
+        src_name = Path(audio_src).name
+        audio_copy = out_dir / (f"_current_audio_{ai}_{src_name}.wav")
         try:
-            ad, asr = sf.read(first_audio)
+            ad, asr = sf.read(audio_src)
             if ad.ndim > 1: ad = ad.mean(axis=1)
             if max_duration > 0 and len(ad) > max_duration * asr:
                 ad = ad[:int(max_duration * asr)]
             sf.write(str(audio_copy), ad.astype(np.float32), asr)
-            audio_file_path = str(audio_copy)
+            if not audio_file_path:
+                audio_file_path = str(audio_copy)
+            _last_audio_files.append((f"{ai + 1}. {src_name}", str(audio_copy)))
         except Exception:
             pass
 
@@ -358,7 +358,183 @@ def process_files(
     full_html = ("<p style='color:#e67e22;font-size:0.85em'>"
                  "⚠ 处理中请勿刷新页面，结果已自动保存到输出目录</p>") + full_html
 
-    return full_html, "\n".join(all_stats), f"输出: {out_dir}", audio_file_path, str(primary_audio_sr)
+    edit_text = _segments_to_edit_text(_all_segments_with_file_index())
+    audio_choices = [label for label, _ in _last_audio_files]
+    speaker_choices = _speaker_choices()
+    return (
+        full_html,
+        "\n".join(all_stats),
+        f"输出: {out_dir}",
+        audio_file_path,
+        str(primary_audio_sr),
+        edit_text,
+        gr.update(choices=audio_choices, value=audio_choices[0] if audio_choices else None),
+        gr.update(choices=speaker_choices, value=speaker_choices[0] if speaker_choices else None),
+    )
+
+
+def select_audio_for_player(label: str | None) -> str:
+    """Return the copied audio path selected for the bottom player."""
+    if not label:
+        return _last_audio_files[0][1] if _last_audio_files else ""
+    for item_label, item_path in _last_audio_files:
+        if item_label == label:
+            return item_path
+    return _last_audio_files[0][1] if _last_audio_files else ""
+
+
+def _all_segments_with_file_index() -> list[dict]:
+    all_segments: list[dict] = []
+    for fi, result in enumerate(_last_file_results):
+        for si, seg in enumerate(result.get("segments", [])):
+            item = dict(seg)
+            item["_file_index"] = fi
+            item["_segment_index"] = si
+            item["_file_name"] = result.get("name", f"file{fi}")
+            all_segments.append(item)
+    if not all_segments and _last_result:
+        for si, seg in enumerate(_last_result.get("segments", [])):
+            item = dict(seg)
+            item["_file_index"] = 0
+            item["_segment_index"] = si
+            item["_file_name"] = _last_result.get("name", "latest")
+            all_segments.append(item)
+    return all_segments
+
+
+def _segments_to_edit_text(segments: list[dict]) -> str:
+    lines: list[str] = []
+    for i, seg in enumerate(segments):
+        ts = f"{fmt_time(float(seg.get('start', 0)))}-{fmt_time(float(seg.get('end', 0)))}"
+        spk = seg.get("speaker", "?")
+        fid = seg.get("_file_index", 0)
+        sid = seg.get("_segment_index", i)
+        fname = seg.get("_file_name", "")
+        text = seg.get("text", "")
+        lines.append(f"[{fid}:{sid}] {fname} {ts} {spk}: {text}")
+    return "\n".join(lines)
+
+
+def _speaker_choices() -> list[str]:
+    choices: list[str] = []
+    seen: set[str] = set()
+    for seg in _all_segments_with_file_index():
+        spk = str(seg.get("speaker", "")).strip()
+        if spk and spk not in seen:
+            seen.add(spk)
+            choices.append(spk)
+    return choices
+
+
+def _render_current_result_html() -> str:
+    if not _last_file_results and not _last_result:
+        return "<p style='color:#888'>请先处理音频</p>"
+    parts: list[str] = []
+    for fi, result in enumerate(_last_file_results or [_last_result]):
+        if not result:
+            continue
+        segs = result.get("segments", [])
+        rename_panel = _build_rename_panel(segs)
+        seg_html = "\n".join(_render_seg_html(s) for s in segs)
+        name = escape(result.get("name", f"file{fi}"))
+        parts.append(
+            f"<details open style='margin:8px 0;border:1px solid #f0d0a0;border-radius:6px;padding:8px'>"
+            f"<summary style='cursor:pointer;font-weight:bold;color:#e67e22'>{name}</summary>"
+            f"{rename_panel}{seg_html}</details>"
+        )
+    return "\n".join(parts)
+
+
+def apply_manual_edits(edit_text: str, output_dir_str: str) -> tuple[str, str, str]:
+    """Apply manual transcript text edits to the latest file transcription."""
+    global _last_result, _last_file_results
+    if not _last_file_results and not _last_result:
+        return "<p style='color:#888'>请先处理音频</p>", edit_text or "", "无可修改结果"
+
+    if not _last_file_results and _last_result:
+        _last_file_results = [_last_result]
+
+    changed = 0
+    line_re = re.compile(
+        r"^\[(?:(\d+):)?(\d+)\]\s+.+?\s+\d{2,}:\d{2}\.\d-\d{2,}:\d{2}\.\d\s+(\S+):\s*(.*)$"
+    )
+    for line in (edit_text or "").splitlines():
+        m = line_re.match(line.strip())
+        if not m:
+            continue
+        file_idx = int(m.group(1) or 0)
+        seg_idx = int(m.group(2))
+        new_speaker = m.group(3).strip()
+        new_text = m.group(4).strip()
+        if 0 <= file_idx < len(_last_file_results):
+            segments = _last_file_results[file_idx].get("segments", [])
+        else:
+            continue
+        if 0 <= seg_idx < len(segments) and new_text:
+            if segments[seg_idx].get("speaker", "") != new_speaker:
+                segments[seg_idx]["speaker_original_manual"] = segments[seg_idx].get("speaker", "")
+                segments[seg_idx]["speaker"] = new_speaker
+                segments[seg_idx]["manual_speaker_edited"] = True
+                changed += 1
+            if segments[seg_idx].get("text", "") != new_text:
+                segments[seg_idx]["text_original_asr"] = segments[seg_idx].get("text", "")
+                segments[seg_idx]["text"] = new_text
+                segments[seg_idx]["manual_edited"] = True
+                changed += 1
+
+    _last_result = _last_file_results[-1] if _last_file_results else _last_result
+
+    out_dir = _project_path(output_dir_str.strip()) if output_dir_str.strip() else _output_dir
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "manual_corrected_latest.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump({"files": _last_file_results}, f, ensure_ascii=False, indent=2)
+
+    rendered = _render_current_result_html()
+    refreshed_edit_text = _segments_to_edit_text(_all_segments_with_file_index())
+    status = f"已应用 {changed} 处人工修改，保存: {out_path}"
+    return rendered, refreshed_edit_text, status
+
+
+def apply_speaker_mapping(source_speaker: str, target_speaker: str, output_dir_str: str):
+    """Batch replace one speaker label across current transcription results."""
+    global _last_result, _last_file_results
+    source = (source_speaker or "").strip()
+    target = (target_speaker or "").strip()
+    if not source or not target:
+        return (
+            _render_current_result_html(),
+            _segments_to_edit_text(_all_segments_with_file_index()),
+            "请选择原说话人并输入目标名称",
+            gr.update(choices=_speaker_choices(), value=source or None),
+        )
+    if not _last_file_results and _last_result:
+        _last_file_results = [_last_result]
+
+    changed = 0
+    for result in _last_file_results:
+        for seg in result.get("segments", []):
+            if str(seg.get("speaker", "")).strip() == source:
+                seg["speaker_original_manual"] = seg.get("speaker", "")
+                seg["speaker"] = target
+                seg["manual_speaker_edited"] = True
+                changed += 1
+
+    _last_result = _last_file_results[-1] if _last_file_results else _last_result
+    out_dir = _project_path(output_dir_str.strip()) if output_dir_str.strip() else _output_dir
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "manual_corrected_latest.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump({"files": _last_file_results}, f, ensure_ascii=False, indent=2)
+
+    choices = _speaker_choices()
+    next_value = target if target in choices else (choices[0] if choices else None)
+    return (
+        _render_current_result_html(),
+        _segments_to_edit_text(_all_segments_with_file_index()),
+        f"已将 {source} 批量修改为 {target}，影响 {changed} 段，保存: {out_path}",
+        gr.update(choices=choices, value=next_value),
+    )
 
 
 def _build_rename_panel(segments: list[dict]) -> str:
@@ -367,24 +543,23 @@ def _build_rename_panel(segments: list[dict]) -> str:
     if not spks: return ""
     rows = []
     for spk in spks:
+        safe_id = re.sub(r"[^A-Za-z0-9_-]", "_", str(spk))
+        spk_html = escape(str(spk))
+        spk_attr = escape(str(spk), quote=True)
         rows.append(
             f"<div style='display:flex;align-items:center;gap:8px;margin:3px 0'>"
-            f"<span style='font-weight:bold;min-width:30px;color:#c0392b'>{spk}</span>"
-            f"→ <input id='rename-{spk}' placeholder='输入姓名...' "
+            f"<span style='font-weight:bold;min-width:80px;color:#c0392b'>{spk_html}</span>"
+            f"→ <input class='speaker-rename' data-speaker='{spk_attr}' id='rename-{safe_id}' placeholder='仅临时显示姓名...' "
             f"style='padding:2px 6px;border:1px solid #e67e22;border-radius:4px;width:120px' "
             f"oninput='applyRename()'>"
             f"</div>"
         )
     return (
-        f"<div style='margin-top:12px;padding:8px;border:1px dashed #e67e22;border-radius:6px'>"
-        f"<div style='font-weight:bold;color:#e67e22;margin-bottom:4px'>🔤 说话人重命名</div>"
+        f"<details style='margin-top:12px;padding:8px;border:1px dashed #e67e22;border-radius:6px'>"
+        f"<summary style='cursor:pointer;font-weight:bold;color:#e67e22'>🔤 说话人重命名（展开后临时显示）</summary>"
+        f"<div style='margin-top:6px'>"
         + "".join(rows) +
-        f"</div>"
-        f"<script>function applyRename(){{"
-        f"document.querySelectorAll('.seg-line b').forEach(el=>{{"
-        f"var spk=el.textContent; var inp=document.getElementById('rename-'+spk);"
-        f"if(inp&&inp.value) el.textContent=inp.value;"
-        f"}});}}</script>"
+        f"</div></details>"
     )
 
 
@@ -504,10 +679,11 @@ _seekAndPlay(a,s,e);}
 function playRtSeg(c,o,d){let a=document.getElementById('rt-audio-'+c);if(!a){a=_getAudio();if(!a)return;}
 _seekAndPlay(a,o,o+d);}
 function applyRename(){
+const map={};
+document.querySelectorAll('.speaker-rename').forEach(inp=>{if(inp.value.trim()) map[inp.dataset.speaker]=inp.value.trim();});
 document.querySelectorAll('.seg-line b').forEach(el=>{
-var spk=el.textContent.trim();
-var inp=document.getElementById('rename-'+spk);
-if(inp&&inp.value.trim()) el.textContent=inp.value.trim();
+var raw=el.getAttribute('data-speaker')||el.textContent.trim();
+el.textContent=map[raw]||raw;
 });
 }
 </script>"""
@@ -791,18 +967,57 @@ def create_ui(host: str = "127.0.0.1") -> gr.Blocks:
                     file_html = gr.HTML(
                         value="<p style='color:#888'>选择文件 → 开始处理 → 点击文字 ▸ 播放对应音频段</p>",
                     )
+                    gr.Markdown("### ✍ 人工修正")
+                    manual_edit_text = gr.Textbox(
+                        label="可编辑转写文本",
+                        lines=8,
+                        placeholder="[0:0] audio.wav 00:00.0-00:03.0 SPEAKER_00: 在这里修改文本，也可修改 SPEAKER_00",
+                    )
+                    with gr.Row():
+                        speaker_source = gr.Dropdown(
+                            choices=[], label="批量修改说话人", interactive=True, scale=1,
+                        )
+                        speaker_target = gr.Textbox(
+                            label="改为", placeholder="SPEAKER_00 或姓名", scale=1,
+                        )
+                        apply_speaker_btn = gr.Button("批量应用", variant="secondary", scale=0)
+                    apply_edit_btn = gr.Button("应用人工修改并保存 JSON", variant="secondary")
                     with gr.Row():
                         file_stats = gr.Textbox(label="统计", lines=2, interactive=False, scale=2)
                         file_saved = gr.Textbox(label="保存位置", lines=2, interactive=False, scale=2)
 
-            file_audio_player = gr.Audio(label="音频播放器（点击文字 ▸ 可跳转播放）", type="filepath",
-                                         interactive=False, visible=True, elem_id="main-audio-player")
+            with gr.Row():
+                file_audio_select = gr.Dropdown(
+                    choices=[], label="播放器音频", interactive=True, scale=1,
+                )
+                file_audio_player = gr.Audio(
+                    label="音频播放器（点击文字 ▸ 可跳转播放）", type="filepath",
+                    interactive=False, visible=True, elem_id="main-audio-player", scale=2,
+                )
             file_audio_sr = gr.Textbox(visible=False)
 
             file_btn.click(
                 fn=process_files,
                 inputs=[accumulated_files, dir_input, file_lang, file_llm, file_dur, output_dir, llm_model_choice],
-                outputs=[file_html, file_stats, file_saved, file_audio_player, file_audio_sr],
+                outputs=[
+                    file_html, file_stats, file_saved, file_audio_player, file_audio_sr,
+                    manual_edit_text, file_audio_select, speaker_source,
+                ],
+            )
+            file_audio_select.change(
+                fn=select_audio_for_player,
+                inputs=[file_audio_select],
+                outputs=[file_audio_player],
+            )
+            apply_edit_btn.click(
+                fn=apply_manual_edits,
+                inputs=[manual_edit_text, output_dir],
+                outputs=[file_html, manual_edit_text, file_saved],
+            )
+            apply_speaker_btn.click(
+                fn=apply_speaker_mapping,
+                inputs=[speaker_source, speaker_target, output_dir],
+                outputs=[file_html, manual_edit_text, file_saved, speaker_source],
             )
 
         # ── 实时麦克风 ────────────────────────────────────────

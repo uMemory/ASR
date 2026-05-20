@@ -32,6 +32,7 @@ def align_segments(
     diarization_segments: list[dict[str, Any]],
     asr_segments: list[dict[str, Any]],
     min_speaker_ratio: float = 0.5,
+    min_speaker_overlap_s: float = 0.25,
 ) -> list[dict[str, Any]]:
     """Align ASR text segments with speaker labels from diarization.
 
@@ -46,6 +47,10 @@ def align_segments(
     min_speaker_ratio : float
         Minimum fraction of the ASR segment that a speaker must occupy
         to be assigned (default 0.5 = 50 %).
+    min_speaker_overlap_s : float
+        Absolute overlap floor. This handles ASR segments that include long
+        pauses: a speaker can be confidently present even if the overlap ratio
+        is low because the segment duration includes silence.
 
     Returns
     -------
@@ -79,8 +84,13 @@ def align_segments(
         else:
             # Find the dominant speaker
             best_speaker = max(speaker_overlap, key=speaker_overlap.get)  # type: ignore[arg-type]
-            best_ratio = speaker_overlap[best_speaker] / a_dur
-            assigned_speaker = best_speaker if best_ratio >= min_speaker_ratio else SPEAKER_UNKNOWN
+            best_overlap = speaker_overlap[best_speaker]
+            best_ratio = best_overlap / a_dur
+            assigned_speaker = (
+                best_speaker
+                if best_ratio >= min_speaker_ratio or best_overlap >= min_speaker_overlap_s
+                else SPEAKER_UNKNOWN
+            )
 
         merged.append({
             "start": round(a_start, 3),

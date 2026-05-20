@@ -161,13 +161,27 @@ class RealtimePipeline:
 
         # ── Stage 3: ASR ─────────────────────────────────────
         initial_prompt = self.lang_cfg.get("asr_initial_prompt")
-        asr_result = self.asr_backend.transcribe(
-            waveform, language=self.language, initial_prompt=initial_prompt,
+        from src.pipeline import _transcribe_speech_chunks
+        asr_result = _transcribe_speech_chunks(
+            self.asr_backend, waveform, sr, dia_result["segments"],
+            self.language, initial_prompt,
         )
 
-        # ── Stage 4: Alignment ────────────────────────────────
+        # ── Stage 4: Pre-filter artifacts + fast segment alignment ──
+        from src.pipeline import _filter_asr_artifacts, _filter_unreliable_turns, _presplit_segments
+        asr_segs = _filter_asr_artifacts(asr_result["segments"])
         from src.alignment import align_segments
-        merged = align_segments(dia_result["segments"], asr_result["segments"])
+        merged = align_segments(dia_result["segments"], asr_segs)
+        merged = _presplit_segments(merged)
+        merged = _filter_unreliable_turns(merged)
+
+        from src.llm.corrector import clean_hallucination, zh_simplify
+        from src.pipeline import _dedupe_turn_boundaries, _merge_adjacent_turns
+        for seg in merged:
+            txt = clean_hallucination(seg.get("text", ""))
+            seg["text"] = zh_simplify(txt)
+        merged = _merge_adjacent_turns(merged)
+        merged = _dedupe_turn_boundaries(merged)
 
         return merged
 

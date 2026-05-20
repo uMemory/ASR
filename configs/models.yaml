@@ -6,6 +6,7 @@ profile: local   # local | cloud
 local:
   asr:
     backend: transformers        # HF snapshot — same code path local+cloud
+    offline_backend: openai-whisper # file pipeline uses sequential long-form decoding for stabler timestamps
     model: ./models/whisper-medium
     compute_type: float16        # float16 on GPU, int8 on CPU
     language: null               # null = auto-detect; "zh" or "en" to force

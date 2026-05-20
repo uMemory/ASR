@@ -73,8 +73,11 @@ class OpenAIWhisperBackend:
         audio: str | Path | np.ndarray,
         language: str | None = None,
         initial_prompt: str | None = None,
+        sample_rate: int = 16000,
         beam_size: int = 5,
         verbose: bool = False,
+        word_timestamps: bool = False,
+        **_: Any,
     ) -> dict[str, Any]:
         model = self.load()
         result = model.transcribe(
@@ -84,6 +87,9 @@ class OpenAIWhisperBackend:
             beam_size=beam_size,
             fp16=self.fp16,
             verbose=verbose,
+            condition_on_previous_text=False,
+            word_timestamps=word_timestamps,
+            hallucination_silence_threshold=2.0,
         )
         segments = [
             ASRSegment(

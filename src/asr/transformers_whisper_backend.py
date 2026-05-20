@@ -75,10 +75,10 @@ class TransformersWhisperBackend:
             tokenizer=processor.tokenizer,
             feature_extractor=processor.feature_extractor,
             chunk_length_s=self.chunk_length_s,
-            batch_size=1,               # must be 1 for word-level timestamps
+            batch_size=self.batch_size,
             torch_dtype=self.torch_dtype,
             device=self.device,
-            return_timestamps="word",
+            return_timestamps=True,
         )
         return self._pipe
 
@@ -87,11 +87,22 @@ class TransformersWhisperBackend:
         audio: str | Path | np.ndarray,
         language: str | None = None,
         initial_prompt: str | None = None,
+        sample_rate: int = 16000,
         **_: Any,
     ) -> dict[str, Any]:
         pipe = self.load()
 
         generate_kwargs: dict[str, Any] = {}
+        # Long-form Whisper decoding guardrails recommended by the
+        # Transformers Whisper docs. They reduce silence hallucinations and
+        # repeated loops without relying on dataset-specific text rules.
+        generate_kwargs.update({
+            "condition_on_prev_tokens": False,
+            "compression_ratio_threshold": 1.35,
+            "logprob_threshold": -1.0,
+            "temperature": (0.0, 0.2, 0.4, 0.6, 0.8, 1.0),
+            "return_timestamps": True,
+        })
         if language:
             generate_kwargs["language"] = language
             generate_kwargs["task"] = "transcribe"
@@ -103,7 +114,7 @@ class TransformersWhisperBackend:
             generate_kwargs["prompt_ids"] = prompt_ids
 
         if isinstance(audio, np.ndarray):
-            audio_input: Any = {"raw": audio, "sampling_rate": 16000}
+            audio_input: Any = {"raw": audio, "sampling_rate": sample_rate}
         else:
             audio_input = str(audio)
 

@@ -71,7 +71,7 @@ def main() -> int:
     # ── Step 4: 说话人 ────────────────────────────────────────────
     print("\n── Step 4: 说话人过滤 ──")
     for spk in sorted({s.get("speaker", "") for s in segments}):
-        if spk == "SPEAKER_UNKNOWN":
+        if spk in ("SPEAKER_UNKNOWN", "UNKNOWN"):
             continue
         results = ret.search("", speaker=spk, top_k=3)
         print(f"  {spk}: {len(results)} 条")

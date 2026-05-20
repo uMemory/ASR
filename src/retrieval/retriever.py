@@ -150,8 +150,17 @@ class Retriever:
 
         # ── 4. 取 top-k 并附加元数据 ─────────────────────────────────
         results: list[dict[str, Any]] = []
-        for idx, score in fused[:top_k]:
+        for idx, score in fused:
             seg = dict(self._segments[idx])
+            if speaker and seg.get("speaker", "") != speaker:
+                continue
+            if time_range:
+                s = seg.get("start", 0)
+                e = seg.get("end", s)
+                if max(0.0, min(e, time_range[1]) - max(s, time_range[0])) <= 0:
+                    continue
+            if intent and not _intent_matches(seg.get("intent", ""), intent):
+                continue
             seg["_score"] = round(score, 4)
             seg["_rank_sources"] = {
                 dim: [i for i, (j, _) in enumerate(ranks) if j == idx][0] + 1
@@ -160,6 +169,8 @@ class Retriever:
                 if any(j == idx for j, _ in ranks)
             }
             results.append(seg)
+            if len(results) >= top_k:
+                break
 
         return results
 
@@ -276,7 +287,11 @@ def _parse_query(query: str) -> dict[str, Any]:
     # 说话人识别："Speaker_00 的反对意见" / "Speaker B 的发言"
     m = re.search(r"Speaker[_ ](\S+)", query, re.IGNORECASE)
     if m:
-        result["speaker"] = f"SPEAKER_{m.group(1).zfill(2)}"
+        token = m.group(1).strip().rstrip("的，,。:：")
+        if re.fullmatch(r"[A-Za-z]", token):
+            result["speaker"] = token.upper()
+        elif token.isdigit():
+            result["speaker"] = f"SPEAKER_{token.zfill(2)}"
 
     # 意图识别：从中文意图标签中匹配
     intent_map = {
@@ -307,3 +322,10 @@ def _parse_query(query: str) -> dict[str, Any]:
             result["time_range"] = (0, seconds)
 
     return result
+
+
+def _intent_matches(seg_intent: Any, intents: list[str]) -> bool:
+    intents_set = set(intents)
+    if isinstance(seg_intent, list):
+        return any(v in intents_set for v in seg_intent)
+    return seg_intent in intents_set

@@ -1,0 +1,1882 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\7cade5b7b0552691a440d7f45e663d464bcfce6c2612f19b5fbda6fa9eb640f4\\R8007_M8010_N_SPK8050.wav",
+  "segments": [
+    {
+      "start": 27.993,
+      "end": 32.013,
+      "speaker": "A",
+      "text": "对，有没有备选方案？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体，添加标点并改为疑问语气",
+      "intent": [
+        "同意",
+        "提问"
+      ]
+    },
+    {
+      "start": 34.507,
+      "end": 36.315,
+      "speaker": "A",
+      "text": "场地租金。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体，添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 40.43,
+      "end": 41.729,
+      "speaker": "A",
+      "text": "公交。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "推测为“公交”的ASR错误，添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 48.327,
+      "end": 49.306,
+      "speaker": "A",
+      "text": "公司。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "推测为“公司”的ASR错误，添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 51.719,
+      "end": 52.225,
+      "speaker": "A",
+      "text": "就是大家想要做一下主。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 56.36,
+      "end": 58.38,
+      "speaker": "A",
+      "text": "3元一平房租还贵。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“一截”为“一平”，添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 61.253,
+      "end": 62.283,
+      "speaker": "A",
+      "text": "太贵了。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体，修正“房”为“了”，添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 66.282,
+      "end": 68.04,
+      "speaker": "A",
+      "text": "对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 71.328,
+      "end": 79.348,
+      "speaker": "A",
+      "text": "为了公司长远考虑，贵点也没事，大家交通很方便。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 92.894,
+      "end": 94.198,
+      "speaker": "A",
+      "text": "对对对对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 96.708,
+      "end": 99.475,
+      "speaker": "A",
+      "text": "选一个比较合理。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 108.453,
+      "end": 113.473,
+      "speaker": "A",
+      "text": "行，对对对，地铁公交都挺方便这块。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "清理重复对为三个，添加标点",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 127.133,
+      "end": 128.517,
+      "speaker": "A",
+      "text": "可以可以可以。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正最后一个“可”为“可以”，添加句号",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 130.576,
+      "end": 132.777,
+      "speaker": "A",
+      "text": "可以继续，对对对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体，修正“繼”为“继续”，清理重复对",
+      "intent": [
+        "同意",
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 136.522,
+      "end": 138.596,
+      "speaker": "A",
+      "text": "大家的交通方面也挺便利。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 156.8,
+      "end": 159.099,
+      "speaker": "A",
+      "text": "对对对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正ASR错误：'对你对'改为'对对对'，并添加句号。",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 160.968,
+      "end": 163.739,
+      "speaker": "A",
+      "text": "对对对对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 165.946,
+      "end": 168.68,
+      "speaker": "A",
+      "text": "好，跳，对对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "命令",
+        "回应"
+      ]
+    },
+    {
+      "start": 180.509,
+      "end": 182.385,
+      "speaker": "A",
+      "text": "对对，调查全职。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和句号。",
+      "intent": [
+        "回应",
+        "提议"
+      ]
+    },
+    {
+      "start": 184.154,
+      "end": 186.958,
+      "speaker": "A",
+      "text": "东边，东边行，东边交通方便。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 193.992,
+      "end": 195.379,
+      "speaker": "A",
+      "text": "三花一里。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 208.117,
+      "end": 208.699,
+      "speaker": "A",
+      "text": "对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 225.076,
+      "end": 227.644,
+      "speaker": "A",
+      "text": "看看大伙有啥意见没有？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加问号。",
+      "intent": [
+        "提问"
+      ]
+    },
+    {
+      "start": 230.965,
+      "end": 231.573,
+      "speaker": "A",
+      "text": "空。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 240.635,
+      "end": 241.478,
+      "speaker": "A",
+      "text": "工。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 248.937,
+      "end": 253.628,
+      "speaker": "A",
+      "text": "对，50个工位，嗯，会议，这就是我们的会议。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体，添加逗号和句号。",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 258.185,
+      "end": 261.208,
+      "speaker": "A",
+      "text": "对，八块钱水有一个就够。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和句号。",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 263.348,
+      "end": 264.77,
+      "speaker": "A",
+      "text": "小会议室有两个。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 270.368,
+      "end": 271.786,
+      "speaker": "A",
+      "text": "对，一间教室那样就。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和句号。",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 275.414,
+      "end": 276.363,
+      "speaker": "A",
+      "text": "第一天考察。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 279.852,
+      "end": 281.219,
+      "speaker": "A",
+      "text": "根据实际情，",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 292.188,
+      "end": 293.209,
+      "speaker": "A",
+      "text": "办公室。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 301.115,
+      "end": 303.135,
+      "speaker": "A",
+      "text": "对，四个小办公室，主要是",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 312.522,
+      "end": 314.542,
+      "speaker": "A",
+      "text": "五个六个都行。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 325.887,
+      "end": 326.836,
+      "speaker": "A",
+      "text": "定下来。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "命令"
+      ]
+    },
+    {
+      "start": 332.468,
+      "end": 334.488,
+      "speaker": "A",
+      "text": "洗手间洗手间。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 343.302,
+      "end": 345.322,
+      "speaker": "A",
+      "text": "对对，自己用。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'而用'为'用'",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 361.426,
+      "end": 361.852,
+      "speaker": "A",
+      "text": "对。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 368.041,
+      "end": 369.062,
+      "speaker": "A",
+      "text": "那是用人。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 385.962,
+      "end": 390.982,
+      "speaker": "A",
+      "text": "得找个保洁员。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 393.56,
+      "end": 395.533,
+      "speaker": "A",
+      "text": "招个保洁员，最少得一个人。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'保健员'为'保洁员'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 410.65,
+      "end": 411.027,
+      "speaker": "A",
+      "text": "对。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 417.788,
+      "end": 418.805,
+      "speaker": "A",
+      "text": "茶水间。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'茶水煎'为'茶水间'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 426.901,
+      "end": 428.921,
+      "speaker": "A",
+      "text": "先试试能不能整好。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'西安史'为'先试试'，'整哈'为'整好'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 446.408,
+      "end": 447.455,
+      "speaker": "A",
+      "text": "也对。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 491.363,
+      "end": 495.883,
+      "speaker": "A",
+      "text": "最好是小哥，现在咱有会议室。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号分隔主语和状语",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 504.661,
+      "end": 505.458,
+      "speaker": "A",
+      "text": "地板砖。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 511.63,
+      "end": 513.807,
+      "speaker": "A",
+      "text": "地毯安静，对对对，等地毯安。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "保持原意，添加标点",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 528.37,
+      "end": 535.542,
+      "speaker": "A",
+      "text": "刷漆吧，白色的，乳胶漆，刷白色就行。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正‘乳腰’为‘乳胶’，补充‘行’使语义完整",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 543.895,
+      "end": 545.063,
+      "speaker": "A",
+      "text": "对对对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 551.81,
+      "end": 553.801,
+      "speaker": "A",
+      "text": "刮腻子就。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正‘膀子’为‘腻子’（墙面施工术语）",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 560.247,
+      "end": 562.123,
+      "speaker": "A",
+      "text": "搞定。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 570.389,
+      "end": 571.41,
+      "speaker": "A",
+      "text": "中修。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 581.307,
+      "end": 583.012,
+      "speaker": "A",
+      "text": "什么时候可以收拾东西？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "补充‘西’，句末改为问号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 595.06,
+      "end": 597.849,
+      "speaker": "A",
+      "text": "房子装修好了，办公。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正‘煮’为‘装修’，繁体‘辦公’转简体‘办公’",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 604.612,
+      "end": 605.696,
+      "speaker": "A",
+      "text": "搬家时间？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正‘幫人’为‘搬家’，繁体‘時’转简体，句末加问号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 614.838,
+      "end": 618.858,
+      "speaker": "A",
+      "text": "又有两三天，差不多了，有两三天。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号分隔重复部分",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 628.422,
+      "end": 637.422,
+      "speaker": "A",
+      "text": "对，规划好了，怎么办？有没有大件的，小件啥的，是吧？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "调整标点，末尾改为问号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 644.858,
+      "end": 645.567,
+      "speaker": "A",
+      "text": "继。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体‘繼’转简体‘继’，加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 659.168,
+      "end": 660.775,
+      "speaker": "A",
+      "text": "滴滴酸甜。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "加句号，保持原样（可能为口语化表达）",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 672.449,
+      "end": 675.0,
+      "speaker": "A",
+      "text": "预算，必须有预算。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 701.153,
+      "end": 709.133,
+      "speaker": "A",
+      "text": "有的部门挺快，我部门快，我部门东西多，有部门东西多。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正同音字：东→多",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 717.387,
+      "end": 728.387,
+      "speaker": "A",
+      "text": "大伙帮助帮助呗，帮助你们搬，对，你们部门东西多，其他部门可以协助你去搬家。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正断句，搬对→搬，对",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 735.14,
+      "end": 738.66,
+      "speaker": "A",
+      "text": "没事那有我们来帮助你。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 743.83,
+      "end": 744.303,
+      "speaker": "A",
+      "text": "这。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 748.319,
+      "end": 750.766,
+      "speaker": "A",
+      "text": "大家都能。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正同音字：答案端耳→大家都能",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 762.46,
+      "end": 765.48,
+      "speaker": "A",
+      "text": "这都没事，让各部门能协调一下子。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加标点",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 773.378,
+      "end": 775.398,
+      "speaker": "A",
+      "text": "差不多，差不多。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 779.74,
+      "end": 782.407,
+      "speaker": "A",
+      "text": "提前个四五天就。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 793.628,
+      "end": 795.649,
+      "speaker": "A",
+      "text": "有时间，有时间。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 801.61,
+      "end": 804.63,
+      "speaker": "A",
+      "text": "对，大车不让进。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 806.673,
+      "end": 807.398,
+      "speaker": "A",
+      "text": "不。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正",
+      "intent": [
+        "反对"
+      ]
+    },
+    {
+      "start": 812.056,
+      "end": 815.077,
+      "speaker": "A",
+      "text": "对，大车是晚上10点不要进。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和点字",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 830.483,
+      "end": 833.406,
+      "speaker": "A",
+      "text": "大车运动长现在。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正，语义存疑",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 844.743,
+      "end": 846.763,
+      "speaker": "B",
+      "text": "没事。",
+      "speaker_original": "SPEAKER_01",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 854.513,
+      "end": 855.121,
+      "speaker": "A",
+      "text": "我得。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "保留原样，添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 857.045,
+      "end": 859.289,
+      "speaker": "A",
+      "text": "搬家别影响别的工作。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "命令",
+        "陈述"
+      ]
+    },
+    {
+      "start": 863.018,
+      "end": 865.038,
+      "speaker": "A",
+      "text": "对对，就是加班。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 872.3,
+      "end": 873.114,
+      "speaker": "A",
+      "text": "对对对。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "同意"
+      ]
+    },
+    {
+      "start": 881.513,
+      "end": 888.84,
+      "speaker": "A",
+      "text": "那就周六周日，平时大家都挺忙，周六周六大伙加个班。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "删除语气词‘嗯’，调整语序并添加逗号",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 904.987,
+      "end": 906.408,
+      "speaker": "A",
+      "text": "不用不用，有一个人跟车就行。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述",
+        "反对"
+      ]
+    },
+    {
+      "start": 908.707,
+      "end": 918.207,
+      "speaker": "A",
+      "text": "大车大车不让进白天，好像找中国邮政差不多，中国邮政的车好像国家很让进。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 920.547,
+      "end": 922.967,
+      "speaker": "A",
+      "text": "不是，邮政国家很让进。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "反对",
+        "陈述"
+      ]
+    },
+    {
+      "start": 925.608,
+      "end": 927.445,
+      "speaker": "A",
+      "text": "不行咱就找中国邮政的。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正‘邮轮’为‘邮政’",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 927.445,
+      "end": 928.615,
+      "speaker": "B",
+      "text": "车。",
+      "speaker_original": "SPEAKER_01",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 934.214,
+      "end": 943.719,
+      "speaker": "A",
+      "text": "对，小的三四个人，对看东西啥的，但东西坏了啥的得不得看着点。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 945.335,
+      "end": 947.039,
+      "speaker": "A",
+      "text": "不怕磕。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 958.818,
+      "end": 963.695,
+      "speaker": "A",
+      "text": "多找几家，货比三家，给个报价。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正‘货币三家’为‘货比三家’",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 966.547,
+      "end": 967.34,
+      "speaker": "A",
+      "text": "好用。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 970.158,
+      "end": 975.178,
+      "speaker": "A",
+      "text": "现在办公室就呼啦啦，车多。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 979.169,
+      "end": 987.86,
+      "speaker": "A",
+      "text": "小件啥都用过来了，大件啥东西装不了的，用，找着中国邮政。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "调整逗号，使语意更清晰。",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 992.77,
+      "end": 994.694,
+      "speaker": "A",
+      "text": "专业。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 997.107,
+      "end": 1001.127,
+      "speaker": "A",
+      "text": "专业的跟快递的，他都给你包装好了。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "将'快递者'改为'快递的'，更符合口语。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1021.238,
+      "end": 1024.258,
+      "speaker": "A",
+      "text": "对，主要是电脑还在。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体'电腦'转简体'电脑'，添加逗号。",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1030.688,
+      "end": 1033.442,
+      "speaker": "A",
+      "text": "电脑比较贵重的物品。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "将'归重'修正为'贵重'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1036.848,
+      "end": 1040.093,
+      "speaker": "A",
+      "text": "要不开车的时候都。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "将'时都'修正为'时候都'，保持口语风格。",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1045.741,
+      "end": 1050.561,
+      "speaker": "A",
+      "text": "一个公司一个部门，电脑就十多台。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号分隔。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1063.088,
+      "end": 1072.387,
+      "speaker": "A",
+      "text": "对，咱这里跟搬家公司，跟人家搬家公司各种物品是有多少件？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和问号，去除末尾多余'是'。",
+      "intent": [
+        "同意",
+        "提问"
+      ]
+    },
+    {
+      "start": 1080.807,
+      "end": 1085.937,
+      "speaker": "A",
+      "text": "嗯，对，大车，大车，桌子，椅子。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "将'椅'补全为'椅子'，添加逗号。",
+      "intent": [
+        "回应",
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1088.536,
+      "end": 1090.362,
+      "speaker": "A",
+      "text": "嗯，专业大车就。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "将'大臣'修正为'大车'，添加逗号。",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1093.463,
+      "end": 1096.265,
+      "speaker": "A",
+      "text": "有有证，有。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "将'症'修正为'证'，添加逗号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1098.29,
+      "end": 1102.306,
+      "speaker": "A",
+      "text": "不是，油证车要进白天也。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号，使语意更清晰。",
+      "intent": [
+        "反对",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1107.79,
+      "end": 1118.81,
+      "speaker": "A",
+      "text": "对对，打包准备工作得做一天两天。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "去除重复的'准备工作'，保留口语化表达。",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1127.062,
+      "end": 1130.794,
+      "speaker": "A",
+      "text": "大车得雇一台两台。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "将'顾'修正为'雇'（雇佣）。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1135.297,
+      "end": 1138.317,
+      "speaker": "A",
+      "text": "油证都是8米以上的。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正，添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1145.337,
+      "end": 1149.202,
+      "speaker": "A",
+      "text": "小车也得用几台小货车。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“小”为“小货车”，使语义完整。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1153.454,
+      "end": 1156.323,
+      "speaker": "A",
+      "text": "大车主要桌椅、电脑桌。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加顿号分隔，标点规范化。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1170.127,
+      "end": 1174.534,
+      "speaker": "A",
+      "text": "主要是白天夜里不行，不方便。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号，使语句更清晰。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1178.328,
+      "end": 1180.693,
+      "speaker": "A",
+      "text": "30号之前呢？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体，添加问号。",
+      "intent": [
+        "提问"
+      ]
+    },
+    {
+      "start": 1182.817,
+      "end": 1185.297,
+      "speaker": "A",
+      "text": "那咱准备两天三天。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "删除末尾多余的“操”，可能是ASR误识别。",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1192.486,
+      "end": 1195.506,
+      "speaker": "A",
+      "text": "对对，先把主要东西先拉走。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "保持原样。",
+      "intent": [
+        "同意",
+        "提议"
+      ]
+    },
+    {
+      "start": 1210.846,
+      "end": 1211.667,
+      "speaker": "A",
+      "text": "对对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号。",
+      "intent": [
+        "同意"
+      ]
+    },
+    {
+      "start": 1215.487,
+      "end": 1216.308,
+      "speaker": "A",
+      "text": "说说说。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "保持口语重复，添加句号。",
+      "intent": [
+        "命令"
+      ]
+    },
+    {
+      "start": 1220.768,
+      "end": 1225.789,
+      "speaker": "A",
+      "text": "很快有那得跟搬家公司得说好了是吧？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“有一”为“有”，删除多余“一”，添加问号。",
+      "intent": [
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1248.393,
+      "end": 1251.548,
+      "speaker": "A",
+      "text": "地铁公交。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“禮地铁公”为“地铁公交”，繁体转简体。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1255.784,
+      "end": 1256.493,
+      "speaker": "A",
+      "text": "我公司。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“我攻”为“我公司”，同音字错误。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1259.632,
+      "end": 1264.975,
+      "speaker": "A",
+      "text": "多大的写字楼应该公交地铁都比较方便。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“多对都”为“多大的”，使语义通顺。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1273.165,
+      "end": 1278.165,
+      "speaker": "A",
+      "text": "正常应该公交比较方便，地铁也只能走一条线。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "保持原样，添加逗号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1293.922,
+      "end": 1294.943,
+      "speaker": "A",
+      "text": "那就方便了吧。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "保持原样，添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1306.038,
+      "end": 1308.058,
+      "speaker": "A",
+      "text": "那得预约一下。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体，添加句号。",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1312.147,
+      "end": 1312.872,
+      "speaker": "A",
+      "text": "收。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "无修正",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1317.108,
+      "end": 1320.601,
+      "speaker": "A",
+      "text": "都有多少人能开车，统一一下子。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句末句号",
+      "intent": [
+        "提问",
+        "命令"
+      ]
+    },
+    {
+      "start": 1324.583,
+      "end": 1325.604,
+      "speaker": "A",
+      "text": "20多台。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1328.701,
+      "end": 1330.048,
+      "speaker": "A",
+      "text": "停车位比较紧张。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1339.838,
+      "end": 1340.585,
+      "speaker": "A",
+      "text": "可以看看。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1344.226,
+      "end": 1344.989,
+      "speaker": "A",
+      "text": "停车位。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1362.788,
+      "end": 1369.927,
+      "speaker": "A",
+      "text": "我们部门十多个人，得有十多个人开车的差不多。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“开学的”为“开车的”",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1376.356,
+      "end": 1377.436,
+      "speaker": "A",
+      "text": "行吧行吧。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“行那行那”为更常见的“行吧行吧”",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1382.65,
+      "end": 1388.138,
+      "speaker": "A",
+      "text": "那行，要么今天少开车，自己去多坐公交地铁。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“少坐自己”为“少开车”",
+      "intent": [
+        "回应",
+        "提议"
+      ]
+    },
+    {
+      "start": 1393.012,
+      "end": 1394.787,
+      "speaker": "A",
+      "text": "各部门的人。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“胳膊部胳膊部”为“各部门”",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1396.808,
+      "end": 1397.829,
+      "speaker": "A",
+      "text": "对销售好点。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1417.345,
+      "end": 1420.365,
+      "speaker": "A",
+      "text": "车位好解决。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1428.365,
+      "end": 1431.284,
+      "speaker": "A",
+      "text": "那就要体谅一下。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1438.169,
+      "end": 1439.591,
+      "speaker": "A",
+      "text": "各部门的领导。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1448.041,
+      "end": 1451.757,
+      "speaker": "A",
+      "text": "跑外勤的人也得考虑到里头销售啥的。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正“跑外勤奋”为“跑外勤的人”",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1453.441,
+      "end": 1458.186,
+      "speaker": "A",
+      "text": "他们时间没有固定点，跑外景还有跑销售的。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1466.502,
+      "end": 1467.523,
+      "speaker": "A",
+      "text": "十个差不多。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1470.822,
+      "end": 1471.379,
+      "speaker": "A",
+      "text": "对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1480.238,
+      "end": 1482.972,
+      "speaker": "A",
+      "text": "看他的停车场位大不大呗，是不？",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "将逗号改为问号，语意更通顺",
+      "intent": [
+        "提问"
+      ]
+    },
+    {
+      "start": 1485.942,
+      "end": 1488.004,
+      "speaker": "A",
+      "text": "尽量多赠几个车位。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1491.207,
+      "end": 1492.224,
+      "speaker": "A",
+      "text": "啊。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1510.951,
+      "end": 1512.571,
+      "speaker": "A",
+      "text": "朱徐好像够。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1516.05,
+      "end": 1516.512,
+      "speaker": "A",
+      "text": "对对。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "同意",
+        "回应"
+      ]
+    },
+    {
+      "start": 1520.587,
+      "end": 1529.5,
+      "speaker": "A",
+      "text": "沙发还有那有咱的地毯嘛，躺地上都能将就，一地毯装修地毯。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加逗号和句号，原文保留",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1536.82,
+      "end": 1537.841,
+      "speaker": "A",
+      "text": "不是。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "反对"
+      ]
+    },
+    {
+      "start": 1539.723,
+      "end": 1540.554,
+      "speaker": "A",
+      "text": "做人口。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号，原文保留",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1553.662,
+      "end": 1564.683,
+      "speaker": "A",
+      "text": "有沙发是吧，也有沙发。嗯，吃的可以叫外卖，是不是加班的？嗯。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正ASR错误：\"有故意\"改为\"也有\"，调整语序并添加标点",
+      "intent": [
+        "陈述",
+        "提问",
+        "确认"
+      ]
+    },
+    {
+      "start": 1568.056,
+      "end": 1568.815,
+      "speaker": "A",
+      "text": "老板。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1574.603,
+      "end": 1576.623,
+      "speaker": "A",
+      "text": "主要是员工加班。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1595.41,
+      "end": 1599.447,
+      "speaker": "A",
+      "text": "加班的应该给。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "添加句号，口语省略主语",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1603.747,
+      "end": 1606.669,
+      "speaker": "A",
+      "text": "加班晚太晚了，车费应该给报销。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'往太保'为'晚了'，'爆点'为'报销'，繁体转简体。",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1608.387,
+      "end": 1612.218,
+      "speaker": "A",
+      "text": "加班晚了，公交车、地铁都没有。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'瓦子'为'晚了'，'公交了'为'公交车'，繁体转简体。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1614.985,
+      "end": 1621.702,
+      "speaker": "A",
+      "text": "对，9点以后加班，加到9点10点，公交没有了。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'工交'为'公交'，繁体转简体。",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1628.063,
+      "end": 1632.363,
+      "speaker": "A",
+      "text": "对对，加班晚了，9点以后的时间应该给报销。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'加班的'为'加班'，'9点时间'为'9点以后的时间'，繁体转简体。",
+      "intent": [
+        "同意",
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1642.812,
+      "end": 1644.179,
+      "speaker": "A",
+      "text": "租。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1658.658,
+      "end": 1659.907,
+      "speaker": "A",
+      "text": "这个。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1668.952,
+      "end": 1669.829,
+      "speaker": "A",
+      "text": "北。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1713.974,
+      "end": 1716.234,
+      "speaker": "A",
+      "text": "对，离咱们近点比较方便。",
+      "speaker_original": "SPEAKER_00",
+      "correction_note": "修正'还是'为句号，调整语序。",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1724.099,
+      "end": 1725.403,
+      "speaker": "A",
+      "text": "对对。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "同意",
+        "回应"
+      ]
+    },
+    {
+      "start": 1737.818,
+      "end": 1738.839,
+      "speaker": "A",
+      "text": "样子。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1745.294,
+      "end": 1747.314,
+      "speaker": "A",
+      "text": "你说下子你说下子。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "命令"
+      ]
+    },
+    {
+      "start": 1763.063,
+      "end": 1765.083,
+      "speaker": "A",
+      "text": "那行。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1772.362,
+      "end": 1774.12,
+      "speaker": "A",
+      "text": "简单装修就行。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1783.313,
+      "end": 1785.013,
+      "speaker": "A",
+      "text": "装修简单明了就行。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1799.176,
+      "end": 1799.834,
+      "speaker": "B",
+      "text": "行。",
+      "speaker_original": "SPEAKER_01",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1808.12,
+      "end": 1809.793,
+      "speaker": "A",
+      "text": "看一下，看一下，定下时间。",
+      "speaker_original": "SPEAKER_00",
+      "intent": [
+        "命令",
+        "提议"
+      ]
+    }
+  ],
+  "timing": {
+    "diarization": 52.34,
+    "asr": 87.5,
+    "alignment": 10.86,
+    "llm": 312.35,
+    "total": 463.21
+  },
+  "num_speakers": 3,
+  "meeting_summary": {
+    "topic": "公司搬迁规划讨论",
+    "summary": "会议主要讨论了公司新办公室的选址、租金、交通便利性、装修方案、搬家安排以及员工通勤和加班报销等问题。与会者倾向于选择交通便利的地点，并计划在周末组织搬家，同时考虑聘请搬家公司并做好物品打包。",
+    "key_points": [
+      "新办公室选址要求交通便利（地铁公交），租金3元/平被认为偏贵但为长远考虑可接受。",
+      "办公室布局包括50个工位、会议室、小办公室、茶水间等，装修选择简单刷白漆和铺地毯。",
+      "搬家计划分阶段进行，考虑大车限行，计划使用搬家公司或中国邮政，并做好电脑等贵重物品的打包。"
+    ],
+    "decisions": [
+      "选择交通便利的东边区域（三花一里）。",
+      "装修采用乳胶漆刷白色、铺地毯。",
+      "搬家时间安排在周末，不占用工作时间。",
+      "为加班到9点后的员工报销车费。"
+    ],
+    "action_items": [
+      "调查搬家公司报价，货比三家。",
+      "统计各部门开车人数，协调停车位。",
+      "安排打包准备工作（1-2天）。",
+      "预订搬家公司车辆。"
+    ],
+    "participants": [
+      "A",
+      "B"
+    ]
+  }
+}

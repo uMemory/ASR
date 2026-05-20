@@ -3,46 +3,172 @@
   "segments": [
     {
       "start": 0.0,
-      "end": 1.6,
-      "speaker": "B",
-      "text": "今天我们公司新出了一款手机产品进行一下这个研讨会首先咱们确定一下咱们产品的目标这个人群 客户群这一块首先谈谈他们大家伙的一个看法你再谈一下吧我覺得黃天鵬这个",
-      "speaker_original": "SPEAKER_UNKNOWN"
+      "end": 13.0,
+      "speaker": "SPEAKER_02",
+      "text": "今天咱们公司新出了一款手机产品,进行一下这个检讨会。",
+      "speaker_original": "SPEAKER_02"
     },
     {
-      "start": 1.6,
-      "end": 2.52,
-      "speaker": "B",
-      "text": "是不要太去",
-      "speaker_original": "SPEAKER_UNKNOWN"
+      "start": 13.0,
+      "end": 19.0,
+      "speaker": "SPEAKER_02",
+      "text": "首先咱们确认一下咱们产品的目标,人群,客户群这一块。",
+      "speaker_original": "SPEAKER_02"
     },
     {
-      "start": 2.52,
+      "start": 19.0,
+      "end": 21.0,
+      "speaker": "SPEAKER_02",
+      "text": "首先谈谈大家伙的一个看法。",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 21.0,
+      "end": 24.36,
+      "speaker": "SPEAKER_02",
+      "text": "你再尝一下吧",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 45.08,
+      "end": 46.32,
+      "speaker": "SPEAKER_02",
+      "text": "跨度大一点是吧",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 51.0,
       "end": 66.0,
-      "speaker": "B",
-      "text": "对 因为他可能是去的地方你再查一下吧跨度大一点是吧好然后你觉得嗯就针对性",
-      "speaker_original": "SPEAKER_UNKNOWN"
+      "speaker": "SPEAKER_02",
+      "text": "就是针对性",
+      "speaker_original": "SPEAKER_02"
     },
     {
       "start": 66.0,
-      "end": 114.0,
-      "speaker": "B",
-      "text": "也可以说是有一种反差其实还是比较轻的好如果可以根据年龄和智能对峙或者是做下去跟互办公可以多做一些18到15岁的更新年资料首先咱们就确定说这个手机从这个特点来说可能就是说年龄段要跨路大一点大家都同意是吧",
+      "end": 72.0,
+      "speaker": "SPEAKER_02",
+      "text": "也可以说是有一种反差",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 72.0,
+      "end": 76.64,
+      "speaker": "SPEAKER_02",
+      "text": "现设计的产品主要推出的是它有照相的功能",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 76.64,
+      "end": 79.68,
+      "speaker": "SPEAKER_UNKNOWN",
+      "text": "功能化是很很好",
       "speaker_original": "SPEAKER_UNKNOWN"
     },
     {
-      "start": 116.0,
-      "end": 117.0,
-      "speaker": "A",
-      "text": "就年轻男子就年轻吧是吧",
+      "start": 79.68,
+      "end": 81.8,
+      "speaker": "SPEAKER_UNKNOWN",
+      "text": "所以是还是不仅轻微的",
+      "speaker_original": "SPEAKER_UNKNOWN"
+    },
+    {
+      "start": 97.52,
+      "end": 99.2,
+      "speaker": "SPEAKER_02",
+      "text": "首先咱们就确定说这个手机这个外",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 99.2,
+      "end": 101.2,
+      "speaker": "SPEAKER_02",
+      "text": "从这个特点来说",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 101.2,
+      "end": 103.2,
+      "speaker": "SPEAKER_02",
+      "text": "年龄段要跨多大一点",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 103.2,
+      "end": 105.2,
+      "speaker": "SPEAKER_02",
+      "text": "大家都同意是吧",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 113.2,
+      "end": 115.2,
+      "speaker": "SPEAKER_00",
+      "text": "就年轻男子",
+      "speaker_original": "SPEAKER_00"
+    },
+    {
+      "start": 115.2,
+      "end": 117.2,
+      "speaker": "SPEAKER_00",
+      "text": "就年轻吧",
+      "speaker_original": "SPEAKER_00"
+    },
+    {
+      "start": 117.2,
+      "end": 118.2,
+      "speaker": "SPEAKER_02",
+      "text": "嗯",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 124.56,
+      "end": 125.56,
+      "speaker": "SPEAKER_01",
+      "text": "对",
       "speaker_original": "SPEAKER_01"
+    },
+    {
+      "start": 128.82,
+      "end": 131.6,
+      "speaker": "SPEAKER_01",
+      "text": "操作不了 是吧 操作不了 对对对",
+      "speaker_original": "SPEAKER_01"
+    },
+    {
+      "start": 131.6,
+      "end": 133.6,
+      "speaker": "SPEAKER_01",
+      "text": "不是特别快的",
+      "speaker_original": "SPEAKER_01"
+    },
+    {
+      "start": 139.66,
+      "end": 140.98,
+      "speaker": "SPEAKER_01",
+      "text": "对 咱们对当题",
+      "speaker_original": "SPEAKER_01"
+    },
+    {
+      "start": 147.2,
+      "end": 160.0,
+      "speaker": "SPEAKER_02",
+      "text": "还得看我们那",
+      "speaker_original": "SPEAKER_02"
+    },
+    {
+      "start": 160.0,
+      "end": 172.8,
+      "speaker": "SPEAKER_02",
+      "text": "个价钱和规律",
+      "speaker_original": "SPEAKER_02"
     }
   ],
   "timing": {
-    "diarization": 12.22,
-    "asr": 7.5,
-    "alignment": 0.01,
-    "total": 19.9
+    "diarization": 4.99,
+    "asr": 19.99,
+    "alignment": 3.32,
+    "total": 28.46
   },
-  "num_speakers": 2,
+  "num_speakers": 3,
   "meeting_summary": {}
 }

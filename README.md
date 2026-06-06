@@ -37,7 +37,7 @@
 
 - Windows 11
 - Python 3.10
-- Conda 环境名建议：`TTS`
+- Conda 环境名
 - NVIDIA GPU，推荐 8GB 显存以上
 - PyTorch 2.5.1 + CUDA 12.4
 - Gradio 5.x
@@ -331,14 +331,6 @@ E:/ASR/
 ├── outputs/
 └── tests/
 ```
-
-## Git 与数据管理
-
-仓库提交代码、配置、文档、脚本和目录占位文件。以下内容不进入 Git：
-
-- `.env`
-- `.claude/`
-- `outputs/`
 - 原始音频、视频和运行日志
 - 模型权重和数据集文件
 

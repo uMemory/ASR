@@ -2,1334 +2,1603 @@
   "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\d0b612714acf1c4735b0ace2e62fbc591f4e5e4bb62dbcc4de51659cfd998b5e\\R8003_M8001_N_SPK8001.wav",
   "segments": [
     {
-      "start": 96.725,
-      "end": 109.746,
-      "speaker": "A",
-      "text": "这个孩子呀，小孩儿分咱们这孩子大小。太小的小孩儿就没必要送了，太小的你上一二年级他还不懂得那么多，是吧？四五年级...",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "调整句子结构，添加标点，保留口语风格。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 119.523,
-      "end": 125.543,
-      "speaker": "A",
-      "text": "一二年级小孩可以给老师画画。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "\"12年级\"修正为\"一二年级\"，\"画画\"重复删除一个。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 127.589,
-      "end": 141.609,
-      "speaker": "A",
-      "text": "给老师送过去，这是表示对老师的尊重。大年级的学生肯定要给老师，因为他要学习知识多了嘛，老师这一年也挺辛苦的了。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加句号分割语义，调整逗号位置。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 188.778,
-      "end": 199.682,
-      "speaker": "A",
-      "text": "这个四五年级的孩子，他也知道，大一点的他也知道。天天跟老师一块，他也一般的知道老师喜好什么，有什么爱好，有什么那个。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加标点，保留口语重复\"那个\"。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 204.421,
-      "end": 209.197,
-      "speaker": "A",
-      "text": "对，咱们也得征求孩子意见，家长必须要征求孩子意见。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "补充\"意见\"完整。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 227.0,
-      "end": 229.5,
-      "speaker": "B",
-      "text": "对。",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 238.154,
-      "end": 250.174,
-      "speaker": "A",
-      "text": "这老师呢，这一天呢，坐这儿，那个站着站一天也挺累的。孩子们，他给做？咱们家长做建议，让孩子去，还得让孩子去决定。老师买点这个。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "拆分长句，添加标点，保留口语疑问。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 273.001,
-      "end": 278.435,
-      "speaker": "A",
-      "text": "对，让他给老师送过去，老师也乐意收。",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 285.067,
-      "end": 285.848,
-      "speaker": "A",
-      "text": "那不可能。",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 332.114,
-      "end": 343.558,
-      "speaker": "A",
-      "text": "我认为啊，这个事啊，送老师这个奖品，给老师礼物这个事啊，节前节后都不太受影响。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "\"结前结后\"修正为\"节前节后\"，去掉重复的\"都不大\"。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 364.447,
-      "end": 375.827,
-      "speaker": "A",
-      "text": "这个孩子们给老师送，送个手工，自己画的画什么的。送手工，当天教师节当天给老师画个花，肯定老师要。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "清理重复，添加标点，\"画什么呢\"改为\"画什么的\"。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 382.447,
-      "end": 384.947,
-      "speaker": "B",
-      "text": "我。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "可能为不完整语句，保持原样。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 391.045,
-      "end": 393.947,
-      "speaker": "B",
-      "text": "觉得不如让学生整体做一个奇思妙想的一个团体。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "\"团套这\"修正为\"团体\"，疑为ASR错误。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 397.105,
-      "end": 403.951,
-      "speaker": "B",
-      "text": "这样的话呢，这个心意是代表所有班的学生，那么老师第一是不会觉得珍贵的，第二他会觉得我是真心实意。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "\"真的\"修正为\"珍贵的\"，\"吃日明灰\"修正为\"真心实意\"，疑为ASR同音错误。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 412.085,
-      "end": 414.585,
-      "speaker": "C",
-      "text": "我。",
-      "speaker_original": "SPEAKER_02",
-      "correction_note": "可能为不完整语句，保持原样。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 423.483,
-      "end": 426.585,
-      "speaker": "B",
-      "text": "说大家说不松钩子的,老师会处理那个,就说自己的身上形象之类的。而",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 429.642,
-      "end": 432.585,
-      "speaker": "B",
-      "text": "且还有一个,A加平比如说条件好,再动作高一点。家",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 437.341,
-      "end": 441.044,
-      "speaker": "D",
-      "text": "庭条件不好,它是一个定点,那有的老师认为有比较,那它不同意,它代表不同意的。我觉得这个,我觉得这个老师做的很久,我觉得他很学习,很",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 444.25,
-      "end": 449.547,
-      "speaker": "B",
-      "text": "而且在有一个学生之间,他们能记,因为他们在一个关系。家长这边的话,可能你的家长和我家长都不认识",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 453.597,
-      "end": 466.009,
-      "speaker": "A",
-      "text": "但是我认为他要送东西啊送老师东西啊孩子们不肯同学们不可能到学校说的我送老师什么了他送老师什么了就是教师节当天你要送老师个贺",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 466.009,
-      "end": 477.497,
-      "speaker": "B",
-      "text": "卡这个学生跟以前的学生不一样现在那个学生就是我家人去那个,你去过新加坡吗?我",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述",
-        "提问"
-      ]
-    },
-    {
-      "start": 483.155,
-      "end": 486.097,
-      "speaker": "B",
-      "text": "去过,他的话语当中就有一种自信,然后这种的感觉那",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 490.074,
-      "end": 494.097,
-      "speaker": "B",
-      "text": "有可能,他也可能比如说我送家里面这个送保持什么样的理解他可能家",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 499.255,
-      "end": 502.097,
-      "speaker": "B",
-      "text": "长他在后面去跟自己的孩子去说,去灌輸所",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 505.081,
-      "end": 505.724,
-      "speaker": "B",
-      "text": "以这个方面来说,如果学生攢著送,你送一个我送一个,这樣的话会比較",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 532.471,
-      "end": 547.152,
-      "speaker": "A",
-      "text": "我認为作为老師来講不管誰给他什麼禮品他不应該輕視就是说给他禮品少禮物小他輕視这个孩子因为我觉得在学校不应該有这種情",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 577.325,
-      "end": 583.889,
-      "speaker": "A",
-      "text": "我觉得还是给老师,跟老师,一般的老师都有联系方式",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 592.04,
-      "end": 592.416,
-      "speaker": "A",
-      "text": "对",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 604.713,
-      "end": 606.107,
-      "speaker": "B",
-      "text": "因",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 606.353,
-      "end": 608.053,
-      "speaker": "A",
-      "text": "思老师他也不敢接受",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 610.889,
-      "end": 615.47,
-      "speaker": "C",
-      "text": "咱们本身准备好东西到时候你送完到人家不接你那个白糖果啊",
-      "speaker_original": "SPEAKER_02",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 615.51,
-      "end": 617.95,
-      "speaker": "B",
-      "text": "我觉得来说呢这个",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 624.068,
-      "end": 636.809,
-      "speaker": "B",
-      "text": "或者等我列出几个选择或者准备了那些礼品比较小绣真的然后比如说开家养会或者跟老师有单独接触的机",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 659.388,
-      "end": 661.888,
-      "speaker": "B",
-      "text": "这",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 711.987,
-      "end": 718.599,
-      "speaker": "A",
-      "text": "反而我认为还是跟老师要联系方式要幽记你",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 718.599,
-      "end": 718.905,
-      "speaker": "B",
-      "text": "给他幽",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 718.905,
-      "end": 719.089,
-      "speaker": "A",
-      "text": "记",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 719.089,
-      "end": 719.252,
-      "speaker": "B",
-      "text": "他",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 719.252,
-      "end": 720.007,
-      "speaker": "E",
-      "text": "家",
+      "start": 98.0,
+      "end": 109.941,
+      "speaker": "SPEAKER_03",
+      "text": "小孩分大小，咱们这孩子太小的小孩就没必要送了。太小的，你上一二年级他还不懂得那么多，是吧？四五年级。",
+      "avg_logprob": -0.4554473453097873,
+      "no_speech_prob": 0.5351893305778503,
+      "speech_overlap_s": 3.97,
+      "speech_overlap_ratio": 1.196,
+      "playback_start": 97.95,
+      "playback_end": 110.591,
       "speaker_original": "SPEAKER_03",
+      "text_before_llm": "小孩分咱们这孩子大小太小的小孩就没必要送了太小的你上一二年级他还不懂得那么多是吧四五年级",
+      "correction_note": "调整语序，添加标点",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 729.987,
-      "end": 732.035,
-      "speaker": "B",
-      "text": "不,你都买上購物卡了,你把他帶回",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "反对",
-        "陈述"
-      ]
-    },
-    {
-      "start": 741.4,
-      "end": 748.42,
-      "speaker": "A",
-      "text": "这个反而我觉得应该跟老师得沟通提前沟通好了这个事",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 781.799,
-      "end": 784.299,
-      "speaker": "C",
-      "text": "你",
-      "speaker_original": "SPEAKER_02",
-      "intent": [
-        "打断"
-      ]
-    },
-    {
-      "start": 787.557,
-      "end": 790.299,
-      "speaker": "C",
-      "text": "送的是班主任,其他老師沒有你",
-      "speaker_original": "SPEAKER_02",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 792.397,
-      "end": 792.7,
-      "speaker": "C",
-      "text": "要知道是哪个家长送的也是一个问",
-      "speaker_original": "SPEAKER_02",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 800.311,
-      "end": 802.811,
-      "speaker": "B",
-      "text": "你",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "打断"
-      ]
-    },
-    {
-      "start": 807.197,
-      "end": 821.611,
-      "speaker": "A",
-      "text": "这个问题肯定肯定得留名因为你什么呢你给他送都有你邮寄我认为让他还是给他邮寄过去邮寄他家老师上学呢,在上课这一天",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 821.651,
-      "end": 823.548,
-      "speaker": "A",
-      "text": "他不可能老去拿邮",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 825.404,
-      "end": 829.319,
-      "speaker": "A",
-      "text": "给他送到家,邮到家,不管他什么时候,他还",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 833.487,
-      "end": 835.057,
-      "speaker": "A",
-      "text": "你提前跟老师联系",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 884.455,
-      "end": 887.032,
-      "speaker": "B",
-      "text": "送到家以后还避免了在这个教师办公室别的老师会有一些心理疏",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 888.77,
-      "end": 893.77,
-      "speaker": "A",
-      "text": "在学校里的肯定不方便这些事儿,是吧",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述",
-        "提问"
-      ]
-    },
-    {
-      "start": 903.67,
-      "end": 912.074,
-      "speaker": "A",
-      "text": "因为您上班下班的,出行不方便,还有拎著东西,直接给您送到家,这不就方便了嗎",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 918.841,
-      "end": 932.861,
-      "speaker": "A",
-      "text": "也成,我认为也可以。因为是教师节嘛,投教师节,让孩子们拿,老师,我送您一本鲜花,今天是您节日。这个蛮可以的,是吧?",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "同意",
-        "陈述",
-        "提问"
-      ]
-    },
-    {
-      "start": 941.015,
-      "end": 941.341,
-      "speaker": "A",
-      "text": "对",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 958.058,
-      "end": 967.058,
-      "speaker": "A",
-      "text": "家长这个信义那就得跟老師必須聯系了一",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述",
-        "命令"
-      ]
-    },
-    {
-      "start": 967.934,
-      "end": 973.3,
-      "speaker": "A",
-      "text": "般的情況下,孩子都得有家长老師的聯系方式",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 975.558,
-      "end": 984.133,
-      "speaker": "A",
-      "text": "现在这个学校都有微信老师跟孩这一般孩子都有微信",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 997.411,
-      "end": 999.207,
-      "speaker": "A",
-      "text": "那必须得跟老师提联",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述",
-        "命令"
-      ]
-    },
-    {
-      "start": 999.207,
-      "end": 999.431,
-      "speaker": "C",
-      "text": "系",
-      "speaker_original": "SPEAKER_02",
-      "intent": [
-        "打断"
-      ]
-    },
-    {
-      "start": 1026.892,
-      "end": 1029.912,
-      "speaker": "A",
-      "text": "就得要当天",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 1037.877,
-      "end": 1038.502,
-      "speaker": "A",
-      "text": "就",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1040.611,
-      "end": 1043.631,
-      "speaker": "C",
-      "text": "能送到老师手里",
-      "speaker_original": "SPEAKER_02",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1110.777,
-      "end": 1119.164,
-      "speaker": "B",
-      "text": "所以我觉得是非常考慮到教師的那種感受能盡量的補健康盡量的让他舒",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1130.032,
-      "end": 1133.032,
-      "speaker": "D",
-      "text": "能不舒服,自己感觉不舒",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1133.032,
-      "end": 1144.95,
-      "speaker": "B",
-      "text": "服因为在这个全班30名20名同学里面肯定有的家长心思不整理他不送,可能家长可能老出差的工作他",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1144.95,
-      "end": 1145.052,
-      "speaker": "D",
-      "text": "根本想不到",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1145.092,
-      "end": 1148.813,
-      "speaker": "B",
-      "text": "在这里边的话,有的送有的不送那就得把这些东西加到最",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1157.521,
-      "end": 1157.875,
-      "speaker": "A",
-      "text": "嗯,",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 1185.803,
-      "end": 1198.882,
-      "speaker": "A",
-      "text": "主要是咱们送礼送老师礼物,是咱们家长和孩子的心意。但是送到老师手里,也必须保证老师接触这个东西,别犯错误",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1207.977,
-      "end": 1222.977,
-      "speaker": "A",
-      "text": "假如说你送他一张纸,让校长看见了,校长不知道你送的什么东西,他也回头也要受到,我估计心里也不舒服,这个老师",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1235.062,
-      "end": 1249.082,
-      "speaker": "B",
-      "text": "家里送呢,这样的话又避免了这个30个20个的学生一个班的,有送有不送的这种情况也表明了自己送的心意因为就像结婚分子似的比如说他谁结婚",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1249.122,
-      "end": 1255.562,
-      "speaker": "B",
-      "text": "他比如说都是朋友那这五个朋友一起送有",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1259.358,
-      "end": 1262.562,
-      "speaker": "B",
-      "text": "数两百分的,有数五百分的,那五百分的那个人他就不平衡,所以说是各然",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1270.239,
-      "end": 1275.528,
-      "speaker": "B",
-      "text": "后呢,又避免了去学校,然后,比如说对老师的打扰啊,咱们最好能把自己的自己进到家里去。第二的话,也避免了学校别人的打扰。謝謝大家",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "提议",
-        "总结",
-        "寒暄",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1286.277,
-      "end": 1290.246,
-      "speaker": "A",
-      "text": "老师一般跟家长都得有沟通",
-      "speaker_original": "SPEAKER_04",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1315.387,
-      "end": 1328.407,
-      "speaker": "A",
-      "text": "现在都是公众场合，不管你给老师什么东西，你要跟老师接触，好多人那儿都看着呢，人家老师也是害怕的。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加标点符号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1331.688,
-      "end": 1340.349,
-      "speaker": "A",
-      "text": "对，主要是咱们送东西是咱们的心意，但是主要老师是影响不影响人家，是不是？",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "将“人老”修正为“老师”",
-      "intent": [
-        "同意",
-        "陈述",
-        "提问"
-      ]
-    },
-    {
-      "start": 1340.389,
-      "end": 1344.988,
-      "speaker": "B",
-      "text": "因为教师节之后，这个工作丢了，可干了。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "将“小时节人”修正为“教师节”",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1397.399,
-      "end": 1405.128,
-      "speaker": "A",
-      "text": "对，送人这是根据自己的自己的收入，自己家庭情况，送老师的什么东西。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加标点，将“什么东”补全为“什么东西”",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1407.592,
-      "end": 1410.227,
-      "speaker": "A",
-      "text": "对，送老师的东西价值高低的。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加标点",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1425.884,
-      "end": 1440.877,
-      "speaker": "A",
-      "text": "反正主要是，我们家长的心情，老师给我们的孩子付出一年了，辛苦一年了，我们要表示心，",
-      "speaker_original": "SPEAKER_04",
+      "start": 118.92,
+      "end": 133.9,
+      "speaker": "SPEAKER_03",
+      "text": "一二年级小孩他可以给老师画个画给老师送过去，这是表示对老师的尊重，是吧？到大年级的学生呢，",
+      "avg_logprob": -0.29689720153808596,
+      "no_speech_prob": 0.26463958621025085,
+      "speech_overlap_s": 1.77,
+      "speech_overlap_ratio": 0.885,
+      "playback_start": 118.87,
+      "playback_end": 133.84,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "一二年级小孩他可以给老师画个画给老师送过去这是表示对老师的尊重是吧到大年级的学生呢",
       "correction_note": "添加标点",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1440.877,
-      "end": 1450.792,
-      "speaker": "A",
-      "text": "意，但是主要还要为老师着想，跟老师沟通，怎么用什么方式，是吧？",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加标点",
+      "start": 133.92,
+      "end": 137.94,
+      "speaker": "SPEAKER_03",
+      "text": "到年级的学生呢，肯定要给老师，因为他要学习知识多了嘛。",
+      "avg_logprob": -0.2724401300603693,
+      "no_speech_prob": 0.7926192283630371,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 133.86,
+      "playback_end": 138.59,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "年级的学生呢 肯定要给老师因为他要学习知识多了嘛",
+      "correction_note": "补充‘到’字，添加标点",
       "intent": [
-        "陈述",
-        "提问"
+        "陈述"
       ]
     },
     {
-      "start": 1455.635,
-      "end": 1456.497,
-      "speaker": "A",
-      "text": "嗯这个。",
-      "speaker_original": "SPEAKER_04",
+      "start": 139.92,
+      "end": 141.94,
+      "speaker": "SPEAKER_03",
+      "text": "老师这一年也挺辛苦的了。",
+      "avg_logprob": -0.2724401300603693,
+      "no_speech_prob": 0.7926192283630371,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 139.87,
+      "playback_end": 142.59,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "老师这一年也挺辛苦的了",
       "correction_note": "添加句号",
       "intent": [
-        "回应"
+        "陈述"
       ]
     },
     {
-      "start": 1461.963,
-      "end": 1464.463,
-      "speaker": "C",
-      "text": "第。",
-      "speaker_original": "SPEAKER_02",
-      "correction_note": "添加句号",
+      "start": 188.32,
+      "end": 199.54,
+      "speaker": "SPEAKER_03",
+      "text": "这个四五年级的孩子，他也知道大一点的，他也知道天天跟老师一块，他也一般的知道，老师喜好什么，有什么爱好，啊，有什么那个。",
+      "avg_logprob": -0.3960816966953562,
+      "no_speech_prob": 0.5619267225265503,
+      "speech_overlap_s": 1.87,
+      "speech_overlap_ratio": 0.935,
+      "playback_start": 188.27,
+      "playback_end": 200.19,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这个四五年级的孩子他也知道大一点的他也知道天天跟老师一块他也一般的知道,老师喜好什么,有什么爱好,啊,有什么那个",
+      "correction_note": "添加标点，调整语序",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1466.56,
-      "end": 1472.463,
-      "speaker": "C",
-      "text": "一步呢，先跟老师把地址，他们可能不会过来。那么这个前提条件就会出现有两个分支。一",
-      "speaker_original": "SPEAKER_02",
-      "correction_note": "添加标点，将“不要过来”改为“不会过来”以更通顺",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1475.54,
-      "end": 1482.463,
-      "speaker": "C",
-      "text": "个是老师把地址提供给咱们了，一个是没有提供。如果说没有提供的话，那么咱们就选择别的。这",
-      "speaker_original": "SPEAKER_02",
-      "correction_note": "将“选择为了”修正为“选择别的”",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1484.661,
-      "end": 1496.463,
-      "speaker": "B",
-      "text": "种比如说购物卡或者什么这种小东西，这个里边还涉及到一个问题，第一个分支就是索要到的地址，第二个分支就是老师不愿意给地址但",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "将“设计到”修正为“涉及到”，添加标点",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1497.599,
-      "end": 1511.983,
-      "speaker": "B",
-      "text": "不愿意给地址的前提是咱们已经表明了目的，借着教师节对您那一年的感谢，送一些比较实用的礼品。不愿意提供地址，那么那这边的话，他愿不愿意接收礼物？",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "添加标点，将“那个”修正为“那一”",
-      "intent": [
-        "陈述",
-        "提问"
-      ]
-    },
-    {
-      "start": 1512.023,
-      "end": 1525.983,
-      "speaker": "B",
-      "text": "如果他要是不愿意提供地址也不愿意接收礼物，那么第二个这个分支可能就怎么样了？不送了。我觉得他要不接受呢，咱们也不能强人所难。有的教师",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "将“强行所难”修正为“强人所难”，添加标点",
-      "intent": [
-        "提问",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1526.023,
-      "end": 1539.984,
-      "speaker": "B",
-      "text": "他的心里就觉得我就是像医务人员白衣天使似的，我就是为孩子心甘情愿地去付出的。我觉得这是一份心意，这是一份心意，我就是不想要，我就不想要。",
-      "speaker_original": "SPEAKER_01",
+      "start": 205.05,
+      "end": 209.54,
+      "speaker": "SPEAKER_03",
+      "text": "对，咱们也得征求孩子意见，家长必须要征求孩子意见。",
+      "avg_logprob": -0.3037839112458406,
+      "no_speech_prob": 0.6598822474479675,
+      "speech_overlap_s": 4.4,
+      "speech_overlap_ratio": 0.88,
+      "start_asr_raw": 204.52,
+      "playback_start": 204.65,
+      "playback_end": 210.19,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对,咱们也得征求孩子意见,家长必须要征求孩子意见",
       "correction_note": "添加标点",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1540.024,
-      "end": 1542.463,
-      "speaker": "B",
-      "text": "那，",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "保留口语，添加逗号",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 1544.721,
-      "end": 1547.3,
-      "speaker": "B",
-      "text": "你说咱们一个一个要抢订的？那你说咱们的礼物还是？",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "修正ASR错误，'一他一位'改为'一个一个'，'抢顶'改为'抢订'，调整语义通顺",
-      "intent": [
-        "提问"
-      ]
-    },
-    {
-      "start": 1564.732,
-      "end": 1570.283,
-      "speaker": "B",
-      "text": "如果这个第一份礼物不需要，那就是不接受，就是不想拼了。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "修正'拼立'为'拼了'，添加标点",
+      "start": 229.52,
+      "end": 233.54,
+      "speaker": "SPEAKER_03",
+      "text": "对，然后在这个教师节也是非常强调去问。",
+      "avg_logprob": -0.2053417555043395,
+      "no_speech_prob": 0.4395747482776642,
+      "speech_overlap_s": 0.67,
+      "speech_overlap_ratio": 0.67,
+      "playback_start": 229.47,
+      "playback_end": 234.19,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.7s/4.0s"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对然后在这个教师节也是非常强迫去问",
+      "correction_note": "‘强迫’修正为‘强调’",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1585.382,
-      "end": 1592.221,
-      "speaker": "B",
-      "text": "如果假设他所有的礼物我都不接受，就在咱们在第二个通知上，他意思就是所要的地址，第二个不给地址，我也不接受礼。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "修正'他一'为'他意思'，调整语序，添加标点",
+      "start": 237.52,
+      "end": 251.5,
+      "speaker": "SPEAKER_03",
+      "text": "这老师呢，这一天呢，坐这儿站那儿，站一天也挺累的。孩子们他可以做，咱们家长做建议，让孩子去，还得让孩子去决定给老师买点这个。",
+      "avg_logprob": -0.2053417555043395,
+      "no_speech_prob": 0.4395747482776642,
+      "speech_overlap_s": 1.77,
+      "speech_overlap_ratio": 0.885,
+      "playback_start": 237.47,
+      "playback_end": 251.44,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这老师呢这一天呢坐这儿那个站这儿站一天也挺累的孩子们他可以做咱们家长做建议让孩子去还得让孩子去决定给老师买点这个",
+      "correction_note": "调整语序，添加标点",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1594.702,
-      "end": 1608.64,
-      "speaker": "A",
-      "text": "我认为这个家长啊，要想给老师礼物，不管他什么时候，他给买完了这个东西了，他变着方儿呢，反正不管怎么着，想方设法也得把这个信息也得给人老师。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "修正'变相变方'为'变着方儿'，添加标点",
+      "start": 251.52,
+      "end": 257.94,
+      "speaker": "SPEAKER_03",
+      "text": "有些靠谱的提示是吧，基本意图是刚才讲的那个意思。",
+      "avg_logprob": -0.5019834165219907,
+      "no_speech_prob": 0.5499677658081055,
+      "speech_overlap_s": 0.84,
+      "speech_overlap_ratio": 0.259,
+      "playback_start": 251.46,
+      "playback_end": 258.59,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.8s/6.4s"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有些靠谱的提示是吧基本意图是刚才讲的那个警官模拟",
+      "correction_note": "‘警官模拟’修正为‘意思’",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1612.471,
-      "end": 1621.389,
-      "speaker": "D",
-      "text": "对，如果说他一定不接受，就讲的都不接受，那咱就不要强人所难。对，如果说",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和句号，保留口语",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1621.389,
-      "end": 1632.971,
-      "speaker": "B",
-      "text": "不强人所难。他一定能接受？一定不提供地址？那咱们就把心意传达就够了。那么就只有把第二个分支砍掉，就只剩第一个分支了。他",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "修正'记者'为'地址'，添加问号和句号，调整断句",
-      "intent": [
-        "同意",
-        "提问",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1633.769,
-      "end": 1637.991,
-      "speaker": "B",
-      "text": "得取了咱们要的地址了，那么就直接给他弄家去了，这个事就搞定了。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "修正'得取的'为'要的'，调整重复，添加标点",
+      "start": 272.65,
+      "end": 279.02,
+      "speaker": "SPEAKER_03",
+      "text": "或者什么意思？是吧？对，让他给老师送过去，老师也乐意收。",
+      "avg_logprob": -0.5019834165219907,
+      "no_speech_prob": 0.5499677658081055,
+      "speech_overlap_s": 0.31,
+      "speech_overlap_ratio": 0.258,
+      "start_asr_raw": 271.76,
+      "playback_start": 272.25,
+      "playback_end": 279.67,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.3s/6.4s"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "或者什么意识是吧对 让他给老师送过去老师也乐意收",
+      "correction_note": "‘意识’修正为‘意思’",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1666.538,
-      "end": 1667.559,
-      "speaker": "A",
-      "text": "就孩子能，",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "保留原样，添加逗号",
+      "start": 324.0,
+      "end": 344.02,
+      "speaker": "SPEAKER_03",
+      "text": "我认为啊，这个事儿啊，送老师这个奖品，给老师礼物这个事儿啊，节前节后都不大受影响。",
+      "avg_logprob": -0.3524710973103841,
+      "no_speech_prob": 0.7468955516815186,
+      "speech_overlap_s": 12.2,
+      "speech_overlap_ratio": 0.61,
+      "playback_start": 323.95,
+      "playback_end": 344.67,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我认为啊,这个事儿啊,送老师这个奖品,给老师礼物这个事儿啊,结前结后都不大受影响",
+      "correction_note": "‘结前结后’修正为‘节前节后’",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1674.47,
-      "end": 1674.846,
-      "speaker": "A",
-      "text": "对。",
-      "speaker_original": "SPEAKER_04",
+      "start": 364.0,
+      "end": 376.02,
+      "speaker": "SPEAKER_03",
+      "text": "这个孩子们呀，给老师送个手工自己画的画什么的，教师节当天跟老师画个花，肯定老师要。",
+      "avg_logprob": -0.23653680244378283,
+      "no_speech_prob": 0.6690871715545654,
+      "speech_overlap_s": 1.4,
+      "speech_overlap_ratio": 0.7,
+      "playback_start": 363.95,
+      "playback_end": 376.67,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这个孩子们呀给老师送送个手工自己画的画什么的教师节当天跟老师画个花肯定老师要",
+      "correction_note": "调整语序，添加标点",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 430.0,
+      "end": 434.02,
+      "speaker": "SPEAKER_03",
+      "text": "有的老师认为有比较。",
+      "avg_logprob": -0.2649421348228111,
+      "no_speech_prob": 0.6892843246459961,
+      "speech_overlap_s": 1.4,
+      "speech_overlap_ratio": 0.35,
+      "playback_start": 429.95,
+      "playback_end": 434.67,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有的老师认为有比较",
       "correction_note": "添加句号",
       "intent": [
-        "回应"
+        "陈述"
       ]
     },
     {
-      "start": 1679.178,
-      "end": 1681.137,
-      "speaker": "A",
-      "text": "大家可以有，",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "保留原样，添加逗号",
+      "start": 436.65,
+      "end": 443.02,
+      "speaker": "SPEAKER_03",
+      "text": "他代表不同意，而且在有一个学生之间。",
+      "avg_logprob": -0.2649421348228111,
+      "no_speech_prob": 0.6892843246459961,
+      "speech_overlap_s": 1.55,
+      "speech_overlap_ratio": 0.775,
+      "start_asr_raw": 436.0,
+      "playback_start": 436.25,
+      "playback_end": 443.67,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "他代表不同意而且在有一个学生之间",
+      "correction_note": "添加逗号句号",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1681.137,
-      "end": 1681.198,
-      "speaker": "C",
-      "text": "咱们的，",
-      "speaker_original": "SPEAKER_02",
-      "correction_note": "保留原样，添加逗号",
+      "start": 445.0,
+      "end": 456.0,
+      "speaker": "SPEAKER_03",
+      "text": "家长那边的话，可能你这家长和我家长都不认识，咱们那边的话可能家人可能就很分散，但是我认为，他要送东西送老师东西。",
+      "avg_logprob": -0.2649421348228111,
+      "no_speech_prob": 0.6892843246459961,
+      "speech_overlap_s": 0.75,
+      "speech_overlap_ratio": 0.75,
+      "playback_start": 444.95,
+      "playback_end": 455.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.8s/11.0s",
+        "high no_speech_prob=0.69"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "家长那边的话可能你这家长和我家长都不认识咱们那边的话可能家人可能就很分散但是我认为他要送东西送老师东西",
+      "correction_note": "添加标点",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1690.366,
-      "end": 1692.866,
-      "speaker": "C",
-      "text": "对。",
-      "speaker_original": "SPEAKER_02",
-      "correction_note": "添加句号",
+      "start": 456.0,
+      "end": 466.52,
+      "speaker": "SPEAKER_03",
+      "text": "孩子们说，同学们不可能到学校说我送老师什么了，他送老师什么了，就是教师节当天，你要送老师个贺卡。",
+      "avg_logprob": -0.3608549118041992,
+      "no_speech_prob": 0.6753513216972351,
+      "speech_overlap_s": 5.1,
+      "speech_overlap_ratio": 1.133,
+      "playback_start": 455.94,
+      "playback_end": 467.17,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "孩子们不肯 同学们不可能到学校说的我送老师什么了 他送老师什么了就是教师节当天 你要送老师个贺卡",
+      "correction_note": "将'不肯'改为'说'，使语义通顺；添加逗号和句号。",
       "intent": [
-        "回应"
+        "陈述"
       ]
     },
     {
-      "start": 1702.42,
-      "end": 1704.386,
-      "speaker": "A",
-      "text": "这得跟老师反正提前联系的。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加句号",
+      "start": 499.56,
+      "end": 501.54,
+      "speaker": "SPEAKER_03",
+      "text": "所以的话这个方面来说。",
+      "avg_logprob": -0.48586309814453127,
+      "no_speech_prob": 0.9470847249031067,
+      "speech_overlap_s": 1.5,
+      "speech_overlap_ratio": 0.765,
+      "playback_start": 499.51,
+      "playback_end": 502.19,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "所以的话这个方面来说",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 532.08,
+      "end": 544.68,
+      "speaker": "SPEAKER_03",
+      "text": "我认为啊，这个作为老师来讲，给他不管谁给他什么礼品，他不应该轻视。就是说给他礼品少、礼物小，他轻视这个孩子。",
+      "avg_logprob": -0.4501028621897978,
+      "no_speech_prob": 0.31730636954307556,
+      "speech_overlap_s": 3.37,
+      "speech_overlap_ratio": 0.98,
+      "playback_start": 532.03,
+      "playback_end": 544.6,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我认为啊 这个作为老师来讲给他 不管谁给他什么礼品他不应该轻视 就是说给他礼品少礼物小他轻视这个孩子",
+      "correction_note": "调整语序并添加标点，使句子更连贯。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 544.68,
+      "end": 547.3,
+      "speaker": "SPEAKER_03",
+      "text": "因为我觉得在学校不应该有这种情况。",
+      "avg_logprob": -0.2704661687215169,
+      "no_speech_prob": 0.31696817278862,
+      "speech_overlap_s": 2.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 544.62,
+      "playback_end": 547.95,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "因为我觉得在学校不应该有这种情况",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 574.68,
+      "end": 588.66,
+      "speaker": "SPEAKER_03",
+      "text": "我觉得还是跟老师要联系方式？一般的老师都有联系方式？不现实。",
+      "avg_logprob": -0.5301728615394006,
+      "no_speech_prob": 0.5667933225631714,
+      "speech_overlap_s": 8.5,
+      "speech_overlap_ratio": 0.85,
+      "playback_start": 574.63,
+      "playback_end": 588.6,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我觉得还是跟老师,一般的老师都有联系方式不现实",
+      "correction_note": "添加'要'字，并将逗号改为问号，恢复标点使语义清晰。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 588.68,
+      "end": 594.66,
+      "speaker": "SPEAKER_03",
+      "text": "很不恰当，因为学校是一个教学的地方，你特意地去送礼物。",
+      "avg_logprob": -0.38544931337814925,
+      "no_speech_prob": 0.7598391771316528,
+      "speech_overlap_s": 0.47,
+      "speech_overlap_ratio": 0.318,
+      "playback_start": 588.62,
+      "playback_end": 595.31,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.5s/6.0s",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "很不恰当因为学校是一个教学的地方你特意的去送礼物",
+      "correction_note": "添加逗号和句号。",
+      "intent": [
+        "陈述",
+        "评论"
+      ]
+    },
+    {
+      "start": 600.08,
+      "end": 608.82,
+      "speaker": "SPEAKER_03",
+      "text": "都是不太好的，对，因为你在学校送礼物是什么意思？老师他也不敢接受。",
+      "avg_logprob": -0.38544931337814925,
+      "no_speech_prob": 0.7598391771316528,
+      "speech_overlap_s": 0.27,
+      "speech_overlap_ratio": 0.121,
+      "playback_start": 600.03,
+      "playback_end": 609.47,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=12%",
+        "short speech support=0.3s/8.7s",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "都是不太好的对因为你在学校送礼物是什么意思老师他也不敢接受",
+      "correction_note": "添加标点和问号。",
+      "intent": [
+        "陈述",
+        "评论"
+      ]
+    },
+    {
+      "start": 613.84,
+      "end": 623.46,
+      "speaker": "SPEAKER_03",
+      "text": "你这个大摆阔，我觉得来说呢，现在的话有老师会加话。",
+      "avg_logprob": -0.38544931337814925,
+      "no_speech_prob": 0.7598391771316528,
+      "speech_overlap_s": 0.19,
+      "speech_overlap_ratio": 0.095,
+      "playback_start": 613.79,
+      "playback_end": 624.11,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=10%",
+        "short speech support=0.2s/9.6s",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你这个白糖果我觉得来说呢 现在的话有老师会加划",
+      "correction_note": "将'白糖果'修正为'大摆阔'（摆阔气），'加划'修正为'加话'（私下说话），使上下文合理。",
+      "intent": [
+        "陈述",
+        "评论"
+      ]
+    },
+    {
+      "start": 631.04,
+      "end": 636.66,
+      "speaker": "SPEAKER_03",
+      "text": "然后比如说开家长会，或者跟老师有单独接触的机会。",
+      "avg_logprob": -0.3449200391769409,
+      "no_speech_prob": 0.5326338410377502,
+      "speech_overlap_s": 1.1,
+      "speech_overlap_ratio": 0.196,
+      "playback_start": 630.99,
+      "playback_end": 637.31,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=20%",
+        "short speech support=1.1s/5.6s"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后比如说开家养会 或者跟老师有单独接触的机会",
+      "correction_note": "将'家养会'修正为'家长会'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 668.85,
+      "end": 676.46,
+      "speaker": "SPEAKER_03",
+      "text": "那都自己拿，自己都交过去，这个环节让校长看见，这个是非常恶劣的，这肯定。",
+      "avg_logprob": -0.3802714939535099,
+      "no_speech_prob": 0.9523330926895142,
+      "speech_overlap_s": 1.59,
+      "speech_overlap_ratio": 0.53,
+      "start_asr_raw": 667.44,
+      "playback_start": 668.45,
+      "playback_end": 677.11,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "那都自己拿自己都教过去这个环节让校长看见这个是非常恶劣的这肯定",
+      "correction_note": "将'教'修正为'交'，并添加逗号。",
+      "intent": [
+        "陈述",
+        "评论"
+      ]
+    },
+    {
+      "start": 700.44,
+      "end": 717.94,
+      "speaker": "SPEAKER_03",
+      "text": "反而我认为跟老师要联系方式要邮寄。",
+      "avg_logprob": -0.4353850228445871,
+      "no_speech_prob": 0.6973956227302551,
+      "speech_overlap_s": 7.48,
+      "speech_overlap_ratio": 0.427,
+      "playback_start": 700.39,
+      "playback_end": 717.86,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "反而我认为跟老师要联系方式要优际",
+      "correction_note": "将'优际'修正为'邮寄'。",
       "intent": [
         "陈述",
         "提议"
       ]
     },
     {
-      "start": 1742.881,
-      "end": 1751.639,
-      "speaker": "A",
-      "text": "其实老师心里呢，你一打电话，你说跟他要地址，他也就知道怎么回事了。他心里就有数了。是不是？",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加问号，保留原有标点",
-      "intent": [
-        "陈述",
-        "提问"
-      ]
-    },
-    {
-      "start": 1766.742,
-      "end": 1771.052,
-      "speaker": "A",
-      "text": "反正现在还是，主要还是",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加逗号，拆分语意",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1771.689,
-      "end": 1781.975,
-      "speaker": "A",
-      "text": "给老师身上表达点心意，还是对他的尊重，他心里还是比较舒服一点的，我觉得这老师是吧？对。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "修正'表跟'为'给'，调整断句和标点",
-      "intent": [
-        "陈述",
-        "提问"
-      ]
-    },
-    {
-      "start": 1798.062,
-      "end": 1799.062,
-      "speaker": "A",
-      "text": "他心里能知道",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "补充漏字'道'",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1802.163,
-      "end": 1803.192,
-      "speaker": "A",
-      "text": "重视他这孩子",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "补充漏字'子'",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1853.159,
-      "end": 1867.437,
-      "speaker": "A",
-      "text": "现在这个环境下，老师现在也注重自己的白天，平常一直午休",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "修正'午都'为'午休'",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1867.437,
-      "end": 1870.179,
-      "speaker": "A",
-      "text": "休息，都是给孩子上课。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1871.159,
-      "end": 1886.061,
-      "speaker": "A",
-      "text": "等到老师休息的时候呢，你可以跟老师假如说教师节这个礼物不收，从平常变相的方式约老师，咱们那个，您休息的时候，在老师休息的时候，休闲的时候，咱们一块",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "修正'以'为'跟'，'变现'为'变相'，添加标点",
+      "start": 717.94,
+      "end": 719.96,
+      "speaker": "SPEAKER_03",
+      "text": "你给他邮寄他家。",
+      "avg_logprob": -0.4353850228445871,
+      "no_speech_prob": 0.6973956227302551,
+      "speech_overlap_s": 2.02,
+      "speech_overlap_ratio": 1.01,
+      "playback_start": 717.88,
+      "playback_end": 719.92,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你给他优际他家",
+      "correction_note": "将'优际'修正为'邮寄'。",
       "intent": [
         "陈述",
         "提议"
       ]
     },
     {
-      "start": 1886.061,
-      "end": 1894.793,
-      "speaker": "A",
-      "text": "去旅游，带着孩子一块去玩会儿。有的，也有这样的老师，有可以去一块玩的。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "处理重复'有的也有的也有'，调整断句",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1907.547,
-      "end": 1913.567,
-      "speaker": "A",
-      "text": "那你说他平时教师节这天人家不收这礼物。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1920.642,
-      "end": 1925.198,
-      "speaker": "B",
-      "text": "他接受不接受与否，那就不关咱们的事情了。最重要是咱",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "修正'不愛'为'不关'，加标点",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1928.455,
-      "end": 1930.955,
-      "speaker": "D",
-      "text": "那，",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1938.908,
-      "end": 1940.352,
-      "speaker": "D",
-      "text": "说，你今天出了一道周瑜老师的词，然后中国还有我们的道别，你觉得你刚刚去做这个，这个教室的发展，你觉得说，这个老师出了理由，你觉得这个词太可惜了吗？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体，添加标点",
+      "start": 720.0,
+      "end": 746.8,
+      "speaker": "SPEAKER_03",
+      "text": "这个反而我觉得应该跟老师多沟通。",
+      "avg_logprob": -0.4582150268554688,
+      "no_speech_prob": 0.5278766751289368,
+      "speech_overlap_s": 7.36,
+      "speech_overlap_ratio": 0.274,
+      "playback_start": 719.94,
+      "playback_end": 746.76,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这个反而我觉得应该跟老师得沟通",
+      "correction_note": "将'得'修正为'多'。",
       "intent": [
         "陈述",
-        "提问"
+        "提议"
       ]
     },
     {
-      "start": 1960.664,
-      "end": 1961.024,
-      "speaker": "B",
-      "text": "不送，到时候老师会有挑理。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "加句号",
+      "start": 746.84,
+      "end": 748.841,
+      "speaker": "SPEAKER_03",
+      "text": "提前沟通好了这个事。",
+      "avg_logprob": -0.4582150268554688,
+      "no_speech_prob": 0.5278766751289368,
+      "speech_overlap_s": 1.37,
+      "speech_overlap_ratio": 1.142,
+      "playback_start": 746.78,
+      "playback_end": 749.491,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "提前沟通好了这个事",
       "intent": [
-        "陈述"
+        "陈述",
+        "提议"
       ]
     },
     {
-      "start": 1965.513,
-      "end": 1965.985,
-      "speaker": "A",
-      "text": "他不...",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "加省略号表示未完",
+      "start": 802.98,
+      "end": 817.4,
+      "speaker": "SPEAKER_03",
+      "text": "有家长送完了以后，我不留名，你这个问题啊，肯定肯定得留名。因为你什么呢？你给他送都要你邮寄。我认为让他还是给他邮寄过去。",
+      "avg_logprob": -0.38505393189269227,
+      "no_speech_prob": 0.818556010723114,
+      "speech_overlap_s": 0.53,
+      "speech_overlap_ratio": 0.177,
+      "playback_start": 802.93,
+      "playback_end": 817.36,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=18%",
+        "short speech support=0.5s/14.4s",
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.82"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有家长送完了以后我不留名你这个问题啊肯定肯定得留名因为你什么呢你给他送都要你邮寄我认为让他还是给他邮寄过去",
+      "correction_note": "添加逗号、句号、问号，使语义清晰。",
       "intent": [
-        "陈述"
+        "陈述",
+        "提议",
+        "评论"
       ]
     },
     {
-      "start": 2012.071,
-      "end": 2014.805,
-      "speaker": "C",
-      "text": "如果没有听过地址，或者说不去接收的。",
-      "speaker_original": "SPEAKER_02",
-      "correction_note": "添加逗号和句号",
+      "start": 817.44,
+      "end": 829.601,
+      "speaker": "SPEAKER_03",
+      "text": "邮寄给老师？老师上学呢，在上课这一天他不可能老去拿邮件。给他送到家，邮到家，不管他什么时候他还是……",
+      "avg_logprob": -0.2700694719950358,
+      "no_speech_prob": 0.38941603899002075,
+      "speech_overlap_s": 1.23,
+      "speech_overlap_ratio": 1.23,
+      "playback_start": 817.38,
+      "playback_end": 830.251,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "邮寄他家老师上学呢在上课这一天他不可能老去拿邮件给他送的家邮的家不管他什么时候他还是",
+      "correction_note": "修正同音字和语序，补充标点",
       "intent": [
-        "陈述"
+        "陈述",
+        "提议",
+        "评论"
       ]
     },
     {
-      "start": 2064.923,
-      "end": 2067.683,
-      "speaker": "A",
-      "text": "好，也表示咱们的心意了。",
-      "speaker_original": "SPEAKER_04",
-      "correction_note": "添加句末句号",
+      "start": 833.18,
+      "end": 835.4,
+      "speaker": "SPEAKER_03",
+      "text": "你提前跟老师联系啊。",
+      "avg_logprob": -0.2700694719950358,
+      "no_speech_prob": 0.38941603899002075,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 833.13,
+      "playback_end": 836.05,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你提前跟老师联系啊",
+      "correction_note": "无修正",
       "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 863.98,
+      "end": 892.16,
+      "speaker": "SPEAKER_03",
+      "text": "在学校里肯定不方便。",
+      "avg_logprob": -0.40897817611694337,
+      "no_speech_prob": 0.2245543897151947,
+      "speech_overlap_s": 4.18,
+      "speech_overlap_ratio": 0.148,
+      "playback_start": 863.93,
+      "playback_end": 892.12,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=15%"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "在学校里的肯定不方便",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述",
+        "评论"
+      ]
+    },
+    {
+      "start": 892.2,
+      "end": 895.003,
+      "speaker": "SPEAKER_03",
+      "text": "这些事儿，是吧？嗯。",
+      "avg_logprob": -0.3308034765309301,
+      "no_speech_prob": 0.26806116104125977,
+      "speech_overlap_s": 2.25,
+      "speech_overlap_ratio": 1.563,
+      "playback_start": 892.14,
+      "playback_end": 895.653,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这些事儿是吧嗯",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述",
+        "确认",
+        "回应"
+      ]
+    },
+    {
+      "start": 903.62,
+      "end": 912.081,
+      "speaker": "SPEAKER_03",
+      "text": "因为您上班下班，回头出行不方便，还有拎着东西直接给您送到家，这不就方便了吗？",
+      "avg_logprob": -0.3308034765309301,
+      "no_speech_prob": 0.26806116104125977,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 903.57,
+      "playback_end": 912.731,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "因为您上班下班的回头出行不方便还有拎着东西直接给您送到家这不就方便了吗",
+      "correction_note": "修正断句和标点",
+      "intent": [
+        "陈述",
+        "提议",
+        "评论"
+      ]
+    },
+    {
+      "start": 918.78,
+      "end": 933.481,
+      "speaker": "SPEAKER_03",
+      "text": "也成，我觉得我认为也可以。因为是教师节，头教师节孩子们让孩子们拿老师：我送您一束鲜花，今天是您节日，这个蛮可以的是吧？",
+      "avg_logprob": -0.3308034765309301,
+      "no_speech_prob": 0.26806116104125977,
+      "speech_overlap_s": 1.86,
+      "speech_overlap_ratio": 1.192,
+      "playback_start": 918.73,
+      "playback_end": 934.131,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "也成我觉得我认为也可以因为是教师节头教师节孩子们让孩子们拿老师我送您一本鲜花今天是您节日这个蛮可以的是吧",
+      "correction_note": "‘一本鲜花’改为‘一束鲜花’，添加标点",
+      "intent": [
+        "陈述",
+        "同意",
+        "评论",
+        "确认"
+      ]
+    },
+    {
+      "start": 936.94,
+      "end": 942.921,
+      "speaker": "SPEAKER_03",
+      "text": "对，一个小的鲜花或者小的鲜花之类的。对，然后咱们作为家长呢，",
+      "avg_logprob": -0.3932802504387455,
+      "no_speech_prob": 0.5356016159057617,
+      "speech_overlap_s": 0.69,
+      "speech_overlap_ratio": 0.863,
+      "playback_start": 936.89,
+      "playback_end": 943.571,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.7s/6.0s"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对一个小的口红花或者小的鲜花之类的对然后咱们作为家长呢",
+      "correction_note": "‘口红花’改为‘鲜花’，修正标点",
+      "intent": [
+        "陈述",
         "回应",
+        "确认"
+      ]
+    },
+    {
+      "start": 947.34,
+      "end": 965.32,
+      "speaker": "SPEAKER_03",
+      "text": "家长这个事，那就得跟老师必须联系了，是吧。",
+      "avg_logprob": -0.31986236572265625,
+      "no_speech_prob": 0.47749730944633484,
+      "speech_overlap_s": 7.79,
+      "speech_overlap_ratio": 0.433,
+      "playback_start": 947.29,
+      "playback_end": 965.26,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "家长这个信,那就得跟老师必须联系了,是吧。",
+      "correction_note": "‘信’改为‘事’，保持语义通顺",
+      "intent": [
+        "陈述",
+        "提议",
+        "确认"
+      ]
+    },
+    {
+      "start": 965.34,
+      "end": 978.56,
+      "speaker": "SPEAKER_03",
+      "text": "一帮孩子，一般的情况下，孩子都……咱们都得有家长老师的联系方式。现在这个学校都有微信。",
+      "avg_logprob": -0.31986236572265625,
+      "no_speech_prob": 0.47749730944633484,
+      "speech_overlap_s": 8.1,
+      "speech_overlap_ratio": 1.013,
+      "playback_start": 965.28,
+      "playback_end": 978.52,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "一帮孩子,一般的情况下,孩子都,咱们都得有家长老师的联系方式。现在这个学校都有微信",
+      "correction_note": "修正断句和标点",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 978.6,
+      "end": 985.94,
+      "speaker": "SPEAKER_03",
+      "text": "老师跟孩子们，这一般孩子都有微信，只有微信和办公室电话。",
+      "avg_logprob": -0.4499510279241598,
+      "no_speech_prob": 0.4238313138484955,
+      "speech_overlap_s": 4.11,
+      "speech_overlap_ratio": 1.468,
+      "playback_start": 978.54,
+      "playback_end": 985.86,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "老师跟孩子们这一般孩子都有微信只有微信和办公室电话",
+      "correction_note": "添加逗号，修正标点",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 985.94,
+      "end": 999.56,
+      "speaker": "SPEAKER_03",
+      "text": "必须得跟老师提前联系。",
+      "avg_logprob": -0.4499510279241598,
+      "no_speech_prob": 0.4238313138484955,
+      "speech_overlap_s": 2.39,
+      "speech_overlap_ratio": 0.176,
+      "playback_start": 985.88,
+      "playback_end": 1000.21,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=18%"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "必须得跟老师提前联系",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1028.45,
+      "end": 1030.94,
+      "speaker": "SPEAKER_03",
+      "text": "学校就得要当天。",
+      "avg_logprob": -0.48138502777599895,
+      "no_speech_prob": 0.675984799861908,
+      "speech_overlap_s": 1.39,
+      "speech_overlap_ratio": 0.695,
+      "start_asr_raw": 1026.54,
+      "playback_start": 1028.05,
+      "playback_end": 1031.59,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "学校就得要当天",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1040.03,
+      "end": 1044.001,
+      "speaker": "SPEAKER_03",
+      "text": "就能送到老师手里。",
+      "avg_logprob": -0.7237856829607928,
+      "no_speech_prob": 0.18656449019908905,
+      "speech_overlap_s": 1.16,
+      "speech_overlap_ratio": 1.0,
+      "start_alignment_raw": 1037.64,
+      "playback_start": 1039.98,
+      "playback_end": 1044.651,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.72",
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就能就能送到能送到老师手里",
+      "correction_note": "删除重复的‘就能’",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1125.65,
+      "end": 1127.56,
+      "speaker": "SPEAKER_03",
+      "text": "那就得考虑考虑了。",
+      "avg_logprob": -0.864357434786283,
+      "no_speech_prob": 0.6177117228507996,
+      "speech_overlap_s": 2.89,
+      "speech_overlap_ratio": 0.482,
+      "start_asr_raw": 1121.54,
+      "playback_start": 1125.25,
+      "playback_end": 1128.21,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.86",
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "那就得考虑考虑了",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1157.05,
+      "end": 1160.481,
+      "speaker": "SPEAKER_03",
+      "text": "不不不，不太可能。嗯，照这么说的。",
+      "avg_logprob": -0.6906745062934028,
+      "no_speech_prob": 0.3594338595867157,
+      "speech_overlap_s": 1.55,
+      "speech_overlap_ratio": 0.554,
+      "start_asr_raw": 1155.9,
+      "playback_start": 1156.65,
+      "playback_end": 1161.131,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.69",
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "不不不不太不不太可能嗯对照这么说的",
+      "correction_note": "清理重复的‘不’，修正‘对照’为‘照’",
+      "intent": [
+        "反对"
+      ]
+    },
+    {
+      "start": 1179.66,
+      "end": 1201.66,
+      "speaker": "SPEAKER_03",
+      "text": "主要是咱们咱们送礼送老师礼物,是咱们家长和孩子的心意,但是你送到老师手里,也必须保证老师接触这个东西,别犯错误,知道吧?",
+      "avg_logprob": -0.21861521857125418,
+      "no_speech_prob": 0.7273491621017456,
+      "speech_overlap_s": 17.4,
+      "speech_overlap_ratio": 0.791,
+      "playback_start": 1179.61,
+      "playback_end": 1201.58,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.73"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "主要是咱们咱们送礼送老师礼物,是咱们家长和孩子的心意,但是你送到老师手里,也必须保证老师接触这个东西,别犯错误,知道吧?",
+      "intent": [
+        "陈述",
+        "确认"
+      ]
+    },
+    {
+      "start": 1201.66,
+      "end": 1222.68,
+      "speaker": "SPEAKER_03",
+      "text": "你送,假如说你送他一张纸,让校长看见了,校长不知道你送的什么东西,他也回头也要受到,我估计心里不舒服,这个老师。",
+      "avg_logprob": -0.26675794864523,
+      "no_speech_prob": 0.48872578144073486,
+      "speech_overlap_s": 16.31,
+      "speech_overlap_ratio": 0.777,
+      "playback_start": 1201.6,
+      "playback_end": 1223.33,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你送,假如说你送他一张纸,让校长看见了,校长不知道你送的什么东西,他也回头也要受到,我估计心里不舒服,这个老师。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1260.55,
+      "end": 1275.84,
+      "speaker": "SPEAKER_03",
+      "text": "然后呢,又避免了去学校,然后,比如说对老师的打扰,咱们最好能把地图送到家里,这样的话,也避免了学校别的老师,你说那倒是。",
+      "avg_logprob": -0.3162238194392278,
+      "no_speech_prob": 0.7580821514129639,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 0.156,
+      "start_asr_raw": 1259.86,
+      "playback_start": 1260.15,
+      "playback_end": 1275.78,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=16%",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后呢,又避免了去学校,然后,比如说对老师的打扰,咱们最好能把地图送到家里,这样的话,也避免了学校别的老师,你说那倒是。",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1275.86,
+      "end": 1290.56,
+      "speaker": "SPEAKER_03",
+      "text": "老师一般的跟家长都得有沟通",
+      "avg_logprob": -0.33800307442160216,
+      "no_speech_prob": 0.7451543211936951,
+      "speech_overlap_s": 5.19,
+      "speech_overlap_ratio": 0.354,
+      "playback_start": 1275.8,
+      "playback_end": 1291.21,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "老师一般的跟家长都得有沟通",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1305.86,
+      "end": 1320.74,
+      "speaker": "SPEAKER_03",
+      "text": "现在都是都是公众都是公众场合",
+      "avg_logprob": -0.3143671319839802,
+      "no_speech_prob": 0.6737227439880371,
+      "speech_overlap_s": 6.99,
+      "speech_overlap_ratio": 0.47,
+      "playback_start": 1305.81,
+      "playback_end": 1320.66,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.67"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "现在都是都是公众都是公众场合",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1320.74,
+      "end": 1335.28,
+      "speaker": "SPEAKER_03",
+      "text": "你不管你给老师什么东西你要跟老师接触好多人那都看着呢人家老师也也是害怕的主要是一观其态的去保护老师对因为主要是咱们送东西是咱们的心意",
+      "avg_logprob": -0.3143671319839802,
+      "no_speech_prob": 0.6737227439880371,
+      "speech_overlap_s": 2.86,
+      "speech_overlap_ratio": 1.036,
+      "playback_start": 1320.68,
+      "playback_end": 1335.22,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你不管你给老师什么东西你要跟老师接触好多人那都看着呢人家老师也也是害怕的主要是一观其态的去保护老师对因为主要是咱们送东西是咱们的心意",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1335.3,
+      "end": 1340.601,
+      "speaker": "SPEAKER_03",
+      "text": "但是主要人老是影响不影响人家是不是",
+      "avg_logprob": -0.42582661310831704,
+      "no_speech_prob": 0.19251754879951477,
+      "speech_overlap_s": 4.63,
+      "speech_overlap_ratio": 1.225,
+      "playback_start": 1335.24,
+      "playback_end": 1341.251,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "但是主要人老是影响不影响人家是不是",
+      "intent": [
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1342.46,
+      "end": 1345.14,
+      "speaker": "SPEAKER_03",
+      "text": "工作丢了可干了",
+      "avg_logprob": -0.42582661310831704,
+      "no_speech_prob": 0.19251754879951477,
+      "speech_overlap_s": 3.06,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 1342.41,
+      "playback_end": 1345.79,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "工作丢了可干了",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1397.05,
+      "end": 1405.32,
+      "speaker": "SPEAKER_03",
+      "text": "对 送人这是根据自己的自己的收入自己家庭情况 是吧送老师的什么东西",
+      "avg_logprob": -0.29755344390869143,
+      "no_speech_prob": 0.7537679672241211,
+      "speech_overlap_s": 2.65,
+      "speech_overlap_ratio": 0.883,
+      "start_asr_raw": 1396.3,
+      "playback_start": 1396.65,
+      "playback_end": 1405.97,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.75"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对 送人这是根据自己的自己的收入自己家庭情况 是吧送老师的什么东西",
+      "intent": [
+        "同意",
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1407.3,
+      "end": 1410.32,
+      "speaker": "SPEAKER_03",
+      "text": "对 送老师的东西价值高低的",
+      "avg_logprob": -0.29755344390869143,
+      "no_speech_prob": 0.7537679672241211,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1407.25,
+      "playback_end": 1410.97,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对 送老师的东西价值高低的",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1425.3,
+      "end": 1440.28,
+      "speaker": "SPEAKER_03",
+      "text": "反而主要的是我们家长的心情老师对我们的孩子付出一年了辛苦一年了咱们要表示表着心意",
+      "avg_logprob": -0.5323227655319941,
+      "no_speech_prob": 0.6773133873939514,
+      "speech_overlap_s": 5.95,
+      "speech_overlap_ratio": 1.19,
+      "playback_start": 1425.25,
+      "playback_end": 1440.22,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "反而主要的是我们家长的心情老师对我们的孩子付出一年了辛苦一年了咱们要表示表着心意",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1440.3,
+      "end": 1452.32,
+      "speaker": "SPEAKER_03",
+      "text": "但是主要的还得要为老师着想跟老师沟通怎么用什么方式是吧",
+      "avg_logprob": -0.27485589857225295,
+      "no_speech_prob": 0.2633328139781952,
+      "speech_overlap_s": 4.15,
+      "speech_overlap_ratio": 1.037,
+      "playback_start": 1440.24,
+      "playback_end": 1452.97,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "但是主要的还得要为老师着想跟老师沟通怎么用什么方式是吧",
+      "intent": [
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1455.25,
+      "end": 1458.32,
+      "speaker": "SPEAKER_03",
+      "text": "这个咱们实际上",
+      "avg_logprob": -0.27485589857225295,
+      "no_speech_prob": 0.2633328139781952,
+      "speech_overlap_s": 1.05,
+      "speech_overlap_ratio": 0.525,
+      "start_asr_raw": 1454.3,
+      "playback_start": 1454.85,
+      "playback_end": 1458.97,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这个咱们实际上",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1496.3,
+      "end": 1506.32,
+      "speaker": "SPEAKER_03",
+      "text": "咱们已经表明了目的借着教师节对内容里面的感谢送一些比较实用的礼品不愿意提供地址",
+      "avg_logprob": -0.14480753931505927,
+      "no_speech_prob": 0.8767600655555725,
+      "speech_overlap_s": 1.95,
+      "speech_overlap_ratio": 0.975,
+      "playback_start": 1496.25,
+      "playback_end": 1506.97,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱们已经表明了目的借着教师节对内容里面的感谢送一些比较实用的礼品不愿意提供地址",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1543.05,
+      "end": 1544.32,
+      "speaker": "SPEAKER_03",
+      "text": "一他一位的,要",
+      "avg_logprob": -0.31353076413381015,
+      "no_speech_prob": 0.96692955493927,
+      "speech_overlap_s": 1.25,
+      "speech_overlap_ratio": 0.625,
+      "start_asr_raw": 1542.3,
+      "playback_start": 1542.65,
+      "playback_end": 1544.97,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "一他一位的,要",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1567.3,
+      "end": 1568.321,
+      "speaker": "SPEAKER_03",
+      "text": "那就是不接受。",
+      "avg_logprob": -0.35301890843351125,
+      "no_speech_prob": 0.945838451385498,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1567.25,
+      "playback_end": 1568.971,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "那就是不接受",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1585.98,
+      "end": 1600.06,
+      "speaker": "SPEAKER_03",
+      "text": "就在咱们这个第二个通知上，他一个就是不要地址，第二个不给地址，我也不接受礼物。我认为这个家长要想给老师礼物，不管他什么时候……",
+      "avg_logprob": -0.2772888127904739,
+      "no_speech_prob": 0.35054606199264526,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 0.714,
+      "playback_start": 1585.93,
+      "playback_end": 1599.98,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就在咱们在这个第二个通知上他一就是首要地址第二个不给地址我也不接受礼物我认为这个家长要想给老师礼物不管他什么时候",
+      "correction_note": "修正“一要”为“一个”，“不要地址”原误为“首要地址”",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1600.06,
+      "end": 1610.481,
+      "speaker": "SPEAKER_03",
+      "text": "他给买完了这个东西了，他变着方儿的，反正不管怎么着，想方设法也得把这个心意也得给人老师，他要是一定不接受……",
+      "avg_logprob": -0.2772888127904739,
+      "no_speech_prob": 0.35054606199264526,
+      "speech_overlap_s": 2.13,
+      "speech_overlap_ratio": 1.158,
+      "playback_start": 1600.0,
+      "playback_end": 1611.131,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "他给买完了这个东西了他变相变方的反正不管怎么着想方设法也得把这个信意也得给人老师他要是一定不接受",
+      "correction_note": "修正“变相变方”为“变着方儿”，“信意”为“心意”",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1666.15,
+      "end": 1667.561,
+      "speaker": "SPEAKER_03",
+      "text": "对，小孩带啊，就让孩子能……",
+      "avg_logprob": -0.5937024071103051,
+      "no_speech_prob": 0.8516956567764282,
+      "speech_overlap_s": 0.35,
+      "speech_overlap_ratio": 0.35,
+      "start_asr_raw": 1665.5,
+      "playback_start": 1665.75,
+      "playback_end": 1668.211,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对 小的带啊就让孩子能",
+      "correction_note": "修正“小的带啊”为“小孩带啊”，保持口语不完整",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1679.14,
+      "end": 1680.561,
+      "speaker": "SPEAKER_03",
+      "text": "咱也可以有咱们的。",
+      "avg_logprob": -0.46849937999949737,
+      "no_speech_prob": 0.4349098205566406,
+      "speech_overlap_s": 1.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1679.09,
+      "playback_end": 1681.211,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱也可以有咱们的",
+      "correction_note": "无修正",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1701.22,
+      "end": 1704.64,
+      "speaker": "SPEAKER_03",
+      "text": "对，这得跟老师提前联系的。",
+      "avg_logprob": -0.4830239800845875,
+      "no_speech_prob": 0.536702036857605,
+      "speech_overlap_s": 3.7,
+      "speech_overlap_ratio": 1.088,
+      "playback_start": 1701.17,
+      "playback_end": 1705.29,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对 这得跟老师反而提前联系的",
+      "correction_note": "删除多余的“反而”",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1742.62,
+      "end": 1752.6,
+      "speaker": "SPEAKER_03",
+      "text": "其实老师心里呢，你一打电话，你说跟他要地址，他也就知道怎么回事了，他心里就有数了，是不是？",
+      "avg_logprob": -0.21922080461369003,
+      "no_speech_prob": 0.5434898138046265,
+      "speech_overlap_s": 6.5,
+      "speech_overlap_ratio": 1.083,
+      "playback_start": 1742.57,
+      "playback_end": 1752.54,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "其实老师心里呢,你一打电话,你说跟他要地址,他也就知道怎么回事了他心里就有数了,是不是",
+      "correction_note": "修正标点，原句无误",
+      "intent": [
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1752.62,
+      "end": 1761.6,
+      "speaker": "SPEAKER_03",
+      "text": "最重要的是，不管他接受与不接受，咱们把自己对他的心意表明了。",
+      "avg_logprob": -0.3250211809502273,
+      "no_speech_prob": 0.618844747543335,
+      "speech_overlap_s": 1.2,
+      "speech_overlap_ratio": 0.133,
+      "playback_start": 1752.56,
+      "playback_end": 1761.54,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=13%"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "最重要的是,不管他接受与不接受,咱们把自己对他的心意表明了。",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1761.62,
+      "end": 1776.6,
+      "speaker": "SPEAKER_03",
+      "text": "反正现在还是主要跟老师身上表达点心意，还是对他的尊重。",
+      "avg_logprob": -0.3250211809502273,
+      "no_speech_prob": 0.618844747543335,
+      "speech_overlap_s": 10.37,
+      "speech_overlap_ratio": 0.691,
+      "playback_start": 1761.56,
+      "playback_end": 1776.54,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "反正现在还是主要还是表,跟老师身上表达点心意,还是对他的尊重。",
+      "correction_note": "删除重复的“主要”，修正“还是主要还是表”",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1776.62,
+      "end": 1781.881,
+      "speaker": "SPEAKER_03",
+      "text": "尊重他，他心里还是比较舒服一点的，我觉得这老师是吧？",
+      "avg_logprob": -0.41234754479449726,
+      "no_speech_prob": 0.6490323543548584,
+      "speech_overlap_s": 1.07,
+      "speech_overlap_ratio": 1.337,
+      "playback_start": 1776.56,
+      "playback_end": 1782.531,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "尊重他是心里还是比较舒服一点我觉得这老师是吧",
+      "correction_note": "修正“他心里”缺失的“他”",
+      "intent": [
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1783.7,
+      "end": 1785.282,
+      "speaker": "SPEAKER_03",
+      "text": "对对。",
+      "avg_logprob": -0.41234754479449726,
+      "no_speech_prob": 0.6490323543548584,
+      "speech_overlap_s": 0.36,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1783.65,
+      "playback_end": 1785.932,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对对",
+      "correction_note": "无修正",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1798.02,
+      "end": 1799.201,
+      "speaker": "SPEAKER_03",
+      "text": "他心里能知道。",
+      "avg_logprob": -0.41234754479449726,
+      "no_speech_prob": 0.6490323543548584,
+      "speech_overlap_s": 1.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1797.97,
+      "playback_end": 1799.851,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "他心里能知道",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1802.14,
+      "end": 1803.161,
+      "speaker": "SPEAKER_03",
+      "text": "重视他这孩子。",
+      "avg_logprob": -0.41234754479449726,
+      "no_speech_prob": 0.6490323543548584,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1802.09,
+      "playback_end": 1803.811,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "重视他这孩子",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1806.62,
+      "end": 1817.041,
+      "speaker": "SPEAKER_03",
+      "text": "那也是对那个老师的认可。对，如果说你对这个学校、对老师不认可的话，那不可能说张老师就干这件事，是吧？",
+      "avg_logprob": -0.3702529476534936,
+      "no_speech_prob": 0.7778907418251038,
+      "speech_overlap_s": 0.17,
+      "speech_overlap_ratio": 0.065,
+      "playback_start": 1806.57,
+      "playback_end": 1817.691,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=6%",
+        "short speech support=0.2s/10.4s",
+        "high no_speech_prob=0.78"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "那也是对那个老师的认可对如果说你对这个学校对老师不认可的那不可能说张老师就干这件事是吧",
+      "correction_note": "添加标点，修正重复“对”的断开",
+      "intent": [
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1851.02,
+      "end": 1870.04,
+      "speaker": "SPEAKER_03",
+      "text": "现在这个环境下呀，这老师啊，现在也注重自己的，白天平常一直无休息，都是给孩子上课。",
+      "avg_logprob": -0.28515428396371695,
+      "no_speech_prob": 0.48173731565475464,
+      "speech_overlap_s": 18.77,
+      "speech_overlap_ratio": 0.988,
+      "playback_start": 1850.97,
+      "playback_end": 1870.69,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "现在这个环境下呀,这老师啊,现在也注重自己的,白天平常一直五度休息,都是给孩子上课",
+      "correction_note": "修正“五度休息”为“无休息”，使语义通顺",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1871.15,
+      "end": 1884.0,
+      "speaker": "SPEAKER_03",
+      "text": "等到老师休息的时候呢，老师假如说教师节这个礼物不收，从平常变相的方式约老师，咱们那个在老师休闲的时候。",
+      "avg_logprob": -0.28515428396371695,
+      "no_speech_prob": 0.48173731565475464,
+      "speech_overlap_s": 7.8,
+      "speech_overlap_ratio": 0.975,
+      "start_asr_raw": 1870.08,
+      "playback_start": 1870.75,
+      "playback_end": 1883.94,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "等到老师休息的时候呢,老师假如说教师节这个礼物不收从平常变相的方式约老师咱们那个在老师休闲的时候",
+      "correction_note": "添加逗号句号，未发现明显ASR错误。",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1884.02,
+      "end": 1888.04,
+      "speaker": "SPEAKER_03",
+      "text": "咱们一块去旅游，带着孩子一块去玩会儿。",
+      "avg_logprob": -0.1905582555135091,
+      "no_speech_prob": 0.6216272711753845,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 1883.96,
+      "playback_end": 1888.69,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱们一块去旅游带着孩子一块去玩会儿",
+      "correction_note": "添加逗号句号。",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1890.02,
+      "end": 1894.921,
+      "speaker": "SPEAKER_03",
+      "text": "有的也有这样的老师，可以一块去玩，一块玩儿去的。",
+      "avg_logprob": -0.1905582555135091,
+      "no_speech_prob": 0.6216272711753845,
+      "speech_overlap_s": 2.6,
+      "speech_overlap_ratio": 1.3,
+      "playback_start": 1889.97,
+      "playback_end": 1895.571,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有的也有这样的老师有可以去一块玩的一块玩儿去的",
+      "correction_note": "调整语序，删除多余的‘有’。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1907.62,
+      "end": 1913.0,
+      "speaker": "SPEAKER_03",
+      "text": "那你说他平时教师节这天，人家不收这礼物。",
+      "avg_logprob": -0.5624745467613483,
+      "no_speech_prob": 0.8575764894485474,
+      "speech_overlap_s": 5.56,
+      "speech_overlap_ratio": 1.037,
+      "playback_start": 1907.57,
+      "playback_end": 1913.65,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "那你说他平时教师节这天人家不收这礼物",
+      "correction_note": "添加逗号句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1962.98,
+      "end": 1967.161,
+      "speaker": "SPEAKER_03",
+      "text": "但是咱们送了以后他不收，然后我们表达了。",
+      "avg_logprob": -0.46594112039469987,
+      "no_speech_prob": 0.7386375665664673,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 0.543,
+      "playback_start": 1962.93,
+      "playback_end": 1967.811,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "但是咱们送了以后他不收然后我们表达了",
+      "correction_note": "添加逗号句号。",
+      "intent": [
         "陈述"
       ]
     }
   ],
   "timing": {
-    "diarization": 60.98,
-    "asr": 93.68,
-    "alignment": 17.19,
-    "llm": 377.05,
-    "total": 549.11
+    "diarization": 60.88,
+    "asr": 354.75,
+    "alignment": 47.91,
+    "llm": 199.67,
+    "total": 663.47
   },
   "num_speakers": 5,
   "meeting_summary": {
-    "topic": "关于教师节如何给老师送礼的讨论",
-    "summary": "参与者讨论了不同年龄段孩子送礼的合适性，认为一二年级孩子可以送手工或画，四五年级孩子更懂老师喜好。重点讨论了送礼方式，包括送到家里或学校，并强调要尊重老师是否接受，避免给老师带来困扰。最终认为应提前与老师沟通，表达心意，但也不强求。",
+    "topic": "关于教师节给老师送礼的讨论与建议",
+    "summary": "对话主要围绕教师节给老师送礼的合适年级、方式、时间和注意事项展开，强调家长应征求孩子意见、与老师提前沟通，并选择私密安全的送礼方式（如邮寄到家），同时指出送礼是表达心意和尊重，不宜在学校公开场合进行。",
     "key_points": [
-      "不同年龄段的孩子送礼方式不同，低年级送手工，高年级可送更贴心的礼物。",
-      "送礼应尊重老师意愿，避免在公共场合引起尴尬或让老师犯错。",
-      "集体送礼或送到家里可以避免攀比和打扰老师。"
+      "低年级（一二年级）孩子可送手工画或贺卡，高年级（四五年级）孩子根据对老师的了解选择礼物。",
+      "送礼应提前与老师沟通，避免在学校公开场合，建议邮寄到老师家中或私下送达。",
+      "送礼的本质是表达心意和尊重，不宜攀比或让老师陷入风险。"
     ],
     "decisions": [],
     "action_items": [],
     "participants": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "SPEAKER_03"
     ]
   }
 }

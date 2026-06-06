@@ -1,16 +1,18 @@
-"""LLM intent tagging — labels each utterance with one or more dialogue acts.
+"""LLM intent tagging — labels each utterance with one or more discourse acts.
 
 Each utterance may carry **multiple** intents (e.g. "I agree with the plan,
 but the budget is too tight" → agree + disagree).
 
-Supported Chinese labels (12 categories):
-    陈述 / 提问 / 同意 / 反对 / 提议 / 总结 / 命令 /
-    澄清 / 确认 / 打断 / 寒暄 / 回应
+Supported Chinese labels:
+    陈述 / 提问 / 回答 / 同意 / 反对 / 提议 / 总结 / 命令 /
+    澄清 / 确认 / 打断 / 寒暄 / 回应 / 旁白 / 引述 / 转场 /
+    介绍 / 评论
 
-English (12 categories):
-    statement / question / agree / disagree / proposal / summary /
+English:
+    statement / question / answer / agree / disagree / proposal / summary /
     command / clarification / confirmation / interruption /
-    smalltalk / acknowledgment
+    smalltalk / acknowledgment / narration / quotation / transition /
+    introduction / commentary
 """
 from __future__ import annotations
 
@@ -30,6 +32,7 @@ _MAX_PER_BATCH = 20
 _ZH_LABEL_DEFS = {
     "陈述": "陈述一个事实、观点、信息或观察（最常见的意图）",
     "提问": "提出一个问题，向他人询问信息或意见",
+    "回答": "回答他人的问题、请求或前文提出的信息点",
     "同意": "表示赞同、认可他人的观点或建议",
     "反对": "表示不同意、否定或质疑他人的观点",
     "提议": "主动提出一个建议、方案、计划或行动方向",
@@ -40,11 +43,17 @@ _ZH_LABEL_DEFS = {
     "打断": "打断别人说话、插话或强行转换话题",
     "寒暄": "开场白、问候、客套话、与主题无关的闲聊",
     "回应": "简短的回应词：'嗯''好''对''是''哦'等，无实质内容",
+    "旁白": "旁白、解说、画外音或非对话式叙述",
+    "引述": "引用他人话语、歌词、台词、报道内容或外部文本",
+    "转场": "切换话题、节目环节、场景或叙事段落",
+    "介绍": "介绍人物、嘉宾、地点、节目、背景或对象",
+    "评论": "对新闻、事件、观点、作品或现象进行评价分析",
 }
 
 _EN_LABEL_DEFS = {
     "statement": "Stating a fact, opinion, information, or observation (most common intent)",
     "question": "Asking a question, requesting information or opinion from others",
+    "answer": "Answering a question, request, or information point from context",
     "agree": "Expressing agreement with or endorsement of another's point or suggestion",
     "disagree": "Expressing disagreement, denial, or challenge to another's point",
     "proposal": "Proactively suggesting an idea, plan, course of action",
@@ -55,6 +64,11 @@ _EN_LABEL_DEFS = {
     "interruption": "Cutting someone off, interjecting, or forcibly changing the topic",
     "smalltalk": "Greetings, pleasantries, off-topic chatter unrelated to the main subject",
     "acknowledgment": "Brief backchannel: 'mm', 'okay', 'right', 'yeah' — no substantive content",
+    "narration": "Narration, voice-over, exposition, or non-dialogue storytelling",
+    "quotation": "Quoting speech, lyrics, script lines, reports, or external text",
+    "transition": "Moving to a new topic, segment, scene, or narrative section",
+    "introduction": "Introducing a person, guest, place, show, background, or subject",
+    "commentary": "Commenting on or analyzing news, events, opinions, works, or phenomena",
 }
 
 _ZH_LABELS = list(_ZH_LABEL_DEFS.keys())
@@ -78,6 +92,7 @@ _ZH_SYSTEM = """你是一个对话意图标注助手。请为以下对话中的�
 - 连续的编号/报数通常是"陈述"
 - 有疑问语气且期待回答 → "提问"
 - 反对通常带有否定词或质疑语气
+- 新闻/节目/影视中的解说、引用、环节切换和人物介绍可分别标注为"旁白"、"引述"、"转场"、"介绍"
 - 大多数句子至少包含"陈述"（除非是纯回应或寒暄）
 
 输出严格 JSON（不要其他文字）：
@@ -96,17 +111,24 @@ Annotation principles:
 - Sequential number-reading is usually "statement"
 - Questioning tone expecting an answer → "question"
 - Disagreement usually contains negation words or challenging tone
+- Narration, quoting, segment changes, and guest/background introductions in news,
+  programs, film/TV, or podcasts may be tagged as "narration", "quotation",
+  "transition", or "introduction"
 - Most utterances carry at least "statement" (unless pure acknowledgment or smalltalk)
 
 Output strict JSON (no extra text):
 {{"intents": [{{"index": 0, "intents": ["statement"]}}, {{"index": 1, "intents": ["proposal", "question"]}}, ...]}}"""
 
 
-def _build_label_description(language: str) -> str:
+def _build_label_description(language: str, labels: list[str] | None = None) -> str:
     defs = _ZH_LABEL_DEFS if language == "zh" else _EN_LABEL_DEFS
-    lines = [f"- {label}：{desc}" if language == "zh"
-             else f"- {label}: {desc}"
-             for label, desc in defs.items()]
+    selected = labels or list(defs.keys())
+    fallback_desc = "用户自定义标签" if language == "zh" else "Custom label"
+    lines = [
+        f"- {label}：{defs.get(label, fallback_desc)}" if language == "zh"
+        else f"- {label}: {defs.get(label, fallback_desc)}"
+        for label in selected
+    ]
     return "\n".join(lines)
 
 
@@ -132,13 +154,19 @@ def _normalize_intent(raw_intent: Any) -> list[str]:
     return []
 
 
-def _parse_intents(raw: str, count: int, default: list[str]) -> list[list[str]]:
+def _parse_intents(
+    raw: str,
+    count: int,
+    default: list[str],
+    allowed_labels: list[str] | None = None,
+) -> list[list[str]]:
     """Parse multi-label intents from the LLM JSON response.
 
     Returns a list of ``count`` entries, each a ``list[str]`` of labels.
     Falls back to ``default`` for unparseable indices.
     """
     intents: list[list[str]] = [list(default) for _ in range(count)]
+    allowed = set(allowed_labels or [])
 
     match = re.search(r"\{[\s\S]*\}", raw)
     if not match:
@@ -161,6 +189,8 @@ def _parse_intents(raw: str, count: int, default: list[str]) -> list[list[str]]:
         if not (isinstance(idx, int) and 0 <= idx < count):
             continue
         labels = _normalize_intent(raw_intent)
+        if allowed:
+            labels = [label for label in labels if label in allowed]
         if labels:
             intents[idx] = labels
 
@@ -173,7 +203,7 @@ def llm_tag_intents(
     language: str = "zh",
     intent_labels: list[str] | None = None,
 ) -> list[dict[str, Any]]:
-    """Tag each segment with one or more dialogue intent labels.
+    """Tag each segment with one or more discourse intent labels.
 
     Parameters
     ----------
@@ -183,7 +213,7 @@ def llm_tag_intents(
     language : str
         ``"zh"`` or ``"en"``.
     intent_labels : list[str] or None
-        Custom label set.  ``None`` uses the built-in 12-label taxonomy.
+        Custom label set.  ``None`` uses the built-in taxonomy.
 
     Returns
     -------
@@ -198,7 +228,7 @@ def llm_tag_intents(
         intent_labels = _EN_LABELS if language == "en" else _ZH_LABELS
     default = _DEFAULT_EN if language == "en" else _DEFAULT_ZH
 
-    label_desc = _build_label_description(language)
+    label_desc = _build_label_description(language, intent_labels)
     template = _EN_SYSTEM if language == "en" else _ZH_SYSTEM
     system = template.format(label_desc=label_desc)
 
@@ -215,7 +245,7 @@ def llm_tag_intents(
         logger.info("IntentTagger: tagging %d segments with %s",
                     len(batch), adapter.model_name)
         raw = adapter.chat(messages, temperature=0.0, max_tokens=2048)
-        intents = _parse_intents(raw, len(batch), default)
+        intents = _parse_intents(raw, len(batch), default, intent_labels)
 
         for i, seg in enumerate(batch):
             new_seg = dict(seg)

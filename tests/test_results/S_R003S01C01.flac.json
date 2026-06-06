@@ -1,0 +1,3534 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\b1afc7dc9a11e0044a6e590dcec09d45ae4fd255a76f711b8d93fe35e7750639\\S_R003S01C01.flac",
+  "segments": [
+    {
+      "start": 5.85,
+      "end": 14.98,
+      "speaker": "SPEAKER_01",
+      "text": "零零一 超市主管，零零二 淤化主管，零零三 生鲜主管，零零四 乳制品主管。",
+      "avg_logprob": -0.24516352900752314,
+      "no_speech_prob": 0.10711202770471573,
+      "speech_overlap_s": 3.95,
+      "speech_overlap_ratio": 0.494,
+      "start_asr_raw": 0.0,
+      "playback_start": 4.6,
+      "playback_end": 14.92,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "零零一 超市主管零零二 淤化主管零零三 深圳零零四 乳制品主管",
+      "correction_note": "将'深圳'修正为'生鲜'（根据后文'生鲜'判断），添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 15.0,
+      "end": 29.02,
+      "speaker": "SPEAKER_01",
+      "text": "零零五 加炼区主管，今天把各位召集过来，咱简单开一个咱这个周例会，把上周的咱这个工作工作进行汇报一下。",
+      "avg_logprob": -0.24516352900752314,
+      "no_speech_prob": 0.10711202770471573,
+      "speech_overlap_s": 3.85,
+      "speech_overlap_ratio": 0.963,
+      "playback_start": 14.94,
+      "playback_end": 28.98,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "零零五 加煉区主管今天把各位召集过来咱简單开一个咱这个州立会把上週的咱这个工作工作進行彙報一下",
+      "correction_note": "将'州立会'修正为'周例会'，'加煉'转简体为'加炼'，'進行彙報'转简体为'进行汇报'，保留口语重复'工作工作'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 29.06,
+      "end": 41.86,
+      "speaker": "SPEAKER_01",
+      "text": "包括一些工作人员遇到一些问题，你的产品或者遇到哪些问题，这个产品需要上哪些新产品。",
+      "avg_logprob": -0.3449656038868184,
+      "no_speech_prob": 0.610933244228363,
+      "speech_overlap_s": 3.84,
+      "speech_overlap_ratio": 1.185,
+      "playback_start": 29.0,
+      "playback_end": 41.82,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "包括一些工作人员遇到一些问题你的产品或者遇到哪些问题这个产品需要上哪些新产品",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 41.9,
+      "end": 55.06,
+      "speaker": "SPEAKER_01",
+      "text": "员工之间，你们下属员工的工作情况，还有你们的一些建议，包括一些有什么新的想法啦，还有些新的产品啦。",
+      "avg_logprob": -0.3449656038868184,
+      "no_speech_prob": 0.610933244228363,
+      "speech_overlap_s": 5.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 41.84,
+      "playback_end": 55.02,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "员工之间 你们下属员工的工作情况还有你们的一些建议包括一些有什么新的想法啦还有些新的产品啦",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 55.1,
+      "end": 67.2,
+      "speaker": "SPEAKER_01",
+      "text": "都简单说一下，主要就是两方面：第一就是上周的工作汇报，员工的工作情况你们都比我了解，因为我是只管你们几个的。",
+      "avg_logprob": -0.3449656038868184,
+      "no_speech_prob": 0.610933244228363,
+      "speech_overlap_s": 3.98,
+      "speech_overlap_ratio": 1.213,
+      "playback_start": 55.04,
+      "playback_end": 67.14,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "都简单说一下主要就是两方面第一就是上周的工作汇报员工的工作情况你们都比我了解因为我是只管你们几个的",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 67.22,
+      "end": 81.64,
+      "speaker": "SPEAKER_01",
+      "text": "再还有是你们近期的一些工作状况，下边员工就是包括你们各个负责区域的销售情况，哪些产品销售比较好，哪些产品销售不太好。",
+      "avg_logprob": -0.1938442116353049,
+      "no_speech_prob": 0.1795649230480194,
+      "speech_overlap_s": 4.7,
+      "speech_overlap_ratio": 1.119,
+      "playback_start": 67.16,
+      "playback_end": 81.6,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "再还有是你们近期的一些工作状况下边员工就是包括你们各个负责区域的销售情况哪些产品销售比较好哪些产品销售不太好",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 81.68,
+      "end": 94.44,
+      "speaker": "SPEAKER_01",
+      "text": "主要是哪些原因，大家都一起汇报一下。第三就是看看还有什么好的建议，把咱那个超市再提升一下品质。",
+      "avg_logprob": -0.1938442116353049,
+      "no_speech_prob": 0.1795649230480194,
+      "speech_overlap_s": 2.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 81.62,
+      "playback_end": 94.4,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "主要是哪些原因大家都一起汇报一下第三就是看看还有什么好的建议把咱那个超市再提升一下品质",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 94.48,
+      "end": 107.64,
+      "speaker": "SPEAKER_01",
+      "text": "再就是还有如何留住客户客源，大家看看有没有各自的想法或者看法，都可以提到我这，我会帮大家解决你们这块的主要的一些问题。",
+      "avg_logprob": -0.18849493776048934,
+      "no_speech_prob": 0.19131186604499817,
+      "speech_overlap_s": 4.5,
+      "speech_overlap_ratio": 1.125,
+      "playback_start": 94.42,
+      "playback_end": 107.6,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "再就是还有如何留住客户客源大家看看有没有各自的想法或者看法都可以提到我这我会帮大家解决你们这块的主要的一些问题",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 107.68,
+      "end": 122.26,
+      "speaker": "SPEAKER_01",
+      "text": "包括问题都可以向我汇报，汇报完以后，大家都一块集思广益，看看如何把咱这个超市你们内部的一些问题咱解决一下。你看下边谁先做一下汇报？那那个啥吧。",
+      "avg_logprob": -0.18849493776048934,
+      "no_speech_prob": 0.19131186604499817,
+      "speech_overlap_s": 2.43,
+      "speech_overlap_ratio": 1.215,
+      "playback_start": 107.62,
+      "playback_end": 122.26,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "包括问题都可以向我汇报汇报完以后大家都一块集思一广的看看如何把咱这个超市你们内部的一些问题咱解决一下你看下边谁先做一下汇报那那个啥吧",
+      "correction_note": "将'集思一广'修正为'集思广益'，调整'汇报汇报完'为'汇报完'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 122.38,
+      "end": 136.48,
+      "speaker": "SPEAKER_01",
+      "text": "那我们那边先开始吧，我们生鲜那一块，生鲜这块的话也是跟我们生活确实息息相关。那现在的话在咱们超市的话也工作这么一段时间了。",
+      "avg_logprob": -0.349036616137904,
+      "no_speech_prob": 0.38278836011886597,
+      "speech_overlap_s": 1.72,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 122.32,
+      "playback_end": 137.13,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "那我们那边先开始吧我们升仙那一块升仙这块的话也是跟我们生活确实息息相关那现在的话在咱们超市的话也工作这么一段时间了",
+      "correction_note": "将'升仙'统一修正为'生鲜'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 136.82,
+      "end": 140.98,
+      "speaker": "SPEAKER_01",
+      "text": "确实从头也发现很多问题，首先的话。",
+      "avg_logprob": -0.349036616137904,
+      "no_speech_prob": 0.38278836011886597,
+      "speech_overlap_s": 2.27,
+      "speech_overlap_ratio": 1.113,
+      "playback_start": 136.77,
+      "playback_end": 140.9,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "确实从头也发现很多问题首先的话",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 140.98,
+      "end": 152.0,
+      "speaker": "SPEAKER_01",
+      "text": "我们这个生鲜区主要就是说菜品这一块跟生活这一块关系比较密切。",
+      "avg_logprob": -0.1552879405471514,
+      "no_speech_prob": 0.4006243348121643,
+      "speech_overlap_s": 11.7,
+      "speech_overlap_ratio": 1.064,
+      "playback_start": 140.92,
+      "playback_end": 151.96,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "我们这个生鲜剧主要就是说菜品这一块跟生活这一块关系比较密切",
+      "correction_note": "将'生鲜剧'修正为'生鲜区'（根据上下文判断），添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 152.04,
+      "end": 166.96,
+      "speaker": "SPEAKER_01",
+      "text": "所以说这个东西的话对我们超市的话也比较至关重要，把生活这一块给老百姓服务这一块包括我们的产品还有价格这一块。",
+      "avg_logprob": -0.1552879405471514,
+      "no_speech_prob": 0.4006243348121643,
+      "speech_overlap_s": 8.3,
+      "speech_overlap_ratio": 1.037,
+      "playback_start": 151.98,
+      "playback_end": 166.9,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "所以说这个东西的话对我们超市的话也比较至关重要把生活这一块给老百姓服务这一块包括我们的产品还有价格这一块",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 166.98,
+      "end": 178.96,
+      "speaker": "SPEAKER_01",
+      "text": "产品质量这一块咱们做起来保障，然后还有就是这个价格这一块，我们做到最平民化，然后这样的话，是我们这个公司的话，下面就是说下个季度。",
+      "avg_logprob": -0.1552879405471514,
+      "no_speech_prob": 0.4006243348121643,
+      "speech_overlap_s": 2.17,
+      "speech_overlap_ratio": 1.085,
+      "playback_start": 166.92,
+      "playback_end": 178.9,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "产品质量这一块咱们做起来保障然后还有就是这个价格这一块 我们做到最平民化然后这样的话 是我们这个公司的话 下面就是说下个季度",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 178.98,
+      "end": 193.96,
+      "speaker": "SPEAKER_01",
+      "text": "我们就是说做这个做工作这一块对我们超市的一个想法，然后的话，你看这段时间的话就说像比较像跟进类的吧。",
+      "avg_logprob": -0.17589537579080333,
+      "no_speech_prob": 0.776276171207428,
+      "speech_overlap_s": 10.0,
+      "speech_overlap_ratio": 1.111,
+      "playback_start": 178.92,
+      "playback_end": 193.9,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "我们就是说做这个 做工作这一块对我们超市的一个想法然后的话 你看这段时间的话就是说 像比较像跟进类的吧",
+      "correction_note": "添加标点，未修改文字。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 193.98,
+      "end": 205.921,
+      "speaker": "SPEAKER_01",
+      "text": "因为我们这一块分得比较细，因为设计的东西也比较多，因为这个换起来的话也比较勤，所以说你像这段时间就近半个月吧。",
+      "avg_logprob": -0.17589537579080333,
+      "no_speech_prob": 0.776276171207428,
+      "speech_overlap_s": 4.73,
+      "speech_overlap_ratio": 1.182,
+      "playback_start": 193.92,
+      "playback_end": 206.571,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "因为我们这一块分得比较细 因为设计的东西也比较多因为这个换起来的话也比较勤所以说你像这段时间就近半个月吧",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 207.1,
+      "end": 221.04,
+      "speaker": "SPEAKER_01",
+      "text": "像销售这一块的话，还是说这个像我们这个做的数据啊，第一个排名就是说豆芽、绿豆芽，然后是卖得比较好。",
+      "avg_logprob": -0.3112933866439327,
+      "no_speech_prob": 0.4442736804485321,
+      "speech_overlap_s": 1.92,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 207.05,
+      "playback_end": 220.98,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "像销售这一块的话还是说这个像我们这个做的数据啊第一个排名就是说豆芽绿豆芽然后是卖得比较好",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 221.06,
+      "end": 234.26,
+      "speaker": "SPEAKER_01",
+      "text": "还有就是咱们的土豆，还有就是胡萝卜啊、蒜苔还有白萝卜这些东西卖得都比较好，然后就是说叶菜类的。",
+      "avg_logprob": -0.3112933866439327,
+      "no_speech_prob": 0.4442736804485321,
+      "speech_overlap_s": 2.53,
+      "speech_overlap_ratio": 1.129,
+      "playback_start": 221.0,
+      "playback_end": 234.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "还有就是咱们的土豆还有就是胡萝卜啊蒜苔还有白萝卜这些东西卖的都比较好然后就是说叶菜类的",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 234.26,
+      "end": 247.24,
+      "speaker": "SPEAKER_01",
+      "text": "就是刮叶子的那些东西，像那个甘蓝啊、油麦，还有就是说小白菜、上海青啊，还有菠菜，还有就是西生菜。",
+      "avg_logprob": -0.15219095955907772,
+      "no_speech_prob": 0.7503930330276489,
+      "speech_overlap_s": 2.29,
+      "speech_overlap_ratio": 1.145,
+      "playback_start": 234.2,
+      "playback_end": 247.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "就是刮叶子的那些东西像那个甘蓝啊 油麦还有就是说小白菜上海青啊 还有菠菜还有就是西生菜",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 247.26,
+      "end": 260.26,
+      "speaker": "SPEAKER_01",
+      "text": "这些还有大白菜卖得都比较多，可能确实的话冬天的话这个东西跟涮锅的话可能有关系，现在生活嘛，天气也转凉了，天冷了。",
+      "avg_logprob": -0.15219095955907772,
+      "no_speech_prob": 0.7503930330276489,
+      "speech_overlap_s": 2.91,
+      "speech_overlap_ratio": 0.97,
+      "playback_start": 247.2,
+      "playback_end": 260.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这些还有大白菜卖的都比较多可能确实的话冬天的话这个东西跟涮锅的话可能有关系现在生活马转天气也凉了 天冷了",
+      "correction_note": "修正'生活马转'为'生活嘛，天气也转凉了'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 260.26,
+      "end": 274.26,
+      "speaker": "SPEAKER_01",
+      "text": "晚上的时候就是说当下热热闹闹的吃个火锅，所以说这些菜类的话，刮叶子的卖得也是比较好，然后的话当然先针对我们这个生鲜这一块。",
+      "avg_logprob": -0.17651236432153475,
+      "no_speech_prob": 0.9107003211975098,
+      "speech_overlap_s": 3.3,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 260.2,
+      "playback_end": 274.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "晚上的时候就是说当下热热闹闹的吃个火锅所以说这些菜类的话刮叶子的卖得也是比较好然后的话当然先针对我们这个生鲜这一块",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 274.26,
+      "end": 286.24,
+      "speaker": "SPEAKER_01",
+      "text": "先说就消耗比较好的，然后再去说这些卖得不好的，然后咱们再去就把这个原因的话跟主管的话也是做一个汇报，最后的话就是说咱们来做个总结。",
+      "avg_logprob": -0.17651236432153475,
+      "no_speech_prob": 0.9107003211975098,
+      "speech_overlap_s": 2.21,
+      "speech_overlap_ratio": 1.105,
+      "playback_start": 274.2,
+      "playback_end": 286.89,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "先说就消耗比较好的然后再去说这些卖得不好的然后咱们再去就把这个原因的话跟主管的话也是做一个汇报最后的话就是说咱们来做个总结",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 286.95,
+      "end": 300.24,
+      "speaker": "SPEAKER_01",
+      "text": "菜的一块反正就这个情况，现在的话还有就是说基本问题都不大，但是说下面的话就是说发现一个问题就是说。",
+      "avg_logprob": -0.2002824719032545,
+      "no_speech_prob": 0.23968158662319183,
+      "speech_overlap_s": 2.31,
+      "speech_overlap_ratio": 0.77,
+      "start_asr_raw": 286.26,
+      "playback_start": 286.55,
+      "playback_end": 300.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "菜的一块反正就这个情况现在的话还有就是说基本问题都不大但是说下面的话就是说发现一个问题就是说",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 300.26,
+      "end": 312.26,
+      "speaker": "SPEAKER_01",
+      "text": "可以啊，就是说因为每天存在这个生货的问题，包括顾客啊在这个选购的过程当中，他们挑过来拣过去，都想买最好的东西。",
+      "avg_logprob": -0.2002824719032545,
+      "no_speech_prob": 0.23968158662319183,
+      "speech_overlap_s": 4.11,
+      "speech_overlap_ratio": 1.028,
+      "playback_start": 300.2,
+      "playback_end": 312.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "可以啊就是说因为每天存在这个生货的问题包括顾客啊在这个选购的过程当中他们挑过来检握器 都想买最好的东西",
+      "correction_note": "修正'检握器'为'拣过去'",
+      "intent": [
+        "同意",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 312.26,
+      "end": 322.24,
+      "speaker": "SPEAKER_01",
+      "text": "那么挑过来拣过去的话，有些东西的话就是说就比较乱一点，因为本身咱们这个货架的话摆得都比较整齐，包括价格呢也比较明确。",
+      "avg_logprob": -0.16134509661339766,
+      "no_speech_prob": 0.5054067969322205,
+      "speech_overlap_s": 6.6,
+      "speech_overlap_ratio": 1.32,
+      "playback_start": 312.2,
+      "playback_end": 322.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "那么挑过来检握器的话 有些东西的话就是说就比较乱一点因为本身咱们这个货架的话摆得都比较整齐 包括价格呢也比较明",
+      "correction_note": "修正'检握器'为'拣过去'，补全'比较明确'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 322.26,
+      "end": 331.24,
+      "speaker": "SPEAKER_01",
+      "text": "所以说，这是前半个月的话工作当中出现问题，那么这两天的话也是给下面这些工作人员的话，也是在沟通，也是在交流。",
+      "avg_logprob": -0.16134509661339766,
+      "no_speech_prob": 0.5054067969322205,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 322.2,
+      "playback_end": 331.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "所以说 这是前半个月的话工作当中出现问题那么这两天的话也是给下面这些工作人员的话 也是在沟通 也是在交流",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 331.26,
+      "end": 344.24,
+      "speaker": "SPEAKER_01",
+      "text": "说就是说他们及时的把这个货去理好，摆好，放好，然后的话及时的清理这些东西啊，不好的，被别人拣过来挑过去的这些东西，到时候就是做一个小口的打包。",
+      "avg_logprob": -0.16134509661339766,
+      "no_speech_prob": 0.5054067969322205,
+      "speech_overlap_s": 4.9,
+      "speech_overlap_ratio": 1.225,
+      "playback_start": 331.2,
+      "playback_end": 344.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "说就是说他们及时的把这个户去理好 摆好 放好然后的话 及时的启发这些东西啊不好的 被别人宅过来挑过去的这些东西到时候就是做一个小口的一个打包",
+      "correction_note": "修正'户去'为'货去'，'启发'为'清理'，'宅过来'为'拣过来'",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 344.26,
+      "end": 357.24,
+      "speaker": "SPEAKER_01",
+      "text": "然后啊，把价格降低一点，咱们把这些东西的话留到晚上，因为晚上出来人没事了，是吧？吃完饭了，没事了，来咱们超市逛一逛，转一转，转的过程当中的话。",
+      "avg_logprob": -0.11934549103742875,
+      "no_speech_prob": 0.8454424738883972,
+      "speech_overlap_s": 3.41,
+      "speech_overlap_ratio": 1.137,
+      "playback_start": 344.2,
+      "playback_end": 357.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "然后啊 把价格降低一点咱们把这些东西的话留到晚上因为晚上出来人没事了 是吧吃完饭了 没事了 来咱们超市逛一逛 转一转转的过程当中的话",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 357.26,
+      "end": 367.86,
+      "speaker": "SPEAKER_01",
+      "text": "第二天早上做什么饭？明天买菜这一块的话顺带也都解决了，所以说晚上的话为什么有个小的引爆点，就是说晚上这个人流第一个大。",
+      "avg_logprob": -0.11934549103742875,
+      "no_speech_prob": 0.8454424738883972,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 357.2,
+      "playback_end": 367.78,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "第二天 早上做什么饭明天买菜这一块的话顺带也都解决了所以说晚上的话为什么有个小的引爆之点就是说晚上这个人流第一个大",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 367.86,
+      "end": 379.66,
+      "speaker": "SPEAKER_01",
+      "text": "这个就是说，买菜的时候，咱们晚上的话现在不是推出这个时间段吗？下班之前的多长时间，卖菜这一块的话就是价格比较低，但是菜的质量的话可能稍微差一点。",
+      "avg_logprob": -0.20183805371007174,
+      "no_speech_prob": 0.3396916687488556,
+      "speech_overlap_s": 4.61,
+      "speech_overlap_ratio": 1.153,
+      "playback_start": 367.8,
+      "playback_end": 379.58,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这个就是说买菜的时候咱们晚上的话现在不是推出这个时间段吗下班之前的多长时间卖菜这一块的话就是价格比较低但是菜的质量的话可能稍微差一点",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 379.66,
+      "end": 390.081,
+      "speaker": "SPEAKER_01",
+      "text": "咱们做的就是把这个东西捆到一块，绑到一块，然后的话让他们选购起来第一个方便，直接拿着就走，是这种情况。",
+      "avg_logprob": -0.20183805371007174,
+      "no_speech_prob": 0.3396916687488556,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.176,
+      "playback_start": 379.6,
+      "playback_end": 390.731,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "咱们做的就是把这个东西捆到一块绑到一块然后的话让他们的话选购起来第一个方便直接拿着就走是这种情况",
+      "correction_note": "添加标点，理顺语序",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 391.05,
+      "end": 404.06,
+      "speaker": "SPEAKER_01",
+      "text": "这是一个方向。第二个就是说，当天晚上还是没有卖完的这些东西，咱们早上的话也可以用这些东西做一个开门的小活动吧。",
+      "avg_logprob": -0.20490898464037025,
+      "no_speech_prob": 0.4816913902759552,
+      "speech_overlap_s": 8.31,
+      "speech_overlap_ratio": 1.039,
+      "start_asr_raw": 390.121,
+      "playback_start": 390.65,
+      "playback_end": 403.98,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这是一个方向,第二个就是说当天晚上还是没有卖完的这些东西咱们早上的话也可以用这些东西做一个开门的小活动吧",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 404.06,
+      "end": 418.04,
+      "speaker": "SPEAKER_01",
+      "text": "活动的话就是早上的话很多阿姨啊，或者说这些年龄比较大的，他们早上没事来超市是吧，逛一逛转一转，他们也知道早上的话这个菜的话也是比较便宜。",
+      "avg_logprob": -0.20490898464037025,
+      "no_speech_prob": 0.4816913902759552,
+      "speech_overlap_s": 7.2,
+      "speech_overlap_ratio": 1.029,
+      "playback_start": 404.0,
+      "playback_end": 417.98,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "活动的话就是早上的话很多阿姨啊或者说这些年龄比较大的他们早上没事来超市是吧,逛一逛转一转他们也知道早上的话这个菜的话也是比较便宜",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 418.06,
+      "end": 429.74,
+      "speaker": "SPEAKER_01",
+      "text": "比较便宜，这是一方面。然后的话，我觉得这种促销的方式啊，最基本对咱们超市人气上面一个打造的话也是绝对有帮助的。所以说一个晚上，一个早晨。",
+      "avg_logprob": -0.18528853217474847,
+      "no_speech_prob": 0.7699759006500244,
+      "speech_overlap_s": 3.23,
+      "speech_overlap_ratio": 1.262,
+      "playback_start": 418.0,
+      "playback_end": 429.66,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "比较便宜 这是一方面然后的话 我觉得这种促销的方式啊最基本对咱们超市人气上面一个打造的话也是绝对有帮助的所以说一个晚上 一个早晨",
+      "correction_note": "添加标点，断开长句",
+      "intent": [
+        "评论",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 429.74,
+      "end": 443.12,
+      "speaker": "SPEAKER_01",
+      "text": "这是我们生鲜这一块的话，就是利用这些不太好的这些菜，然后降到价格最低的这种情况，这种方式方法为咱们超市的话做一个引流。",
+      "avg_logprob": -0.18528853217474847,
+      "no_speech_prob": 0.7699759006500244,
+      "speech_overlap_s": 2.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 429.68,
+      "playback_end": 443.06,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这是我们升天这一块的话就是利用这些不太好的这些菜然后降到价格最低的这种情况这种方式方法为咱们超市的话做一个引流",
+      "correction_note": "修正'升天'为'生鲜'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 443.14,
+      "end": 452.84,
+      "speaker": "SPEAKER_01",
+      "text": "做一个人气上的一个帮助。那么还有就是进货这一块，因为现在进入冬季的话，当地的话",
+      "avg_logprob": -0.18528853217474847,
+      "no_speech_prob": 0.7699759006500244,
+      "speech_overlap_s": 4.81,
+      "speech_overlap_ratio": 1.046,
+      "playback_start": 443.08,
+      "playback_end": 453.49,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "做一个人气上的一个帮助那么还有就是进货这一块因为现在进入冬季的话 当地的话",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 454.06,
+      "end": 459.84,
+      "speaker": "SPEAKER_01",
+      "text": "近菜这块的话可能是个瓶颈，这是个问题，所以现在拉过来的话都是",
+      "avg_logprob": -0.15240249633789063,
+      "no_speech_prob": 0.09596873074769974,
+      "speech_overlap_s": 6.36,
+      "speech_overlap_ratio": 1.104,
+      "playback_start": 454.01,
+      "playback_end": 460.49,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "金菜这块的话可能是个瓶颈 这是个问题 所以现在拉过来的话都是",
+      "correction_note": "修正'金菜'为'近菜'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 461.9,
+      "end": 474.12,
+      "speaker": "SPEAKER_01",
+      "text": "都是外地的，所以说价格的话可能偏高一点。所以说就是选购这一块，采购这一块，看能不能找到更合适，是吧，更这个实惠的这种渠道。",
+      "avg_logprob": -0.15240249633789063,
+      "no_speech_prob": 0.09596873074769974,
+      "speech_overlap_s": 0.72,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 461.85,
+      "playback_end": 474.06,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.7s/12.2s"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "都是外地的所以说价格的话可能偏高一点 所以说就是选购这一块采购这一块看能不能找到更合适 是吧 更这个实惠的这种渠道",
+      "correction_note": "添加标点",
+      "intent": [
+        "提议",
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 474.14,
+      "end": 486.12,
+      "speaker": "SPEAKER_01",
+      "text": "然后的话为我们这个超市的话带来更高的利润空间。目前就是这，第一个我们就是说卖到最好的，第二个卖到最不好的，然后就是说利用最不好的怎么去做市场的引流。",
+      "avg_logprob": -0.1545273917061942,
+      "no_speech_prob": 0.8394681811332703,
+      "speech_overlap_s": 4.4,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 474.08,
+      "playback_end": 486.06,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "然后的话为我们这个超市的话带来更高的利润空间目前就是这 第一个我们就是说卖到最好的第二个卖到最不好的然后就是说利用最不好的怎么去做市场的引流",
+      "correction_note": "添加标点，理顺语句",
+      "intent": [
+        "陈述",
+        "总结"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 486.14,
+      "end": 501.12,
+      "speaker": "SPEAKER_01",
+      "text": "然后还有就是说建议咱们就是说超市的话在采购这一块是吧，能够做到优选，选择最好的这种采购渠道，保证我们这个，我们生鲜这一块的话",
+      "avg_logprob": -0.1545273917061942,
+      "no_speech_prob": 0.8394681811332703,
+      "speech_overlap_s": 4.5,
+      "speech_overlap_ratio": 1.125,
+      "playback_start": 486.08,
+      "playback_end": 501.06,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "然后还有就是说建议咱们就是说超市的话在采购这一块是吧 能够做到优选 选择最好的这种采购渠道保证我们这个我们生鲜这一块的话",
+      "correction_note": "添加标点",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 501.14,
+      "end": 515.14,
+      "speaker": "SPEAKER_01",
+      "text": "这一块的话，价格又实惠，然后的话卖出的东西的话就更好。所以说现在的话，目前就是我们这一块就这些问题，有啥就是说没有考虑到的，包括没有做到的。",
+      "avg_logprob": -0.18482439485314775,
+      "no_speech_prob": 0.7996225357055664,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 501.08,
+      "playback_end": 515.06,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这一块的话 价格又实惠然后的话 卖出的东西的话就更好所以说现在的话目前就是我们这一块就这些问题有啥就是说没有考虑到的包括没有做到的",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 515.14,
+      "end": 529.14,
+      "speaker": "SPEAKER_01",
+      "text": "还是总得那一块的话应该是吧，多批评行，这块问题倒不大，一会咱都汇报完了咱总结。好嘞好嘞，那下边在哪个区再说一下，我们在那区再说一下吧。",
+      "avg_logprob": -0.18482439485314775,
+      "no_speech_prob": 0.7996225357055664,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 515.08,
+      "playback_end": 529.06,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.80"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "还是中国那一块的话应该是吧 多批评行 这块问题倒不大一会咱都汇报完了咱总结好嘞 好嘞那下边在哪个区再说一下我们在那区再说一下吧",
+      "correction_note": "修正'中国那一块'为'总得那一块'，调整语义",
+      "intent": [
+        "回应",
+        "提议",
+        "转场"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 529.14,
+      "end": 543.24,
+      "speaker": "SPEAKER_01",
+      "text": "我们家乡区对这段时间的销售做了一定的总结，现在就是总结大概就这么几条内容吧。第一就是现在因为现在是北方属于雾霾嘛，",
+      "avg_logprob": -0.26809612672720384,
+      "no_speech_prob": 0.3593633770942688,
+      "speech_overlap_s": 6.1,
+      "speech_overlap_ratio": 1.089,
+      "playback_start": 529.08,
+      "playback_end": 543.2,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "我们家乡区对这段时间的销售做了一定的总结现在就是总结大概就这么几条内容吧第一就是现在因为现在是北方属于雾霾嘛",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 543.28,
+      "end": 554.48,
+      "speaker": "SPEAKER_01",
+      "text": "雾霾比较严重，所以净化器卖得都比较好，尤其是小米这块基本上都是卖断货的，这个进货渠道可能目前还有点问题。",
+      "avg_logprob": -0.26809612672720384,
+      "no_speech_prob": 0.3593633770942688,
+      "speech_overlap_s": 1.28,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 543.22,
+      "playback_end": 554.42,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "雾霾比较严重所以精花器卖的都比较好尤其是小米这块基本上都是卖断货的这个进货渠道可能目前还有点问题",
+      "correction_note": "修正'精花器'为'净化器'，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 554.5,
+      "end": 563.121,
+      "speaker": "SPEAKER_01",
+      "text": "好多顾客都已经等排了好长时间了，但仍然没有拿到货，业主都比较着急，顾客都比较着急。",
+      "avg_logprob": -0.26809612672720384,
+      "no_speech_prob": 0.3593633770942688,
+      "speech_overlap_s": 4.62,
+      "speech_overlap_ratio": 1.179,
+      "playback_start": 554.44,
+      "playback_end": 563.771,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "好多顾客都已经等排了好长时间了但仍然没有拿到货业主都比较着急顾客都比较着急",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 565.1,
+      "end": 575.92,
+      "speaker": "SPEAKER_01",
+      "text": "所以说请公司尽快把这个进货渠道尽快能输通一下让这些交道金金的顾客尽快把货拿到",
+      "avg_logprob": -0.3518101643707793,
+      "no_speech_prob": 0.20103785395622253,
+      "speech_overlap_s": 5.23,
+      "speech_overlap_ratio": 1.222,
+      "playback_start": 565.05,
+      "playback_end": 576.57,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "所以说请公司尽快把这个进货渠道尽快能输通一下让这些交道金金的顾客尽快把货拿到",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 578.02,
+      "end": 592.64,
+      "speaker": "SPEAKER_01",
+      "text": "这会儿就是因为公司到年底好多大型商场包括一些显示器之类的有很多原因都是在凤凰的暴涨这也也不是咱们能控制出市场的",
+      "avg_logprob": -0.3518101643707793,
+      "no_speech_prob": 0.20103785395622253,
+      "speech_overlap_s": 1.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 577.97,
+      "playback_end": 593.29,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这会儿就是因为公司到年底好多大型商场包括一些显示器之类的有很多原因都是在凤凰的暴涨这也也不是咱们能控制出市场的",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 593.18,
+      "end": 598.24,
+      "speaker": "SPEAKER_01",
+      "text": "至于运输这块的确就是现在存在的一些运输不变的问题",
+      "avg_logprob": -0.2882071819502054,
+      "no_speech_prob": 0.39748457074165344,
+      "speech_overlap_s": 0.92,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 593.13,
+      "playback_end": 598.89,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.9s/5.1s"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "至于运输这块的确就是现在存在的一些运输不变的问题",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 600.86,
+      "end": 611.76,
+      "speaker": "SPEAKER_01",
+      "text": "这也是公司在尽力想的一个办法看看从哪进货因为好多供货商",
+      "avg_logprob": -0.2882071819502054,
+      "no_speech_prob": 0.39748457074165344,
+      "speech_overlap_s": 4.21,
+      "speech_overlap_ratio": 1.196,
+      "playback_start": 600.81,
+      "playback_end": 611.7,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这也是公司在尽力想的一个办法看看从哪进货因为好多供货商",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 611.78,
+      "end": 624.4,
+      "speaker": "SPEAKER_01",
+      "text": "他们进行采购的时候也遇到这些问题这个后期的话咱单独商量那你这块对智能产品有没有一些好的建议",
+      "avg_logprob": -0.20989253603178878,
+      "no_speech_prob": 0.716401219367981,
+      "speech_overlap_s": 5.2,
+      "speech_overlap_ratio": 1.13,
+      "playback_start": 611.72,
+      "playback_end": 624.36,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "他们进行采购的时候也遇到这些问题这个后期的话咱单独商量那你这块对智能产品有没有一些好的建议",
+      "intent": [
+        "陈述",
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 624.44,
+      "end": 637.38,
+      "speaker": "SPEAKER_01",
+      "text": "或者就是咱智能产品销售的如何咱不是刚上了一批新产品吗智能产品这块主要现在因为临近了快过年了嘛所以说像智能扫地机器人这款产品卖的是非常不错的",
+      "avg_logprob": -0.20989253603178878,
+      "no_speech_prob": 0.716401219367981,
+      "speech_overlap_s": 2.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 624.38,
+      "playback_end": 637.3,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "或者就是咱智能产品销售的如何咱不是刚上了一批新产品吗智能产品这块主要现在因为临近了快过年了嘛所以说像智能扫地机器人这款产品卖的是非常不错的",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 637.38,
+      "end": 651.3,
+      "speaker": "SPEAKER_01",
+      "text": "这块别的倒没有什么问题主要是有一些使用方面 可能顾客还有一些疑问有些咱们电眼员对这方面的培训也不是很到位",
+      "avg_logprob": -0.20989253603178878,
+      "no_speech_prob": 0.716401219367981,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 1.095,
+      "playback_start": 637.32,
+      "playback_end": 651.22,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这块别的倒没有什么问题主要是有一些使用方面 可能顾客还有一些疑问有些咱们电眼员对这方面的培训也不是很到位",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 651.3,
+      "end": 665.04,
+      "speaker": "SPEAKER_01",
+      "text": "所以希望商场多加强一些这些培训或者能联系厂家 能联系约厂家 员工司来为我们电眼员进行一些培训这样的话可能能更好地促进销售我就是这样的想法",
+      "avg_logprob": -0.2801120005497316,
+      "no_speech_prob": 0.6867939233779907,
+      "speech_overlap_s": 3.28,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 651.24,
+      "playback_end": 664.98,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "所以希望商场多加强一些这些培训或者能联系厂家 能联系约厂家 员工司来为我们电眼员进行一些培训这样的话可能能更好地促进销售我就是这样的想法",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 665.06,
+      "end": 673.58,
+      "speaker": "SPEAKER_01",
+      "text": "你这个话的话 现在更新快 但比较不快一些新产品啊就是咱下面一些员工们也不太会用",
+      "avg_logprob": -0.2801120005497316,
+      "no_speech_prob": 0.6867939233779907,
+      "speech_overlap_s": 4.73,
+      "speech_overlap_ratio": 1.116,
+      "playback_start": 665.0,
+      "playback_end": 673.5,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "你这个话的话 现在更新快 但比较不快一些新产品啊就是咱下面一些员工们也不太会用",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 673.58,
+      "end": 687.2,
+      "speaker": "SPEAKER_01",
+      "text": "这块的话 咱们公司这个会请厂家来做一个简单一些的培训你后期也把这个员工咱定一个时间 把这个时间定一下",
+      "avg_logprob": -0.2854393039430891,
+      "no_speech_prob": 0.6817103028297424,
+      "speech_overlap_s": 8.08,
+      "speech_overlap_ratio": 1.052,
+      "playback_start": 673.52,
+      "playback_end": 687.16,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这块的话 咱们公司这个会请厂家来做一个简单一些的培训你后期也把这个员工咱定一个时间 把这个时间定一下",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 687.24,
+      "end": 694.88,
+      "speaker": "SPEAKER_01",
+      "text": "我把那个厂家那边 包括智能机器人啊包括智能云电视啊 包括一些小杜啦",
+      "avg_logprob": -0.2854393039430891,
+      "no_speech_prob": 0.6817103028297424,
+      "speech_overlap_s": 3.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 687.18,
+      "playback_end": 694.82,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "我把那个厂家那边 包括智能机器人啊包括智能云电视啊 包括一些小杜啦",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 694.9,
+      "end": 724.88,
+      "speaker": "SPEAKER_01",
+      "text": "这些智能产品的厂家,他们那个授钱叫过来,我给他们做个简单培训,后期的话,咱可能还上一些新的智能产品,这会咱那个员工素质,就是文化水平招的时候啊,你这边也要把把关,咱也不能说招一些这个理解能力比较差的,咱这个,因为咱家电区实际智,智,智能",
+      "avg_logprob": -0.2002886454264323,
+      "no_speech_prob": 0.8148826956748962,
+      "speech_overlap_s": 33.1,
+      "speech_overlap_ratio": 1.103,
+      "playback_start": 694.84,
+      "playback_end": 724.82,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这些智能产品的厂家,他们那个授钱叫过来,我给他们做个简单培训,后期的话,咱可能还上一些新的智能产品,这会咱那个员工素质,就是文化水平招的时候啊,你这边也要把把关,咱也不能说招一些这个理解能力比较差的,咱这个,因为咱家电区实际智,智,智能",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 724.9,
+      "end": 739.9,
+      "speaker": "SPEAKER_01",
+      "text": "现在的智能化产品也交给他怎么用这是一方面第二方面他们要怎么理解他理解不了这个产品就不能用就不会给客户讲怎么讲怎么使用这是这方面",
+      "avg_logprob": -0.18470885148688929,
+      "no_speech_prob": 0.8018357157707214,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 724.84,
+      "playback_end": 739.82,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.80"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "现在的智能化产品也交给他怎么用这是一方面第二方面他们要怎么理解他理解不了这个产品就不能用就不会给客户讲怎么讲怎么使用这是这方面",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 739.9,
+      "end": 753.88,
+      "speaker": "SPEAKER_01",
+      "text": "那你这个咱售后这块你看看能不能跟得上售后这个就是我重点要讲的售后这个确实也是问题比较大你像一些大的家电吧像大品牌家电吧还好说",
+      "avg_logprob": -0.18470885148688929,
+      "no_speech_prob": 0.8018357157707214,
+      "speech_overlap_s": 5.2,
+      "speech_overlap_ratio": 1.3,
+      "playback_start": 739.84,
+      "playback_end": 753.82,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "那你这个咱售后这块你看看能不能跟得上售后这个就是我重点要讲的售后这个确实也是问题比较大你像一些大的家电吧像大品牌家电吧还好说",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 753.9,
+      "end": 767.4,
+      "speaker": "SPEAKER_01",
+      "text": "他们有专门的售后 比如说海尔格丽但是你有一些小家店呢因为它这个厂家都比较小它都没有专业的售后队伍所以这个就需要就是需要我们",
+      "avg_logprob": -0.26767451112920587,
+      "no_speech_prob": 0.40510231256484985,
+      "speech_overlap_s": 2.24,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 753.84,
+      "playback_end": 767.36,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "他们有专门的售后 比如说海尔格丽但是你有一些小家店呢因为它这个厂家都比较小它都没有专业的售后队伍所以这个就需要就是需要我们",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 767.44,
+      "end": 777.32,
+      "speaker": "SPEAKER_01",
+      "text": "或者我们组建这个专业的售后队伍，或者是顾客自己找，这样的话将来一旦出现这个家电出现售后维修的情况，这个对顾客来说是比较麻烦的。",
+      "avg_logprob": -0.26767451112920587,
+      "no_speech_prob": 0.40510231256484985,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 767.38,
+      "playback_end": 777.97,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "或者我们组建这个专业的售后队或者是顾客自己找这样的话将来一旦出现这个家店出现售后维修的情况这个对顾客来说是比较麻烦的",
+      "correction_note": "修正'家店'为'家电'",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 778.62,
+      "end": 792.56,
+      "speaker": "SPEAKER_01",
+      "text": "顾客有的根本找不到售后队伍，或者他找得不专业，所以说很多顾客因为售后的问题解决不了，甚至找我们销售员要提出退货。",
+      "avg_logprob": -0.26767451112920587,
+      "no_speech_prob": 0.40510231256484985,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 778.57,
+      "playback_end": 792.52,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "顾客有的根本找不到售后队伍或者他找得很专业的所以说很多顾客因为售后的问题解决不了甚至找我们销售员要提出退货",
+      "correction_note": "修正'找得很专业的'为'找得不专业'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 792.6,
+      "end": 803.3,
+      "speaker": "SPEAKER_01",
+      "text": "这个也挺麻烦的，这个希望超市能是不是给你帮着解决一下，建一个专业售后队伍。",
+      "avg_logprob": -0.30662980513139204,
+      "no_speech_prob": 0.39690887928009033,
+      "speech_overlap_s": 2.31,
+      "speech_overlap_ratio": 1.155,
+      "playback_start": 792.54,
+      "playback_end": 803.22,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这个也挺麻烦的这个希望超市能是不是给你帮着解决一下建一个专业售后队伍",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 803.3,
+      "end": 817.84,
+      "speaker": "SPEAKER_01",
+      "text": "还是说联系厂家，让厂家设个地区的专业的一个售后点。这块的话就是售后，咱这块也反映，就是咱售后也有点跟不上。",
+      "avg_logprob": -0.30662980513139204,
+      "no_speech_prob": 0.39690887928009033,
+      "speech_overlap_s": 6.2,
+      "speech_overlap_ratio": 1.033,
+      "playback_start": 803.24,
+      "playback_end": 817.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "还是说联系厂家让厂家设个地区的专业的一个售后点这块的话就是售后咱这块进去也反映就是咱售后也有点跟不上",
+      "correction_note": "修正'进去'为'也'",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 817.88,
+      "end": 832.52,
+      "speaker": "SPEAKER_01",
+      "text": "因为咱毕竟都是商场，售后团队不在这，有的咱后期会设立一个售后维修点，所有的咱的产品，包括维修的，包括退换的质量出现问题的，",
+      "avg_logprob": -0.18778844644095152,
+      "no_speech_prob": 0.6556327939033508,
+      "speech_overlap_s": 5.1,
+      "speech_overlap_ratio": 1.063,
+      "playback_start": 817.82,
+      "playback_end": 832.48,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "因为咱毕竟都是商场售后团队不在这有的咱后期会设立一个售后维修点所有的咱的产品包括维修的包括退换的质量出现问题的",
+      "correction_note": "断句调整",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 832.56,
+      "end": 847.16,
+      "speaker": "SPEAKER_01",
+      "text": "会去咱指定的售后点进行服务，把客户服务到位。剩下的，你这块店面的摆放，你有没有自己的想法？",
+      "avg_logprob": -0.18778844644095152,
+      "no_speech_prob": 0.6556327939033508,
+      "speech_overlap_s": 6.81,
+      "speech_overlap_ratio": 1.199,
+      "playback_start": 832.5,
+      "playback_end": 847.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "会去咱指定的售后点进行服务把客户服务到位剩下的,你这块店面的摆放,你有没有自己的想法?",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 847.18,
+      "end": 861.2,
+      "speaker": "SPEAKER_01",
+      "text": "店面摆放也有点问题，就是说，有些大家电还好说，因为它个头比较大，每个家电都比较完整、比较齐全，有一些小家电，因为它的种类比较繁杂，",
+      "avg_logprob": -0.25155873659278166,
+      "no_speech_prob": 0.4061766266822815,
+      "speech_overlap_s": 3.2,
+      "speech_overlap_ratio": 1.067,
+      "playback_start": 847.12,
+      "playback_end": 861.16,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "店面摆放也有点问题就是说,有些大家店还好说,因为它个头比较大每个家圈都比较完整,比较齐全有一些小家店,因为它的种类比较繁杂",
+      "correction_note": "修正'家店'为'家电'，'家圈'为'家电'，'小家店'为'小家电'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 861.24,
+      "end": 873.18,
+      "speaker": "SPEAKER_01",
+      "text": "所以说有一些，因为家电它都有型号，有一个规格，有些价钱都属于有标错的情况，也有价钱放错的情况，这样的话对于销售、对于顾客购买都会产生一种误导，",
+      "avg_logprob": -0.25155873659278166,
+      "no_speech_prob": 0.4061766266822815,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 861.18,
+      "playback_end": 873.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "所以说有一些,因为家店它都有型号,有一个规格有些价钱都属于有标错的情况也有价钱放错的情况下这样的话对于销售、对于顾客购买都会产生一种误导",
+      "correction_note": "修正'家店'为'家电'，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 873.18,
+      "end": 888.16,
+      "speaker": "SPEAKER_01",
+      "text": "产生不好的影响吧。这个希望咱超市能着重对价钱这块做一下管理，就是看下一步该如何进行。嗯，行，这个问题我记住了。",
+      "avg_logprob": -0.15994821695181038,
+      "no_speech_prob": 0.6348575949668884,
+      "speech_overlap_s": 2.93,
+      "speech_overlap_ratio": 0.977,
+      "playback_start": 873.12,
+      "playback_end": 888.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "产生不好的影响吧这个希望咱超市能着重对价钱这块做一下管理就是看下一步该如何进行嗯,行,这个问题我记住了",
+      "intent": [
+        "陈述",
+        "提议",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 888.18,
+      "end": 903.16,
+      "speaker": "SPEAKER_01",
+      "text": "下面哪个部门再说一下？日化商品竞争进入了白热化的阶段，从双十一开始线上限价都已经销售的非常火爆，",
+      "avg_logprob": -0.15994821695181038,
+      "no_speech_prob": 0.6348575949668884,
+      "speech_overlap_s": 3.37,
+      "speech_overlap_ratio": 1.123,
+      "playback_start": 888.12,
+      "playback_end": 903.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "下边哪个部门再说一下日化商品竞争进入了白热化的阶段从双十一开始线上限价都已经销售的非常火爆",
+      "correction_note": "修正'下边哪个部门再说一下'为疑问句，添加标点",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 903.18,
+      "end": 918.18,
+      "speaker": "SPEAKER_01",
+      "text": "马上就进入双十二的时候了，那么我们日化市场就变成了非常火爆的状态。",
+      "avg_logprob": -0.485685525938522,
+      "no_speech_prob": 0.3126175105571747,
+      "speech_overlap_s": 5.0,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 903.12,
+      "playback_end": 918.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "马上就进入双十二的时候了那么我们日化市场就变成了非常火爆的状态马上就进入双十二段时候了",
+      "correction_note": "删除重复部分'马上就进入双十二段时候了'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 918.18,
+      "end": 929.18,
+      "speaker": "SPEAKER_01",
+      "text": "那么我们日化市场就需要有新的产品推出。日化现在旧产品已经满足不了消费者的需求了。",
+      "avg_logprob": -0.10699862480163574,
+      "no_speech_prob": 0.2924295961856842,
+      "speech_overlap_s": 7.2,
+      "speech_overlap_ratio": 1.2,
+      "playback_start": 918.12,
+      "playback_end": 929.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "那么我们日化市场就需要有新的产品推出日化现在旧产品已经满足不了消费者的需求了",
+      "correction_note": "断句调整",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 929.18,
+      "end": 938.16,
+      "speaker": "SPEAKER_01",
+      "text": "当地的消费者对新产品的热爱跟追求很高，同时还从价位上做出了理性的选择。",
+      "avg_logprob": -0.10699862480163574,
+      "no_speech_prob": 0.2924295961856842,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 929.12,
+      "playback_end": 938.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "当地的消费者对新产品的热爱跟追求过高同时还从价位上做出了理性的选择",
+      "correction_note": "修正'过高'为'很高'（语义更自然）",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 938.18,
+      "end": 950.16,
+      "speaker": "SPEAKER_01",
+      "text": "日化店应该注重新品牌，同时在价位上做出理性的选择，注意一下更新换代。",
+      "avg_logprob": -0.09704897355060188,
+      "no_speech_prob": 0.872722327709198,
+      "speech_overlap_s": 9.9,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 938.12,
+      "playback_end": 950.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "日化店应该注重新品牌和价位上做出理性的选择注意一下更新换代",
+      "correction_note": "断句调整",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 950.18,
+      "end": 964.16,
+      "speaker": "SPEAKER_01",
+      "text": "只有那些品质好、效果好的产品，消费者选择它的成功率才会更大，要给顾客一种美容美丽的自信。",
+      "avg_logprob": -0.09704897355060188,
+      "no_speech_prob": 0.872722327709198,
+      "speech_overlap_s": 6.4,
+      "speech_overlap_ratio": 1.28,
+      "playback_start": 950.12,
+      "playback_end": 964.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "只有那些品质好效果好消费者选择产品的成功率才会更大要给顾客一种美容美丽的自信",
+      "correction_note": "添加标点，调整语序",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 964.18,
+      "end": 973.2,
+      "speaker": "SPEAKER_01",
+      "text": "他们才会放心的去买产品，知名度高，虽然在没有真正体验过产品。",
+      "avg_logprob": -0.09704897355060188,
+      "no_speech_prob": 0.872722327709198,
+      "speech_overlap_s": 3.3,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 964.12,
+      "playback_end": 973.16,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "他们才会放心的去买产品知名度高 虽然在没有真正体验过产品",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 973.24,
+      "end": 983.2,
+      "speaker": "SPEAKER_01",
+      "text": "但是在当地知名度高，在当地广告铺天盖地的影响力之下，他们也会容易去购买。",
+      "avg_logprob": -0.1218967702653673,
+      "no_speech_prob": 0.6794821619987488,
+      "speech_overlap_s": 8.3,
+      "speech_overlap_ratio": 1.038,
+      "playback_start": 973.18,
+      "playback_end": 983.85,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "但是在当地知名度高 在当地广告铺天盖地的影响力之下他们也会容易去购买",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 983.85,
+      "end": 998.16,
+      "speaker": "SPEAKER_01",
+      "text": "因为他们觉得这么多人去买肯定是好，而且朋友之间也会相互介绍，他们就比较放心购买。所以在我们超市的进货这一方面呢，",
+      "avg_logprob": -0.1218967702653673,
+      "no_speech_prob": 0.6794821619987488,
+      "speech_overlap_s": 5.9,
+      "speech_overlap_ratio": 0.983,
+      "start_asr_raw": 983.24,
+      "playback_start": 983.45,
+      "playback_end": 998.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "因为他们觉得这么多人去买肯定是好而且朋友之间也会相互介绍 他们就比较放心购买所以在我们超市的进货这一方面呢",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 998.18,
+      "end": 1013.16,
+      "speaker": "SPEAKER_01",
+      "text": "应该就是选择范围要扩大一下，然后随着这个旺季的到来啊，我们的店面需要重新布置一下。",
+      "avg_logprob": -0.15164106268631786,
+      "no_speech_prob": 0.696408212184906,
+      "speech_overlap_s": 6.7,
+      "speech_overlap_ratio": 1.117,
+      "playback_start": 998.12,
+      "playback_end": 1013.1,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.70"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "应该就是就是选择范围要扩大一下然后随着这个旺季的到来啊我们的店面需要就是需要一下重新的布置",
+      "correction_note": "修正'需要就是需要一下'为'需要重新布置一下'",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1013.18,
+      "end": 1026.2,
+      "speaker": "SPEAKER_01",
+      "text": "这样呢就是可以吸引更多的消费者，就是产生消费的欲望，还有产品的一些陈列方面。",
+      "avg_logprob": -0.15164106268631786,
+      "no_speech_prob": 0.696408212184906,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 1013.12,
+      "playback_end": 1026.16,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.70"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这样呢就是可以吸引更多的消费者就是就是产生消费的欲望还有产品的一些陈列方面",
+      "correction_note": "删除多余的'就是'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1026.24,
+      "end": 1037.2,
+      "speaker": "SPEAKER_01",
+      "text": "就是比如说洗护用品，还有什么染烫用品，应该就是更合理一些。",
+      "avg_logprob": -0.2341953605733892,
+      "no_speech_prob": 0.48090487718582153,
+      "speech_overlap_s": 4.7,
+      "speech_overlap_ratio": 1.175,
+      "playback_start": 1026.18,
+      "playback_end": 1037.85,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "就是比如说洗护用品还有什么染汤用品应该就是更属于合理一些",
+      "correction_note": "修正'染汤'为'染烫'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1040.18,
+      "end": 1055.16,
+      "speaker": "SPEAKER_01",
+      "text": "这一块的那个客户群注重的这个高档产品多一点还是低档产品多一点？假如就是说咱们都是品牌，像欧莱雅啦，还有一些迪奥啦，这些。",
+      "avg_logprob": -0.2341953605733892,
+      "no_speech_prob": 0.48090487718582153,
+      "speech_overlap_s": 5.7,
+      "speech_overlap_ratio": 1.14,
+      "playback_start": 1040.13,
+      "playback_end": 1055.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这一块的那个客户群注重的这个高档产品多一点还是低档产品多一点假如就是说咱们都是品牌像欧莱亚啦,还有一些迪奥啦,这些",
+      "correction_note": "修正'欧莱亚'为'欧莱雅'，添加标点",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1055.18,
+      "end": 1064.16,
+      "speaker": "SPEAKER_01",
+      "text": "现在目前咱这个人群是在哪个定位上？现在根据我们超市现在的情况来看，大部分都是普通的消费者。",
+      "avg_logprob": -0.19903905463941168,
+      "no_speech_prob": 0.677033543586731,
+      "speech_overlap_s": 4.8,
+      "speech_overlap_ratio": 1.2,
+      "playback_start": 1055.12,
+      "playback_end": 1064.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "现在目前咱这个人群是在哪个定位上现在根据我们超市现在的情况来看大部分都是普通的消费者",
+      "correction_note": "添加标点",
+      "intent": [
+        "提问",
+        "回答"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1064.18,
+      "end": 1075.16,
+      "speaker": "SPEAKER_01",
+      "text": "应该是属于就是中档一些的日用品比较好，高档的日化品应该就是",
+      "avg_logprob": -0.19903905463941168,
+      "no_speech_prob": 0.677033543586731,
+      "speech_overlap_s": 8.4,
+      "speech_overlap_ratio": 1.2,
+      "playback_start": 1064.12,
+      "playback_end": 1075.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "应该是属于就是中档一些的日用品比较好高档的日化品应该就是",
+      "correction_note": "添加逗号",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1075.18,
+      "end": 1084.56,
+      "speaker": "SPEAKER_01",
+      "text": "应该就是不是特别，就是只能是比较吸引一下顾客，但是它们不太畅销。",
+      "avg_logprob": -0.38193290347144715,
+      "no_speech_prob": 0.7996307611465454,
+      "speech_overlap_s": 8.16,
+      "speech_overlap_ratio": 1.109,
+      "playback_start": 1075.12,
+      "playback_end": 1085.21,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.80"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "应该就是不是特就是只能是只能是比较吸引一下库克但是他对不太畅销",
+      "correction_note": "修正'库克'为'顾客'，补充'它们'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1086.78,
+      "end": 1100.76,
+      "speaker": "SPEAKER_01",
+      "text": "那咱就是后期咱主要以这个中档产品为主，就是面向普通的小品类，群众客户主要就是还是它是以哪个年龄段的？",
+      "avg_logprob": -0.38193290347144715,
+      "no_speech_prob": 0.7996307611465454,
+      "speech_overlap_s": 4.26,
+      "speech_overlap_ratio": 1.133,
+      "playback_start": 1086.73,
+      "playback_end": 1100.7,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "那咱就是后期咱主要以这个中档产品为主就是念想普通的小品就是群众客户对主要就是还是它是以哪个年龄段的",
+      "correction_note": "修正'念想'为'面向'，'小品'为'小品类'，添加标点",
+      "intent": [
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1100.78,
+      "end": 1113.32,
+      "speaker": "SPEAKER_01",
+      "text": "在那个有统计吗？这个年龄段从20岁到60岁之间，这个范围比较人群比较多。",
+      "avg_logprob": -0.38193290347144715,
+      "no_speech_prob": 0.7996307611465454,
+      "speech_overlap_s": 2.44,
+      "speech_overlap_ratio": 1.271,
+      "playback_start": 1100.72,
+      "playback_end": 1113.26,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "在那个有统计吗这个年龄段从20岁到60岁之间这个范围比较人群比较多",
+      "correction_note": "添加标点",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1113.34,
+      "end": 1125.84,
+      "speaker": "SPEAKER_01",
+      "text": "你明白我的意思，就是买这些高档的是20岁到40岁之间比较多是吧？对，像40岁到60岁就买一些家庭的日用品。",
+      "avg_logprob": -0.28214729166476527,
+      "no_speech_prob": 0.4358113408088684,
+      "speech_overlap_s": 3.04,
+      "speech_overlap_ratio": 1.206,
+      "playback_start": 1113.28,
+      "playback_end": 1125.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "你明白我的意思就是买这些高档的就是20岁到40岁之间比较多是吧对像40岁到60岁就买一些家庭的业务",
+      "correction_note": "修正'业务'为'日用品'，添加标点",
+      "intent": [
+        "提问",
+        "确认",
+        "同意",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1125.88,
+      "end": 1138.34,
+      "speaker": "SPEAKER_01",
+      "text": "包括洗发水、洗发膏，包括一些香皂，这是老年人就是上岁数的年龄段的。咱这个高档产品咱们上了一部分。",
+      "avg_logprob": -0.28214729166476527,
+      "no_speech_prob": 0.4358113408088684,
+      "speech_overlap_s": 3.52,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1125.82,
+      "playback_end": 1138.26,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "包括洗发水洗发膏包括一些香皂这是老年人就是上岁时候的年龄段的咱这个高档产品咱们上了一部分",
+      "correction_note": "修正'上岁时候'为'上岁数'，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1138.34,
+      "end": 1149.96,
+      "speaker": "SPEAKER_01",
+      "text": "主要还是针对一些20到40岁之间的。咱后期的话，你这块的话出一个方案，怎么把高档产品咱怎么进行促销？",
+      "avg_logprob": -0.24875506487759677,
+      "no_speech_prob": 0.4131958782672882,
+      "speech_overlap_s": 6.0,
+      "speech_overlap_ratio": 1.2,
+      "playback_start": 1138.28,
+      "playback_end": 1149.92,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "主要还是针对一些20到40岁之间的咱后期的话你这块的话出一个方案怎么把高档产品咱怎么进行促销",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述",
+        "命令",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1150.0,
+      "end": 1163.48,
+      "speaker": "SPEAKER_01",
+      "text": "把年轻化的客户进行一些客流引入，如何让他促进消费，如何让他进行购买？",
+      "avg_logprob": -0.2427791626222672,
+      "no_speech_prob": 0.450195848941803,
+      "speech_overlap_s": 11.82,
+      "speech_overlap_ratio": 1.211,
+      "playback_start": 1149.94,
+      "playback_end": 1163.44,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "把年轻化的客户进行一些客流流入如何让他促进消费 如何让他进行购买",
+      "correction_note": "\"客流流入\"改为\"客流引入\"",
+      "intent": [
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1163.52,
+      "end": 1175.06,
+      "speaker": "SPEAKER_01",
+      "text": "咱要把咱的产品吸引一部分，咱不能说一直上一些中等产品的，像一些高档产品的，有些客户来了以后想买高档，咱们没有。",
+      "avg_logprob": -0.2427791626222672,
+      "no_speech_prob": 0.450195848941803,
+      "speech_overlap_s": 2.53,
+      "speech_overlap_ratio": 1.129,
+      "playback_start": 1163.46,
+      "playback_end": 1174.98,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "咱要把咱的产品吸引一部分咱不能说一直上一些中等产品的像一些高档产品的有些客户来了以后想卖高档 咱们没有",
+      "correction_note": "\"想卖\"改为\"想买\"",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1175.06,
+      "end": 1187.38,
+      "speaker": "SPEAKER_01",
+      "text": "立马就走了，走了以后咱那个客户就流失了。这个话你后期的话就看看能不能在这个方面做一下调整，包括一些引进东西了嘛。",
+      "avg_logprob": -0.2427791626222672,
+      "no_speech_prob": 0.450195848941803,
+      "speech_overlap_s": 4.24,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1175.0,
+      "playback_end": 1187.3,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "立马就走了 走了以后咱那个客户就流失了这个话你后期的话就看看能不能在这个方面做一下调整包括一些进入东西了嘛",
+      "correction_note": "\"进入\"改为\"引进\"",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1187.38,
+      "end": 1200.92,
+      "speaker": "SPEAKER_01",
+      "text": "就是你看日化区有没有什么需求，提一些有什么客户遇到的一些咱这没有的产品，包括你看什么牌子护手霜了，包括唇膏了对吧，客户问的比较多的。",
+      "avg_logprob": -0.2684036799839565,
+      "no_speech_prob": 0.4892754554748535,
+      "speech_overlap_s": 3.66,
+      "speech_overlap_ratio": 1.236,
+      "playback_start": 1187.32,
+      "playback_end": 1200.88,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "就是你看日化区有没有什么需求提一些有什么客户遇到的一些咱这没有的产品包括你看什么牌子护手霜了包括唇膏了对吧客户问的比较多的",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1200.96,
+      "end": 1214.0,
+      "speaker": "SPEAKER_01",
+      "text": "你后期进行统计一下，咱进行一些采购，采购咱进行一些上货，包括还有一些空档，空档的话你看哪些产品跟哪些产品进行搭配。",
+      "avg_logprob": -0.2684036799839565,
+      "no_speech_prob": 0.4892754554748535,
+      "speech_overlap_s": 2.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1200.9,
+      "playback_end": 1214.65,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "你后期进行统计一下咱进行一些采购采购咱进行一些上货包括还有一些空榜空榜的话你看哪些产品跟哪些产品进行搭配",
+      "correction_note": "\"空榜\"改为\"空档\"",
+      "intent": [
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1214.98,
+      "end": 1228.72,
+      "speaker": "SPEAKER_01",
+      "text": "搭配的话是面向青年还是老年的，这个话你后期就是做一个数据报表把它报给我，我来进行一些整理，整理完以后我上报一下进行采购。",
+      "avg_logprob": -0.3068455951969798,
+      "no_speech_prob": 0.23312164843082428,
+      "speech_overlap_s": 3.99,
+      "speech_overlap_ratio": 1.073,
+      "playback_start": 1214.93,
+      "playback_end": 1229.37,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "搭配的话是面向上是青年的还是老年的这个话你后期就是做一个数据报表把它报给我我来进行一些整理整理完以后我上报一下进行采购",
+      "correction_note": "\"面向上\"改为\"面向\"",
+      "intent": [
+        "提问",
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1229.1,
+      "end": 1240.2,
+      "speaker": "SPEAKER_01",
+      "text": "那你这块的话包括一些下面店员，对咱的产品都熟悉吗？我们店员对这一片产品还是比较熟悉的。",
+      "avg_logprob": -0.3068455951969798,
+      "no_speech_prob": 0.23312164843082428,
+      "speech_overlap_s": 2.04,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1229.05,
+      "playback_end": 1240.16,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "那你这块的话包括一些下面电源对咱的产品都熟悉吗我们店员对这一片产品还是比较熟悉的",
+      "correction_note": "\"电源\"改为\"店员\"",
+      "intent": [
+        "提问",
+        "回答"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1240.24,
+      "end": 1255.16,
+      "speaker": "SPEAKER_01",
+      "text": "但是在具体的一些产品还是需要怎么使用，或者是一些方面需要注意。",
+      "avg_logprob": -0.1887961745262146,
+      "no_speech_prob": 0.23535248637199402,
+      "speech_overlap_s": 3.27,
+      "speech_overlap_ratio": 0.817,
+      "playback_start": 1240.18,
+      "playback_end": 1255.1,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "但是在具体的一些产品还是需要怎么使用或者是一些方面需要注意",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1255.18,
+      "end": 1263.2,
+      "speaker": "SPEAKER_01",
+      "text": "比如说婴儿产品和孕妇产品，这方面应该就是强调一下，培训一下。",
+      "avg_logprob": -0.1887961745262146,
+      "no_speech_prob": 0.23535248637199402,
+      "speech_overlap_s": 3.33,
+      "speech_overlap_ratio": 1.11,
+      "playback_start": 1255.12,
+      "playback_end": 1263.85,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "比如说婴儿产品和孕妇产品这方面应该就是强调一下强调培训一下",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1267.18,
+      "end": 1278.2,
+      "speaker": "SPEAKER_01",
+      "text": "还有比如一些男士用品、少年用的化妆品，在这方面需要培训一下，其他的还可以。",
+      "avg_logprob": -0.20057514045811906,
+      "no_speech_prob": 0.5087183117866516,
+      "speech_overlap_s": 3.9,
+      "speech_overlap_ratio": 0.975,
+      "playback_start": 1267.13,
+      "playback_end": 1278.85,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "还有比如一些男士用品少年用的化妆品在这方面需要培训一下其他的还可以",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1281.18,
+      "end": 1294.48,
+      "speaker": "SPEAKER_01",
+      "text": "包括一些儿童用品，要给客户进行一下，店员进行一下培训，因为店员也可以讲，这些都是文化水平程度不一样。",
+      "avg_logprob": -0.20057514045811906,
+      "no_speech_prob": 0.5087183117866516,
+      "speech_overlap_s": 2.47,
+      "speech_overlap_ratio": 1.235,
+      "playback_start": 1281.13,
+      "playback_end": 1294.42,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "包括一些儿童用品要给客户进行一下电源进行一下培训因为电源也可以加电这些都是文化水平程度不一样",
+      "correction_note": "修正多处\"电源\"为\"店员\"，\"加电\"改为\"讲\"",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1294.5,
+      "end": 1305.88,
+      "speaker": "SPEAKER_01",
+      "text": "所以这个培训方面都提到了，后期到一会儿我总结一下培训，你看奶液区有什么要说的吗？",
+      "avg_logprob": -0.3975042041979338,
+      "no_speech_prob": 0.771360456943512,
+      "speech_overlap_s": 3.15,
+      "speech_overlap_ratio": 1.212,
+      "playback_start": 1294.44,
+      "playback_end": 1305.82,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "所以这个培训方面都提到了后期到一会我总结一下培训你看奶液区有什么要说的吗",
+      "correction_note": "\"到一会\"改为\"到一会儿\"",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1305.9,
+      "end": 1316.68,
+      "speaker": "SPEAKER_01",
+      "text": "就是我们这个奶粉卖的比较好的，可能依旧还是那个蒙牛，蒙牛跟伊利，蒙牛要稍好一些，伊利奶。",
+      "avg_logprob": -0.3975042041979338,
+      "no_speech_prob": 0.771360456943512,
+      "speech_overlap_s": 4.24,
+      "speech_overlap_ratio": 1.104,
+      "playback_start": 1305.84,
+      "playback_end": 1316.62,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.77"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "就是我们这个粉粥卖的比较好的可能依旧还是那个猛牛猛牛跟伊犁猛牛要稍好饮伊犁奶",
+      "correction_note": "\"粉粥\"改为\"奶粉\"，\"猛牛\"改为\"蒙牛\"，\"伊犁\"改为\"伊利\"",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1316.7,
+      "end": 1327.6,
+      "speaker": "SPEAKER_01",
+      "text": "然后呢三元现在卖的就是比之前要好一些，尤其是现在就是适合老年人喝的那个奶。",
+      "avg_logprob": -0.33274958350441675,
+      "no_speech_prob": 0.3490164875984192,
+      "speech_overlap_s": 5.12,
+      "speech_overlap_ratio": 1.133,
+      "playback_start": 1316.64,
+      "playback_end": 1328.25,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "然后呢三元现在卖的就是比之前要好一些尤其是现在就是老人就适合老年人喝的那个奶",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1329.26,
+      "end": 1332.08,
+      "speaker": "SPEAKER_01",
+      "text": "我建议应该是再上一些就是高端奶。",
+      "avg_logprob": -0.33274958350441675,
+      "no_speech_prob": 0.3490164875984192,
+      "speech_overlap_s": 2.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1329.21,
+      "playback_end": 1332.73,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "我建议应该是再上一些就是高端奶",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1333.86,
+      "end": 1343.08,
+      "speaker": "SPEAKER_01",
+      "text": "再一个就是我们这儿就是还有一些临期的奶，就是说我们得就是及时做一下活动。",
+      "avg_logprob": -0.33274958350441675,
+      "no_speech_prob": 0.3490164875984192,
+      "speech_overlap_s": 5.67,
+      "speech_overlap_ratio": 1.266,
+      "playback_start": 1333.81,
+      "playback_end": 1343.02,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "再一个就是我们这儿就是还有一些明期的奶就是说我们得就是及时做一下活动",
+      "correction_note": "修正'明期'为'临期'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1343.1,
+      "end": 1357.48,
+      "speaker": "SPEAKER_01",
+      "text": "比如说他那个要就是加他这个赠品吧，咱就是说跟别的超市必须要提高这个竞争力。",
+      "avg_logprob": -0.33427471067847275,
+      "no_speech_prob": 0.6942822337150574,
+      "speech_overlap_s": 9.14,
+      "speech_overlap_ratio": 1.058,
+      "playback_start": 1343.04,
+      "playback_end": 1357.42,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "比如说他那个要就是有加他这个赠品吧咱就是说跟别的超市必须要提高这个竞争力",
+      "correction_note": "修正'有加'为'加'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1357.5,
+      "end": 1370.56,
+      "speaker": "SPEAKER_01",
+      "text": "然后我们这儿是新来了，新来了两名员工，今天就是发现就是对咱们这个奶制品介绍还不是很到位。",
+      "avg_logprob": -0.33427471067847275,
+      "no_speech_prob": 0.6942822337150574,
+      "speech_overlap_s": 4.58,
+      "speech_overlap_ratio": 1.07,
+      "playback_start": 1357.44,
+      "playback_end": 1370.5,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "然后我们这儿是新来了一、新来了两名员工今天就是发现就是对咱们这个奶制品介绍还不是很到位",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1370.58,
+      "end": 1389.56,
+      "speaker": "SPEAKER_02",
+      "text": "抓到有的顾客来了，顾客来了以后，几次介绍没有成功，没有推出去，加大对他们的培训。",
+      "avg_logprob": -0.4491446234963157,
+      "no_speech_prob": 0.8522889614105225,
+      "speech_overlap_s": 16.73,
+      "speech_overlap_ratio": 0.881,
+      "playback_start": 1370.52,
+      "playback_end": 1389.5,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "抓到有的顾客来了,顾客来了以后,几次介绍没有成功,没有推出去,加大对他们的准确。",
+      "correction_note": "修正'准确'为'培训'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1389.58,
+      "end": 1402.56,
+      "speaker": "SPEAKER_02",
+      "text": "再一个就是我们这个摆放就是要提高，就是我们这个摆放就一定要整齐并且要干净。",
+      "avg_logprob": -0.20284195996205742,
+      "no_speech_prob": 0.7789303064346313,
+      "speech_overlap_s": 5.9,
+      "speech_overlap_ratio": 0.983,
+      "playback_start": 1389.52,
+      "playback_end": 1402.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "再一个就是我们这个摆放就是要提高这个就是我们这个摆放就一定要整齐并且要干净",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1402.58,
+      "end": 1416.58,
+      "speaker": "SPEAKER_02",
+      "text": "因为这毕竟是奶制品喝的嘛，有的顾客拿来看看呢，上面不要有灰尘啊什么的，而且这个奶这一系列的奶，这个跟这个品牌的奶之间就是保持。",
+      "avg_logprob": -0.20284195996205742,
+      "no_speech_prob": 0.7789303064346313,
+      "speech_overlap_s": 3.1,
+      "speech_overlap_ratio": 1.033,
+      "playback_start": 1402.52,
+      "playback_end": 1416.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "因为这毕竟是奶制品喝的嘛有的顾客拿来看看呢上面不要有灰尘啊什么的而且这个奶这一系列的奶这个跟这个品牌的奶之间就是保持",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1416.58,
+      "end": 1426.6,
+      "speaker": "SPEAKER_02",
+      "text": "就是这个顾客在这儿走的要比较方便，而且不要影响顾客来这个走，一定要有距离。",
+      "avg_logprob": -0.17118254414311163,
+      "no_speech_prob": 0.7583174109458923,
+      "speech_overlap_s": 4.9,
+      "speech_overlap_ratio": 1.225,
+      "playback_start": 1416.52,
+      "playback_end": 1427.25,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "就是这个顾客在这儿走的要比较方便而且不要影响顾客来这个走一定要有距离",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1430.58,
+      "end": 1444.601,
+      "speaker": "SPEAKER_02",
+      "text": "那你这块对这个你看，就是冬天了嘛，咱周六周日这个顾客比较多，就儿童比较多，儿童这块的奶的话，咱主推的是哪种奶？是酸奶。",
+      "avg_logprob": -0.17118254414311163,
+      "no_speech_prob": 0.7583174109458923,
+      "speech_overlap_s": 4.53,
+      "speech_overlap_ratio": 1.132,
+      "playback_start": 1430.53,
+      "playback_end": 1444.561,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "那你这块对这个你看就是冬天了嘛咱周六周日这个顾客比较多就儿童比较多儿童这块的奶的话咱主推的是哪种奶是酸奶",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述",
+        "提问",
+        "回答"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1444.641,
+      "end": 1448.32,
+      "speaker": "SPEAKER_02",
+      "text": "儿童主要还是酸奶。",
+      "avg_logprob": -0.39584822881789433,
+      "no_speech_prob": 0.6917586326599121,
+      "speech_overlap_s": 4.42,
+      "speech_overlap_ratio": 1.188,
+      "playback_start": 1444.581,
+      "playback_end": 1448.97,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "儿童主要是还是酸奶",
+      "correction_note": "修正'主要是还是'为'主要还是'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1451.3,
+      "end": 1461.48,
+      "speaker": "SPEAKER_02",
+      "text": "嗯，酸奶的话还是比较好。主要哪个品牌的酸奶卖的比较好？阿姆西酸奶还是比较好。",
+      "avg_logprob": -0.39584822881789433,
+      "no_speech_prob": 0.6917586326599121,
+      "speech_overlap_s": 0.83,
+      "speech_overlap_ratio": 0.943,
+      "playback_start": 1451.25,
+      "playback_end": 1462.13,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.8s/10.2s",
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.69"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "嗯 酸奶嗯 酸奶面的还是比较好主要哪个品牌的酸奶卖的比较好阿姆西酸奶还是比较好",
+      "correction_note": "修正'酸奶面的'为'酸奶的话'",
+      "intent": [
+        "回应",
+        "陈述",
+        "提问",
+        "回答"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1462.22,
+      "end": 1472.52,
+      "speaker": "SPEAKER_02",
+      "text": "因为小孩子喝这个奶还是比较，他这个纯度还是比较高，就是喝这个钙量还是比较好的。",
+      "avg_logprob": -0.39584822881789433,
+      "no_speech_prob": 0.6917586326599121,
+      "speech_overlap_s": 5.99,
+      "speech_overlap_ratio": 0.972,
+      "playback_start": 1462.17,
+      "playback_end": 1473.17,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "因为小孩子喝这个奶还是比较他这个纯度还是比较高就是喝这个胶量还是比较好的",
+      "correction_note": "修正'胶量'为'钙量'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1474.58,
+      "end": 1492.56,
+      "speaker": "SPEAKER_02",
+      "text": "进入冬季了，还有就是咱这个超市不是都有柜的柜吗，配备了一些加热柜，到时候进行加热，顾客玩了一天了，在超市逛了。",
+      "avg_logprob": -0.2831274311194259,
+      "no_speech_prob": 0.739942193031311,
+      "speech_overlap_s": 20.2,
+      "speech_overlap_ratio": 1.122,
+      "playback_start": 1474.53,
+      "playback_end": 1492.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "进入冬季了,还有就是咱这个超市不是都有柜的柜吗,配备了一些加热柜,到时候进行加热,各户玩了一天了,在超市逛了。",
+      "correction_note": "修正'各户'为'顾客'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1492.58,
+      "end": 1506.18,
+      "speaker": "SPEAKER_02",
+      "text": "对，现在就是要买那个热奶的，温奶的，比以前要多了。所以这一块要抓住客户的一些心理，就是你看他是老年人还是小孩。",
+      "avg_logprob": -0.2831274311194259,
+      "no_speech_prob": 0.739942193031311,
+      "speech_overlap_s": 6.9,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 1492.52,
+      "playback_end": 1506.1,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对,现在就是要买那个热奶的,温奶的,比以前要多了。所以这一块要抓住客户的一些心理就是你看他是老年人还是小孩",
+      "correction_note": "无修正",
+      "intent": [
+        "同意",
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1506.18,
+      "end": 1519.2,
+      "speaker": "SPEAKER_02",
+      "text": "一般的年轻人现在喝奶，也说多吧也不多，主要是以老年、小孩为主，老年主要是上一些高钙奶，给学生是需求量是比较大的。",
+      "avg_logprob": -0.326973385281033,
+      "no_speech_prob": 0.40529149770736694,
+      "speech_overlap_s": 5.97,
+      "speech_overlap_ratio": 1.244,
+      "playback_start": 1506.12,
+      "playback_end": 1519.85,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "一般的年轻人现在喝奶也说多吧也不多主要是以老年小孩为主老年主要是上一些高盖奶给学生是需求量是比较大的",
+      "correction_note": "修正'高盖奶'为'高钙奶'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1521.98,
+      "end": 1535.6,
+      "speaker": "SPEAKER_02",
+      "text": "别的部门没什么问题了是吧？下面各个部门都提到了一些培训的问题，下面我要进行一场。",
+      "avg_logprob": -0.326973385281033,
+      "no_speech_prob": 0.40529149770736694,
+      "speech_overlap_s": 3.7,
+      "speech_overlap_ratio": 1.028,
+      "playback_start": 1521.93,
+      "playback_end": 1535.56,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "别的部门没什么问题了是吧下面各个部门都提到了一些培訓的问题下面我要進行一场",
+      "correction_note": "繁体转简体，修正标点",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1535.64,
+      "end": 1549.6,
+      "speaker": "SPEAKER_02",
+      "text": "下面各个部门把下面的员工召集一下，你们部门简单开个会，开个会以后把你们需要培训的时间、地点给我说一下。",
+      "avg_logprob": -0.19660960422473006,
+      "no_speech_prob": 0.6346384882926941,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 1535.58,
+      "playback_end": 1549.56,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "下面各个部门把下面的员工召集一下你们部门简單开个会开个会以后把你们需要培訓的时间、地点、时间给我说一下",
+      "correction_note": "繁体转简体，修正'简單'为'简单'，'培訓'为'培训'，删除重复的'时间'之一以通顺语义。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1549.64,
+      "end": 1562.6,
+      "speaker": "SPEAKER_02",
+      "text": "我这边来约一些相关的人员，来进行给下面的员工们进行一场大型的培训，包括就是客户企业的一些培训，还有一些产品的培训。",
+      "avg_logprob": -0.19660960422473006,
+      "no_speech_prob": 0.6346384882926941,
+      "speech_overlap_s": 3.3,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 1549.58,
+      "playback_end": 1562.56,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "我这邊来約一些相关的人员来进行给下边的员工们进行一场大型的培训包括就是客户企业的一些培训还有一些产品的培训",
+      "correction_note": "繁体转简体，修正'這'为'这'，'來約'为'来约'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1562.64,
+      "end": 1576.58,
+      "speaker": "SPEAKER_02",
+      "text": "还有一些他们服务客户的一些培训，包括以哪种态度这个客户进门，包括一些你看前台的，就是询问的时候一定要有礼貌说话。我下去巡查的时候，",
+      "avg_logprob": -0.13429095332783864,
+      "no_speech_prob": 0.7850625514984131,
+      "speech_overlap_s": 3.3,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 1562.58,
+      "playback_end": 1576.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "还有一些他们服务客户的一些培训包括以哪种态度这个客户进门包括一些你看前代代就是寻味的时候一定要有礼貌说话我下去寻查的时候",
+      "correction_note": "修正'前代代'为'前台'，'寻味'为'询问'，'寻查'为'巡查'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1576.58,
+      "end": 1591.56,
+      "speaker": "SPEAKER_02",
+      "text": "有些这个服务员服务员不太积极，就是客户有时候问的不太明白，也许对有些产品不太了解。",
+      "avg_logprob": -0.13429095332783864,
+      "no_speech_prob": 0.7850625514984131,
+      "speech_overlap_s": 3.9,
+      "speech_overlap_ratio": 0.975,
+      "playback_start": 1576.52,
+      "playback_end": 1591.5,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.79"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "有些这个服务员服务员不太积极就是客户有时候问的不太明白也许对有些产品不太了解",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1591.58,
+      "end": 1605.58,
+      "speaker": "SPEAKER_02",
+      "text": "这个也能理解，但是一定要是热情的。比如客户问我这个东西在哪，你不知道的话，你可以询问，你看那边有服务员，我不是负责这个区的，你去问问那个区的。",
+      "avg_logprob": -0.1919017333984375,
+      "no_speech_prob": 0.7951200604438782,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 1591.52,
+      "playback_end": 1605.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "这个也能理解但是一定要是热情的比如客户问我这个东西在哪你不知道的话你可以询问你看那边有服务员我不是负责这个区的你去问问那个区的",
+      "correction_note": "添加标点。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1605.58,
+      "end": 1619.6,
+      "speaker": "SPEAKER_02",
+      "text": "我巡查的时候，有时候问到客户们这个东西在哪，他说你去那边问问，我不是这个，我不知道，一句话就过去了。你说让客户的话",
+      "avg_logprob": -0.1919017333984375,
+      "no_speech_prob": 0.7951200604438782,
+      "speech_overlap_s": 3.4,
+      "speech_overlap_ratio": 1.133,
+      "playback_start": 1605.52,
+      "playback_end": 1619.56,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "我宣查的时候有时候问到客户们这个东西在哪他说你去那边问问我不是这个 我不知道一句话就过去了你说让客户的话",
+      "correction_note": "修正'宣查'为'巡查'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1619.64,
+      "end": 1632.58,
+      "speaker": "SPEAKER_02",
+      "text": "体验非常不好，所以这个客户就有可能就是下次就不来了，就是非常的流失。再就是我简单说一下各部门的一些状况，升迁序的话也提到了，就是这个",
+      "avg_logprob": -0.22485219186811306,
+      "no_speech_prob": 0.7966761589050293,
+      "speech_overlap_s": 1.96,
+      "speech_overlap_ratio": 0.98,
+      "playback_start": 1619.58,
+      "playback_end": 1632.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "体验非常不好所以这个客户就有可能就是下次就不来了就是非常的流失再就是我简单说一下各部门的一些状况升迁序的话也提到了就是这个",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1632.58,
+      "end": 1637.6,
+      "speaker": "SPEAKER_02",
+      "text": "晚上的话，升迁的一些处理，处理的话咱这块",
+      "avg_logprob": -0.22485219186811306,
+      "no_speech_prob": 0.7966761589050293,
+      "speech_overlap_s": 2.37,
+      "speech_overlap_ratio": 1.185,
+      "playback_start": 1632.52,
+      "playback_end": 1638.25,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.80"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "晚上的话升迁的一些处理处理的话咱这块",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1638.15,
+      "end": 1663.56,
+      "speaker": "SPEAKER_02",
+      "text": "以当天的，隔天的库存处理。当天的话，咱可以再放一些，因为有冷库，你看着明显不新鲜的，咱要及时进行处理，比如打包处理，或者是搭配处理，比如你看青菜，给的菌菜，",
+      "avg_logprob": -0.3182771961863448,
+      "no_speech_prob": 0.8825212717056274,
+      "speech_overlap_s": 26.73,
+      "speech_overlap_ratio": 1.028,
+      "start_asr_raw": 1637.64,
+      "playback_start": 1637.75,
+      "playback_end": 1663.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "以當天的,隔天的財經處理,當天的话,咱可以再放一些,因为有冷庫,你看著明顯不新鮮的,咱要及时進行處理,比如打包處理,或者是搭配處理,比如你看青菜,给的菌菜,",
+      "correction_note": "繁体转简体，修正'財經處理'为'库存处理'（常见ASR错误），添加标点。",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1663.58,
+      "end": 1677.58,
+      "speaker": "SPEAKER_02",
+      "text": "因为好多客户来了就是做一顿晚饭，包括年轻人们，你给他弄一大捆他吃不完，他又想吃这个，他又想吃那个，所以这块的话就是搭配的卖，就是两种菜。",
+      "avg_logprob": -0.23294301935144374,
+      "no_speech_prob": 0.5054913759231567,
+      "speech_overlap_s": 2.87,
+      "speech_overlap_ratio": 1.148,
+      "playback_start": 1663.52,
+      "playback_end": 1677.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "因为好多客户来了就是做一顿晚饭包括年轻人们你给他弄一大坤他吃不完他又想吃这个他又想吃那个所以这块的话就是搭配的卖就是两种菜",
+      "correction_note": "修正'一大坤'为'一大捆'，添加标点。",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1677.58,
+      "end": 1692.58,
+      "speaker": "SPEAKER_02",
+      "text": "我绑一块多少钱进行处理，两三种菜。现在对咱们最应该是两三种菜，这个菜豆制品吧，对，包到一块，包到一块。比如说两个香菇，",
+      "avg_logprob": -0.23294301935144374,
+      "no_speech_prob": 0.5054913759231567,
+      "speech_overlap_s": 2.6,
+      "speech_overlap_ratio": 1.3,
+      "playback_start": 1677.52,
+      "playback_end": 1692.5,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "我绑一块多少钱进行处理两三种菜现在对咱们最应该是两三种菜这个菜豆制品吧对包到一块包到一块比如说两个香菇",
+      "correction_note": "添加标点。",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1692.58,
+      "end": 1704.681,
+      "speaker": "SPEAKER_02",
+      "text": "一把油菜就在一个袋子里面，然后再放一个金针菇，就跟套餐一样，包在一个包装里面，五元一袋，六元一袋，就是那种比较多种类多一点反而好卖，是。",
+      "avg_logprob": -0.43921384309467515,
+      "no_speech_prob": 0.8151340484619141,
+      "speech_overlap_s": 1.29,
+      "speech_overlap_ratio": 1.194,
+      "playback_start": 1692.52,
+      "playback_end": 1704.641,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "一瓣油卖了就在一个袋子里面然后再放一个金针菇就跟套餐一样包在一个正宫包装里面五元一袋六元一袋就是那种比较多种类多一点反而好卖是",
+      "correction_note": "修正'一瓣油卖了'为'一把油菜'，'正宫包装'为'一个包装'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1704.721,
+      "end": 1716.86,
+      "speaker": "SPEAKER_02",
+      "text": "你看有的你弄一大袋子，他回去他一顿大吃不完，他有的时候他回去想吃两种菜，对，因为就吃两种，就是一次，对，量就少一些。两三种菜种类多一些，量少一些。",
+      "avg_logprob": -0.43921384309467515,
+      "no_speech_prob": 0.8151340484619141,
+      "speech_overlap_s": 1.92,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1704.661,
+      "playback_end": 1716.78,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "你看有的你弄一大袋子他回去他一顿大吃不完他有的时候他回去想吃两种菜对因为就吃两种就是一次对 量就少一些两三种菜种类多一些 量少一些",
+      "correction_note": "添加标点，整理语序。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1716.86,
+      "end": 1731.48,
+      "speaker": "SPEAKER_02",
+      "text": "就是好比东北那个大拌菜里面什么都有，就类似这种的，有两三种菜，把这种不新鲜的赶紧及时的处理，包括能放的咱及时放回冷库。",
+      "avg_logprob": -0.43921384309467515,
+      "no_speech_prob": 0.8151340484619141,
+      "speech_overlap_s": 4.5,
+      "speech_overlap_ratio": 1.184,
+      "playback_start": 1716.8,
+      "playback_end": 1731.42,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "就是好比东北那个大拌菜里面什么都有就类似这种的有两三种菜把这种不新鲜的赶紧及时的处理包括能放的咱及时放回冷库",
+      "correction_note": "添加标点。",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1731.5,
+      "end": 1733.52,
+      "speaker": "SPEAKER_02",
+      "text": "第二天进行售卖。",
+      "avg_logprob": -0.200223233519482,
+      "no_speech_prob": 0.5442273616790771,
+      "speech_overlap_s": 1.35,
+      "speech_overlap_ratio": 0.675,
+      "playback_start": 1731.44,
+      "playback_end": 1734.17,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "第二天进行售卖",
+      "correction_note": "添加句号。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1735.5,
+      "end": 1737.52,
+      "speaker": "SPEAKER_02",
+      "text": "包括家电这块也是。",
+      "avg_logprob": -0.200223233519482,
+      "no_speech_prob": 0.5442273616790771,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1735.45,
+      "playback_end": 1738.17,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "包括家电这块也是",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1739.5,
+      "end": 1754.44,
+      "speaker": "SPEAKER_05",
+      "text": "你们要进行一些柜台整理，后期的话你出一个方案，包括哪些物品好卖的，包括能吸引人的眼光的，那你尽量往前摆，然后客户能开始关注一些家的大电器。",
+      "avg_logprob": -0.200223233519482,
+      "no_speech_prob": 0.5442273616790771,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 1739.45,
+      "playback_end": 1754.4,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "你们要进行一些柜台整理后期的话你出一个方案包括哪些物品好卖的包括能吸引人的眼光的那你尽量往前摆然后客户能开始包裹一些家的大的电器",
+      "correction_note": "修正'包裹'为'关注'",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1754.48,
+      "end": 1766.28,
+      "speaker": "SPEAKER_05",
+      "text": "那就是咱把后放一放，就是把后柜台就是里面放一放，因为有些客户需求的话，就是第一眼就是看到你这个鲜艳的新鲜的，就是有食物新鲜感的。",
+      "avg_logprob": -0.2967072013039259,
+      "no_speech_prob": 0.6140968203544617,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1754.42,
+      "playback_end": 1766.24,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那就是咱把后放一放就是把后柜台就是里面放一放因为有些客户需求的话就是第一眼就是看到你这个鲜艳的新鲜的就是有食物新鲜感的",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1766.32,
+      "end": 1781.14,
+      "speaker": "SPEAKER_05",
+      "text": "有些然后想能记得让这个小孩子们对，这个是最吸引眼球的，最吸引顾客的，他要只要他能在你这个店面停留两分钟或者一两分钟的，他都要会进去看一下。",
+      "avg_logprob": -0.2967072013039259,
+      "no_speech_prob": 0.6140968203544617,
+      "speech_overlap_s": 3.86,
+      "speech_overlap_ratio": 1.177,
+      "playback_start": 1766.26,
+      "playback_end": 1781.06,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "有些然后想能记得让这个小孩子们对 这个是最吸引眼球的最吸引顾客的他要只要他能在你这个店面停留两分钟或者一两分钟的他都要会進去看一下",
+      "correction_note": "繁体'進'转简体'进'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1781.14,
+      "end": 1792.3,
+      "speaker": "SPEAKER_05",
+      "text": "小孩子在这儿玩一会儿，这个大人会进去里面看看别的一些东西，包括马上过年了，结婚的比较多，这块也可以进行一些空档销售。",
+      "avg_logprob": -0.38422032620044466,
+      "no_speech_prob": 0.6566829085350037,
+      "speech_overlap_s": 2.43,
+      "speech_overlap_ratio": 1.146,
+      "playback_start": 1781.08,
+      "playback_end": 1792.22,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "小孩子在这兒玩一会兒这个大人会進去裡面看看別的一些东西包括马上过年了結婚的比較多这塊也可以進行一些空檔銷售",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1792.3,
+      "end": 1802.88,
+      "speaker": "SPEAKER_05",
+      "text": "比如把电视机打折销售，洗衣机这个都可以到时候出一个方案的话。",
+      "avg_logprob": -0.38422032620044466,
+      "no_speech_prob": 0.6566829085350037,
+      "speech_overlap_s": 5.44,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1792.24,
+      "playback_end": 1802.84,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "比如把电視機办折受洗衣機这个都可以到时候出一个方案的话",
+      "correction_note": "修正'办折受'为'打折销售'，繁体转简体",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1802.92,
+      "end": 1814.32,
+      "speaker": "SPEAKER_05",
+      "text": "咱到了年关的时候，就是马上元旦了嘛，咱也要搞一次活动，这个的话，你这边出一个具体的一个方案。",
+      "avg_logprob": -0.29528864418588036,
+      "no_speech_prob": 0.47426754236221313,
+      "speech_overlap_s": 5.6,
+      "speech_overlap_ratio": 1.037,
+      "playback_start": 1802.86,
+      "playback_end": 1814.26,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱到了年关的时候,就是马上圓蛋了嘛咱也要搞一次活動这个的话,你这邊出一个具体的一个方案",
+      "correction_note": "修正'圓蛋'为'元旦'，繁体转简体",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1814.34,
+      "end": 1827.84,
+      "speaker": "SPEAKER_05",
+      "text": "实施我这边进行一些审批，报告上面领导，咱把这个活动搞起来，然后日化区这边也是，咱都可以空档式销售，包括一些洗发水，可以赠送护发素。",
+      "avg_logprob": -0.29528864418588036,
+      "no_speech_prob": 0.47426754236221313,
+      "speech_overlap_s": 3.52,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1814.28,
+      "playback_end": 1827.78,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "实施我这邊進行一些審批,報告上面領导咱把这个活動搞起来然后日化区这邊也是咱都可以空檔式銷售包括一些洗发水,可以護发素",
+      "correction_note": "修正'可以護发素'为'可以赠送护发素'，繁体转简体",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1827.86,
+      "end": 1837.84,
+      "speaker": "SPEAKER_05",
+      "text": "现在冬天就是护肤霜，我们都可以以赠送的方式，先把这个客户引流过来。",
+      "avg_logprob": -0.29528864418588036,
+      "no_speech_prob": 0.47426754236221313,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 0.833,
+      "playback_start": 1827.8,
+      "playback_end": 1837.78,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "现在冬天就是護乳霜我们都可以以赠送的方式,先把这个客户引流过来",
+      "correction_note": "修正'護乳霜'为'护肤霜'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1837.86,
+      "end": 1851.86,
+      "speaker": "SPEAKER_05",
+      "text": "咱们福利越大，客户来的几率就越大，这块也是，包括现在主要是要分开日期，就是周一至周五，咱们针对老年人。",
+      "avg_logprob": -0.2187790361422937,
+      "no_speech_prob": 0.7914552688598633,
+      "speech_overlap_s": 7.09,
+      "speech_overlap_ratio": 1.182,
+      "playback_start": 1837.8,
+      "playback_end": 1852.51,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱们福利越大,客户来的几率就越大这块也是,包括现在主要是要分开日期就是周一至周五,咱们针对老年人",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1852.55,
+      "end": 1864.7,
+      "speaker": "SPEAKER_05",
+      "text": "周六周日的话，咱针对一下儿童，包括一些青年人周末周日青年带着孩子去逛超市。",
+      "avg_logprob": -0.2187790361422937,
+      "no_speech_prob": 0.7914552688598633,
+      "speech_overlap_s": 8.11,
+      "speech_overlap_ratio": 1.159,
+      "start_asr_raw": 1851.86,
+      "playback_start": 1852.15,
+      "playback_end": 1864.66,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "周六周日的话,咱针对一下儿童,包括一些青年人周末周日青年帶著孩子去逛超市",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1864.74,
+      "end": 1879.34,
+      "speaker": "SPEAKER_05",
+      "text": "把这个奶制品以儿童青年为主，周一周五就是老年，老年就是在家没事了去逛逛上街，高钙奶、无糖也要上。",
+      "avg_logprob": -0.47958879585725717,
+      "no_speech_prob": 0.4470270574092865,
+      "speech_overlap_s": 5.04,
+      "speech_overlap_ratio": 1.086,
+      "playback_start": 1864.68,
+      "playback_end": 1879.28,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "把这个奶制品以兒童青年为主週一週五就是老年老年就是在家没事了去逛逛上街高鈣奶、无糖也要上",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1879.36,
+      "end": 1892.14,
+      "speaker": "SPEAKER_05",
+      "text": "这块的话各个部门都差不多，下面你看有没有对你们各个自己的部门销售有没有好的建议。",
+      "avg_logprob": -0.47958879585725717,
+      "no_speech_prob": 0.4470270574092865,
+      "speech_overlap_s": 6.83,
+      "speech_overlap_ratio": 1.146,
+      "playback_start": 1879.3,
+      "playback_end": 1892.1,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这塊的话各个部门都差不多下面你看有没有对你们各个自己的部门销售有没有好的建议",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1892.18,
+      "end": 1906.94,
+      "speaker": "SPEAKER_05",
+      "text": "像一些点子，咱们把咱那个销售再往上提提，不过你看刚才说的一个空档销售对吧，你们自己看看有没有点子，或者互相都可以提。",
+      "avg_logprob": -0.31657913495909495,
+      "no_speech_prob": 0.4906083941459656,
+      "speech_overlap_s": 3.53,
+      "speech_overlap_ratio": 1.358,
+      "playback_start": 1892.12,
+      "playback_end": 1906.9,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "像一些点子咱们把咱那个销售再往上提提不过你看刚才说的一个空房销售对吧你们自己看看有没有点子或者互相都可以提",
+      "correction_note": "修正'空房'为'空档'",
+      "intent": [
+        "提议",
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1906.98,
+      "end": 1921.16,
+      "speaker": "SPEAKER_05",
+      "text": "比如卖蔬菜的对你家店有点子，这些都可以提，大家互相讨论一下，我觉得现在好多单独居住的老年人。",
+      "avg_logprob": -0.31657913495909495,
+      "no_speech_prob": 0.4906083941459656,
+      "speech_overlap_s": 6.83,
+      "speech_overlap_ratio": 1.138,
+      "playback_start": 1906.92,
+      "playback_end": 1921.08,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "比如卖蔬菜的对你家店有点子这些都可以提大家互相讨论一下我觉得现在好多单独居住的老年人",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1921.16,
+      "end": 1933.9,
+      "speaker": "SPEAKER_05",
+      "text": "他们进超市买东西很不方便，因为我们超市就应该提供上门服务的这一块，比如蔬菜、鲜奶这一块，对，他们就是拿下线上服务。",
+      "avg_logprob": -0.3228727658589681,
+      "no_speech_prob": 0.4484193027019501,
+      "speech_overlap_s": 3.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1921.1,
+      "playback_end": 1933.84,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "他们进超市买东西很不方便因为我们超市就应该提供上门服务的这一块比如蔬菜 鲜奶这一块对 他们就是拿下线上服务",
+      "correction_note": "修正标点",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1933.92,
+      "end": 1946.64,
+      "speaker": "SPEAKER_05",
+      "text": "可以，咱是不是提高送货到家的这个针对这个范围？因为老年人他确实，他有时候他点那，他也不是太方便的。",
+      "avg_logprob": -0.3228727658589681,
+      "no_speech_prob": 0.4484193027019501,
+      "speech_overlap_s": 4.7,
+      "speech_overlap_ratio": 1.119,
+      "playback_start": 1933.86,
+      "playback_end": 1946.56,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "可以 咱是不是提高送货到家的这个这个针对这个范围因为老年人他确实他有时候他颠奶他也不是太方便的",
+      "correction_note": "'颠奶'修正为'点那'",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1946.64,
+      "end": 1958.64,
+      "speaker": "SPEAKER_05",
+      "text": "他有时候会问我们，他说你看能不能就是帮我们送，他送过去他带着也不方便，就是咱们是不是这个方便可以？",
+      "avg_logprob": -0.23807182885650405,
+      "no_speech_prob": 0.6278716921806335,
+      "speech_overlap_s": 7.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1946.58,
+      "playback_end": 1958.56,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "他有时候会问我们他说你看能不能就是帮我们送他送过去他带着也不方便就是咱们是不是这个方便可以",
+      "correction_note": "修正标点",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1958.64,
+      "end": 1973.42,
+      "speaker": "SPEAKER_05",
+      "text": "这个的话，他送货是可以送货的，但是咱有一个标准。为什么有个标准？你不能买个一块钱的东西或者是十块钱的东西，老人不方便我就给你拿，对吧？咱的人工成本也太高了。",
+      "avg_logprob": -0.23807182885650405,
+      "no_speech_prob": 0.6278716921806335,
+      "speech_overlap_s": 5.09,
+      "speech_overlap_ratio": 1.018,
+      "playback_start": 1958.58,
+      "playback_end": 1973.38,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这个的话他送货是可以送货的但是咱有一个标准为什么有个标准你不能买个一块钱的东西或者是十块钱的东西老人不方便我就给你拿对吧咱的人工成本也太高了",
+      "correction_note": "修正标点",
+      "intent": [
+        "陈述",
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1973.46,
+      "end": 1986.82,
+      "speaker": "SPEAKER_05",
+      "text": "这个不然人家超市再订吧，这个就是我下面的提案了，应该超过200或者100以上的，那是可以送货。",
+      "avg_logprob": -0.5636925272422262,
+      "no_speech_prob": 0.6569662690162659,
+      "speech_overlap_s": 2.29,
+      "speech_overlap_ratio": 1.245,
+      "playback_start": 1973.4,
+      "playback_end": 1986.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这个不然人家超市再訂吧这个就是我下面的提案了应該超过200或者100以上的那是可以售貨",
+      "correction_note": "繁体转简体；'售货'修正为'送货'",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1986.84,
+      "end": 2001.84,
+      "speaker": "SPEAKER_05",
+      "text": "你要是不能买个二三十的，你就买了30块钱买一箱奶，我给你送个货，人工都付不起人工费的说，说百元以上吧，是不是？你可以考虑。对，这个咱后期的话。",
+      "avg_logprob": -0.5636925272422262,
+      "no_speech_prob": 0.6569662690162659,
+      "speech_overlap_s": 1.76,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1986.78,
+      "playback_end": 2001.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "你要是不能买个2、30的你就买了30塊钱买一箱奶我给你送个貨人工都付不起人工費的说说百元以上吧是不是你可以考虑对 这个咱后期的话",
+      "correction_note": "繁体转简体；修正标点",
+      "intent": [
+        "陈述",
+        "提议",
+        "提问",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2001.84,
+      "end": 2012.422,
+      "speaker": "SPEAKER_05",
+      "text": "就是各个伙的话，把这个东西它得是区分范围或几公里，对，几公里得有个范围，得有个范围，不能说你买了我就送，你买了我就送，咱这个运营成本也太高了，对。",
+      "avg_logprob": -0.3296878121115945,
+      "no_speech_prob": 0.5600109696388245,
+      "speech_overlap_s": 1.86,
+      "speech_overlap_ratio": 1.368,
+      "playback_start": 2001.78,
+      "playback_end": 2012.382,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "就是各个伙的话把这个东西它得失去分威或几公里对几公里得有个范围得有个范围不能说你买了我就送你买了我就送咱这个运用成本也太高了对",
+      "correction_note": "'失去分威'修正为'是区分范围'；'运用'修正为'运营'",
+      "intent": [
+        "陈述",
+        "提议",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2012.462,
+      "end": 2024.46,
+      "speaker": "SPEAKER_05",
+      "text": "咱要考虑咱自己运营的成本，还是由咱们超市来去制定，去对。所以这边都有这个方面的需求，我们反映一下嘛，是吧？因为这个就是可以跟那个啥美团，包括平台。",
+      "avg_logprob": -0.3296878121115945,
+      "no_speech_prob": 0.5600109696388245,
+      "speech_overlap_s": 1.52,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2012.402,
+      "playback_end": 2024.4,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱要考虑咱自己运营的成本还是由咱们超市来去制定去对所以这边都有这个方面的需求我们反映一下嘛是吧因为这个就是可以跟那个啥美团包括形态",
+      "correction_note": "'形态'修正为'平台'",
+      "intent": [
+        "陈述",
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2024.48,
+      "end": 2032.46,
+      "speaker": "SPEAKER_05",
+      "text": "现在不是做很多这种送货的，这种有跑腿，对吧？去跟他们合作，他们送个小东西都可以走。",
+      "avg_logprob": -0.3296878121115945,
+      "no_speech_prob": 0.5600109696388245,
+      "speech_overlap_s": 2.08,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2024.42,
+      "playback_end": 2033.11,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "现在不是做很多这种送货的这种有跑腿对吧去跟他们合作他们送个小东西都可以走",
+      "correction_note": "修正标点",
+      "intent": [
+        "陈述",
+        "提问",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2034.44,
+      "end": 2049.3,
+      "speaker": "SPEAKER_05",
+      "text": "但是这个考虑费用问题的话，这块之前也谈过一家，就是这个费用谁出？因为要是给平台合作的话，他肯定要出提成的。",
+      "avg_logprob": -0.38560661383434736,
+      "no_speech_prob": 0.7696768045425415,
+      "speech_overlap_s": 0.91,
+      "speech_overlap_ratio": 1.137,
+      "playback_start": 2034.39,
+      "playback_end": 2049.26,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.9s/14.9s",
+        "high no_speech_prob=0.77"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "但是这个考虑费用问题的话这块之前也谈过一家就是这个费用谁出就是因为要是给平台合作的话他肯定要出替成的",
+      "correction_note": "'替成'修正为'提成'",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2049.34,
+      "end": 2064.0,
+      "speaker": "SPEAKER_05",
+      "text": "送一单他抽多少钱，平台抽多少，这个起手要抽多少钱？有的人就是像年轻人们都是不在乎那三五块钱，对，直接就走了。像一些老年人那肯定算计。",
+      "avg_logprob": -0.38560661383434736,
+      "no_speech_prob": 0.7696768045425415,
+      "speech_overlap_s": 1.61,
+      "speech_overlap_ratio": 1.298,
+      "playback_start": 2049.28,
+      "playback_end": 2063.92,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "送一单他抽多少钱平台抽多少这个起手要抽多少钱有的人就是像年轻人们都是不在乎那三五塊钱对直接就走了像一些老年人那肯定算計",
+      "correction_note": "繁体转简体；修正标点",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2064.0,
+      "end": 2077.12,
+      "speaker": "SPEAKER_05",
+      "text": "老年人你要说给他们提这个关键，老年人现在对操作这一块都是问题，对手机操作这块有障碍。群体不一样，咱这块送货的话也是针对一下人群。",
+      "avg_logprob": -0.38916268108560026,
+      "no_speech_prob": 0.5064983367919922,
+      "speech_overlap_s": 2.56,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2063.94,
+      "playback_end": 2077.04,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "老年人你要说给他们提这个关鍵老年人现在对操作这一塊都是问题对手機操作这塊有障礙群体不一樣咱这塊送貨的话也是针对一下人群",
+      "correction_note": "繁体转简体；修正标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2077.12,
+      "end": 2090.78,
+      "speaker": "SPEAKER_05",
+      "text": "应以青年为主，白领青年。这老年人他现在在家没事，他也不可能说手机点个单或者下个单，对，一般是不会，除非年轻人帮他点。",
+      "avg_logprob": -0.38916268108560026,
+      "no_speech_prob": 0.5064983367919922,
+      "speech_overlap_s": 3.16,
+      "speech_overlap_ratio": 1.234,
+      "playback_start": 2077.06,
+      "playback_end": 2090.72,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "说以青年为主白眼青年这老年人他现在在家没事他也不可能说首先点个单 或者下个单对 一般是不会除非年轻人帮他点",
+      "correction_note": "'说以'修正为'应以'；'白眼'修正为'白领'；添加'手机'",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2090.8,
+      "end": 2104.78,
+      "speaker": "SPEAKER_05",
+      "text": "所以这块也后期会有合作的，包括你看老年人来超市的话，你上货摆的话，咱这个超市员工后边会配一两名。",
+      "avg_logprob": -0.19058648745218912,
+      "no_speech_prob": 0.2746419906616211,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2090.74,
+      "playback_end": 2104.72,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "所以这块也后期会有合作的包括你看老年人来超市的话你上钩摆的话咱这个超市员工后边会配一两名",
+      "correction_note": "'上钩摆'修正为'上货摆'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2104.8,
+      "end": 2118.78,
+      "speaker": "SPEAKER_05",
+      "text": "因为老年人毕竟来的时候他买的不多，你知道吗？再说他买的也是选择性买的，他不是随意性的，比如他来了。",
+      "avg_logprob": -0.19058648745218912,
+      "no_speech_prob": 0.2746419906616211,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 2104.74,
+      "playback_end": 2118.72,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "因为老年人毕竟来的时候他买的不多你知道吗再说他买的也是是选择性买的他不是随意性的比如他来了",
+      "correction_note": "删除重复的'是'；修正标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2118.8,
+      "end": 2132.78,
+      "speaker": "SPEAKER_05",
+      "text": "我家里缺油我就来买桶油，他别的就不买了。所以就是要送我上门也要给他捆绑上，就是上门买桶油40多50多对吧？他想买便宜的。",
+      "avg_logprob": -0.2095573812291242,
+      "no_speech_prob": 0.7535351514816284,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2118.74,
+      "playback_end": 2132.72,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "我家里缺油我就来买通油他别的就不买了所以就是要送我上门也要给他捆绑上就是上买 买通油40多50多对吧 他想买便宜的",
+      "correction_note": "修正'买通油'为'买桶油'，'上买'为'上门'，并添加标点。",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2132.8,
+      "end": 2141.981,
+      "speaker": "SPEAKER_05",
+      "text": "他不可能送上门，你再花50，我给你免费送。他也可能想一想又需要什么了，就是进行采购了。",
+      "avg_logprob": -0.2095573812291242,
+      "no_speech_prob": 0.7535351514816284,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2132.74,
+      "playback_end": 2142.631,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "他不可能送门你再花50 我给你免费送过他也可能想一想又需要什么了就是进行采购了",
+      "correction_note": "修正'送门'为'送上门'，'送过'为'送'，并添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2143.72,
+      "end": 2144.741,
+      "speaker": "SPEAKER_05",
+      "text": "觉得还有什么吗？",
+      "avg_logprob": -0.5623578696415342,
+      "no_speech_prob": 0.8569156527519226,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2143.67,
+      "playback_end": 2145.391,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "觉得还有什么吗",
+      "intent": [
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2147.76,
+      "end": 2148.821,
+      "speaker": "SPEAKER_05",
+      "text": "还有什么建议吗？",
+      "avg_logprob": -0.5623578696415342,
+      "no_speech_prob": 0.8569156527519226,
+      "speech_overlap_s": 1.04,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2147.71,
+      "playback_end": 2149.471,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "还有什么建议吗",
+      "intent": [
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2151.48,
+      "end": 2165.82,
+      "speaker": "SPEAKER_05",
+      "text": "就是说培训那一块的话，到时候是几天是吧？因为到时候的话，员工那一块时间问题，他们也得合约安排，合约安排上班时间，有培训的上班还有休息的。",
+      "avg_logprob": -0.5623578696415342,
+      "no_speech_prob": 0.8569156527519226,
+      "speech_overlap_s": 1.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2151.43,
+      "playback_end": 2166.47,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "就是说培训那一块的话到时候是几天是吧因为到时候的话员工那一块时间为止他们也得合约安排合约安排上班时间有培训的上班还有休息的",
+      "correction_note": "修正'时间为止'为'时间问题'，并添加标点。",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2166.36,
+      "end": 2181.04,
+      "speaker": "SPEAKER_05",
+      "text": "这块这个的话，咱是分两批，因为有的是导购，先培训一部分，以两天为主。你们下边就各个定时间，你们把时间报给我，我来统计。",
+      "avg_logprob": -0.5623578696415342,
+      "no_speech_prob": 0.8569156527519226,
+      "speech_overlap_s": 1.04,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2166.31,
+      "playback_end": 2180.98,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/14.7s",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这块这个的话咱是分两批因为有的是导修,先培训一部分,以两天为主你们下边就各个定时间,你们把时间报给我,我来统计",
+      "correction_note": "修正'导修'为'导购'，并添加标点。",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2181.06,
+      "end": 2194.04,
+      "speaker": "SPEAKER_05",
+      "text": "别的应该就是没有什么大问题了，我们这儿没有问题吧？下边呢？回去了你各个把下边员工们进行一些传达一下。",
+      "avg_logprob": -0.32848897893378076,
+      "no_speech_prob": 0.689613938331604,
+      "speech_overlap_s": 5.9,
+      "speech_overlap_ratio": 0.983,
+      "playback_start": 2181.0,
+      "playback_end": 2193.98,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "别的应该就是没有什么大问题了我们这儿没有问题吧下边呢,回去了你各个把下边员工们进行一些传达一下",
+      "intent": [
+        "陈述",
+        "提问",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2194.06,
+      "end": 2206.04,
+      "speaker": "SPEAKER_05",
+      "text": "今天的会议，主题就是咱们积极一点，你们下面也跟他们开个会。别的就没有什么问题了。",
+      "avg_logprob": -0.25192127625147503,
+      "no_speech_prob": 0.7955944538116455,
+      "speech_overlap_s": 6.5,
+      "speech_overlap_ratio": 1.3,
+      "playback_start": 2194.0,
+      "playback_end": 2205.98,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "今天的会议主题,咱们积极一点你们下面也跟他们开个会别的就没有什么问题了",
+      "correction_note": "调整语序使'主题'与后文连贯，并添加标点。",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2206.06,
+      "end": 2210.08,
+      "speaker": "SPEAKER_05",
+      "text": "那行，今天的会议就到这。",
+      "avg_logprob": -0.25192127625147503,
+      "no_speech_prob": 0.7955944538116455,
+      "speech_overlap_s": 5.0,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 2206.0,
+      "playback_end": 2210.73,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那行,今天的会议就到这",
+      "intent": [
+        "回应",
+        "陈述"
+      ],
+      "phase": "corrected"
+    }
+  ],
+  "timing": {
+    "diarization": 62.31,
+    "asr": 406.18,
+    "alignment": 83.54,
+    "llm": 461.1,
+    "total": 1017.02
+  },
+  "num_speakers": 6,
+  "meeting_summary": {
+    "topic": "超市周例会各部门工作汇报与问题讨论",
+    "summary": "本次会议主要汇报了生鲜、家电、日化、奶制品等部门的销售情况、存在的问题及改进建议。各部门重点讨论了产品滞销处理、员工培训、售后保障、促销策略及送货服务等议题，并形成了具体行动方案。",
+    "key_points": [
+      "生鲜区提出利用不新鲜菜品进行早晚时段特价促销，并建议优化采购渠道以降低成本。",
+      "家电区反映净化器断货、员工对智能产品不熟悉、售后体系不完善等问题，建议加强培训和建立售后点。",
+      "日化区建议引入中档产品为主，同时面向20-40岁人群推出高端产品促销方案。",
+      "奶制品区提出需加强新品培训、保持陈列整洁，并根据时段针对不同人群推加热奶、高钙奶等。",
+      "讨论了送货上门服务，初步确定满百元以上、限定范围内可提供，或与第三方跑腿平台合作。",
+      "主管决定统一组织全员培训，包括产品知识、服务态度等，各主管需上报培训时间和人员安排。"
+    ],
+    "decisions": [
+      "由主管统一组织一次大型培训，各主管需上报培训时间、地点和参与人员。",
+      "生鲜区需制定不新鲜菜品的打包促销方案（早晚时段）。",
+      "家电区需整理柜台摆放方案，并联系厂家进行智能产品培训。",
+      "日化区需统计客户需求，制定高端产品促销方案，并优化产品结构。",
+      "奶制品区需考虑增加加热柜，并根据工作日/周末针对不同人群调整促销。",
+      "送货上门服务设定满百元以上且限定距离范围，后续与平台合作事宜再议。"
+    ],
+    "action_items": [
+      "各主管汇总本部门员工培训需求，上报时间表给主持人。",
+      "生鲜主管优化不新鲜菜品的打包促销方式，并反馈采购渠道优化建议。",
+      "家电主管出柜台调整方案，并联系厂家安排智能产品培训。",
+      "日化主管统计客户常见需求清单，制定高端产品促销方案，并提交数据报表。",
+      "奶制品主管加强新员工培训，优化陈列，考虑加热柜和时段促销方案。"
+    ],
+    "participants": [
+      "SPEAKER_01（主持人）",
+      "SPEAKER_02（生鲜/其他主管）",
+      "SPEAKER_05（家电/其他主管）"
+    ]
+  }
+}

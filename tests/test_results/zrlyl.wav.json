@@ -1,0 +1,596 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\23a659a384a6731e1ea373fe09ea9fb4ff964cc7ddca982ea8709c0c4bfc99ef\\zrlyl.wav",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "speaker": "SPEAKER_00",
+      "text": "Mr. President, thank you very much, and just for the record, we don't hate you. I don't hate you. Okay. It's passed that long.",
+      "playback_start": 0.0,
+      "playback_end": 5.92,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "Mr. President, thank you very much, and just for the record, we don't hate you. I don't hate you. Okay. It's passed that long.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "speaker": "SPEAKER_01",
+      "text": "Ask Jeff Zucker how he got his job.",
+      "playback_start": 5.94,
+      "playback_end": 7.92,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "Ask Jeff Zucker how he got his job.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "speaker": "SPEAKER_00",
+      "text": "Well, if I may follow up on some of the questions that have taken place so far here, sir. I don't know which microphone to hold here. I've got three microphones.",
+      "playback_start": 7.94,
+      "playback_end": 15.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "Well, if I may follow up on some of the questions that have taken place so far here, sir. I don't know which microphone to hold here. I've got three microphones.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 16.0,
+      "end": 19.0,
+      "speaker": "SPEAKER_01",
+      "text": "You do have other people, and your ratings aren't as good as some of the other people that are waiting.",
+      "playback_start": 15.94,
+      "playback_end": 18.92,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "You do have other people, and your ratings aren't as good as some of the other people that are waiting.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 19.0,
+      "end": 45.0,
+      "speaker": "SPEAKER_00",
+      "text": "They're pretty good right now, actually, Mr. President. Go ahead, Jeff. If I may ask, sir, you said earlier that WikiLeaks was revealing information about the Hillary Clinton campaign during the election cycle. You welcomed that at one campaign rally. You said you loved WikiLeaks. At another campaign press conference, you called on the Russians to find the missing 30,000 emails. I'm wondering, sir, if you...",
+      "playback_start": 18.94,
+      "playback_end": 44.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "They're pretty good right now, actually, Mr. President. Go ahead, Jeff. If I may ask, sir, you said earlier that WikiLeaks was revealing information about the Hillary Clinton campaign during the election cycle. You welcomed that at one campaign rally. You said you loved WikiLeaks. At another campaign press conference, you called on the Russians to find the missing 30,000 emails. I'm wondering, sir, if you...",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 45.0,
+      "end": 48.0,
+      "speaker": "SPEAKER_01",
+      "text": "Well, she was actually missing 33, and then that got extended with a whole lot of...",
+      "playback_start": 44.94,
+      "playback_end": 47.92,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "Well, she was actually missing 33, and then that got extended with a whole lot of...",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 48.0,
+      "end": 50.0,
+      "speaker": "SPEAKER_00",
+      "text": "Maybe my numbers are off a little bit, too.",
+      "playback_start": 47.94,
+      "playback_end": 49.92,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "Maybe my numbers are off a little bit, too.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, but I did say 30, but it was actually higher than that.",
+      "playback_start": 49.94,
+      "playback_end": 51.92,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "No, no, but I did say 30, but it was actually higher than that.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 52.0,
+      "end": 63.56,
+      "speaker": "SPEAKER_00",
+      "text": "If I may ask you, sir, it sounds as though you do not have much credibility here when it comes to leaking, if that is something that you encouraged during the campaign. If I may ask you that. If I may ask a follow-up?",
+      "playback_start": 51.94,
+      "playback_end": 63.48,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "If I may ask you, sir, it sounds as though you do not have much credibility here when it comes to leaking, if that is something that you encouraged during the campaign. If I may ask you that. If I may ask a follow-up?",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 63.56,
+      "end": 65.56,
+      "speaker": "SPEAKER_01",
+      "text": "If I may ask a follow-up? Yes, sir.",
+      "playback_start": 63.5,
+      "playback_end": 65.48,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "If I may ask a follow-up? Yes, sir.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 65.56,
+      "end": 67.24,
+      "speaker": "SPEAKER_00",
+      "text": "All right.",
+      "playback_start": 65.5,
+      "playback_end": 67.16,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "All right.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 67.24,
+      "end": 93.82,
+      "speaker": "SPEAKER_01",
+      "text": "So in one case, you're talking about highly classified information. In the other case, you're talking about John Podesta saying bad things about the boss. I will say this. If John Podesta said that about me and he was working for me, I would have fired him so fast your head would have spun. He said terrible things about her. But it wasn't classified information. But in one case, you're talking about classified. Regardless, if you look at the RNC, we had a very strong — at my suggestion — and",
+      "playback_start": 67.18,
+      "playback_end": 93.74,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "So in one case, you're talking about highly classified information. In the other case, you're talking about John Podesta saying bad things about the boss. I will say this. If John Podesta said that about me and he was working for me, I would have fired him so fast your head would have spun. He said terrible things about her. But it wasn't classified information. But in one case, you're talking about classified. Regardless, if you look at the RNC, we had a very strong — at my suggestion — and",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 93.82,
+      "end": 124.18,
+      "speaker": "SPEAKER_01",
+      "text": "I give Reince great credit for this — at my suggestion, because I know something about this world — I said, I want a very strong defensive mechanism. I don't want to be hacked. And we did that. And you have seen that they tried to hack us, and they failed. The DNC did not do that. And if they did it, they could not have been hacked. But they were hacked and terrible things came in. And, you know, the only thing that I do think is unfair is some of the things were so — they",
+      "playback_start": 93.76,
+      "playback_end": 124.1,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "I give Reince great credit for this — at my suggestion, because I know something about this world — I said, I want a very strong defensive mechanism. I don't want to be hacked. And we did that. And you have seen that they tried to hack us, and they failed. The DNC did not do that. And if they did it, they could not have been hacked. But they were hacked and terrible things came in. And, you know, the only thing that I do think is unfair is some of the things were so — they",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 124.18,
+      "end": 155.84,
+      "speaker": "SPEAKER_01",
+      "text": "were — when I heard some of those things, I picked up the papers the next morning and said, oh, this is going to be front page. It wasn't even in the papers. Again, if I had that happen to me, it would be the biggest story in the history of publishing or the head of newspapers. I would have been the headline in every newspaper. I mean, think of it. They gave her the questions to a debate, and she should have reported herself. Why didn't Hillary Clinton announce that I'm sorry, but I have been given the questions",
+      "playback_start": 124.12,
+      "playback_end": 155.76,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "were — when I heard some of those things, I picked up the papers the next morning and said, oh, this is going to be front page. It wasn't even in the papers. Again, if I had that happen to me, it would be the biggest story in the history of publishing or the head of newspapers. I would have been the headline in every newspaper. I mean, think of it. They gave her the questions to a debate, and she should have reported herself. Why didn't Hillary Clinton announce that I'm sorry, but I have been given the questions",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 155.84,
+      "end": 165.58,
+      "speaker": "SPEAKER_01",
+      "text": "to a debate or a town hall, and I feel that it's inappropriate, and I want to turn in CNN for not doing a good job?",
+      "playback_start": 155.78,
+      "playback_end": 165.5,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "to a debate or a town hall, and I feel that it's inappropriate, and I want to turn in CNN for not doing a good job?",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 165.58,
+      "end": 182.34,
+      "speaker": "SPEAKER_00",
+      "text": "And if I may follow up on that, just something that Jonathan Karl was asking you about, you said that the leaks are real, but the news is fake. I guess I don't understand. It seems that there's a disconnect there. If the information coming from those leaks is real, then how can the stories be fake? The reporting is fake. Look, look.",
+      "playback_start": 165.52,
+      "playback_end": 182.26,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "And if I may follow up on that, just something that Jonathan Karl was asking you about, you said that the leaks are real, but the news is fake. I guess I don't understand. It seems that there's a disconnect there. If the information coming from those leaks is real, then how can the stories be fake? The reporting is fake. Look, look.",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 182.34,
+      "end": 214.02,
+      "speaker": "SPEAKER_01",
+      "text": "I just want to ask. Jim, you know what it is? Here's the thing. The public isn't, you know, they read newspapers, they see television, they watch. They don't know if it's true or false because they're not involved. I'm involved. involved with this stuff all my life, but I'm involved. So I know when you're telling the truth or when you're not. I just see many, many untruthful things. And I'll tell you what else I see. I see tone. You know, the word tone. The tone is such hatred. I'm really not a bad person, by the way.",
+      "playback_start": 182.28,
+      "playback_end": 213.94,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "I just want to ask. Jim, you know what it is? Here's the thing. The public isn't, you know, they read newspapers, they see television, they watch. They don't know if it's true or false because they're not involved. I'm involved. involved with this stuff all my life, but I'm involved. So I know when you're telling the truth or when you're not. I just see many, many untruthful things. And I'll tell you what else I see. I see tone. You know, the word tone. The tone is such hatred. I'm really not a bad person, by the way.",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 214.02,
+      "end": 248.08,
+      "speaker": "SPEAKER_01",
+      "text": "No, but the tone is such — I do get good ratings, you have to admit that. The tone is such hatred. I watched this morning a couple of the network, and I have to say, Fox and Friends in the morning, they're very honorable people. They're very, not because they're good, because they hit me also when I do something wrong, but they have the most honest morning show. That's all I can say. It's the most honest. But the tone, Jim, if you look, the hatred, the, I mean, sometimes somebody gets, well,",
+      "playback_start": 213.96,
+      "playback_end": 248.0,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "No, but the tone is such — I do get good ratings, you have to admit that. The tone is such hatred. I watched this morning a couple of the network, and I have to say, Fox and Friends in the morning, they're very honorable people. They're very, not because they're good, because they hit me also when I do something wrong, but they have the most honest morning show. That's all I can say. It's the most honest. But the tone, Jim, if you look, the hatred, the, I mean, sometimes somebody gets, well,",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 248.08,
+      "end": 283.84,
+      "speaker": "SPEAKER_01",
+      "text": "You look at your show that goes on at 10 o'clock in the evening. You just take a look at that show. That is a constant hate. The panel is almost always exclusive anti-Trump. The good news is he doesn't have good ratings. But the panel is almost exclusive anti-Trump. And the hatred and venom coming from his mouth, the hatred coming from other people on your network. Now, I will say this. I watch it. I see it. I'm amazed by it. And I just think you'd be a lot better off. I honestly do. The public gets it, you know.",
+      "playback_start": 248.02,
+      "playback_end": 283.76,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "You look at your show that goes on at 10 o'clock in the evening. You just take a look at that show. That is a constant hit. The panel is almost always exclusive anti-Trump. The good news is he doesn't have good ratings. But the panel is almost exclusive anti-Trump. And the hatred and venom coming from his mouth, the hatred coming from other people on your network. Now, I will say this. I watch it. I see it. I'm amazed by it. And I just think you'd be a lot better off. I honestly do. The public gets it, you know.",
+      "correction_note": "Corrected 'constant hit' to 'constant hate' based on context of hatred and venom.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 283.84,
+      "end": 310.76,
+      "speaker": "SPEAKER_01",
+      "text": "Look, when I go to rallies, they turn around, they start screaming at CNN. They want to throw their placards at CNN. You know, I think you would do much better by being different. But you just take a look. Take a look at some of your shows in the morning and the evening. If a guest comes out and says something positive about me, it's brutal. Now, they'll take this news conference. I'm actually having a very good time, okay? But they'll take this news conference — don't forget, that's the way I won.",
+      "playback_start": 283.78,
+      "playback_end": 310.68,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "Look, when I go to rallies, they turn around, they start screaming at CNN. They want to throw their placards at CNN. You know, I think you would do much better by being different. But you just take a look. Take a look at some of your shows in the morning and the evening. If a guest comes out and says something positive about me, it's brutal. Now, they'll take this news conference. I'm actually having a very good time, okay? But they'll take this news conference — don't forget, that's the way I won.",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 310.76,
+      "end": 335.16,
+      "speaker": "SPEAKER_01",
+      "text": "Remember, I used to give you a news conference every time I made a speech, which was like every day. Okay? No, that's how I won. I won with news conference and probably speeches. I certainly didn't win by people listening to you people, that's for sure. But I'm having a good time. Tomorrow they will say, Donald Trump rants and raves at the press — I'm not ranting and raving, I'm just telling you, you know, you're dishonest people. But — but — I'm not ranting and raving. I love this.",
+      "playback_start": 310.7,
+      "playback_end": 335.08,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "Remember, I used to give you a news conference every time I made a speech, which was like every day. Okay? No, that's how I won. I won with news conference and probably speeches. I certainly didn't win by people listening to you people, that's for sure. But I'm having a good time. Tomorrow they will say, Donald Trump rants and raves at the press — I'm not ranting and raving, I'm just telling you, you know, you're dishonest people. But — but — I'm not ranting and raving. I love this.",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 335.16,
+      "end": 353.2,
+      "speaker": "SPEAKER_01",
+      "text": "I'm having a good time doing it, but tomorrow the headlines are going to be, Donald Trump rants and I'm not ranting. Go ahead. Should I let him have a little bit more? What do you think, Peter? Peter, should I have let him have a little bit more? Sit down, sit down. We'll get it. Just because of the attack of fake",
+      "playback_start": 335.1,
+      "playback_end": 353.12,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "good time doing it, but tomorrow the headlines are going to be, Donald Trump rants and I'm not ranting. Go ahead. Should I let him have a little bit more? What do you think, Peter? Peter, should I have let him have a little bit more? Sit down, sit down. We'll get it. Just because of the attack of fake",
+      "correction_note": "Corrected missing subject: added 'I'm having a' at beginning.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 353.2,
+      "end": 357.08,
+      "speaker": "SPEAKER_00",
+      "text": "news and attacking our network, I just want to ask you, sir. I'm changing it",
+      "playback_start": 353.14,
+      "playback_end": 357.0,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "news and attacking our network, I just want to ask you, sir. I'm changing it",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 357.08,
+      "end": 360.6,
+      "speaker": "SPEAKER_01",
+      "text": "from fake news though. Doesn't that undervalue? Very fake news. I know, but",
+      "playback_start": 357.02,
+      "playback_end": 360.52,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "from fake news though. Doesn't that undervalue? Very fake news. I know, but",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 360.6,
+      "end": 361.6,
+      "speaker": "SPEAKER_00",
+      "text": "But aren't you...",
+      "playback_start": 360.54,
+      "playback_end": 362.25,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "But aren't you...",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 363.6,
+      "end": 366.6,
+      "speaker": "SPEAKER_00",
+      "text": "Real news. And you're not related to our new... I am not related, sir.",
+      "playback_start": 363.55,
+      "playback_end": 366.52,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "Real news. And you're not related to our new... I am not related, sir.",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 366.6,
+      "end": 368.6,
+      "speaker": "SPEAKER_01",
+      "text": "No. I do like the sound of Secretary Acosta, I must say.",
+      "playback_start": 366.54,
+      "playback_end": 368.52,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "No. I do like the sound of Secretary Acosta, I must say.",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 368.6,
+      "end": 373.6,
+      "speaker": "SPEAKER_00",
+      "text": "You know, I looked at that name. I said, wait a minute. Is there any relation there? Alex Acosta. I'm sure you checked that out, sir.",
+      "playback_start": 368.54,
+      "playback_end": 373.52,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "You know, I looked at that name. I said, wait a minute. Is there any relation there? Alex Acosta. I'm sure you checked that out, sir.",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 373.6,
+      "end": 376.6,
+      "speaker": "SPEAKER_01",
+      "text": "Okay. No, I checked it. I said...",
+      "playback_start": 373.54,
+      "playback_end": 376.52,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "Okay. No, I checked it. I said...",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 376.6,
+      "end": 377.6,
+      "speaker": "SPEAKER_00",
+      "text": "They said, no, sir.",
+      "playback_start": 376.54,
+      "playback_end": 377.52,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "They said, no, sir.",
+      "correction_note": "No obvious errors.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 377.6,
+      "end": 383.2,
+      "speaker": "SPEAKER_01",
+      "text": "I said, do me a favor. Go back and check the family tree. But aren't you concerned, sir, that you are undermining the people's faith in the First Amendment, freedom of the press?",
+      "playback_start": 377.54,
+      "playback_end": 383.12,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "I said, do me a favor. Go back and check the family tree. But aren't you concerned, sir, that you are undermining the people's faith in the First Amendment, freedom of the press? and check the family tree.",
+      "correction_note": "Removed duplicate trailing phrase 'and check the family tree.'",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 383.2,
+      "end": 401.42,
+      "speaker": "SPEAKER_00",
+      "text": "But I — aren't you — aren't you concerned, sir, that you are undermining the people's faith in the First Amendment, freedom of the press, the press in this country? When you call stories you don't like fake news, why not just say it's a story I don't like? I do that. When you call it fake news —No, I do that.— you're undermining confidence in our news media.",
+      "playback_start": 383.14,
+      "playback_end": 401.34,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "But I — aren't you — aren't you concerned, sir, that you are undermining the people's faith in the First Amendment, freedom of the press, the press in this country? When you call stories you don't like fake news, why not just say it's a story I don't like? I do that. When you call it fake news —No, I do that.— you're undermining confidence in our news media.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 401.42,
+      "end": 424.46,
+      "speaker": "SPEAKER_01",
+      "text": "No, no. I do it. Here's the thing. Okay. Isn't that important? I understand what you — and you're right about that, except this. See, I know when I should get good and when I should get bad. Sometimes I'll say, wow, that's going to be a great story, and I'll get killed. I know what's good and bad. I'd be a pretty good reporter, not as good as you. But I know what's good. I know what's bad. And when they change it and make it really bad, something that should be positive, sometimes",
+      "playback_start": 401.36,
+      "playback_end": 424.38,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "No, no. I do it. Here's the thing. Okay. Isn't that important? I understand what you — and you're right about that, except this. See, I know when I should get good and when I should get bad. Sometimes I'll say, wow, that's going to be a great story, and I'll get killed. I know what's good and bad. I'd be a pretty good reporter, not as good as you. But I know what's good. I know what's bad. And when they change it and make it really bad, something that should be positive, sometimes",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 424.46,
+      "end": 451.8,
+      "speaker": "SPEAKER_01",
+      "text": "something that should be very positive, they'll make okay, they'll even make it negative. So I understand it. So, because I'm there, I know what was said, I know who's saying it, I'm there. So it's very important to me, look, I want to see an honest press. When I started off today by saying that it's so important to the public to get an honest press. The press, the public doesn't believe you people anymore. Now maybe I had something to do with that, I don't know. But they don't believe you.",
+      "playback_start": 424.4,
+      "playback_end": 451.72,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "something that should be very positive, they'll make okay, they'll even make it negative. So I understand it. So, because I'm there, I know what was said, I know who's saying it, I'm there. So it's very important to me, look, I want to see an honest press. When I started off today by saying that it's so important to the public to get an honest press. The press, the public doesn't believe you people anymore. Now maybe I had something to do with that, I don't know. But they don't believe you.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 451.8,
+      "end": 489.16,
+      "speaker": "SPEAKER_01",
+      "text": "If you were straight and really told it like it is, as Howard Cosell used to say, right? Of course he had some questions also. But if you were straight, I would be your biggest booster. I would be your biggest fan in the world, including bad stories about me. But if you go, as an example, your CNN, I mean, it's story after story after story is bad. I won. I won. And the other thing, chaos. There's zero chaos. We are running — this is a fine-tuned machine. And Reince happens to be doing a good job,",
+      "playback_start": 451.74,
+      "playback_end": 489.08,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "If you were straight and really told it like it is, as Howard Cosell used to say, right? Of course he had some questions also. But if you were straight, I would be your biggest booster. I would be your biggest fan in the world, including bad stories about me. But if you go, as an example, your CNN, I mean, it's story after story after story is bad. I won. I won. And the other thing, chaos. There's zero chaos. We are running — this is a fine-tuned machine. And Reince happens to be doing a good job,",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 489.16,
+      "end": 523.58,
+      "speaker": "SPEAKER_01",
+      "text": "but half of his job is putting out lies by the press. You know, I said to him yesterday, they —You know, this whole Russia scam that you guys are building so that you don't talk about the real subject, which is illegal leaks. But I watched him yesterday working so hard to try and get that story proper, and I'm saying, here's my chief of staff, a really good guy, did a phenomenal job at RNC. I mean, he won the election, right? Won the presidency. We got some senators. We got some all over the country. You take a look, he's done a great job.",
+      "playback_start": 489.1,
+      "playback_end": 523.5,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "but half of his job is putting out lies by the press. You know, I said to him yesterday, they —You know, this whole Russia scam that you guys are building so that you don't talk about the real subject, which is illegal leaks. But I watched him yesterday working so hard to try and get that story proper, and I'm saying, here's my chief of staff, a really good guy, did a phenomenal job at RNC. I mean, he won the election, right? Won the presidency. We got some senators. We got some all over the country. You take a look, he's done a great job.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 523.58,
+      "end": 551.34,
+      "speaker": "SPEAKER_01",
+      "text": "And I said to myself, you know, and I said to somebody that was in there, I said, you take a look at Reince. He's working so hard just putting out fires that are fake fires. I mean, they're fake. They're not true. And isn't that a shame? Because he'd rather be working on healthcare. He'd rather be working on tax reform, Jim. I mean that. I would be your biggest fan in the world if you treated me right. I sort of understand there's a certain bias, maybe by Jeff or somebody, you know, for whatever reason.",
+      "playback_start": 523.52,
+      "playback_end": 551.26,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "And I said to myself, you know, and I said to somebody that was in there, I said, you take a look at Reince. He's working so hard just putting out fires that are fake fires. I mean, they're fake. They're not true. And isn't that a shame? Because he'd rather be working on healthcare. He'd rather be working on tax reform, Jim. I mean that. I would be your biggest fan in the world if you treated me right. I sort of understand there's a certain bias, maybe by Jeff or somebody, you know, for whatever reason.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 551.34,
+      "end": 566.74,
+      "speaker": "SPEAKER_01",
+      "text": "But — and I understand that — but you've got to be at least a little bit fair. And that's why the public sees it. They see it. They see it's not fair. You take a look at some of your shows, and you see the bias and the hatred. And the public is smart. They understand it.",
+      "playback_start": 551.28,
+      "playback_end": 567.192,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "But — and I understand that — but you've got to be at least a little bit fair. And that's why the public sees it. They see it. They see it's not fair. You take a look at some of your shows, and you see the bias and the hatred. And the public is smart. They understand it.",
+      "intent": [
+        "statement"
+      ]
+    }
+  ],
+  "timing": {
+    "diarization": 16.51,
+    "asr": 692.0,
+    "alignment": 30.1,
+    "llm": 99.42,
+    "total": 838.14
+  },
+  "num_speakers": 2,
+  "meeting_summary": {
+    "topic": "President Trump defends his 'fake news' label and criticizes CNN's coverage during a press conference.",
+    "summary": "In a heated exchange, President Trump tells CNN's Jim Acosta that the network is biased and dishonest, while Acosta challenges Trump's credibility on leaks and his attacks on the press. Trump argues that the public no longer believes the media and that he is unfairly covered, citing his own involvement in politics as justification for his criticisms.",
+    "key_points": [
+      "Trump claims he can distinguish true from false news because he is directly involved in the events being reported.",
+      "He accuses CNN of constant hatred and bias, specifically targeting shows like the 10 p.m. broadcast.",
+      "Trump references WikiLeaks and contrasts the leaking of classified information with the release of unclassified campaign emails.",
+      "He asserts that the public does not trust the press and that his victory validates his approach.",
+      "Trump defends the phrase 'fake news' as a label for stories he believes are inaccurate or unfairly negative."
+    ],
+    "decisions": [],
+    "action_items": [],
+    "participants": [
+      "SPEAKER_00 (Jim Acosta)",
+      "SPEAKER_01 (Donald Trump)"
+    ]
+  }
+}

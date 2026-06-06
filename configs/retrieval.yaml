@@ -2,6 +2,11 @@
 
 dimensions: [semantic, keyword, speaker, time, intent]
 
+query_rewrite:
+  enabled: true                   # expand query into zh/en semantic and keyword variants
+  target_languages: [zh, en]
+  backend: llm                    # llm first, rule fallback
+
 semantic:
   encoder: bge-m3                # uses configs/models.yaml -> embedding.model
   top_k: 20

@@ -1,0 +1,2486 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\fe73e3a2c950d93e0b94e8b07ad000fe08363d95777bd0467182e071050b862c\\R8001_M8004_MS801.wav",
+  "segments": [
+    {
+      "start": 16.65,
+      "end": 24.98,
+      "speaker": "SPEAKER_00",
+      "text": "今天咱们公司新出的一款手机产品啊，进行一下这个研讨会。首先咱们确认一下咱们这个产品的目标、人群、客户群这一块。首先谈谈大家伙的一个看法，你谈一下。",
+      "avg_logprob": -0.3458867690142463,
+      "no_speech_prob": 0.18759264051914215,
+      "speech_overlap_s": 20.2,
+      "speech_overlap_ratio": 0.808,
+      "start_asr_raw": 0.0,
+      "playback_start": 15.4,
+      "playback_end": 24.92,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "今天咱们公司新出的一款手机产品啊,进行一下这个研讨会,首先咱们确认一下咱们这个产品的目标,这个人群,客户群这一块,首先谈谈大家伙的一个看法,你谈一下。",
+      "correction_note": "添加标点符号，修正逗号为顿号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 25.0,
+      "end": 35.701,
+      "speaker": "SPEAKER_00",
+      "text": "我觉得咱们这个目标人群可以不用定得那么确定，然后基本上就是让他什么样、什么类的人群都可以，这样咱们的面比较广。",
+      "avg_logprob": -0.2661438518100315,
+      "no_speech_prob": 0.1742725968360901,
+      "speech_overlap_s": 4.49,
+      "speech_overlap_ratio": 1.011,
+      "playback_start": 24.94,
+      "playback_end": 36.351,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我觉得咱们这个目标人群可以不用定的那么确定然后基本上就是让他什么样什么类的人群然后都可以这样的咱们的面比较广",
+      "correction_note": "修正“定的”为“定得”，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 36.72,
+      "end": 48.98,
+      "speaker": "SPEAKER_00",
+      "text": "因为咱们这个手机现在基本上外观设计得比较时尚，所以我觉得其实不用界定于这个老年人或者年轻人之间，就是宽度大一点。是吧？对，这样我觉得范围更广一些。",
+      "avg_logprob": -0.2661438518100315,
+      "no_speech_prob": 0.1742725968360901,
+      "speech_overlap_s": 3.72,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 36.67,
+      "playback_end": 48.92,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "因为咱们这个手机现在基本上外观设计的比较时尚所以我觉得其实不用介定于这个老年人或者年轻人之间就是宽度大一点是吧对这样我觉得范围更广一些",
+      "correction_note": "修正“介定”为“界定”，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 49.0,
+      "end": 58.18,
+      "speaker": "SPEAKER_00",
+      "text": "就什么样的人群都可以选择呢？好，我觉得是要有针对性的。我觉得咱们的设计外观还是很时尚。",
+      "avg_logprob": -0.2661438518100315,
+      "no_speech_prob": 0.1742725968360901,
+      "speech_overlap_s": 1.76,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 48.94,
+      "playback_end": 58.12,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "就什么样的人群都可以选择呢好我觉得是要有针对性的我觉得咱们的设计外观还是很时尚",
+      "correction_note": "添加标点，拆分句子。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 58.2,
+      "end": 71.2,
+      "speaker": "SPEAKER_00",
+      "text": "还是需要去设定一下比较适合的年龄段。比方说因为是有彩色的、有蓝色的、黄色的，你看老年人他不可能...也可以说是有一种。",
+      "avg_logprob": -0.2669101024237205,
+      "no_speech_prob": 0.19741098582744598,
+      "speech_overlap_s": 6.24,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 58.14,
+      "playback_end": 71.12,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "还是需要去设定一下比较适合的年龄段比方说因为是有彩色的有蓝色的黄色你看老年人他不可能也可以说是有一种",
+      "correction_note": "添加标点，保持口语省略。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 71.2,
+      "end": 82.9,
+      "speaker": "SPEAKER_00",
+      "text": "对，而且你现在设计的产品主要推出的是它有照相的功能，功能的话是很好，所以还是适合年轻的人群。",
+      "avg_logprob": -0.2669101024237205,
+      "no_speech_prob": 0.19741098582744598,
+      "speech_overlap_s": 2.95,
+      "speech_overlap_ratio": 1.135,
+      "playback_start": 71.14,
+      "playback_end": 83.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "对 而且你现在设计的产品主要推出的是它有照相的功能功能的话是很很好所以是还是适合年轻的人群",
+      "correction_note": "修正“很很好”为“很好”，“所以是还是”为“所以还是”。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 83.72,
+      "end": 97.4,
+      "speaker": "SPEAKER_00",
+      "text": "我感觉可以根据年龄和这种不同的人士做一下区分。我感觉我们可以主要真的就是18到45岁之间的中青年人群吧。",
+      "avg_logprob": -0.4014469733605018,
+      "no_speech_prob": 0.2085803747177124,
+      "speech_overlap_s": 6.2,
+      "speech_overlap_ratio": 1.107,
+      "playback_start": 83.67,
+      "playback_end": 97.4,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我感觉可以根据年龄和这种就是不同的人士做一下区分我感觉我们可以主要真的就是18到45之岁的中青年人群吧",
+      "correction_note": "修正“之岁”为“之间”，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 97.52,
+      "end": 107.3,
+      "speaker": "SPEAKER_00",
+      "text": "首先咱们就确定这个手机，就应该从这个特点来说，可能就是说年龄段跨度大一点，对吧？大家都同意。我觉得吧，就是现在那个老年人也都很时尚。",
+      "avg_logprob": -0.4014469733605018,
+      "no_speech_prob": 0.2085803747177124,
+      "speech_overlap_s": 2.13,
+      "speech_overlap_ratio": 1.183,
+      "playback_start": 97.46,
+      "playback_end": 107.24,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "首先咱们就确定这个手机就该从这个特点来说可能就是说年龄段差多大一点对吧大家都同意我觉得吧就是现在那个老年人也都很时尚",
+      "correction_note": "修正“差多大一点”为“跨度大一点”，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 107.32,
+      "end": 137.3,
+      "speaker": "SPEAKER_00",
+      "text": "现在老年人出去，然后他基本上那个把自己装扮起来，然后都是大粉大红，然后他很喜欢那种特别厉害的东西，有年轻感，就是年轻版。是吧？但是现在的这个版本的话，它是不适合老年人的。你有一些功能，你像老年人的话，他需要很多的大字体，或者是一些网络上的东西，老年人更不适合，他操作不了，他那个规格还是不一样的。但是我觉得手机里边的很多这个特别的东西。",
+      "avg_logprob": -0.2723240152994792,
+      "no_speech_prob": 0.5626378655433655,
+      "speech_overlap_s": 30.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 107.26,
+      "playback_end": 137.24,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "现在老年人出去,然后他基本上那个把自己装里面,然后都是大粉大红,然后他很喜欢那种那种特别厉害的东西,有年轻年轻感,就是年轻版是吧,但是现在的这个版本的话,它是不适合老年人的,你有一些功能,你像老年人的话,他需要很多的大字体,或者是一些网络上的东西,老年人更不适合,他操作不了,他那个规格还是不一样的,但是我觉得手机里边的很多这个特别的东西,我觉得手机里边的很多这个特别的东西,我觉得手机里边的很多这个特别的东西,我觉得手机里边的很多这个特别的东西,我觉得手机里边的很多这个特别的东西,我觉得手机里边的很多这个特别的东西,",
+      "correction_note": "清理大量重复句子，保留一次；修正“装里面”为“装扮起来”，“年轻年轻感”为“年轻感”。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 137.32,
+      "end": 151.62,
+      "speaker": "SPEAKER_00",
+      "text": "各自的特点都是可以设定的。而且我觉得现在老年人也不是所有的老年人都是那种就是眼花或者什么什么的情况，所以我觉得吧，就是不用把这个界限弄得那么分明。",
+      "avg_logprob": -0.30673825010961414,
+      "no_speech_prob": 0.9063043594360352,
+      "speech_overlap_s": 2.73,
+      "speech_overlap_ratio": 1.101,
+      "playback_start": 137.26,
+      "playback_end": 151.56,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.91"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "各自的龙女都是可以在不设的而且我觉得现在老年人也不是所有的老年人都是那种就是眼花或者什么什么的情况所以我觉得吧就是不用把这个界限弄得那么分明",
+      "correction_note": "修正“龙女”为“特点”，“不设”为“设定”，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 151.64,
+      "end": 164.12,
+      "speaker": "SPEAKER_00",
+      "text": "然后基本上能适应它，然后能去使用它的老年人都还可以。但是我觉得还是有针对性的好。啊，你现在买手机的话，它不一定都是说老年人自己去买，老年人根本就不会看。",
+      "avg_logprob": -0.30673825010961414,
+      "no_speech_prob": 0.9063043594360352,
+      "speech_overlap_s": 1.36,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 151.58,
+      "playback_end": 164.04,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后基本上能适应它然后能去使用它的老年人都还可以但是我觉得还是有针对性的好啊你现在买手机的话它不一定都是说老年人自己去买老年人根本就不会看",
+      "correction_note": "添加标点，拆分句子。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 164.12,
+      "end": 176.56,
+      "speaker": "SPEAKER_00",
+      "text": "一般都是子女给家长去买，他会调查里面的一些功能什么的，会去选择。我感觉我们可以根据不同人去稍微做一下差别设计。",
+      "avg_logprob": -0.30673825010961414,
+      "no_speech_prob": 0.9063043594360352,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 164.06,
+      "playback_end": 176.48,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "一般都是子女给家长去买他会调查里面的一些功能什么的会去选择我感觉我们可以根据就是不同人去稍微做一下差别设计",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 176.56,
+      "end": 187.101,
+      "speaker": "SPEAKER_00",
+      "text": "像如果老年人用的话，可以就是配置稍微低一点，就是字体大一点，或者声音稍微大一点；年轻人用的话就可能颜色选择性多一点，配置高一点。这种好。",
+      "avg_logprob": -0.35230769404658563,
+      "no_speech_prob": 0.3191682696342468,
+      "speech_overlap_s": 3.75,
+      "speech_overlap_ratio": 1.202,
+      "playback_start": 176.5,
+      "playback_end": 187.061,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "像如果老年人用的话可以就是配置稍微低一点就是自己或者声音稍微大一点年轻人用的话就可能颜色选择性多一点配置高一点这种好",
+      "correction_note": "修正“自己”为“字体大一点”，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 187.141,
+      "end": 201.12,
+      "speaker": "SPEAKER_00",
+      "text": "反正这个就是怕的，反正就不用特别大。从年轻人来说，咱们主题是年轻化这一块，年轻人，18到35岁之间，大家觉得可以。",
+      "avg_logprob": -0.35230769404658563,
+      "no_speech_prob": 0.3191682696342468,
+      "speech_overlap_s": 6.72,
+      "speech_overlap_ratio": 1.098,
+      "playback_start": 187.081,
+      "playback_end": 201.04,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "反正这个就是怕的反正就不用特别大从年轻人来说咱们主题是年轻化这一块年轻人一块18到35岁之间大家一会觉得可以",
+      "correction_note": "修正“一会觉得”为“觉得”，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 201.12,
+      "end": 207.14,
+      "speaker": "SPEAKER_00",
+      "text": "40到50岁之间都可以，对吧？对，咱们机型我觉得还是适应比较年轻化一点。",
+      "avg_logprob": -0.27758372913707385,
+      "no_speech_prob": 0.6342793107032776,
+      "speech_overlap_s": 1.23,
+      "speech_overlap_ratio": 1.23,
+      "playback_start": 201.06,
+      "playback_end": 207.79,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "40到50岁之间都可以对吧对咱们机型我觉得还是适应比较年轻化一点",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 209.12,
+      "end": 221.1,
+      "speaker": "SPEAKER_00",
+      "text": "咱们后面再定一下18到50岁之间的色彩颜色，咱们到时候再确定一下颜色。首先，能不能说促销方式这一块？",
+      "avg_logprob": -0.27758372913707385,
+      "no_speech_prob": 0.6342793107032776,
+      "speech_overlap_s": 3.4,
+      "speech_overlap_ratio": 1.133,
+      "playback_start": 209.07,
+      "playback_end": 221.04,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "咱们后面再定一下18到50岁之间的色彩原色咱们到时候再确定一下颜色首先能不能说粗糙方式这一块",
+      "correction_note": "修正'色彩原色'为'色彩颜色'，'粗糙方式'为'促销方式'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 221.12,
+      "end": 235.1,
+      "speaker": "SPEAKER_00",
+      "text": "大家觉得以示范的促销方式已经促销给平台跑出去了，我感觉可以。现在通过比较热门的直播带货，然后马上就电商双11模式，这种活动我们都可以多参与一下。",
+      "avg_logprob": -0.35482343037923175,
+      "no_speech_prob": 0.7497867941856384,
+      "speech_overlap_s": 5.1,
+      "speech_overlap_ratio": 1.109,
+      "playback_start": 221.06,
+      "playback_end": 235.04,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "大家觉得以示范的促销方式已经促销给平台跑出去了我感觉可以现在通过比较热门的直播代货然后马上就电商双11模式这种活动我们都可以多参与一下",
+      "correction_note": "修正'直播代货'为'直播带货'，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 235.12,
+      "end": 248.92,
+      "speaker": "SPEAKER_00",
+      "text": "就各大电商平台，什么的天猫、苏宁、淘宝平台都会有压力，双11也都会有压力。我们前期主要就是价钱可以让利一些，多占了一些市场份额。",
+      "avg_logprob": -0.35482343037923175,
+      "no_speech_prob": 0.7497867941856384,
+      "speech_overlap_s": 2.3,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 235.06,
+      "playback_end": 248.84,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "就各大电商平台什么的天摩 苏宁 淘宝平台都会有压力双11也都会有压力我们前期主要是就是价钱可以让利一些多占了一些市场份额",
+      "correction_note": "修正'天摩'为'天猫'，'主要是就是'改为'主要就是'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 248.92,
+      "end": 262.92,
+      "speaker": "SPEAKER_00",
+      "text": "等市场慢慢做好之后，就可以价钱稍微高点。你们有什么不同的方法？我觉得还是先要看一下推出一下手机的亮点，它有什么和其他的手机有什么不同的地方。",
+      "avg_logprob": -0.3073010714548939,
+      "no_speech_prob": 0.45652973651885986,
+      "speech_overlap_s": 6.17,
+      "speech_overlap_ratio": 1.234,
+      "playback_start": 248.86,
+      "playback_end": 262.84,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "等十三分钟慢慢做好之后就可以价钱稍微高点你们有什么不同的方法我觉得还是先要看一下推出一下手机的亮面它有什么和其他的手机有什么不同的地方",
+      "correction_note": "修正'十三分钟'为'市场'，'亮面'为'亮点'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 262.92,
+      "end": 275.92,
+      "speaker": "SPEAKER_00",
+      "text": "然后再就是在一些电商给一些力度，比方说京东什么的，给一个促销看看，有什么样的方式去进行这个促销。",
+      "avg_logprob": -0.3073010714548939,
+      "no_speech_prob": 0.45652973651885986,
+      "speech_overlap_s": 6.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 262.86,
+      "playback_end": 275.84,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后再就是在一些电商给一些力度比方说京东什么的给一个触控看有什么样的方式去进行这个促销",
+      "correction_note": "修正'触控看'为'促销看看'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 275.92,
+      "end": 288.92,
+      "speaker": "SPEAKER_00",
+      "text": "我感觉地推不太适合手机，手机一般都是有门店的。",
+      "avg_logprob": -0.6185478634304471,
+      "no_speech_prob": 0.6957218647003174,
+      "speech_overlap_s": 13.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 275.86,
+      "playback_end": 288.84,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.70"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我感觉地推不太适合手机,手机一般都是有门店的",
+      "correction_note": "添加逗号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 288.92,
+      "end": 303.92,
+      "speaker": "SPEAKER_00",
+      "text": "地推太老套了，还是电商现在比较好一点。对，电商好一点。然后我觉得可以就是捆绑一些，比如说然后还可以带一些手机附件之类的，什么手机壳。",
+      "avg_logprob": -0.2646808748930887,
+      "no_speech_prob": 0.4909396171569824,
+      "speech_overlap_s": 2.6,
+      "speech_overlap_ratio": 0.867,
+      "playback_start": 288.86,
+      "playback_end": 303.84,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "地推太老套了还是电商现在比较好一点对 电商好一点然后我觉得可以就是那个然后捆绑一些比如说然后他还带着一些对 手机附件之类的什么手机壳",
+      "correction_note": "清理重复的'然后'和'对'，调整语序。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 303.92,
+      "end": 316.92,
+      "speaker": "SPEAKER_00",
+      "text": "明星代言，这肯定上了吧！明星代言，这是另外一方面。然后我觉得就比如说捆绑一些什么移动啊这些运营商，然后它们的一些产品，然后其他的，这样还能带有更多的东西。",
+      "avg_logprob": -0.2646808748930887,
+      "no_speech_prob": 0.4909396171569824,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 303.86,
+      "playback_end": 316.84,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "明星代言 这肯定上了了吧明星代言 这是另外一方面然后我觉得就比如说捆绑一些什么移动啊这些运商然后他的一些产品然后其他的这样还能带有更多的东西",
+      "correction_note": "修正'上了了吧'为'上了吧'，'运商'为'运营商'，'他'为'它们'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 316.92,
+      "end": 329.72,
+      "speaker": "SPEAKER_00",
+      "text": "现在合约手机、合约机好像不是太多，有一些和银行合作以表分期。",
+      "avg_logprob": -0.6183468080916494,
+      "no_speech_prob": 0.6502121686935425,
+      "speech_overlap_s": 6.8,
+      "speech_overlap_ratio": 1.03,
+      "playback_start": 316.86,
+      "playback_end": 329.64,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "现在合约手机合约机好像不是太多有一些和银行合作意表离聘",
+      "correction_note": "修正'意表离聘'为'以表分期'，删除重复。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 329.72,
+      "end": 336.92,
+      "speaker": "SPEAKER_00",
+      "text": "不是分期，就是那种分期购。就是分期购，还款时间就看购年限多大。",
+      "avg_logprob": -0.6183468080916494,
+      "no_speech_prob": 0.6502121686935425,
+      "speech_overlap_s": 2.76,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 329.66,
+      "playback_end": 336.84,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "不是离聘 就是那种分期购就是分期购还时间就看购年性多大",
+      "correction_note": "修正'离聘'为'分期'，'还时间就看购年性多大'为'还款时间就看购年限多大'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 336.92,
+      "end": 350.62,
+      "speaker": "SPEAKER_03",
+      "text": "有时候觉得分期购买长，有时候就会特别喜欢，可以做多一点。主要还是看收益，每个月的话还个什么一两百块。这分期还是看手续费的，因为有些银行他这个手续费比较高。",
+      "avg_logprob": -0.6183468080916494,
+      "no_speech_prob": 0.6502121686935425,
+      "speech_overlap_s": 2.83,
+      "speech_overlap_ratio": 1.088,
+      "playback_start": 336.86,
+      "playback_end": 350.56,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有时候觉得分期购买长有时候就会特别喜欢可以做多一点主要还是看水域每个月的话还个什么一两百块这分析还是看手续费的因为有些银行他这个手续费比较高",
+      "correction_note": "修正'水域'为'收益'，'分析'为'分期'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 350.64,
+      "end": 364.76,
+      "speaker": "SPEAKER_03",
+      "text": "所以找哪个银行去和哪个银行去谈，然后就会开拓一些新的思路，因为咱们现在太固定的模式吧，然后可能就是没有突破点。啊，嗯，对。",
+      "avg_logprob": -0.33992282322474887,
+      "no_speech_prob": 0.5264183282852173,
+      "speech_overlap_s": 0.68,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 350.58,
+      "playback_end": 364.68,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.7s/14.1s"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "所以找哪个银行去和哪个银行去谈然后就会开拓一些新的思路因为咱们现在太固定的模式吧然后可能就是没有突破点啊嗯对",
+      "correction_note": "添加标点，保留口语语气。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 364.76,
+      "end": 377.42,
+      "speaker": "SPEAKER_03",
+      "text": "然后，有一些新的思路，这样咱们也能开拓一些新的方向。首先，电商那一块找明星代言，或者跟运营商那边去沟通。",
+      "avg_logprob": -0.33992282322474887,
+      "no_speech_prob": 0.5264183282852173,
+      "speech_overlap_s": 1.68,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 364.7,
+      "playback_end": 377.36,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后然后有一些新的思路这样咱们也能开拓一些新的方向首先电商那一块找明星代言或者跟经营商那边去沟通",
+      "correction_note": "修正'经营商'为'运营商'，添加逗号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 377.44,
+      "end": 391.42,
+      "speaker": "SPEAKER_03",
+      "text": "我觉得明星代言这个投入太大，前期至少网红。对，网红现在已经直播了，然后这个直播现在已经我觉得已经是很普遍了，对，非常平民化了。",
+      "avg_logprob": -0.42749854922294617,
+      "no_speech_prob": 0.5825716257095337,
+      "speech_overlap_s": 4.59,
+      "speech_overlap_ratio": 1.148,
+      "playback_start": 377.38,
+      "playback_end": 391.36,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我觉得明星代言这个投入太大前期至少网红对 网红现在已经直播北然后这个直播现在已经我觉得已经是很普遍了对 非常平民化了",
+      "correction_note": "修正'直播北'为'直播了'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 391.44,
+      "end": 402.24,
+      "speaker": "SPEAKER_03",
+      "text": "然后都可以直播了，可以这么点参考一下，可以这么参考一下。明天发视频，下视频还比较多，也很直播，直播对。然后咱们其实也可以几个平台，然后都去直播。",
+      "avg_logprob": -0.42749854922294617,
+      "no_speech_prob": 0.5825716257095337,
+      "speech_overlap_s": 2.6,
+      "speech_overlap_ratio": 1.3,
+      "playback_start": 391.38,
+      "playback_end": 402.16,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后都可以直播了可以这么点参考一下可以这么参考一下明天发视频下发视频还比较多,也很直播直播对,然后咱们其实也可以几个平台然后都去直播",
+      "correction_note": "清理重复，调整语序。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 402.24,
+      "end": 416.22,
+      "speaker": "SPEAKER_03",
+      "text": "因为现在也得多直播，你还是要不能同时直播。我觉得还是要给一个平台，因为你好多这个平台，其他平台不一定把这个东西。我感觉还是几个平台同时播比较好。",
+      "avg_logprob": -0.37261919432048557,
+      "no_speech_prob": 0.8556997776031494,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 402.18,
+      "playback_end": 416.16,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "因为现在也得多直播你还是要,不能同时直播我觉得还是要给一个平台因为你好多,你这个平台其他平台不一定把这个东西我感觉还是截平台同时播比较好",
+      "correction_note": "修正'截平台'为'几个平台'，补充逗号与句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 416.24,
+      "end": 430.3,
+      "speaker": "SPEAKER_03",
+      "text": "就看哪个平台有新的客户角度，找一个大一点的平台、大一点的主播，有影响力，这样子推出还是高一点的。可以找像那种大一点的大V。",
+      "avg_logprob": -0.37261919432048557,
+      "no_speech_prob": 0.8556997776031494,
+      "speech_overlap_s": 3.19,
+      "speech_overlap_ratio": 1.063,
+      "playback_start": 416.18,
+      "playback_end": 430.24,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就看哪个平台就有新的客户角度找一个大一点的那个平台大一点的主播有影响力这样子推出还是高一点的可以找像那种大一点的大Vo",
+      "correction_note": "修正'大Vo'为'大V'，调整语序并添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 430.32,
+      "end": 443.82,
+      "speaker": "SPEAKER_03",
+      "text": "对对对，对，品牌影响力非常好。你待会再找个新的，我觉得如果成本太高的话，然后再去推一下还是可以影响咱的销售。可以可以，咱们在这个目标的话...",
+      "avg_logprob": -0.5625468444824219,
+      "no_speech_prob": 0.8300377726554871,
+      "speech_overlap_s": 2.88,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 430.26,
+      "playback_end": 443.76,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.83"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对对对 导演品牌影响力非常好你待会再找个新的我觉得如果成本太高的话然后再去推一下还是可以影响咱的销售可以可以咱们在这个目标的话",
+      "correction_note": "修正'导演'为'对'，添加逗号与分句。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 443.84,
+      "end": 454.84,
+      "speaker": "SPEAKER_03",
+      "text": "就找一个影响大一点的。好吧，现在咱们促销就是选平台的问题，咱们说那个促销地点就是平台。咱们选了怎么样的平台？",
+      "avg_logprob": -0.5625468444824219,
+      "no_speech_prob": 0.8300377726554871,
+      "speech_overlap_s": 1.88,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 443.78,
+      "playback_end": 454.76,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就转一个影响大一点的好吧现在咱们促销就是选平台的问题咱们说那个促销地点就是平台咱们选了怎么样的平台",
+      "correction_note": "修正'转一个'为'找一个'，添加句号和问号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 454.84,
+      "end": 465.82,
+      "speaker": "SPEAKER_03",
+      "text": "咱们有什么好推荐？大家可以选择一个方法，你们去选一下。这是我感觉，大家有什么好的方法就是我们选一个。",
+      "avg_logprob": -0.4042837415422712,
+      "no_speech_prob": 0.5103724598884583,
+      "speech_overlap_s": 6.39,
+      "speech_overlap_ratio": 1.065,
+      "playback_start": 454.78,
+      "playback_end": 465.76,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱们有什么好推荐,大家可以选择一个方法,你们去选一下这是我感觉大家有什么好的方法就是我们选一个",
+      "correction_note": "添加问号和逗号，保持原意。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 465.84,
+      "end": 477.82,
+      "speaker": "SPEAKER_03",
+      "text": "我感觉还有根据客户每日活跃人数，像抖音这种他日活跃人数可能有超过3亿。快手这种其实我觉得咱们这个品牌上面，然后还可以做一些...",
+      "avg_logprob": -0.4042837415422712,
+      "no_speech_prob": 0.5103724598884583,
+      "speech_overlap_s": 5.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 465.78,
+      "playback_end": 477.76,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我感觉还有根据客户,每日回药人数,像抖音这种他日回药人数可能有超过3亿,快速这种其实我觉得咱们这个品牌上面,然后还可以做一些",
+      "correction_note": "修正'回药'为'活跃'，'快速'为'快手'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 477.84,
+      "end": 489.98,
+      "speaker": "SPEAKER_03",
+      "text": "咱们自己人员然后给他点赞或者什么，让他们更活力一些。或者是我们自己品牌的，自己公司的，自己管理，我自己做一个人，然后大量的推一下这个广告。",
+      "avg_logprob": -0.4042837415422712,
+      "no_speech_prob": 0.5103724598884583,
+      "speech_overlap_s": 5.6,
+      "speech_overlap_ratio": 1.12,
+      "playback_start": 477.78,
+      "playback_end": 490.63,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱们自己人员,然后给他点赞,或者什么,让他们更活力一些或者是我们自己品牌的 自己公司的自己管我自己做一个人然后大量的推一下这个广告",
+      "correction_note": "修正'自己管我自己做一个人'为'自己管理，我自己做一个人'，调整标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 490.72,
+      "end": 505.3,
+      "speaker": "SPEAKER_03",
+      "text": "当我们自己要做的话，然后还需要人数、粉丝的进度。反正前期我感觉可以，这个出的感觉可以。可以讲这个大的规矩很慢的吧。前期我感觉可以借用这些成熟的评论。",
+      "avg_logprob": -0.5106789797347113,
+      "no_speech_prob": 0.6113044619560242,
+      "speech_overlap_s": 1.68,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 490.67,
+      "playback_end": 505.24,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "当我们自己要做的话然后还需要人数粉丝的进度反正前期我感觉可以这个出的感觉可以可以讲这个大规矩很慢的吧前期我感觉可以借用这些成熟的评论",
+      "correction_note": "无重大错误，仅增加逗号和句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 505.32,
+      "end": 518.04,
+      "speaker": "SPEAKER_03",
+      "text": "我们再自己慢慢研究，就是开放一些自己的评论。不赖不赖，如果赶上传声音的话，估计这个速度有可能会跟不上，跟不上对不对？我觉得不会未必。我们可以说那个...",
+      "avg_logprob": -0.5106789797347113,
+      "no_speech_prob": 0.6113044619560242,
+      "speech_overlap_s": 1.96,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 505.26,
+      "playback_end": 518.69,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我们再自己慢慢研究就是开放一些自己的评论不赖不赖 如果敢传声音的话估计这个速度有可能会跟不上跟不上对不对我觉得不会未必我们可以说那个",
+      "correction_note": "修正'敢传'为'赶上'，添加逗号和问号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 518.48,
+      "end": 528.48,
+      "speaker": "SPEAKER_03",
+      "text": "刚才说自己做一个演示也是可以的。对，我觉得反正可以几个平台一起同时进行。我感觉现在不用做平台，就是像各大平台可以自己做，直接掌握。",
+      "avg_logprob": -0.5457261403401693,
+      "no_speech_prob": 0.6505034565925598,
+      "speech_overlap_s": 2.32,
+      "speech_overlap_ratio": 1.184,
+      "playback_start": 518.43,
+      "playback_end": 528.4,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "刚才说自己做一个演示也是可以的对 我觉得反正可以几个平台制跟全部同时节目我感觉现在不用做平台就是像各大可以是自己做 直接掌握",
+      "correction_note": "修正'制跟全部同时节目'为'一起同时进行'，添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 528.48,
+      "end": 540.24,
+      "speaker": "SPEAKER_03",
+      "text": "就是各大电商，各种官方旗舰店都可以做直播的，是可以有这种功能。然后还有各个什么京东啊什么的这些，然后都是同时起，同时起，然后几条路。",
+      "avg_logprob": -0.5457261403401693,
+      "no_speech_prob": 0.6505034565925598,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 528.42,
+      "playback_end": 540.16,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.65"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就是各大电商 各种观光期间店都可以做直播的可以是有这种功能然后还有各个什么京东啊什么的这些然后都是同时起同时起然后几条舞",
+      "correction_note": "修正'观光期间店'为'官方旗舰店'，'几条舞'为'几条路'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 540.24,
+      "end": 550.22,
+      "speaker": "SPEAKER_03",
+      "text": "咱们现在就选主流的呗，比如说几个大媒体呗，是吧？就是大平台，然后咱们这个产品投放不能光是方便这个逻辑吧？",
+      "avg_logprob": -0.3557756358179553,
+      "no_speech_prob": 0.6287714838981628,
+      "speech_overlap_s": 5.59,
+      "speech_overlap_ratio": 1.016,
+      "playback_start": 540.18,
+      "playback_end": 550.16,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱们现在就选主流的呗,比如说你家大媒体呗,是吧,就是大平台然后咱们这个产品图样不能光是方便这个逻辑吧",
+      "correction_note": "修正'你家大媒体'为'几个大媒体'，'产品图样'为'产品投放'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 550.24,
+      "end": 556.72,
+      "speaker": "SPEAKER_03",
+      "text": "咱们这个产品整体这一块，大家觉得是选一个什么样的产品？你觉得定位可能确定了，定位可能很年轻吧？",
+      "avg_logprob": -0.3557756358179553,
+      "no_speech_prob": 0.6287714838981628,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 550.18,
+      "playback_end": 556.66,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱们这个产品正体这一块,大家觉得是选一个什么样的产品你觉得定位可能确定了,定位可能很年轻吧",
+      "correction_note": "修正'正体'为'整体'，添加问号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 556.74,
+      "end": 569.02,
+      "speaker": "SPEAKER_03",
+      "text": "大家觉得什么样的这个产品符合咱们手机的定位？什么产品？手机整体一般就是手机盒，我们每个人都可以备，然后基本上上飞机或者走哪儿的时候...",
+      "avg_logprob": -0.3557756358179553,
+      "no_speech_prob": 0.6287714838981628,
+      "speech_overlap_s": 5.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 556.68,
+      "playback_end": 568.96,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "大家觉得什么样的这个正面符合咱们手机的定位,什么产品手机正体一般就是手机盒我们每个人都可以备然后基本上上飞机或者走哪儿的时候",
+      "correction_note": "修正'正面'为'产品'，'正体'为'整体'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 569.04,
+      "end": 578.861,
+      "speaker": "SPEAKER_03",
+      "text": "然后基本上都不用了，所以有那种用途。像每个人现在买手机的话，他也会有那种什么手机壳什么的，手机壳、屏幕清洁盘什么的。对。",
+      "avg_logprob": -0.3452008881183885,
+      "no_speech_prob": 0.7541868686676025,
+      "speech_overlap_s": 1.61,
+      "speech_overlap_ratio": 1.342,
+      "playback_start": 568.98,
+      "playback_end": 578.821,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后基本上都不用了所以有那种用途像每个人现在买手机的话他也会有那种什么手机壳什么的手机壳屏幕倾盘什么的对",
+      "correction_note": "修正'倾盘'为'清洁盘'（推测），添加逗号和句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 578.901,
+      "end": 592.04,
+      "speaker": "SPEAKER_03",
+      "text": "设计一款就是我们带有我们手机品牌Logo的一些比较限量版的产品去送大伙。刚说这个充电宝的话，我觉得现在你跟他示范什么的，哪都有这个充电宝。",
+      "avg_logprob": -0.3452008881183885,
+      "no_speech_prob": 0.7541868686676025,
+      "speech_overlap_s": 5.1,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 578.841,
+      "playback_end": 591.96,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "设计一款就是我们带有我们手机品牌Logo的一些比较限量版的产品去送大伙刚说这个充电宝的话我觉得现在你跟他示范什么的哪都有这个充电宝",
+      "correction_note": "修正断句和语义不清",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 592.04,
+      "end": 606.44,
+      "speaker": "SPEAKER_03",
+      "text": "充电宝也可以是一个选择，手机贴膜应该必须吧，手机也能够贴，耳机也比较流行。",
+      "avg_logprob": -0.4922550096424348,
+      "no_speech_prob": 0.7198631763458252,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 591.98,
+      "playback_end": 606.36,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "充电宝也可以是一个选择手机贴膜应该必须吧手法能够贴耳机也比较流行",
+      "correction_note": "修正'手法'为'手机'，调整语序",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 606.44,
+      "end": 617.44,
+      "speaker": "SPEAKER_03",
+      "text": "尤其是无线耳机，要不就是微信化的蓝牙耳机，对。无线耳机就比较流行，成本有点高了，手机才多少钱。",
+      "avg_logprob": -0.4922550096424348,
+      "no_speech_prob": 0.7198631763458252,
+      "speech_overlap_s": 1.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 606.38,
+      "playback_end": 617.36,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "尤其是无线耳机要不等于微信化的蓝耳机对,无线耳机就比较流行成本有点高了,手机才多少钱",
+      "correction_note": "修正'微信化的蓝耳机'为'微信化的蓝牙耳机'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 617.44,
+      "end": 629.26,
+      "speaker": "SPEAKER_03",
+      "text": "你可以看一下，现在很多厂家的手机都是耳机。对，我觉得可以多用的话，不必要非得局限于现在一个商品，比如说它可以多用的话，可以选择。",
+      "avg_logprob": -0.5214249582001658,
+      "no_speech_prob": 0.6758992075920105,
+      "speech_overlap_s": 4.04,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 617.38,
+      "playback_end": 629.2,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你可以看一下,现在很多厂家的手机都是耳机对,我觉得可以多用的话,不必要非得取权现在一个商品,比如说它可以多用的话的选择",
+      "correction_note": "修正'取权'为'局限'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 629.28,
+      "end": 635.38,
+      "speaker": "SPEAKER_03",
+      "text": "这样的话，有的人比如说像我那样，不用耳机的。",
+      "avg_logprob": -0.5214249582001658,
+      "no_speech_prob": 0.6758992075920105,
+      "speech_overlap_s": 6.29,
+      "speech_overlap_ratio": 1.028,
+      "playback_start": 629.22,
+      "playback_end": 635.32,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这样的话,有的人比如说像我那样,不用耳机的",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 635.4,
+      "end": 646.44,
+      "speaker": "SPEAKER_00",
+      "text": "或者说有的人就是不用耳机，就是买一个手机，中间产品，可以多用，可以多用。你那个要这个套餐，这个套餐里面它包括的是什么？",
+      "avg_logprob": -0.5214249582001658,
+      "no_speech_prob": 0.6758992075920105,
+      "speech_overlap_s": 2.72,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 635.34,
+      "playback_end": 646.36,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.68"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "或者说有的人就是不宜耳机就是买一个手机,中间产品,可以多用可以多用,你那个要这个套餐,这个套餐里面它包括的是什么",
+      "correction_note": "修正'不宜'为'不用'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 646.44,
+      "end": 658.08,
+      "speaker": "SPEAKER_00",
+      "text": "我觉得这样的话，就可以弄一个盲盒类型的，对，盲盒类型的，就很好了，对，就是你挑的什么，你自己选的什么，试试嘛，也算是一种。",
+      "avg_logprob": -0.3486361309764831,
+      "no_speech_prob": 0.4993172585964203,
+      "speech_overlap_s": 11.64,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 646.38,
+      "playback_end": 658.0,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我觉得这样的话,就可以弄一盲盒类型的,对,盲盒类型的,就很好了,对,就是你挑的什么,你自己选的什么,试试嘛,也算是一种。",
+      "correction_note": "添加量词'一个'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 658.08,
+      "end": 670.94,
+      "speaker": "SPEAKER_00",
+      "text": "这个想法还是还是不错的啊，然后那个，还有没有什么新的想法，说那个，那咱们怎么去试试这个方案，对吧，那个，出不出一套这个试试的方案。",
+      "avg_logprob": -0.3486361309764831,
+      "no_speech_prob": 0.4993172585964203,
+      "speech_overlap_s": 14.18,
+      "speech_overlap_ratio": 1.101,
+      "playback_start": 658.02,
+      "playback_end": 670.88,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "这个想法还是还是不错的啊,然后那个,还有没有什么新的想法,说那个,那咱们怎么去试试这个方案,对吧,那个,出不出一套这个试试的方案。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 670.96,
+      "end": 684.62,
+      "speaker": "SPEAKER_00",
+      "text": "那肯定要先，你要是要盲盒的话，要先设计啊，像包装什么的，肯定要好看一点。现在有没有什么能够拿出来直接用的，拿出来直接用的这个产品。",
+      "avg_logprob": -0.4257998927947014,
+      "no_speech_prob": 0.3634279668331146,
+      "speech_overlap_s": 5.04,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 670.9,
+      "playback_end": 685.27,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "那肯定要先,你要是要盲盒的话,要先设计啊,像包装什么的,肯定要好看一点。现在有没有什么能够拿出来直接用的,拿出来直接用的这个产品。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 686.6,
+      "end": 698.02,
+      "speaker": "SPEAKER_00",
+      "text": "我觉得还是，对，然后针对咱们这个定位，然后定位是年轻人还是那个年代的人，然后他这个年轻人或者说喜欢的那些东西，",
+      "avg_logprob": -0.4257998927947014,
+      "no_speech_prob": 0.3634279668331146,
+      "speech_overlap_s": 3.88,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 686.55,
+      "playback_end": 697.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我觉得还是,对,然后针对咱们这个定位,然后定位是年轻人还是那个年代的人,然后他这个年轻人或者说喜欢的那些东西,",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 698.04,
+      "end": 711.02,
+      "speaker": "SPEAKER_00",
+      "text": "现在那个盲盒里边可以放些，比如说那个护肤品可以是一类，然后那个那个有的喜欢那什么玩具，玩具，咱们觉得怎么讲？玩具我觉得玩具也可以。",
+      "avg_logprob": -0.4941379322725184,
+      "no_speech_prob": 0.7936287522315979,
+      "speech_overlap_s": 6.4,
+      "speech_overlap_ratio": 1.067,
+      "playback_start": 697.98,
+      "playback_end": 710.96,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.79"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "现在那个毛盒里边可以演戏 比如说那个呼呼脸可以是一类然后那个那个有的喜欢那什么玩具玩具咱们觉得怎么讲玩具我觉得玩具也可以",
+      "correction_note": "修正'毛盒'为'盲盒'，'演戏'为'放些'，'呼呼脸'为'护肤品'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 711.04,
+      "end": 725.04,
+      "speaker": "SPEAKER_00",
+      "text": "带着咱们品牌logo的那个有点太幼稚了，然后有的玩具会不会接受？我感觉不是吗？玩具比全面一些吗？所有的生活也对，对对对。",
+      "avg_logprob": -0.4941379322725184,
+      "no_speech_prob": 0.7936287522315979,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 710.98,
+      "playback_end": 724.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "听着咱们品牌logo的那个有点太幼稚了然后有的玩具会不会接受我感觉不是吗玩具比全面一些吗所有的生活也对对对",
+      "correction_note": "修正'听着'为'带着'，调整标点和口语重复",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 725.04,
+      "end": 738.02,
+      "speaker": "SPEAKER_00",
+      "text": "我觉得这个东西上面是实用性，带logo，都带logo，这样的话有个品牌宣传的一个，对吧，可以这样做一个去谈一下，主要当然控制成本，成本就要控制。",
+      "avg_logprob": -0.32149690821550897,
+      "no_speech_prob": 0.7321592569351196,
+      "speech_overlap_s": 4.09,
+      "speech_overlap_ratio": 1.023,
+      "playback_start": 724.98,
+      "playback_end": 737.96,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.73"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我觉得这个东西上面是实用性感的logo都带logo,这样的话有个品牌宣传的一个,对吧可以这样做一个去谈一下主要当然控制成本,成本就要控制",
+      "correction_note": "修正'实用性感的logo'为'实用性，带logo'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 738.04,
+      "end": 753.02,
+      "speaker": "SPEAKER_00",
+      "text": "成本，不是你那样的盒子，它就没有什么了，也不能说太贵吗？对，因为它是有多少限量的，地方是贵的话它会很少啊，然后像那种什么手机盒什么的。",
+      "avg_logprob": -0.32149690821550897,
+      "no_speech_prob": 0.7321592569351196,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 737.98,
+      "playback_end": 752.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "成本,不是你那样的盒它就没有什么了也不能说太贵吗?对,因为它是有,有多少个限量的地方是贵的话它会很少啊,然后像那种什么手机盒什么的",
+      "correction_note": "修正'盒它'为'盒子'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 753.04,
+      "end": 764.7,
+      "speaker": "SPEAKER_00",
+      "text": "你就便宜一点，反正成本品牌价值感觉一般控制在50块钱以内就可以了，基本上如果你要量产的话，成本应该都会很低的，到时候把咱们所要加的产品列列一项。",
+      "avg_logprob": -0.32149690821550897,
+      "no_speech_prob": 0.7321592569351196,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 752.98,
+      "playback_end": 764.64,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/11.7s",
+        "high no_speech_prob=0.73"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "你就便宜一点反正资本平台价值感觉一般控制在50块钱以内就可以了基本上如果你要量产的话成本应该都会很低的到时候把咱们所要加的产品列列一项",
+      "correction_note": "保留'资本平台价值'猜测为'成本品牌价值'",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 764.72,
+      "end": 778.26,
+      "speaker": "SPEAKER_00",
+      "text": "看看咱们选择一下包括报价做点丢人体价看一下成本尽量控制一下对可以一些专业厂家就是跟他们包括咱们费务员和公司让他们出一些方案咱们进行探讨一下",
+      "avg_logprob": -0.4076551177797938,
+      "no_speech_prob": 0.26041796803474426,
+      "speech_overlap_s": 1.71,
+      "speech_overlap_ratio": 1.336,
+      "playback_start": 764.66,
+      "playback_end": 778.2,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "看看咱们选择一下包括报价做点丢人体价看一下成本尽量控制一下对可以一些专业厂家就是跟他们包括咱们费务员和公司让他们出一些方案咱们进行探讨一下",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 778.28,
+      "end": 782.22,
+      "speaker": "SPEAKER_00",
+      "text": "你们看看包括咱们的思路可以总结一下",
+      "avg_logprob": -0.4076551177797938,
+      "no_speech_prob": 0.26041796803474426,
+      "speech_overlap_s": 0.63,
+      "speech_overlap_ratio": 1.05,
+      "playback_start": 778.22,
+      "playback_end": 782.87,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "你们看看包括咱们的思路可以总结一下",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 784.04,
+      "end": 798.02,
+      "speaker": "SPEAKER_00",
+      "text": "刚才说的塑胶地点,我觉得咱们还可以再商榷一下刚才说的云台上,咱们线下有没有考虑一下",
+      "avg_logprob": -0.4888203938802083,
+      "no_speech_prob": 0.6592273116111755,
+      "speech_overlap_s": 8.49,
+      "speech_overlap_ratio": 0.943,
+      "playback_start": 783.99,
+      "playback_end": 797.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "刚才说的塑胶地点,我觉得咱们还可以再商榷一下刚才说的云台上,咱们线下有没有考虑一下",
+      "intent": [
+        "提议",
+        "提问"
+      ]
+    },
+    {
+      "start": 798.04,
+      "end": 812.04,
+      "speaker": "SPEAKER_00",
+      "text": "线下就是那个店里面,在店里面你也会出一些logo像我们要是明星代言的话,出一些那个反正叫什么呀,海报亚宝",
+      "avg_logprob": -0.4888203938802083,
+      "no_speech_prob": 0.6592273116111755,
+      "speech_overlap_s": 7.61,
+      "speech_overlap_ratio": 1.087,
+      "playback_start": 797.98,
+      "playback_end": 811.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "线下就是那个店里面,在店里面你也会出一些logo像我们要是明星代言的话,出一些那个反正叫什么呀,海报亚宝",
+      "intent": [
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 812.04,
+      "end": 826.02,
+      "speaker": "SPEAKER_00",
+      "text": "找咱们的一些工作商把这个列表然后拍个去推找这个也可以推下广告像什么公交广告电梯广告之类的",
+      "avg_logprob": -0.3079430191605179,
+      "no_speech_prob": 0.38042888045310974,
+      "speech_overlap_s": 2.3,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 811.98,
+      "playback_end": 825.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "找咱们的一些工作商把这个列表然后拍个去推找这个也可以推下广告像什么公交广告电梯广告之类的",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 826.04,
+      "end": 838.02,
+      "speaker": "SPEAKER_00",
+      "text": "还有地铁广告什么的就是它的那个品牌形象然后我觉得其实咱们这一回竟然也要有芒果有它里边的不同的东西可以用这些来作为这个品牌的形象",
+      "avg_logprob": -0.3079430191605179,
+      "no_speech_prob": 0.38042888045310974,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 825.98,
+      "playback_end": 837.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "还有地铁广告什么的就是它的那个品牌形象然后我觉得其实咱们这一回竟然也要有芒果有它里边的不同的东西可以用这些来作为这个品牌的形象",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 838.04,
+      "end": 846.02,
+      "speaker": "SPEAKER_00",
+      "text": "可以去多方面去聊一下,大家一会再想一想,到时候我们再做进一步的探讨",
+      "avg_logprob": -0.379920095767615,
+      "no_speech_prob": 0.6483957171440125,
+      "speech_overlap_s": 9.29,
+      "speech_overlap_ratio": 1.161,
+      "playback_start": 837.98,
+      "playback_end": 845.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "可以去多方面去聊一下,大家一会再想一想,到时候我们再做进一步的探讨",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 846.04,
+      "end": 856.02,
+      "speaker": "SPEAKER_00",
+      "text": "我们在内部的合同商这一块,由Emi去敲定一下",
+      "avg_logprob": -0.379920095767615,
+      "no_speech_prob": 0.6483957171440125,
+      "speech_overlap_s": 12.31,
+      "speech_overlap_ratio": 1.231,
+      "playback_start": 845.98,
+      "playback_end": 855.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我们在内部的合同商这一块,由Emi去敲定一下",
+      "intent": [
+        "命令"
+      ]
+    },
+    {
+      "start": 856.04,
+      "end": 865.02,
+      "speaker": "SPEAKER_00",
+      "text": "看看哪家便宜,咱们就把它报价,做出来就方便给到咱们当然越便宜越好,会考虑咱们这个竞争问题",
+      "avg_logprob": -0.379920095767615,
+      "no_speech_prob": 0.6483957171440125,
+      "speech_overlap_s": 7.1,
+      "speech_overlap_ratio": 1.183,
+      "playback_start": 855.98,
+      "playback_end": 864.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "看看哪家便宜,咱们就把它报价,做出来就方便给到咱们当然越便宜越好,会考虑咱们这个竞争问题",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 865.04,
+      "end": 882.02,
+      "speaker": "SPEAKER_00",
+      "text": "保证这样吧,越填越好的话,你送的东西大家看不上,客户看不上的话,我觉得可以谈一些专门的,专属给咱们这一个地方,这样它就显得很鲜艳",
+      "avg_logprob": -0.3343382483130103,
+      "no_speech_prob": 0.3895933926105499,
+      "speech_overlap_s": 17.5,
+      "speech_overlap_ratio": 1.029,
+      "playback_start": 864.98,
+      "playback_end": 881.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "保证这样吧,越填越好的话,你送的东西大家看不上,客户看不上的话,我觉得可以谈一些专门的,专属给咱们这一个地方,这样它就显得很鲜艳",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 882.04,
+      "end": 893.02,
+      "speaker": "SPEAKER_00",
+      "text": "找完工厂之后,多找几个品牌口碑好一点我觉得找一个比较好一点的设计的地方吧",
+      "avg_logprob": -0.3343382483130103,
+      "no_speech_prob": 0.3895933926105499,
+      "speech_overlap_s": 6.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 881.98,
+      "playback_end": 892.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "找完工厂之后,多找几个品牌口碑好一点我觉得找一个比较好一点的设计的地方吧",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 893.04,
+      "end": 906.942,
+      "speaker": "SPEAKER_00",
+      "text": "现在只要你亲手到设计这方面的人员我感觉可以找一些大家比较欢迎的这种做盲盒的公司像这种破互骂的这种对",
+      "avg_logprob": -0.48790371056758997,
+      "no_speech_prob": 0.5031473636627197,
+      "speech_overlap_s": 5.58,
+      "speech_overlap_ratio": 1.018,
+      "playback_start": 892.98,
+      "playback_end": 906.902,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "现在只要你亲手到设计这方面的人员我感觉可以找一些大家比较欢迎的这种做盲盒的公司像这种破互骂的这种对",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 906.982,
+      "end": 920.02,
+      "speaker": "SPEAKER_00",
+      "text": "怎么把价格打开来我们先来的一半来一部分然后咱们开成品可以说台上来说规定非常多一个贡门商这个要去落实一下",
+      "avg_logprob": -0.48790371056758997,
+      "no_speech_prob": 0.5031473636627197,
+      "speech_overlap_s": 2.24,
+      "speech_overlap_ratio": 1.302,
+      "playback_start": 906.922,
+      "playback_end": 919.96,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "怎么把价格打开来我们先来的一半来一部分然后咱们开成品可以说台上来说规定非常多一个贡门商这个要去落实一下",
+      "intent": [
+        "提问",
+        "提议"
+      ]
+    },
+    {
+      "start": 920.04,
+      "end": 932.26,
+      "speaker": "SPEAKER_00",
+      "text": "然后多方面去确定一下然后色彩产品侧面那边根据市场跟这个销售这一块市场这一块然后看一下就是颜色的一个主打颜色",
+      "avg_logprob": -0.48790371056758997,
+      "no_speech_prob": 0.5031473636627197,
+      "speech_overlap_s": 2.89,
+      "speech_overlap_ratio": 1.112,
+      "playback_start": 919.98,
+      "playback_end": 932.2,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后多方面去确定一下然后色彩产品侧面那边根据市场跟这个销售这一块市场这一块然后看一下就是颜色的一个主打颜色",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 932.28,
+      "end": 941.86,
+      "speaker": "SPEAKER_00",
+      "text": "然后包括看他们一个主推意向是什么然后咱们这边会根据他的一个方案进行去主推就对这个选票报告去做宣传一下",
+      "avg_logprob": -0.4242959951425528,
+      "no_speech_prob": 0.10873620212078094,
+      "speech_overlap_s": 3.45,
+      "speech_overlap_ratio": 1.092,
+      "playback_start": 932.22,
+      "playback_end": 941.8,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后包括看他们一个主推意向是什么然后咱们这边会根据他的一个方案进行去主推就对这个选票报告去做宣传一下",
+      "intent": [
+        "提问",
+        "提议"
+      ]
+    },
+    {
+      "start": 941.88,
+      "end": 955.34,
+      "speaker": "SPEAKER_00",
+      "text": "就说颜色，刚刚我们讲到说，看年龄多大，怕多大一些？然后咱们看一下就是怎样去选。现在有没有说特征的颜色？颜色我感觉可以参考就是像其他手机厂商的。",
+      "avg_logprob": -0.4242959951425528,
+      "no_speech_prob": 0.10873620212078094,
+      "speech_overlap_s": 5.49,
+      "speech_overlap_ratio": 1.163,
+      "playback_start": 941.82,
+      "playback_end": 955.28,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "就说颜色刚刚我们讲到说叫年龄多少怕多大一些然后咱们看一下就是怎样去选现在有没有说特征的颜色颜色我感觉可以参考就是像其他手艺厂商的",
+      "correction_note": "修正“叫年龄”为“看年龄”，“手艺厂商”为“手机厂商”，并添加标点。",
+      "intent": [
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 955.36,
+      "end": 966.48,
+      "speaker": "SPEAKER_00",
+      "text": "就参考他们怎么设计的，还可以找一些就是这种美术设计学院的，他们就专门设计这种参考，就是彩色的，然后再加上稳重的颜色。",
+      "avg_logprob": -0.3550632664414703,
+      "no_speech_prob": 0.2520864009857178,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 955.3,
+      "playback_end": 966.4,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "就参考他们怎么设计的还可以找一些就是这种美术设计学院的他们就专门设计这种参考就是彩色的然后再加上稳重的颜色",
+      "correction_note": "添加标点。",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 966.48,
+      "end": 978.1,
+      "speaker": "SPEAKER_00",
+      "text": "我感觉这个颜色可以找那种专门学美术的，学美术的。因为一般来看他们设计的都不懂上色，不好是吧？就是不能年轻化。但是我觉得专门学习美术这块如果长的话",
+      "avg_logprob": -0.3550632664414703,
+      "no_speech_prob": 0.2520864009857178,
+      "speech_overlap_s": 3.12,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 966.42,
+      "playback_end": 978.04,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我感觉这个颜色可以找那种专门学美术的学美术的因为一般来看他们设计的都不懂上海的不好是吧就是不能年轻化但是我觉得专门学习中学学这块如果长的话",
+      "correction_note": "修正“上海的”为“上色的”，“中学学”为“美术”。",
+      "intent": [
+        "提议",
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 978.12,
+      "end": 990.2,
+      "speaker": "SPEAKER_00",
+      "text": "就是成本也会很高。现在好像都找专业的设计，因为产品的外观没有吸引力了。",
+      "avg_logprob": -0.3550632664414703,
+      "no_speech_prob": 0.2520864009857178,
+      "speech_overlap_s": 1.68,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 978.06,
+      "playback_end": 990.12,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "就是成本也会很高现在好像都找专业的设计因为产品的外观不受吸引力了",
+      "correction_note": "修正“不受”为“没有”。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 990.2,
+      "end": 1004.78,
+      "speaker": "SPEAKER_00",
+      "text": "我觉得只是一个产品，只是一个颜色的问题，我觉得没必要一定要找一个特别专业的。因为现在颜色手机外观很重要，因为很多人手机的第一眼就是看这种外观。",
+      "avg_logprob": -0.3744184420658992,
+      "no_speech_prob": 0.4973508417606354,
+      "speech_overlap_s": 3.35,
+      "speech_overlap_ratio": 1.117,
+      "playback_start": 990.14,
+      "playback_end": 1004.72,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我觉得只是一个产品只是一个颜色的问题我觉得没必要一定要找一个特别专业的因为现在颜色手机外观很重要因为很多人手机的第一眼就是看这种外观",
+      "correction_note": "添加标点。",
+      "intent": [
+        "反对",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1004.8,
+      "end": 1011.28,
+      "speaker": "SPEAKER_00",
+      "text": "尤其是颜色的，我觉得咱们这个手机的外形，现在包括它的外观什么的都已经很好，只是差一个颜色的问题。",
+      "avg_logprob": -0.3744184420658992,
+      "no_speech_prob": 0.4973508417606354,
+      "speech_overlap_s": 1.35,
+      "speech_overlap_ratio": 1.35,
+      "playback_start": 1004.74,
+      "playback_end": 1011.22,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "尤其是颜色的我觉得咱们这个手机的形现在包括它的外观什么的都已经很好,只是差一个颜色的问题",
+      "correction_note": "修正“形”为“外形”。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1011.3,
+      "end": 1019.8,
+      "speaker": "SPEAKER_00",
+      "text": "然后现在颜色咱们是准备选纯色？还是根据咱们的一些牢牢啊，或者说将来的形象？我觉得年轻人颜色炫一点。",
+      "avg_logprob": -0.2604791270006423,
+      "no_speech_prob": 0.4822831451892853,
+      "speech_overlap_s": 7.85,
+      "speech_overlap_ratio": 1.121,
+      "playback_start": 1011.24,
+      "playback_end": 1019.72,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后现在颜色咱们是准备选唇色还是根据咱们的一些牢牢啊或者说将来的形象我觉得年轻人颜色炫一点",
+      "correction_note": "修正“唇色”为“纯色”以保持一致。",
+      "intent": [
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1019.8,
+      "end": 1031.28,
+      "speaker": "SPEAKER_00",
+      "text": "颜色我感觉一般手机至少要有五种颜色，要不然选择面太窄了。你看其他厂商的手机基本上都是这种，至少有五六种颜色可以选。",
+      "avg_logprob": -0.2604791270006423,
+      "no_speech_prob": 0.4822831451892853,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1019.74,
+      "playback_end": 1031.93,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "颜色我感觉一般手机至少要有五种颜色,要不然选择面太窄了你看其他厂商的手机基本上都是这种,至少有五六种颜色可以选",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1032.45,
+      "end": 1042.88,
+      "speaker": "SPEAKER_00",
+      "text": "但是我就觉得颜淑月都不会，她就是给了咱们一个比较明确的对比，咱们可以让她多录几版，录几版，然后给咱们一些参考。",
+      "avg_logprob": -0.4092475364948141,
+      "no_speech_prob": 0.3372473418712616,
+      "speech_overlap_s": 6.15,
+      "speech_overlap_ratio": 0.904,
+      "start_asr_raw": 1031.3,
+      "playback_start": 1032.05,
+      "playback_end": 1042.82,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "但是我就觉得颜淑月多不会,她就是写了咱们一个比较敏捷的对,咱们可以让她多录几版,录几版,然后给咱们一些参考",
+      "correction_note": "修正“多不会”为“都不会”，“写了”为“给了”，“对”为“对比”。",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1042.9,
+      "end": 1052.08,
+      "speaker": "SPEAKER_00",
+      "text": "就是，我这边觉得就是炫彩一些，像咱们刚才说的有纯色，炫彩一些是吧，然后包括是多元化的，咱们就是多看一下她们的一个方案吧。",
+      "avg_logprob": -0.4092475364948141,
+      "no_speech_prob": 0.3372473418712616,
+      "speech_overlap_s": 5.45,
+      "speech_overlap_ratio": 1.048,
+      "playback_start": 1042.84,
+      "playback_end": 1052.73,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "就是,我这边觉得就是炫彩一些,像咱们刚才说的有唇色,炫彩一些是吧,然后包括是多元化的,咱们就是多看一下她们的一个画案吧",
+      "correction_note": "修正“唇色”为“纯色”，“画案”为“方案”。",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1052.85,
+      "end": 1066.68,
+      "speaker": "SPEAKER_00",
+      "text": "然后到时候去找人，去那边去看一下。这个美术这边是吧？出效果后呢，然后是在这个正品这边。刚才说的，你去那边，去厂商那边去找一些个啊。",
+      "avg_logprob": -0.4092475364948141,
+      "no_speech_prob": 0.3372473418712616,
+      "speech_overlap_s": 5.4,
+      "speech_overlap_ratio": 0.964,
+      "start_asr_raw": 1052.1,
+      "playback_start": 1052.45,
+      "playback_end": 1066.62,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后到时候去找人去那边去看一下这个,美术这边是吧出现后呢然后是在这个正品这边刚才说的你去那边去去厂商那边去找一些个啊",
+      "correction_note": "修正“出现后”为“出效果后”，保留“正品”猜测为“成品”或“设计品”，未强制修改。",
+      "intent": [
+        "提议",
+        "确认"
+      ]
+    },
+    {
+      "start": 1066.7,
+      "end": 1069.121,
+      "speaker": "SPEAKER_00",
+      "text": "多找几个人看，然后对对对比一下。",
+      "avg_logprob": -0.5317311735234709,
+      "no_speech_prob": 0.7021443843841553,
+      "speech_overlap_s": 0.88,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1066.64,
+      "playback_end": 1069.771,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "多找几个人看然后对对对比一下",
+      "correction_note": "保留口语重复“对对”。",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1071.7,
+      "end": 1084.0,
+      "speaker": "SPEAKER_00",
+      "text": "然后刚才一说这个联系那个W这边啊，应该是W这边，然后一定要跟着咱们的预算看，然后尽量请一些个当前流量不是特别大的啊。",
+      "avg_logprob": -0.5317311735234709,
+      "no_speech_prob": 0.7021443843841553,
+      "speech_overlap_s": 1.32,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1071.65,
+      "playback_end": 1083.94,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后刚才一说这个联系那个W这边啊应该是W这边然后一定要跟着咱们的预算看然后尽量请一些个当前流量不是特别大的啊",
+      "correction_note": "添加标点。",
+      "intent": [
+        "提议",
+        "命令"
+      ]
+    },
+    {
+      "start": 1084.02,
+      "end": 1097.6,
+      "speaker": "SPEAKER_00",
+      "text": "我们这边拍板的情形，预算一半，流量不大，给大家做效果。最后还是要做效果中等的吧，中等的吧。我觉得还不如就是一下而已，直接花一下大价钱找一些比方大咖女性。",
+      "avg_logprob": -0.8210951689701931,
+      "no_speech_prob": 0.89036625623703,
+      "speech_overlap_s": 3.96,
+      "speech_overlap_ratio": 1.179,
+      "playback_start": 1083.96,
+      "playback_end": 1097.54,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.82",
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.89"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我们邊拍打人的情形,預算一半流量不大给大家做效果最后还是要做效果中等的吧中等的吧我觉得还不如就是一下而已直接花一下大价钱找一些比方大塊兒女性",
+      "correction_note": "繁体转简体，修正“邊拍打”为“这边拍板”，“大塊兒”为“大咖”。",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1097.62,
+      "end": 1109.14,
+      "speaker": "SPEAKER_00",
+      "text": "然后能达到她的效果，然后流量够了，这样咱们之后的通宵可能也会大吧。然后看一下这个。对，等哪一篇中等的我觉得也不可以吧。",
+      "avg_logprob": -0.8210951689701931,
+      "no_speech_prob": 0.89036625623703,
+      "speech_overlap_s": 1.18,
+      "speech_overlap_ratio": 0.702,
+      "playback_start": 1097.56,
+      "playback_end": 1109.06,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.82",
+        "short speech support=1.2s/11.5s",
+        "high no_speech_prob=0.89"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后能達到她的效果然后流量夠了这樣咱们之后的通宵可能也会咱们可能要大吧然后看一下这个对,等哪一篇中等的我觉得也不可以吧",
+      "correction_note": "繁体转简体，保留“通宵”猜测可能为“通销”或“通告”，未强制修改。",
+      "intent": [
+        "陈述",
+        "反对"
+      ]
+    },
+    {
+      "start": 1109.14,
+      "end": 1123.2,
+      "speaker": "SPEAKER_00",
+      "text": "中等咱们可以把那个机制找一个大的，把咱们的流量和面子推出去就可以了。我觉得还得有时间，然后跟很多人一块儿，咱们敲定一个最大的。要是这么大杯的话。",
+      "avg_logprob": -0.8210951689701931,
+      "no_speech_prob": 0.89036625623703,
+      "speech_overlap_s": 2.96,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1109.08,
+      "playback_end": 1123.14,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.82",
+        "high no_speech_prob=0.89"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "中等咱们可以把那个機器的找一个大的把咱们的流量面子推出就可以了我觉得还得有时间然后跟很多人然后一块儿咱们敲定一个最大要是这么大杯的话",
+      "correction_note": "修正'机器的'为'机制'，调整语序并添加标点",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1123.22,
+      "end": 1137.1,
+      "speaker": "SPEAKER_00",
+      "text": "反正我们可以先确定几个人选，就是在最后再商量，确定先找几个流量，先确定几个人选。我现在有一个这个，看他们的时间吧，我要看人的档期嘛。",
+      "avg_logprob": -0.45301035005752355,
+      "no_speech_prob": 0.464212566614151,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1123.16,
+      "playback_end": 1137.02,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "反正我们可以先确定几个人权就是在最后再商量确定先找几个流量先确定几个人权我现在有一个这个看他们的时间吧我要看人的档期嘛",
+      "correction_note": "修正'人权'为'人选'，添加标点",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1137.1,
+      "end": 1151.92,
+      "speaker": "SPEAKER_00",
+      "text": "主要还是看怎么样我们去推一个宣传片。可以先说我们的产品的亮点，还有我们力度赠的什么东西，让人家一听耳朵会。但是我觉得现在走直播的话，",
+      "avg_logprob": -0.45301035005752355,
+      "no_speech_prob": 0.464212566614151,
+      "speech_overlap_s": 1.92,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1137.04,
+      "playback_end": 1151.86,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "主要还是看怎么样我们去拖一这个传片可以先说我们的产品的亮点还有我们力度赠的什么东西让人家一听耳朵会但是我觉得现在走直播的话",
+      "correction_note": "修正'拖一这个传片'为'推一个宣传片'，调整表达",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1151.94,
+      "end": 1163.34,
+      "speaker": "SPEAKER_00",
+      "text": "它好像不需要什么，你特别特别多的好的亮点或者说那个什么，它直接就是大多数就是：我今天送什么，然后你再送什么，我还送什么。对，所以在送之前，",
+      "avg_logprob": -0.4354020508242325,
+      "no_speech_prob": 0.8540371060371399,
+      "speech_overlap_s": 3.32,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1151.88,
+      "playback_end": 1163.26,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "它好像不需要什么你特别特别多的好的亮点或者说那个什么它直接就是大多数就是我今天送什么然后你再送什么我还送什么对 所以在送之前",
+      "correction_note": "添加标点，补充冒号以清晰表达",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1163.34,
+      "end": 1174.44,
+      "speaker": "SPEAKER_00",
+      "text": "这个产品它就是便宜。对，咱们要提前把这个送过来，我们走流量，走流量走一阵，然后把这个东西推出来。咱们的所有的这个都要一步一步一起去推行了。",
+      "avg_logprob": -0.4354020508242325,
+      "no_speech_prob": 0.8540371060371399,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1163.28,
+      "playback_end": 1174.38,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "这个产品它就是便宜对 咱们要提前把这个送过来我们走流量 走流量走一寸然后把这个东西推出来咱们的所有的这个都要一步一步一起去推行了",
+      "correction_note": "修正'走一寸'为'走一阵'，调整语序",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1174.46,
+      "end": 1188.44,
+      "speaker": "SPEAKER_00",
+      "text": "如果做这个宣传的时候，咱们的芒果产品肯定要是在这个直播间这边去上线的。所以说这边要加个速度，去跟人们谈一下，咱们还要去过一个流程。",
+      "avg_logprob": -0.42634465743084343,
+      "no_speech_prob": 0.8508636951446533,
+      "speech_overlap_s": 3.9,
+      "speech_overlap_ratio": 1.219,
+      "playback_start": 1174.4,
+      "playback_end": 1188.38,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "如果做这个宣传的时候咱们的芒果产品肯定要是在这个直播间这边去上线的所以说这边要加个速度去跟人们谈一下咱们还要去个一个流程",
+      "correction_note": "修正'去个一个流程'为'去过一个流程'，添加标点",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1188.46,
+      "end": 1201.38,
+      "speaker": "SPEAKER_00",
+      "text": "我觉得有一个时间点是先做这样，我们就先对，我们要制定，下周二之前把这个定下去。先把这个计划制定出来，下周二十天你们开不可以？那咱们先做那个商场的。",
+      "avg_logprob": -0.42634465743084343,
+      "no_speech_prob": 0.8508636951446533,
+      "speech_overlap_s": 2.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1188.4,
+      "playback_end": 1201.3,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我觉得有一个时间点是先做这样我们就先对 我们要制平头下周二之前把这个放下去了先把这个计划制定出来下周二十天你们开不可以那咱们先做那个商场的",
+      "correction_note": "修正'制平头'为'制定'，添加标点",
+      "intent": [
+        "提议",
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1201.38,
+      "end": 1216.34,
+      "speaker": "SPEAKER_00",
+      "text": "然后还是先做那个？肯定要先商量的。还是先做直播的同时，同时处理同时的。还是方案会隔断一点？对啊，会的。你线上和线下同时开始还是很，",
+      "avg_logprob": -0.49649074159819506,
+      "no_speech_prob": 0.7498360872268677,
+      "speech_overlap_s": 1.65,
+      "speech_overlap_ratio": 1.115,
+      "playback_start": 1201.32,
+      "playback_end": 1216.26,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.75"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后还是先做那个肯定要先商的还是先做直播的同时同时处理同时的还是方案会格断一点对啊会的你线上和线上同时开始还是很",
+      "correction_note": "修正'商的'为'商量'，'格断'为'隔断'，'线上和线上'为'线上和线下'",
+      "intent": [
+        "提问",
+        "回答",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1216.34,
+      "end": 1226.86,
+      "speaker": "SPEAKER_00",
+      "text": "这不中的，但是为了促销的力度，然后在哪个平台的力度大，然后那个产促室也会有比较的，最后会不会影响到咱们的刚好？刚好？",
+      "avg_logprob": -0.49649074159819506,
+      "no_speech_prob": 0.7498360872268677,
+      "speech_overlap_s": 1.32,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1216.28,
+      "playback_end": 1226.78,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.75"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "折不中处的但是为促销的力度然后在哪个平台的力度大然后那个那产业室也会有比较的最后会不会影响到咱们的刚好刚好",
+      "correction_note": "修正'折不中处'为'这不中'，'产业室'为'产促室'，添加标点",
+      "intent": [
+        "反对",
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1226.86,
+      "end": 1234.88,
+      "speaker": "SPEAKER_00",
+      "text": "我们一些，我们某些情况可以只在线上供应，不在线下供应。",
+      "avg_logprob": -0.29868094126383465,
+      "no_speech_prob": 0.7441884875297546,
+      "speech_overlap_s": 6.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1226.8,
+      "playback_end": 1235.53,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我们一些我们某些情况可以只在线上供应不在线下供应",
+      "correction_note": "添加标点，保持原意",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1248.86,
+      "end": 1261.84,
+      "speaker": "SPEAKER_00",
+      "text": "我们可以只拿出某些颜色，就是在这个直播上直接销售，可以直播的时候直接就有折扣，或者某些针对的折扣，但是只是你这个平台的。",
+      "avg_logprob": -0.29868094126383465,
+      "no_speech_prob": 0.7441884875297546,
+      "speech_overlap_s": 4.9,
+      "speech_overlap_ratio": 0.98,
+      "playback_start": 1248.81,
+      "playback_end": 1261.78,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我们可以只拿出某些颜色就是在这个直播上直接销售可以直播的时候直接就有折扣或者某些对症的折扣但是只是你这个平台的",
+      "correction_note": "修正'对症'为'针对'，添加标点",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1261.86,
+      "end": 1274.86,
+      "speaker": "SPEAKER_00",
+      "text": "每一个平台的优惠力度是最大的？然后别人也会，它是统一的，我也看得到。因为不能统一，我觉得就是直播的那一个大平台的话就会半折，就是那一个时间段，然后顾客先买，",
+      "avg_logprob": -0.38223345526333513,
+      "no_speech_prob": 0.6839146018028259,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1261.8,
+      "playback_end": 1274.78,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "每一个平台的优惠定投是最大的然后别人也会它是统一的我也看得到因为不能统一我觉得就是直播的那一个大平台的话就会半斜就是那一个时间段然后顾客先买",
+      "correction_note": "修正'定投'为'力度'，'半斜'为'半折'，添加标点",
+      "intent": [
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1274.86,
+      "end": 1284.76,
+      "speaker": "SPEAKER_00",
+      "text": "然后我们就写一个统一的折扣，用这个的话，然后咱们就当成一种广告性的效应。比如说这一天这个时间点，这一个小时一个小时之内，我们就是最低的。",
+      "avg_logprob": -0.38223345526333513,
+      "no_speech_prob": 0.6839146018028259,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1274.8,
+      "playback_end": 1284.68,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.68"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后我们就写给一个统一的折扣用这个的话然后咱们就当成一种广告性的效应比如说这一天这一个时间的比赛这一个小时一个小时之内我们就是最低的",
+      "correction_note": "修正'写给'为'写个'，'比赛'为'时间点'，添加标点",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1284.76,
+      "end": 1297.82,
+      "speaker": "SPEAKER_00",
+      "text": "那这个时间点买的人群是最多的。我觉得现象也可以出一些现象，比如说我们这个有新出的产品，在电商什么时间段，然后可以你那天抢，有秒杀的那一天。",
+      "avg_logprob": -0.3551515373023781,
+      "no_speech_prob": 0.8897932767868042,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1284.7,
+      "playback_end": 1297.76,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "那这个人物买的人群是最多的我觉得现象也可以出一出现象比如说我们这个有新出的产品在店商什么时间段然后可以你那天抢有秒差的那一天",
+      "correction_note": "修正'人物'为'时间点'，'店商'为'电商'，'秒差'为'秒杀'，调整表达",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1297.84,
+      "end": 1310.0,
+      "speaker": "SPEAKER_00",
+      "text": "你就可以以多少多少钱的折扣然后买到了。所以我觉得，但是还得确定一个时间，然后比如说咱们今天就用那个直播然后去做那个促销了吧？那今天直播最低了。",
+      "avg_logprob": -0.3551515373023781,
+      "no_speech_prob": 0.8897932767868042,
+      "speech_overlap_s": 3.04,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1297.78,
+      "playback_end": 1309.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.89"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "你就可以以多少多少钱的折扣然后买到了所以我觉得但是还得确定一个时间然后比如说咱们今天就用那个直播然后去做那个促销了吧那今天直播最低了",
+      "correction_note": "添加标点，保持原意",
+      "intent": [
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1310.0,
+      "end": 1323.82,
+      "speaker": "SPEAKER_00",
+      "text": "那不可能在京东上你还做最低那这样的话然后你就没问题咱们这个只是说要把这个产品的这个新的产品推出去对不是说这个这个时候能挣多少钱",
+      "avg_logprob": -0.41801100139376485,
+      "no_speech_prob": 0.7884472012519836,
+      "speech_overlap_s": 2.44,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1309.94,
+      "playback_end": 1323.76,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.79"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "那不可能在京东上你还做最低那这样的话然后你就没问题咱们这个只是说要把这个产品的这个新的产品推出去对不是说这个这个时候能挣多少钱",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1323.84,
+      "end": 1336.44,
+      "speaker": "SPEAKER_00",
+      "text": "而是把咱们这个东西这个产品的量先把广告打出去对把广告打出去广告打出去反正我们肯定首先要制作人到完就算了比如说今天我今天晚上然后就用这个直播",
+      "avg_logprob": -0.41801100139376485,
+      "no_speech_prob": 0.7884472012519836,
+      "speech_overlap_s": 1.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1323.78,
+      "playback_end": 1336.36,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.2s/12.6s",
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.79"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "而是把咱们这个东西这个产品的量先把广告打出去对把广告打出去广告打出去反正我们肯定首先要制作人到完就算了比如说今天我今天晚上然后就用这个直播",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1336.44,
+      "end": 1350.82,
+      "speaker": "SPEAKER_00",
+      "text": "然后去做这个广告然后明天,然后下一周或者下周一,然后咱们用京东去做一趟,下一周那个他就是最厉害。还可以把时间流过来",
+      "avg_logprob": -0.41801100139376485,
+      "no_speech_prob": 0.7884472012519836,
+      "speech_overlap_s": 1.69,
+      "speech_overlap_ratio": 1.207,
+      "playback_start": 1336.38,
+      "playback_end": 1350.76,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后去做这个广告然后明天,然后下一周或者下周一,然后咱们用京东去做一趟,下一周那个他就是最厉害。还可以把时间流过来",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1350.84,
+      "end": 1365.82,
+      "speaker": "SPEAKER_00",
+      "text": "这样做的时间还会好等于咱们一个方案之间进度可以流过来最低能够给到几折对吧 所有都变成方案里面出来的时间对然后看咱们是用哪个的",
+      "avg_logprob": -0.3455487764798678,
+      "no_speech_prob": 0.6735658049583435,
+      "speech_overlap_s": 2.31,
+      "speech_overlap_ratio": 1.155,
+      "playback_start": 1350.78,
+      "playback_end": 1365.76,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "这样做的时间还会好等于咱们一个方案之间进度可以流过来最低能够给到几折对吧 所有都变成方案里面出来的时间对然后看咱们是用哪个的",
+      "intent": [
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1365.84,
+      "end": 1376.82,
+      "speaker": "SPEAKER_00",
+      "text": "它促销的力度或者说能达到的效益是最大的咱们就要做一个最低的力度这前期应该做几次尝试吧我觉得还是要找一个比较不是的方案",
+      "avg_logprob": -0.3455487764798678,
+      "no_speech_prob": 0.6735658049583435,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1365.78,
+      "playback_end": 1376.76,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "它促销的力度或者说能达到的效益是最大的咱们就要做一个最低的力度这前期应该做几次尝试吧我觉得还是要找一个比较不是的方案",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1376.84,
+      "end": 1385.6,
+      "speaker": "SPEAKER_00",
+      "text": "也不能是找一个平常那个比较这边的话刚才说了一个费用的问题吧对吧然后包括这些选择量的问题咱们都要做得不好而且应该当期问题对吧",
+      "avg_logprob": -0.41564495688990544,
+      "no_speech_prob": 0.7200705409049988,
+      "speech_overlap_s": 2.69,
+      "speech_overlap_ratio": 1.004,
+      "playback_start": 1376.78,
+      "playback_end": 1385.52,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "也不能是找一个平常那个比较这边的话刚才说了一个费用的问题吧对吧然后包括这些选择量的问题咱们都要做得不好而且应该当期问题对吧",
+      "intent": [
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1385.6,
+      "end": 1399.38,
+      "speaker": "SPEAKER_00",
+      "text": "咱们不能说一咱们认识人我们要分明大概的时间所以说咱们多做这种方案刚才说了可以按分开比如说那个线上线下分开做不会说同时吹开吹开的话人力估计很强",
+      "avg_logprob": -0.41564495688990544,
+      "no_speech_prob": 0.7200705409049988,
+      "speech_overlap_s": 1.64,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1385.54,
+      "playback_end": 1399.32,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.72"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "咱们不能说一咱们认识人我们要分明大概的时间所以说咱们多做这种方案刚才说了可以按分开比如说那个线上线下分开做不会说同时吹开吹开的话人力估计很强",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1399.4,
+      "end": 1409.22,
+      "speaker": "SPEAKER_00",
+      "text": "达不到包括咱们的物流方面都要进一步去就是供货还有就是售后这方面都要做就是先推我们的产品,因为不可能所有的人都发现到",
+      "avg_logprob": -0.41564495688990544,
+      "no_speech_prob": 0.7200705409049988,
+      "speech_overlap_s": 0.89,
+      "speech_overlap_ratio": 1.391,
+      "playback_start": 1399.34,
+      "playback_end": 1409.16,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.9s/9.8s",
+        "high no_speech_prob=0.72"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "达不到包括咱们的物流方面都要进一步去就是供货还有就是售后这方面都要做就是先推我们的产品,因为不可能所有的人都发现到",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1409.24,
+      "end": 1419.22,
+      "speaker": "SPEAKER_00",
+      "text": "先谈合作,到时候提前那个线上的话就帮人做宣传就是我们都让他去退款他们的产品到时候就给增加验证器然后我们这个产品盲盒这边的话",
+      "avg_logprob": -0.41681350149759433,
+      "no_speech_prob": 0.5918347835540771,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1409.18,
+      "playback_end": 1419.16,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "先谈合作,到时候提前那个线上的话就帮人做宣传就是我们都让他去退款他们的产品到时候就给增加验证器然后我们这个产品盲盒这边的话",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1419.24,
+      "end": 1432.24,
+      "speaker": "SPEAKER_00",
+      "text": "应该安排人去落实把这个产品样品弄到我们这个来提前再从那个WB的直播间上去上线,好吧然后各方面都去其实我觉得这个赠品方面然后可以多选择几类",
+      "avg_logprob": -0.41681350149759433,
+      "no_speech_prob": 0.5918347835540771,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1419.18,
+      "playback_end": 1432.16,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "应该安排人去落实把这个产品样品弄到我们这个来提前再从那个WB的直播间上去上线,好吧然后各方面都去其实我觉得这个赠品方面然后可以多选择几类",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1432.24,
+      "end": 1443.22,
+      "speaker": "SPEAKER_00",
+      "text": "比如说我们这个现在就准备做直播,直播我们想搭哪个类的赠品,然后我们其他的品牌想搭哪个类的赠品,可以多做几种,然后几种形式同时上,",
+      "avg_logprob": -0.2151351881904836,
+      "no_speech_prob": 0.8834361433982849,
+      "speech_overlap_s": 5.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1432.18,
+      "playback_end": 1443.16,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.88"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "比如说我们这个现在就准备做直播,直播我们想搭哪个类的赠品,然后我们其他的品牌想搭哪个类的赠品,可以多做几种,然后几种形式同时上,",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1443.24,
+      "end": 1453.22,
+      "speaker": "SPEAKER_00",
+      "text": "然后这样的话咱们也能看到咱们的赠品,然后是哪一类人群比较喜欢什么样的呀,然后将来也能为下一个产品。那你们就不够压力,等时间的工作。",
+      "avg_logprob": -0.2151351881904836,
+      "no_speech_prob": 0.8834361433982849,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1443.18,
+      "playback_end": 1453.16,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后这样的话咱们也能看到咱们的赠品,然后是哪一类人群比较喜欢什么样的呀,然后将来也能为下一个产品。那你们就不够压力,等时间的工作。",
+      "intent": [
+        "提问",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1453.24,
+      "end": 1467.38,
+      "speaker": "SPEAKER_00",
+      "text": "不能做好,做不出来实在不行。不同意义。然后最后就哪怕我们以前老饭的手机呢",
+      "avg_logprob": -0.2151351881904836,
+      "no_speech_prob": 0.8834361433982849,
+      "speech_overlap_s": 3.9,
+      "speech_overlap_ratio": 0.975,
+      "playback_start": 1453.18,
+      "playback_end": 1467.32,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "不能做好,做不出来实在不行。不同意义。然后最后就哪怕我们以前老饭的手机呢",
+      "intent": [
+        "反对",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1467.4,
+      "end": 1479.88,
+      "speaker": "SPEAKER_00",
+      "text": "然后我们把这个前期我们就制作至少三早饭就不同平台用的同时一样也不正确的反正就是一个再确定",
+      "avg_logprob": -0.7625953030873494,
+      "no_speech_prob": 0.5112106800079346,
+      "speech_overlap_s": 1.12,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1467.34,
+      "playback_end": 1479.8,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.76",
+        "short speech support=1.1s/12.5s"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后我们把这个前期我们就制作至少三早饭就不同平台用的同时一样也不正确的反正就是一个再确定",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 1479.88,
+      "end": 1494.74,
+      "speaker": "SPEAKER_00",
+      "text": "然后我们这个所有的一点我们这个基本上咱们厂子讨论那么几点然后推下的时候就是把这方面提到几点红火烧这一块",
+      "avg_logprob": -0.7625953030873494,
+      "no_speech_prob": 0.5112106800079346,
+      "speech_overlap_s": 3.8,
+      "speech_overlap_ratio": 0.95,
+      "playback_start": 1479.82,
+      "playback_end": 1494.68,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.76"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "然后我们这个所有的一点我们这个基本上咱们厂子讨论那么几点然后推下的时候就是把这方面提到几点红火烧这一块",
+      "intent": [
+        "陈述",
+        "总结"
+      ]
+    },
+    {
+      "start": 1494.76,
+      "end": 1508.74,
+      "speaker": "SPEAKER_00",
+      "text": "通话这一块，选择图案、选择销售、公文物流这边的一个整体速度，各个公司回去之后把这个方案都赶紧做，我觉得这两天然后就后期，然后可以参与到前面。",
+      "avg_logprob": -0.31394840587269174,
+      "no_speech_prob": 0.7020775079727173,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1494.7,
+      "playback_end": 1508.68,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "黄河这一块选择图案选择销售公文物流这边的一个震荡速度各自公文回去之后把这个方案都赶紧做我觉得这两天然后就后期然后可以参与到前边",
+      "correction_note": "修正'黄河'为'通话'（根据上下文，可能为会议主题）；'震荡速度'为'整体速度'（根据语义）；'各自公文'为'各个公司'（同音纠正）。",
+      "intent": [
+        "命令",
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1508.76,
+      "end": 1522.78,
+      "speaker": "SPEAKER_00",
+      "text": "就是这些销售出销的这些人，所以你们各个公司要互相的去配合，这段时间肯定是几条路都一块走，然后先去一个比较大的地方。",
+      "avg_logprob": -0.31394840587269174,
+      "no_speech_prob": 0.7020775079727173,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1508.7,
+      "playback_end": 1523.43,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "就是这些销售出销的这些人所以你们各个公司要互相的去配合这段时间肯定是几条路都一块走然后先去一个比较大的地方",
+      "correction_note": "添加逗号，保持原句结构，'销售出销'疑似'销售出身'或'销售出差'但无明确证据，保留原样。",
+      "intent": [
+        "命令",
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1526.76,
+      "end": 1538.78,
+      "speaker": "SPEAKER_00",
+      "text": "那咱们这个就这样，然后他出现的时候赶紧取这个方案，下周二的时候我们再具体确定一下，好吧，那就先这样。",
+      "avg_logprob": -0.5387260035464638,
+      "no_speech_prob": 0.7718139290809631,
+      "speech_overlap_s": 2.81,
+      "speech_overlap_ratio": 0.937,
+      "playback_start": 1526.71,
+      "playback_end": 1539.43,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "那咱们这个就这样然后他出现的时候赶紧取这方案下周二的时候我们再具体上确定一下好吧那就先这样",
+      "correction_note": "修正'取这方案'为'取这个方案'；删除多余的'上'字，'上确定'改为'确定'。",
+      "intent": [
+        "陈述",
+        "命令",
+        "提议",
+        "确认"
+      ]
+    },
+    {
+      "start": 1544.76,
+      "end": 1558.74,
+      "speaker": "SPEAKER_00",
+      "text": "我觉得那个后期的客户人员，然后现在我好像也有一些那个失败。",
+      "avg_logprob": -0.44342639990020216,
+      "no_speech_prob": 0.8361255526542664,
+      "speech_overlap_s": 6.11,
+      "speech_overlap_ratio": 0.436,
+      "playback_start": 1544.71,
+      "playback_end": 1558.68,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我觉得那个后期的客户人员,然后现在我好像也有一些那个失败",
+      "correction_note": "原句无明显ASR错误，仅添加适当标点；'失败'保留原词（可能指某种失利情况）。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1558.76,
+      "end": 1568.78,
+      "speaker": "SPEAKER_00",
+      "text": "我们现在需要先确定一个时间，确定一下什么时候能够出货，什么时候能行。",
+      "avg_logprob": -0.44342639990020216,
+      "no_speech_prob": 0.8361255526542664,
+      "speech_overlap_s": 7.3,
+      "speech_overlap_ratio": 0.73,
+      "playback_start": 1558.7,
+      "playback_end": 1569.43,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "我们现在需要先确定一个时间,确定一下什么时候能够出户,什么时候行行行",
+      "correction_note": "修正'出户'为'出货'（销售出货）；修正'行行行'为'能行'（语意连贯）。",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    }
+  ],
+  "timing": {
+    "diarization": 45.01,
+    "asr": 431.09,
+    "alignment": 75.47,
+    "llm": 332.54,
+    "total": 885.22
+  },
+  "num_speakers": 5,
+  "meeting_summary": {
+    "topic": "公司新手机产品研讨会，讨论目标人群、促销策略、赠品及颜色设计等",
+    "summary": "会议围绕公司新款手机的产品定位、促销方式、赠品设计及颜色方案展开讨论。最终确定目标人群为18-50岁的中青年群体，促销以线上电商直播为主，赠品考虑采用盲盒形式，颜色需寻找专业美术设计，并计划联系中等流量的明星代言。会议还部署了下一步任务，要求各团队在下周二前提交方案并互相配合。",
+    "key_points": [
+      "目标人群：最终确定为18-50岁的中青年群体，兼顾老年人使用便利性，但以年轻化为主。",
+      "促销策略：以电商平台直播带货为核心，考虑多平台同时直播，初期可通过让利、折扣、秒杀等方式扩大市场份额。",
+      "赠品方案：采用盲盒形式，内含手机壳、充电宝、无线耳机等实用产品，成本控制在50元以内，并印制品牌Logo。",
+      "颜色设计：需专业美术设计，建议至少五种颜色，偏向炫彩、年轻化，参考其他手机厂商并找设计学院合作。",
+      "明星代言：倾向于选择流量中等、性价比高的明星，避免过高投入，同时可考虑网红直播带货。"
+    ],
+    "decisions": [
+      "目标人群定位为18-50岁，主打年轻化。",
+      "促销以线上电商直播为主，线下门店辅助。",
+      "赠品采用盲盒形式，包含手机壳、充电宝、无线耳机等，成本控制在50元内。",
+      "颜色方案需专业美术设计，输出多款炫彩方案。",
+      "明星代言选择中等流量、预算内的明星。"
+    ],
+    "action_items": [
+      "下周二前各部门提交详细方案。",
+      "安排人员落实盲盒样品，联系供应商报价。",
+      "联系W方面确定明星代言人选及预算。",
+      "联系专业美术设计公司制作颜色方案。",
+      "准备直播方案，确定各平台促销时间节点和折扣力度。"
+    ],
+    "participants": [
+      "SPEAKER_00",
+      "SPEAKER_03"
+    ]
+  }
+}

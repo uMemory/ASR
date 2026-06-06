@@ -16,6 +16,7 @@ def load_asr_backend(cfg: dict[str, Any]):
             model_path=cfg["model"],
             device=device,
             compute_type=compute_type,
+            beam_size=int(cfg.get("beam_size", 1) or 1),
         )
     if backend == "openai-whisper":
         # Legacy fallback. Kept around in case transformers path misbehaves.
@@ -26,5 +27,5 @@ def load_asr_backend(cfg: dict[str, Any]):
             compute_type=compute_type,
         )
     if backend == "faster-whisper":
-        raise NotImplementedError("faster-whisper backend deferred to cloud profile")
+        raise NotImplementedError("faster-whisper ASR backend is not enabled in the current local workflow")
     raise ValueError(f"Unknown ASR backend: {backend}")

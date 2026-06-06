@@ -1,4 +1,5 @@
-# Model configuration — switch between local debug (4060 8GB) and cloud (T4 16GB).
+# Model configuration for long-form transcription and alignment.
+# Switch between local debug (4060 8GB) and cloud (T4 16GB).
 # All paths are relative to the project root. Absolute paths also work.
 
 profile: local   # local | cloud
@@ -21,10 +22,6 @@ local:
   embedding:
     model: ./models/bge-m3
     use_fp16: true
-  separation:
-    enabled: false                # off by default; enable for film/TV audio
-    model: htdemucs_ft            # demucs auto-downloads model on first run
-    two_stems: vocals
 
 cloud:
   asr:
@@ -43,12 +40,16 @@ cloud:
   embedding:
     model: BAAI/bge-m3
     use_fp16: true
-  separation:
-    enabled: false                # off by default; enable for film/TV audio
-    model: htdemucs_ft
-    two_stems: vocals
 
 device: cuda                     # cuda | cpu
+
+# ── Audio preprocessing ──────────────────────────────────────────────
+# Optional light spectral denoise + soft noise gate. Off by default because it
+# can suppress weak speech or change Whisper timestamps on some audio.
+preprocessing:
+  light_denoise: false
+  denoise_reduction: 1.6
+  denoise_gate_floor: 0.18
 
 # ── LLM post-processing ──────────────────────────────────────────────
 # All LLM backends read credentials from .env (DEEPSEEK_API_KEY, etc).

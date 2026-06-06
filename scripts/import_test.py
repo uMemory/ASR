@@ -19,15 +19,16 @@ import numpy as np
 print(f"numpy={np.__version__}")
 
 t("librosa", lambda: __import__("librosa"))
-t("demucs", lambda: __import__("demucs"))
-t("demucs.separate", lambda: __import__("demucs.separate", fromlist=["main"]))
 t("whisper (openai)", lambda: __import__("whisper"))
-t("pyannote.audio.Pipeline", lambda: __import__("pyannote.audio", fromlist=["Pipeline"]))
-# NOTE: faster_whisper is cloud-only on this project; on Windows it conflicts
-# with pyannote's onnxruntime cuDNN. Skipped here.
-t("FlagEmbedding.BGEM3FlagModel", lambda: __import__("FlagEmbedding", fromlist=["BGEM3FlagModel"]))
+t("pyannote.audio", lambda: __import__("pyannote.audio"))
+# faster_whisper is retained for WhisperX import compatibility, but is not the
+# current local ASR backend.
+t("faster_whisper.WhisperModel", lambda: __import__("faster_whisper", fromlist=["WhisperModel"]))
+t("whisperx", lambda: __import__("whisperx"))
 t("transformers.AutoModel", lambda: __import__("transformers", fromlist=["AutoModel"]))
 t("gradio", lambda: __import__("gradio"))
+t("websockets", lambda: __import__("websockets"))
+t("sounddevice", lambda: __import__("sounddevice"))
 t("anthropic", lambda: __import__("anthropic"))
 t("openai", lambda: __import__("openai"))
 t("torchaudio", lambda: __import__("torchaudio"))
@@ -37,7 +38,7 @@ t("textgrid", lambda: __import__("textgrid"))
 t("rank_bm25", lambda: __import__("rank_bm25"))
 t("faiss", lambda: __import__("faiss"))
 t("onnxruntime", lambda: __import__("onnxruntime"))
-t("whisperx", lambda: __import__("whisperx"))
 t("pandas", lambda: __import__("pandas"))
+t("pyarrow", lambda: __import__("pyarrow"))
 t("omegaconf", lambda: __import__("omegaconf"))
 t("ffmpeg", lambda: __import__("ffmpeg"))

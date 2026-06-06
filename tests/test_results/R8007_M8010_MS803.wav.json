@@ -1,0 +1,3020 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\5f4d65147c42eb3a3a4ffd3841981b3a8c70f10e7a6da4583f01e9e37701d0c6\\R8007_M8010_MS803.wav",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "speaker": "SPEAKER_05",
+      "text": "今天大家过来开这么一个会，各部门的负责人主要讨论一下咱们公司尼尔公司搬家的这个事。因为这个地方现在是11号，未来一个月它可能就要让我们搬走。",
+      "avg_logprob": -0.20421682739257813,
+      "no_speech_prob": 0.18902142345905304,
+      "speech_overlap_s": 3.95,
+      "speech_overlap_ratio": 0.988,
+      "playback_start": 0.0,
+      "playback_end": 14.92,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "今天大家过来开这么一个会各部门的负责人主要讨论一下咱们公司尼尔公司搬家的这个事因为这个地方现在是11号未来一个月它可能就要让我们搬走",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 15.0,
+      "end": 26.98,
+      "speaker": "SPEAKER_05",
+      "text": "这个地方要占，然后具体大家对于自己新地点的选择，还有说通勤啊在各方面有什么要求，新地点什么搬哪去？",
+      "avg_logprob": -0.20421682739257813,
+      "no_speech_prob": 0.18902142345905304,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 14.94,
+      "playback_end": 26.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/12.0s"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这个地方要占然后具体大家对于自己新地点的选择还有说通勤啊在各方面有什么要求新地点什么搬哪去",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 27.0,
+      "end": 41.98,
+      "speaker": "SPEAKER_05",
+      "text": "有没有备选的方案？交通、地铁和场地现在主要的是先大家在合适的位置跟大家选一个地方。",
+      "avg_logprob": -0.33073498985984107,
+      "no_speech_prob": 0.8571363091468811,
+      "speech_overlap_s": 4.1,
+      "speech_overlap_ratio": 1.025,
+      "playback_start": 26.94,
+      "playback_end": 41.92,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "有没有被选择的安全方案交通地铁和场地现在主要的是先大家在三环一里跟大家选一个地方",
+      "correction_note": "修正'安全方案'为'备选方案'，'三环一里'为'合适的位置'（原意不明，保留模糊）",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 42.0,
+      "end": 55.46,
+      "speaker": "SPEAKER_05",
+      "text": "主要是交通方面，地铁或者说是公交方面，就是说大家先讨论一下，主要就是各自三环以内好像是。",
+      "avg_logprob": -0.33073498985984107,
+      "no_speech_prob": 0.8571363091468811,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 41.94,
+      "playback_end": 55.4,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "主要是交通方面地铁或者说是公交方面就是说大家先讨论一下主要就是各自三环一厘好像是",
+      "correction_note": "修正'三环一厘'为'三环以内'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 55.48,
+      "end": 69.08,
+      "speaker": "SPEAKER_05",
+      "text": "三环以内房租太贵了，太贵了，房租了。三环以内也贵啊。咱们现在三环外还是要便宜点，到三环现在的话。",
+      "avg_logprob": -0.4981094720795399,
+      "no_speech_prob": 0.8093481659889221,
+      "speech_overlap_s": 6.4,
+      "speech_overlap_ratio": 1.143,
+      "playback_start": 55.42,
+      "playback_end": 69.0,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "三环一厘房租太贵了太贵房租了三环一厘也贵啊咱们现在三环外还是要便宜点到三环现在的话",
+      "correction_note": "修正'三环一厘'为'三环以内'，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 69.08,
+      "end": 83.18,
+      "speaker": "SPEAKER_05",
+      "text": "反正三环以内公交车，为了工资长远考虑，贵一点也没事。现在得罗外国大家交通都很方便，他们有车呀。你四环五环的话它交通特别方便。",
+      "avg_logprob": -0.4981094720795399,
+      "no_speech_prob": 0.8093481659889221,
+      "speech_overlap_s": 2.62,
+      "speech_overlap_ratio": 1.129,
+      "playback_start": 69.02,
+      "playback_end": 83.12,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "反正三环一厘公交报为了工资长远考虑贵一点也没事现在得罗外国大家交通的很方便他们有车呀你四環五環的话它交通特別方便",
+      "correction_note": "修正'三环一里'为'三环以内'，繁体转简体，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 83.2,
+      "end": 97.84,
+      "speaker": "SPEAKER_05",
+      "text": "就是组织的时候，少那。您给提一个。我觉得最好第一个大的方向吧，就是我们先在东南西北四个地方就先选一个大方位，完了之后呢再根据大家住的地方选一个。",
+      "avg_logprob": -0.4707360629377694,
+      "no_speech_prob": 0.6277219653129578,
+      "speech_overlap_s": 1.96,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 83.14,
+      "playback_end": 97.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "就是組織的时候少那您给提一个我觉得最好第一个大的方向吧就是我们先在东南西北四个地方就先选一个大方位完了之后呢再根据大家住的地方选一个",
+      "correction_note": "繁体转简体，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 97.84,
+      "end": 111.12,
+      "speaker": "SPEAKER_05",
+      "text": "不要让我，就是我之前也向领导规划过意见，就是说大概是到那个三环到四环了，就是大望路啊，到交通方面四环之间那块，然后交通方便。",
+      "avg_logprob": -0.4707360629377694,
+      "no_speech_prob": 0.6277219653129578,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 97.78,
+      "playback_end": 111.04,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "不要让我们就是我之前也向領导规划过意见就是说大概是到那个三環二十四環了就是大王路啊到交通方面四環之间那塊然后交通方便",
+      "correction_note": "修正'大王路'为'大望路'，去掉'二十四环'中的数字，繁体转简体，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 111.12,
+      "end": 125.12,
+      "speaker": "SPEAKER_05",
+      "text": "地铁公交多挺方便，交通方便一些，大伙上下班好让人快一些。那我们现在就是先挑定一下各个负责人来说在东三环、东四环之间。",
+      "avg_logprob": -0.3249301323523888,
+      "no_speech_prob": 0.7524986863136292,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 111.06,
+      "playback_end": 125.04,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "地铁 公交多挺方便交通方便一些大伙上下班好人快一些那我们现在就是先挑定一下各个负责人来说在东三行 东四行之间",
+      "correction_note": "修正'东三行'为'东三环'，'东四行'为'东四环'，'好人'为'好让人'，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 125.12,
+      "end": 139.1,
+      "speaker": "SPEAKER_05",
+      "text": "然后呢，这方向北可以，可以。就是大家觉得这个可以不可以？这边写的东西挺多的，挑选的意见大，对对对。那边那个方向方便也挺便宜。",
+      "avg_logprob": -0.3249301323523888,
+      "no_speech_prob": 0.7524986863136292,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 125.06,
+      "playback_end": 139.04,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.75"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后呢 这方向北可以 可以就是大家觉得这个可以不可以这边写的东西挺多的挑选的意见大对对对 那边那个方向方便也挺便宜",
+      "correction_note": "保留原口语化表达，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 139.12,
+      "end": 153.1,
+      "speaker": "SPEAKER_05",
+      "text": "交通还特别得劲。您不是最近搬东边去了吗？正好离我们近了，是有点。咱俩交通特别方便。大家可以把这个事情就是说在群里面。",
+      "avg_logprob": -0.2507843518779226,
+      "no_speech_prob": 0.8755092620849609,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 139.06,
+      "playback_end": 153.04,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "交通还特别得劲您不是最近搬东边去了吗正好离我们近了是有点咱俩交通特别方便大家可以把这个事情就是说在群里面",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 153.12,
+      "end": 165.1,
+      "speaker": "SPEAKER_05",
+      "text": "跟其他的员工去商量一下。你把这条记下来，完了大伙出的那个，大伙再一通过不就OK了吗？第一个人去那个位置去那边先考察一下。",
+      "avg_logprob": -0.2507843518779226,
+      "no_speech_prob": 0.8755092620849609,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 153.06,
+      "playback_end": 165.04,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "跟其他的员工去商量一下你把这条记下来完了大伙出的那条大伙再一通过不就OK了吗第一个人去那什么位去那边先考察一下",
+      "correction_note": "修正'什么位'为'那个位置'，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 165.12,
+      "end": 180.12,
+      "speaker": "SPEAKER_05",
+      "text": "先考察一下，就是先挑几个楼，挑几个写字楼。挑完了之后呢，我们再综合比较一下。这个后续的话，就是我们讨论的这个范围，大家后边会有人去安排，去那边调查。",
+      "avg_logprob": -0.3381779888483483,
+      "no_speech_prob": 0.828572154045105,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 165.06,
+      "playback_end": 180.04,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "先考察一下 就是先挑几个楼 挑几个写辞挑完了之后呢 我们再综合比较一下这个后续的话 就是我们讨论的这个范围大家后边会有人去安排 去那边调查",
+      "correction_note": "修正'写辞'为'写字楼'，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 180.12,
+      "end": 195.12,
+      "speaker": "SPEAKER_05",
+      "text": "对对，调查调查。那就是定在东边，东边，东边，西边？西边可能有几个住西边的，住六个厅？三环以内？",
+      "avg_logprob": -0.3381779888483483,
+      "no_speech_prob": 0.828572154045105,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 180.06,
+      "playback_end": 195.04,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.83"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "对对 调查 调查 调查那就是定在东边东边 东边 东边西边 西边可能有几个住西边住六个厅三环一厅",
+      "correction_note": "修正'三环一厅'为'三环以内'，清理部分重复，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 195.12,
+      "end": 209.1,
+      "speaker": "SPEAKER_05",
+      "text": "要三环以内，我们的工资特别多。那就是大概的范围。我们现在在敲定这个，就可以告一段落。东边的人多，东边人多，西边大伙自己可以就回家。",
+      "avg_logprob": -0.3565440214881601,
+      "no_speech_prob": 0.7648783326148987,
+      "speech_overlap_s": 3.3,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 195.06,
+      "playback_end": 209.04,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "要三环一厅,我们的工资特别多那就是大概的范围我们现在在敲定这个就可以告一段落东边的人多东边人多,西边大伙自己可以救回家",
+      "correction_note": "修正'三环一厅'为'三环以内'，'救回家'为'就回家'，添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 209.12,
+      "end": 222.58,
+      "speaker": "SPEAKER_05",
+      "text": "然后现在的话，地点的话大家到时候去调查。调查之后然后我们会，比如说有多层空间或者其他的区域，就看咱们比例了怎么弄。",
+      "avg_logprob": -0.3565440214881601,
+      "no_speech_prob": 0.7648783326148987,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 209.06,
+      "playback_end": 222.52,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后现在的话,地点的话大家到时候去调查,调查之后然后我们会,比如说有多层空间或者其他的区域就看咱们比例了怎么弄",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 222.6,
+      "end": 235.38,
+      "speaker": "SPEAKER_05",
+      "text": "现在大概就三十多人吧，然后看看大多数人，对空间大小，就各部门对空间大小不知道有什么要求？还有招人嘛，再招人的话你至少得十几个。",
+      "avg_logprob": -0.42038690185546873,
+      "no_speech_prob": 0.8650081753730774,
+      "speech_overlap_s": 1.68,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 222.54,
+      "playback_end": 235.32,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "现在大概就三十多人吧然后看看大多数人把空间打小就各部门的对空间打小不知道有什么要求还有招人嘛再招人的话你至少得十几个",
+      "correction_note": "将'把空间打小'改为'对空间大小'，'对空间打小'改为'对空间大小'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 235.4,
+      "end": 248.86,
+      "speaker": "SPEAKER_05",
+      "text": "太小了的话，咱们就是空间觉得就是咱们那么多是吧？那就先咱们暂定，然后到报告领导的话就是暂定先要50个工位。",
+      "avg_logprob": -0.42038690185546873,
+      "no_speech_prob": 0.8650081753730774,
+      "speech_overlap_s": 2.68,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 235.34,
+      "playback_end": 248.8,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "太小了的话咱们就是空间觉得就是工会那么多是吧那就先咱们暂定然后到报告领导的话就是暂定先要50个宫位",
+      "correction_note": "将'工会'改为'咱们'，'宫位'改为'工位'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 248.88,
+      "end": 261.72,
+      "speaker": "SPEAKER_05",
+      "text": "然后会议室，我觉得会议室其实可以小会议室多一点，大个有一间就够了，大的有一个就够了。",
+      "avg_logprob": -0.3989471172464305,
+      "no_speech_prob": 0.6977449059486389,
+      "speech_overlap_s": 4.44,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 248.82,
+      "playback_end": 261.64,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后会议室我觉得会议室其实可以小会议室多一点大个有一间就够了大个有一个就够了",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 261.72,
+      "end": 275.3,
+      "speaker": "SPEAKER_05",
+      "text": "到时候开会的话，会议室你觉得大概有就是所有人都能容纳那种，会议室就是类似一间教室那么大，一间教室那么大，那个就看着办吧，因为咱们本来就去考察嘛。",
+      "avg_logprob": -0.3989471172464305,
+      "no_speech_prob": 0.6977449059486389,
+      "speech_overlap_s": 2.59,
+      "speech_overlap_ratio": 1.199,
+      "playback_start": 261.66,
+      "playback_end": 275.24,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "到时候开会的话会议室你觉得大概有就是所有人都容纳那种会议室就是类似一间教室那么大一间教室那么大一间教室那个就看着病吧因为咱们本来就去考察嘛",
+      "correction_note": "将'看着病'改为'看着办'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 275.32,
+      "end": 286.18,
+      "speaker": "SPEAKER_05",
+      "text": "对，先考察。大伙就是考察，给你也得根据他那个实际情况，根据他那个实际情况，咱们就可以到时候再改一下会议室，就是说大概就是大。",
+      "avg_logprob": -0.4249063185703607,
+      "no_speech_prob": 0.8614449501037598,
+      "speech_overlap_s": 2.82,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 275.26,
+      "playback_end": 286.12,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "对 先考察大伙就是考察给你也得根据他那个实际情况根据他那个实际情况咱们将可以到时候再改一下会议室就是说大概就是大",
+      "intent": [
+        "回应",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 286.2,
+      "end": 298.22,
+      "speaker": "SPEAKER_05",
+      "text": "然后我们可以先就能容纳所有人开会来，然后就是说办公室的问题。办公室就是一共现在就这么咱们几个部门嘛，然后你都把这几个部门就是归纳好。",
+      "avg_logprob": -0.4249063185703607,
+      "no_speech_prob": 0.8614449501037598,
+      "speech_overlap_s": 3.75,
+      "speech_overlap_ratio": 1.103,
+      "playback_start": 286.14,
+      "playback_end": 298.16,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后我们可以先就能如纳所有人开会来然后就是说办公室的问题办公室就是一共现在就这么咱们几个部门嘛然后你都把这几个部门就是归纳好",
+      "correction_note": "将'如纳'改为'容纳'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 298.24,
+      "end": 312.04,
+      "speaker": "SPEAKER_05",
+      "text": "现在就四个吧，四个小办公室，对，四个小办公室主要是选择好，别到时候大部分空间不够了。如果想再招聘的那几个部门的话，估计得四到五个，四到五个。",
+      "avg_logprob": -0.4249063185703607,
+      "no_speech_prob": 0.8614449501037598,
+      "speech_overlap_s": 2.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 298.18,
+      "playback_end": 311.96,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "现在就四个吧 四个小办公室对 四个小办公室主要是选择好别那个大部分空间不够了如果想当中招聘的那几个部门的话估计得四到五个四到五个",
+      "correction_note": "将'别那个'改为'别到时候'，'当中招聘'改为'再招聘'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 312.04,
+      "end": 323.92,
+      "speaker": "SPEAKER_05",
+      "text": "那就是说五个六个都行，那就是这些大概的这些数目。这需要考察试试吧，必须得把这些情况都拿好了，到时候去考察就能定出来这个房子。",
+      "avg_logprob": -0.4490667253532666,
+      "no_speech_prob": 0.8502829670906067,
+      "speech_overlap_s": 2.85,
+      "speech_overlap_ratio": 1.063,
+      "playback_start": 311.98,
+      "playback_end": 323.84,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那就是说五个六个都行那就是这些大概的这些数目这个一两个考察试试吧必须得把这些情况都拿好了当下来去考察就能定出来这个房子",
+      "correction_note": "将'这个一两个'改为'这需要'，'当下来'改为'到时候'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 323.92,
+      "end": 332.92,
+      "speaker": "SPEAKER_05",
+      "text": "好，那就先把这个先暂定一下，然后就是说里边有没有什么储物间，或者比如说大家要立个柜子什么的。",
+      "avg_logprob": -0.4490667253532666,
+      "no_speech_prob": 0.8502829670906067,
+      "speech_overlap_s": 3.88,
+      "speech_overlap_ratio": 1.115,
+      "playback_start": 323.86,
+      "playback_end": 332.84,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "好那就先把这个先暂定一下然后就是说里边有没有什么储物间或者比如说大家要立个柜子什么的",
+      "intent": [
+        "回应",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 332.92,
+      "end": 347.12,
+      "speaker": "SPEAKER_05",
+      "text": "洗手间我觉得就是最好别找那种外面公用的，那种比如说我们有一个楼层，咱们自己的公司比较好，自己人用里头这种洗手间比较好，自己员工用。",
+      "avg_logprob": -0.47352249981605843,
+      "no_speech_prob": 0.8504414558410645,
+      "speech_overlap_s": 6.12,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 332.86,
+      "playback_end": 347.04,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "洗手间我觉得就是最好别找那种往外公用的那种比如说我们有一个楼床咱们自己的公司比较好自己人用领头这种洗手间比较好自己员工用",
+      "correction_note": "将'往外公用'改为'外面公用'，'楼床'改为'楼层'，'领头'改为'里头'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 347.12,
+      "end": 361.1,
+      "speaker": "SPEAKER_05",
+      "text": "最好别说谁跟谁上的那种，要不然你上那种公用的也很不方便。到时候看情况，我给咱们提一下建议。这个这个吧，就是咱员工本身人多，你有自己的洗手间了。",
+      "avg_logprob": -0.47352249981605843,
+      "no_speech_prob": 0.8504414558410645,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 347.06,
+      "playback_end": 361.06,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "最好别说谁脸谁上的那种要不然你上那种公用的也觉得很方便到时候看情况我给咱们提一下建议这个这个吧就是咱员工本身人多你有自己的洗手间了",
+      "correction_note": "将'谁脸谁上'改为'谁跟谁上'，'很方便'改为'很不方便'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 361.14,
+      "end": 373.72,
+      "speaker": "SPEAKER_05",
+      "text": "有桌面打扫，咱们目前好缺个保洁，对，一般都是没有保洁。这个咱们搬去之后了就是再考虑这些问题，咱们得找个固定的保洁，找个固定的保洁。",
+      "avg_logprob": -0.4983798233920304,
+      "no_speech_prob": 0.5445175766944885,
+      "speech_overlap_s": 2.72,
+      "speech_overlap_ratio": 1.283,
+      "playback_start": 361.08,
+      "playback_end": 373.64,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "有桌面打扫咱们目前好缺个宝爷宝对一般都是没有宝爷宝这个咱们搬去之后了就是再考虑这些问题咱们得找个固定的宝爷宝找个固定的宝爷宝",
+      "correction_note": "将'宝爷宝'改为'保洁'",
+      "intent": [
+        "陈述",
+        "提议",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 373.72,
+      "end": 385.82,
+      "speaker": "SPEAKER_05",
+      "text": "咱们找个保洁，是不是今天来几个小时就都弄完了？对，咱们那个咋说那个员工咱也算个好保洁。我觉得就是这点很重要，这个就是谁早晨到的先把他去做一下呗。",
+      "avg_logprob": -0.4983798233920304,
+      "no_speech_prob": 0.5445175766944885,
+      "speech_overlap_s": 1.52,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 373.66,
+      "playback_end": 385.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱们找个弄弄是不是今天来几个小时就都弄完了对咱们那个咋说那个员工咱也算个好爷爷宝我觉得就是这点很重要这个就是谁早晨到的先把他去做一下呗",
+      "correction_note": "将'弄弄'改为'保洁'（整理），'好爷爷宝'改为'好保洁'",
+      "intent": [
+        "提问",
+        "回应",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 385.84,
+      "end": 400.64,
+      "speaker": "SPEAKER_05",
+      "text": "这叫一个人做保洁，人太多了。咱们50个人，一个人做保洁也至少得一个人，这个还得考虑范围之内。你还得问一下领导，到时候看他怎么好咱们就写了。",
+      "avg_logprob": -0.4983798233920304,
+      "no_speech_prob": 0.5445175766944885,
+      "speech_overlap_s": 1.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 385.78,
+      "playback_end": 400.56,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.2s/14.8s"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这叫一个人做的招呼的保洁人太多了咱们50个人一个人做招呼保洁也至少得一个人这个还得考虑范围之内你还得问一下领导到时候看他怎么好咱们就写了",
+      "correction_note": "将'做的招呼的'改为'做保洁'，'招呼保洁'改为'做保洁'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 400.64,
+      "end": 414.52,
+      "speaker": "SPEAKER_05",
+      "text": "说吧，咱们有一个资本，就这么几个人的话，咱们雇个保洁得花钱是吧？花钱是吧？但是说这是一个大方面，咱这吃喝拉撒的主要，这是主要的。像那个面积，像这个茶水间什么的。",
+      "avg_logprob": -0.4922309875488281,
+      "no_speech_prob": 0.7690877318382263,
+      "speech_overlap_s": 0.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 400.58,
+      "playback_end": 414.44,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.8s/13.9s",
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.77"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "算吧咱们有一个资本就这么几个人的话咱们顾内保洁得花钱是吧花钱是吧但是说这是一个大方面咱这吃喝拉撒的主要这是主要的像那个面积像这个茶水间什么的",
+      "correction_note": "添加标点，修正'算吧'为'说吧'，'顾内保洁'为'雇个保洁'",
+      "intent": [
+        "提问",
+        "确认",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 414.52,
+      "end": 429.32,
+      "speaker": "SPEAKER_05",
+      "text": "应该能做出来了。咱们现在就没有一个茶水间，大家有时候中午吃饭什么的有热点饭菜，什么都不太好，这个也是。对，到时候这个吸烟室能整好最好是有一个。",
+      "avg_logprob": -0.44493549748470906,
+      "no_speech_prob": 0.875051736831665,
+      "speech_overlap_s": 2.3,
+      "speech_overlap_ratio": 0.958,
+      "playback_start": 414.46,
+      "playback_end": 429.24,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "应该能做出来了咱们现在就没有一个茶水间大家有时候中午吃饭什么的有热点饭菜什么都不太好这个也是对到时候这个吸烟水能整好最好是有一个",
+      "correction_note": "添加标点，修正'吸烟水'为'吸烟室'",
+      "intent": [
+        "陈述",
+        "回应",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 429.32,
+      "end": 442.92,
+      "speaker": "SPEAKER_05",
+      "text": "吸烟室，到时候这些建议就不能上层层先把它记一下。这厕所也不让我抽，这个问题是啊，这个就是大伙的就是说可以考虑，比如说就是考虑一下烟灰缸啊。",
+      "avg_logprob": -0.44493549748470906,
+      "no_speech_prob": 0.875051736831665,
+      "speech_overlap_s": 1.87,
+      "speech_overlap_ratio": 1.169,
+      "playback_start": 429.26,
+      "playback_end": 442.84,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "吸烟水到时候这些建议就不能上层层先把它记一下这厕所也不让我抽这个问题是啊这个就是大伙的就是说可以考虑比如说就是考虑一下烟水机啊",
+      "correction_note": "添加标点，修正'吸烟水'为'吸烟室'，'烟水机'为'烟灰缸'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 442.92,
+      "end": 450.94,
+      "speaker": "SPEAKER_05",
+      "text": "烧一锅炉啊这些东西，你这机子好吗？主要是拿着这个抽烟，下楼下楼。",
+      "avg_logprob": -0.3106259721698183,
+      "no_speech_prob": 0.7528029680252075,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 442.86,
+      "playback_end": 451.59,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.75"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "烧一锅炉啊这些东西你这机子好吗主要是拿着这个抽烟下楼下楼",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 452.92,
+      "end": 466.92,
+      "speaker": "SPEAKER_05",
+      "text": "到时候我再报一下，然后就是说装修啊，比如说现在电脑到时候肯定都得搬过去。然后呢，装修的话就是一个人一个写字台这种嘛，还是说对于灯啊或者说",
+      "avg_logprob": -0.3106259721698183,
+      "no_speech_prob": 0.7528029680252075,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 452.87,
+      "playback_end": 466.84,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "到时候我再报一下然后就是说装修啊比如说现在电脑到时候肯定都得搬过去然后呢装修的话就是一个人一个写字台这种嘛还是说对于灯啊或者说",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 466.92,
+      "end": 477.86,
+      "speaker": "SPEAKER_05",
+      "text": "那个环境啊，装修最方便的，一人一个特别方便，员工一人一个，但是其实那种开封的那种也挺好的。",
+      "avg_logprob": -0.3106259721698183,
+      "no_speech_prob": 0.7528029680252075,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 466.86,
+      "playback_end": 478.51,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那个环境啊装修最方便的一人一个特别方便员工一人一个但是其实那种开封的那种也挺好的",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述",
+        "评论"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 478.36,
+      "end": 490.52,
+      "speaker": "SPEAKER_05",
+      "text": "这个就是他具体的空间了，去研究这个事。你要空间小的话，因为有时候你开会的话有个小隔间，反而不方便。有时候开会说是开不开工，咱们有空间。",
+      "avg_logprob": -0.39655301525334646,
+      "no_speech_prob": 0.8239606022834778,
+      "speech_overlap_s": 5.3,
+      "speech_overlap_ratio": 1.104,
+      "playback_start": 478.31,
+      "playback_end": 490.44,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这个就是他具体的空间了去研究这个事你要空间小的话因为有时候你开会的话有个小阁间反而不方便有时候开会说是开不开开工咱们有空间",
+      "correction_note": "添加标点，修正'小阁间'为'小隔间'，'开不开开工'为'开不开工'",
+      "intent": [
+        "陈述",
+        "评论"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 490.52,
+      "end": 504.26,
+      "speaker": "SPEAKER_05",
+      "text": "到时候最好是有一个小隔间。有的时候现在咱有空间都不方便，咱有空间，咱们也可以有空间。到时候装修的风格的话，你觉得有什么？是陶瓷还是说这个地板？这个就没啥要求。",
+      "avg_logprob": -0.39655301525334646,
+      "no_speech_prob": 0.8239606022834778,
+      "speech_overlap_s": 2.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 490.46,
+      "playback_end": 504.2,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "到时候最好是小阁间的有的时候现在咱有空间都不方便咱有空间咱们也可以有空间到时候装修的风格的话你觉得有什么是陶瓷还是说这个地板这个就没啥要求",
+      "correction_note": "添加标点，修正'小阁间'为'小隔间'",
+      "intent": [
+        "提议",
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 504.28,
+      "end": 518.86,
+      "speaker": "SPEAKER_05",
+      "text": "只要我们是远方的，瞅着特别舒服、温馨就好。完了，干活，工作地毯安静。对，现在好像都是，那就买吸尘器了，地毯的吸尘器特别方便。",
+      "avg_logprob": -0.38004106010486877,
+      "no_speech_prob": 0.6775493621826172,
+      "speech_overlap_s": 1.76,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 504.22,
+      "playback_end": 518.8,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "只要我们是远方的瞅着特别舒服 温馨就好完了 约会干活 工作地毯安静对 现在好像都是那就买吸尘器了地毯的吸尘器特别方便",
+      "correction_note": "添加标点，修正'约会干活'为'干活'",
+      "intent": [
+        "陈述",
+        "提议",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 518.88,
+      "end": 533.26,
+      "speaker": "SPEAKER_05",
+      "text": "擦着就能整完，但是地毯咱们温馨一下。大家觉得那个墙的话，是要贴纸还是说直接刷漆的这种？刷漆就白色的白墙就行了。",
+      "avg_logprob": -0.38004106010486877,
+      "no_speech_prob": 0.6775493621826172,
+      "speech_overlap_s": 1.28,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 518.82,
+      "playback_end": 533.2,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "擦着就能整完但是地毯咱们温馨一下大家觉得那个墙的话是要贴纸还是说直接刷漆的这种刷锡子就白色的白墙就行了",
+      "correction_note": "添加标点，修正'刷锡子'为'刷漆'",
+      "intent": [
+        "陈述",
+        "提问",
+        "回答"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 533.28,
+      "end": 548.28,
+      "speaker": "SPEAKER_05",
+      "text": "这个没啥要求，就跟自己家似的。看看他们造就具体的地点，他们有没有装修？到一个地方应该是毛坯的，都是新的。",
+      "avg_logprob": -0.3838012118299468,
+      "no_speech_prob": 0.864720344543457,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 533.22,
+      "playback_end": 548.2,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/15.0s",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这个没啥要求就跟自己家似的看看他们造就具体的地点他们有没有装区到一个地方应该是毛坯的都是新的",
+      "correction_note": "添加标点，修正'装区'为'装修'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 548.28,
+      "end": 563.0,
+      "speaker": "SPEAKER_05",
+      "text": "然后我们长辈主要是找这种地方，裹上保质、裹上保质就行，还能节约点。完了完了，另外一半瞅着，干净利索，探望，瞅着大气息公司嘛，必须说温馨、干净。",
+      "avg_logprob": -0.3838012118299468,
+      "no_speech_prob": 0.864720344543457,
+      "speech_overlap_s": 3.5,
+      "speech_overlap_ratio": 1.167,
+      "playback_start": 548.22,
+      "playback_end": 562.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后我们长辈主要是找这种地方裹上保质裹上保质就行还能解约点完了完了,另外一半瞅着,干净利索,探望,瞅着大气息公司嘛,必须说温馨,干净",
+      "correction_note": "添加标点，修正'解约'为'节约'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 563.0,
+      "end": 576.32,
+      "speaker": "SPEAKER_05",
+      "text": "瞅着公司工作，也有商业心，瞅着舒服。您这个想法挺好，就是说，那我们大概的话、大概的话就是这个11月的月底，我们这个地方要到期了。",
+      "avg_logprob": -0.40904779576543554,
+      "no_speech_prob": 0.7028777003288269,
+      "speech_overlap_s": 5.87,
+      "speech_overlap_ratio": 1.063,
+      "playback_start": 562.94,
+      "playback_end": 576.24,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.70"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "瞅着公司工作,也有商业心,瞅着舒服您这个想法挺好,就是说,那我们大概的话大概的话就是这个11月的月底,我们这个地方要到期了",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 576.32,
+      "end": 589.82,
+      "speaker": "SPEAKER_05",
+      "text": "然后到时候，各部门什么时候开始收拾东西啊？什么时候可以收拾东西？再过两个星期吧。然后大家可以先规划一下，就是各部门这主要就是订房哪天搬最重要。",
+      "avg_logprob": -0.40904779576543554,
+      "no_speech_prob": 0.7028777003288269,
+      "speech_overlap_s": 3.12,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 576.26,
+      "playback_end": 589.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后到时候,各部门什么时候开始收拾东西啊,什么时候可以收拾东西再过两个星期吧,然后大家可以先规划一下就是各部门这主要就是订房哪天搬最重要",
+      "correction_note": "添加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 589.84,
+      "end": 600.84,
+      "speaker": "SPEAKER_05",
+      "text": "订房哪天搬，我们就往前推日子什么时候收拾东西。但提前得把房都搬好，房看好，装修完之后咱们说搬家一股气就走了，就是现在咱们说一两天就完事了。",
+      "avg_logprob": -0.2812895614109682,
+      "no_speech_prob": 0.8068516850471497,
+      "speech_overlap_s": 2.09,
+      "speech_overlap_ratio": 1.045,
+      "playback_start": 589.78,
+      "playback_end": 600.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "订房哪天搬,我们就往前推日子什么时候收拾东西但天气得把房都搬好,房可好,中心完之后咱们说搬家一股多气就走了就是现在咱们说一两天就完定了",
+      "correction_note": "添加标点，修正'天气'为'提前'，'房可好'为'房看好'，'中心'为'装修'，'一股多气'为'一股气'，'完定了'为'完事了'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 600.84,
+      "end": 610.82,
+      "speaker": "SPEAKER_05",
+      "text": "另外一个事情就是说，关于搬家这个事啊，它一个最重要的一个事就是说你们要统计各部门有多少东西，然后呢，然后统计自己大概有多少天。",
+      "avg_logprob": -0.2812895614109682,
+      "no_speech_prob": 0.8068516850471497,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 600.78,
+      "playback_end": 610.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "另外一个事情就是说,关于搬家这个事啊它一个最重要的一个事就是说你们要统计各部门有多少东西然后呢,然后统计自己大概有多少天",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 610.84,
+      "end": 623.82,
+      "speaker": "SPEAKER_05",
+      "text": "不知道你们大概多少天能把它规整完？这个事也就两三天差不多了，三天就差不多了，把它搬到公司来，直接上车，你讲一会儿衣物收拾不就过了。",
+      "avg_logprob": -0.3921411335468292,
+      "no_speech_prob": 0.8345509171485901,
+      "speech_overlap_s": 3.89,
+      "speech_overlap_ratio": 1.216,
+      "playback_start": 610.78,
+      "playback_end": 623.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "不知道你们大概多少天能把他规制完这个事又也两三天差不多了三天就差不多了把他搬到公司来了直接上车你讲一会儿衣物搜汲不就过了",
+      "correction_note": "修正了'规置'为'规整'，'又也'为'也就'，'搜汲'为'收拾'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 623.84,
+      "end": 633.82,
+      "speaker": "SPEAKER_05",
+      "text": "到时候20号左右的话我们会搬，就是大家可以先规划一下，完事之前把那边先规划好了，两三天应该能搬完。",
+      "avg_logprob": -0.3921411335468292,
+      "no_speech_prob": 0.8345509171485901,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 623.78,
+      "playback_end": 633.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "到时候20号左右的话我们会搬就是大家可以先规划一下完事之前把那边先规划好了两三天应该能搬完",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 633.84,
+      "end": 647.82,
+      "speaker": "SPEAKER_05",
+      "text": "你们几位到时候谁去联系一下，到时候哪个搬家公司？啊，我来落实这个吧。行行，上次搬家也是用的那个。",
+      "avg_logprob": -0.3921411335468292,
+      "no_speech_prob": 0.8345509171485901,
+      "speech_overlap_s": 6.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 633.78,
+      "playback_end": 647.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "你们几位到时候谁去联系一下到时候哪个搬家公司啊我来落实这个吧行行上次搬家也是用的那个",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 647.84,
+      "end": 661.82,
+      "speaker": "SPEAKER_05",
+      "text": "一个搬家公司，我觉得也挺好，那就看一下到时候哪个公司比较优惠啊，然后到时候可以去，还得说车大点，避免一趟两趟，咱们这个三个车三个大车。",
+      "avg_logprob": -0.27426320856267755,
+      "no_speech_prob": 0.8823517560958862,
+      "speech_overlap_s": 2.29,
+      "speech_overlap_ratio": 1.145,
+      "playback_start": 647.78,
+      "playback_end": 661.76,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "一个搬家公司我觉得也挺好那就看一下到时候哪个公司比较优惠啊然后到时候可以去还得说车大点比一趟两趟咱们这个三个车三个大车",
+      "correction_note": "修正了'比一趟两趟'为'避免一趟两趟'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 661.84,
+      "end": 674.14,
+      "speaker": "SPEAKER_05",
+      "text": "咱们这晚上一趟都拉过去，这个事就交，就把这事儿就由您负责，到时候跟那个预算部门来报一下，行吗？然后说有预算吗？对啊，我们这个...这事必须得有预算。",
+      "avg_logprob": -0.27426320856267755,
+      "no_speech_prob": 0.8823517560958862,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 661.78,
+      "playback_end": 674.06,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱们这晚上一趟都拉过去这个事就交就把万千元就由您负责到时候跟那个预算部门来报一下,行吗?然后说有预算吗?对啊,我们这个...这事必须得有预算",
+      "correction_note": "修正了'万千元'为'这事儿'，使语义通顺。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 674.14,
+      "end": 686.442,
+      "speaker": "SPEAKER_05",
+      "text": "必须得有预算。那个时间那边装修好了之后，通知我们，我们这下子就提前打包，提前把这东西都弄好，这不就是直接干活就可以搬了吗？对。",
+      "avg_logprob": -0.4853226219475602,
+      "no_speech_prob": 0.32625776529312134,
+      "speech_overlap_s": 1.29,
+      "speech_overlap_ratio": 1.29,
+      "playback_start": 674.08,
+      "playback_end": 686.402,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "必须得有预算那个时间那边装修好了之后,通知我们我们这下子就提前打,提前把这东西都弄好这不就是直接干活就可以搬了吗?对",
+      "correction_note": "修正了'提前打'为'提前打包'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 686.482,
+      "end": 696.26,
+      "speaker": "SPEAKER_05",
+      "text": "不能说是你那边整完了，这边不干活，我们你说从那儿瞎等着？等着你们那边完事，这边直接干活。明天或者后天完事了，咱们就是这边一并搬。",
+      "avg_logprob": -0.4853226219475602,
+      "no_speech_prob": 0.32625776529312134,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 686.422,
+      "playback_end": 696.18,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "不能说是你那边整完了,这边不干活我们你说从那下啥等着你们那边完事,这边直接干活明天或者后天完事了咱们就是这边一审判",
+      "correction_note": "修正了'从那下啥'为'从那儿瞎等着'，'一审判'为'一并搬'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 696.26,
+      "end": 699.76,
+      "speaker": "SPEAKER_05",
+      "text": "我们部门这边可能没那么快，人太多了。",
+      "avg_logprob": -0.43781825474330355,
+      "no_speech_prob": 0.9051857590675354,
+      "speech_overlap_s": 3.75,
+      "speech_overlap_ratio": 1.065,
+      "playback_start": 696.2,
+      "playback_end": 699.7,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "我们部门这边可能没那么快,人太多了",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 699.78,
+      "end": 714.72,
+      "speaker": "SPEAKER_05",
+      "text": "我们部门现在有七八个人，现在就剩两三个人在这，那这个出差的话也是一个问题。",
+      "avg_logprob": -0.43781825474330355,
+      "no_speech_prob": 0.9051857590675354,
+      "speech_overlap_s": 12.59,
+      "speech_overlap_ratio": 1.056,
+      "playback_start": 699.72,
+      "playback_end": 714.66,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "我们部门现在有七八个人现在就剩两三个人在这那这个出差的话也是一个问题",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 714.74,
+      "end": 728.7,
+      "speaker": "SPEAKER_05",
+      "text": "你们那边出差的话，跑外勤太多，帮助你们吧，有的肯定这几天都回不来，那还得帮他们收拾东西。你们部门是不是东西多？我们其他部门都可以，我们就这样分一下。",
+      "avg_logprob": -0.43781825474330355,
+      "no_speech_prob": 0.9051857590675354,
+      "speech_overlap_s": 5.44,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 714.68,
+      "playback_end": 728.62,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "你们那边出差的话,跑外心太多,帮助你们吧有的肯定这几天都回不来,那还得帮他们收拾东西你们部门是不是东西多 我们其他部门都可以我们就这样分一下",
+      "correction_note": "修正了'跑外心'为'跑外勤'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 728.7,
+      "end": 743.52,
+      "speaker": "SPEAKER_05",
+      "text": "就是像文件类的，然后资料柜呀什么的，谁来负责定一下？然后呢，像电脑有我们来管，然后还有那个桌椅，再找一个人，桌椅固定整一个人不够。",
+      "avg_logprob": -0.41399866417993475,
+      "no_speech_prob": 0.7147676944732666,
+      "speech_overlap_s": 2.36,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 728.64,
+      "playback_end": 743.46,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "就是像文件类的然后资料柜呀什么的谁来负责订队一块然后呢 像电脑有我们来关注您然后还有那个桌椅再找一个人桌椅固定整一个人不够",
+      "correction_note": "修正了'订队'为'定一下'，'关注您'为'管'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 743.54,
+      "end": 756.7,
+      "speaker": "SPEAKER_05",
+      "text": "那这些事儿他就可以由档案的那些部门去管，然后档案他有专人管，主要是座椅和，然后电脑什么的不就得提前可以拿过去啊，不就得过厅，还有车的东西。",
+      "avg_logprob": -0.41399866417993475,
+      "no_speech_prob": 0.7147676944732666,
+      "speech_overlap_s": 4.05,
+      "speech_overlap_ratio": 1.113,
+      "playback_start": 743.48,
+      "playback_end": 756.62,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那这些事儿他就可以由档案的那些部门去管然后档案他有座人管主要是座椅或然后电脑什么的不就得提前可以拿过去啊不就得过厅市产车的东西",
+      "correction_note": "修正了'座人管'为'专人管'，'座椅或'为'座椅和'，'过厅市产车'为'过厅，还有车'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 756.7,
+      "end": 770.7,
+      "speaker": "SPEAKER_05",
+      "text": "到时候也不能搬个家就丢了东西，咱们必须得看住，咱们自己不能不管，各部门能协调一下子，各部门看好各门。现在关于刚才说的时间的问题，大概在二十号左右。",
+      "avg_logprob": -0.36064064415701985,
+      "no_speech_prob": 0.8537867665290833,
+      "speech_overlap_s": 2.45,
+      "speech_overlap_ratio": 1.225,
+      "playback_start": 756.64,
+      "playback_end": 770.62,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "到时候也不能搬个家就丢了东西咱们必须得看住咱们自己不能用各部门能协调一下子各部门看好各门现在关于刚才说的时间的问题大概在二十号左右",
+      "correction_note": "修正了'不能用'为'不能不管'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 770.7,
+      "end": 785.58,
+      "speaker": "SPEAKER_05",
+      "text": "搬的话差不多差不多两天吧，富余点。他们到底运货吗？以前的四五天？那就，那就大部分。当时咱们特别，就是搬过去都很顺利了。",
+      "avg_logprob": -0.36064064415701985,
+      "no_speech_prob": 0.8537867665290833,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 770.64,
+      "playback_end": 785.5,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "搬的话差不多差不多两天吧富有点他们到底运货吗- 以前的四五天- 那就,那就大部分- 当时咱们特别,就是搬过去都很滑了",
+      "correction_note": "修正了'富有点'为'富余点'，'很滑了'为'很顺利了'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 785.58,
+      "end": 796.24,
+      "speaker": "SPEAKER_05",
+      "text": "23、24号，因为咱们就是大半周一到周五都要营业了。就是可以看一下，就是周六日的话，大家有没有时间可以来。对，可以可以。",
+      "avg_logprob": -0.5033062377262637,
+      "no_speech_prob": 0.875343382358551,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 785.52,
+      "playback_end": 796.18,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.88"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "- 23、24号- 因为咱们就是大半周一到周五都要营业了- 就是可以看一下就是周六日的话- 大家有没有时间可以来- 对,可以可以",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 796.26,
+      "end": 806.06,
+      "speaker": "SPEAKER_05",
+      "text": "对，还有那个大车呀，它进城是有限制的。啊，那就是说，对，大车不要进。估计的话，那个时间，对，那种搬家的那种货。",
+      "avg_logprob": -0.5033062377262637,
+      "no_speech_prob": 0.875343382358551,
+      "speech_overlap_s": 1.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 796.2,
+      "playback_end": 805.98,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "- 对,还有那个大车呀- 它进城是有限制的- 啊,那就是说- 对,大车不要进- 估计的话,那个时间- 对,那种搬家的那种货",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 806.06,
+      "end": 820.98,
+      "speaker": "SPEAKER_05",
+      "text": "对，那大车它有的是要什么早上几点钟之前，或者晚上几点钟之后，大车就是晚上十点。哦，这个月到时候咱们收拾好了，再等半天还好吧？那进不了。",
+      "avg_logprob": -0.5033062377262637,
+      "no_speech_prob": 0.875343382358551,
+      "speech_overlap_s": 3.08,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 806.0,
+      "playback_end": 820.9,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "- 对,那大车它有的是要什么早上几点钟之前 或者晚上几点钟之后大车就是晚上十点对这个月到时候咱们收拾好了再等半天还好吧那进不了",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 820.98,
+      "end": 835.36,
+      "speaker": "SPEAKER_05",
+      "text": "提前咱们问一下，车进不来，交规管着呢。哦，咱们这地方还可以，轻易主要是城里头大车，咱们不就是研究到了，他说这个问题应该是存在的。",
+      "avg_logprob": -0.4081190162234836,
+      "no_speech_prob": 0.47457683086395264,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 820.92,
+      "playback_end": 835.3,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "提前咱们问一下车进不来 交规管着呢哦咱们这地方还可以轻易主要是城里头大车咱们不就是研究到了他说这个问题应该是存在的",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 835.38,
+      "end": 847.44,
+      "speaker": "SPEAKER_05",
+      "text": "就是说，白天可能不让进，到时候我们就应该规划白天把它就是都收好，然后缩到一个箱子里边。对对，当两个他能进来的时候。对，还有一个就是上次咱们这边物业那个那个……",
+      "avg_logprob": -0.4081190162234836,
+      "no_speech_prob": 0.47457683086395264,
+      "speech_overlap_s": 1.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 835.32,
+      "playback_end": 847.38,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "就是说白天可能不让进到时候我们就应该规划白天把它就是都收好然后缩到一个箱子里边对对当两个他能进来的时候对还有一个就是上次咱们这边物业那个那个",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 847.46,
+      "end": 859.66,
+      "speaker": "SPEAKER_05",
+      "text": "那个人还跟我说，他说咱们这个搬家可能尽量别放在工作日，也影响咱们楼别的那个。对，咱休息日也行，就是咋说呢，咱们也不能说总搬家，就搬家的一次。",
+      "avg_logprob": -0.35269695217326535,
+      "no_speech_prob": 0.728771984577179,
+      "speech_overlap_s": 0.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 847.4,
+      "playback_end": 859.58,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.8s/12.2s",
+        "high no_speech_prob=0.73"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那个人还跟我说他说咱们这个搬家可能尽量别放在工作日也影响咱们楼别的那个对咱休息日也行就是咋说呢咱们也不能说总搬家就搬家的一次",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 859.66,
+      "end": 871.6,
+      "speaker": "SPEAKER_05",
+      "text": "大伙就是互相体谅点吧，定个休息日，大伙就是加个班吧，把这个公司搬完之后，咱们大伙都消停了，你让一让吧，这不就好了吗？",
+      "avg_logprob": -0.35269695217326535,
+      "no_speech_prob": 0.728771984577179,
+      "speech_overlap_s": 2.8,
+      "speech_overlap_ratio": 1.273,
+      "playback_start": 859.6,
+      "playback_end": 871.54,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "大伙就是互相体谅点吧领个休息日大伙就是加个班吧把这个公司搬完之后,咱们大伙都销定了,你让一让吧,这不就好了吗?",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 871.62,
+      "end": 881.32,
+      "speaker": "SPEAKER_05",
+      "text": "这个事儿就是由大家去联系，就是说下属的这些员工啊，看他们有没有什么建议，比如说有的人说觉得周六不行，周日的。",
+      "avg_logprob": -0.4382949471473694,
+      "no_speech_prob": 0.598644495010376,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 871.56,
+      "playback_end": 881.24,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这个事儿就是由大家去联系,就是说下属的这些员工啊,看他们有没有什么建议,比如说有的人说觉得周六不行,周日的。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 881.32,
+      "end": 893.32,
+      "speaker": "SPEAKER_05",
+      "text": "那就周六、周日吧，平时大家都挺忙的，就是都挺忙。周六、周日，大伙加一半。理解这个事，是不是，咱们公司也不是说总搬家。",
+      "avg_logprob": -0.4382949471473694,
+      "no_speech_prob": 0.598644495010376,
+      "speech_overlap_s": 5.36,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 881.26,
+      "playback_end": 893.24,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那就周六、周日吧,平时大家都挺精量做的,就是都挺忙。周六、周日,大伙加一半。理解这个事,是不是,咱们公司也不是说总班家,",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 893.32,
+      "end": 906.7,
+      "speaker": "SPEAKER_05",
+      "text": "反正你自己帮我找个好环境。如果是三到四辆车的话，每一个车也得有咱们的人跟车吧。咱们这辆车里面，咱们一个人跟车两个人。",
+      "avg_logprob": -0.44535961747169495,
+      "no_speech_prob": 0.9135109186172485,
+      "speech_overlap_s": 2.67,
+      "speech_overlap_ratio": 1.113,
+      "playback_start": 893.26,
+      "playback_end": 906.64,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "反正你自己帮我找个好环境。如果是三到四辆车的话,每一个车也得有咱们的人跟车吧。咱们这辆车里面,咱们一个人跟车两个人。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 906.72,
+      "end": 920.36,
+      "speaker": "SPEAKER_05",
+      "text": "车上搁两个人。大车，大车不像去，好像找中国邮政差不多。中国邮政的车，跑到国家邮政都处于大公司。",
+      "avg_logprob": -0.44535961747169495,
+      "no_speech_prob": 0.9135109186172485,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 906.66,
+      "playback_end": 920.3,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.91"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "车上搁两个人。大车,大车不像去白街好像找中国邮政差不多。中国邮政的车跑到国家邮政都处于大公司",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 920.38,
+      "end": 933.94,
+      "speaker": "SPEAKER_05",
+      "text": "公司那边，谁都得去？那个在那边不行，咱就找中国邮政的车。就是说，咱要看哪一位到时候去那个新的地方，那边至少得安排三四个人。",
+      "avg_logprob": -0.4871480892866086,
+      "no_speech_prob": 0.7686675190925598,
+      "speech_overlap_s": 3.79,
+      "speech_overlap_ratio": 1.059,
+      "playback_start": 920.32,
+      "playback_end": 933.86,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "公司那边谁都值得去那个在那边不行咱就找中国邮政的车就是说咱要看哪一位到时候去那个新的地方那边至少得安排三四个人",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 933.94,
+      "end": 945.82,
+      "speaker": "SPEAKER_05",
+      "text": "至少得三四个人，就是这边看东一厂。东一厂也可以，当那个东西，咋的也得看见点，他来都得搬，那时候也得加点。",
+      "avg_logprob": -0.4871480892866086,
+      "no_speech_prob": 0.7686675190925598,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 933.88,
+      "playback_end": 945.74,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.77"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "至少得三四个人就是这边看东一厂东一厂也可以当那个东西咋的也得看见点他来都得搬那时候也得加点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 945.82,
+      "end": 955.24,
+      "speaker": "SPEAKER_05",
+      "text": "啊，磕碰啥的，磕碰啥的也得看见。刚才有人说这个搬家公司要提这个邮政这边，然后就是说，具体这个搬家公司不是交给您了吗？",
+      "avg_logprob": -0.4366193749438757,
+      "no_speech_prob": 0.6770508289337158,
+      "speech_overlap_s": 3.69,
+      "speech_overlap_ratio": 1.098,
+      "playback_start": 945.76,
+      "playback_end": 955.18,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.68"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "啊 磕缝啥的磕缝啥的也得看见刚才有人说这个搬家公司要提这个邮政这边然后就是说具体这个搬家公司不是交给您了吗",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 955.26,
+      "end": 969.42,
+      "speaker": "SPEAKER_05",
+      "text": "然后到时候您看看哪家公司到时候比较多，叫一下？然后多找几家，多找几家，然后给个报价，给个报价。咱们发片人怎么不是这个价格呢？基本上也比较透明，主要是都差不多。",
+      "avg_logprob": -0.4366193749438757,
+      "no_speech_prob": 0.6770508289337158,
+      "speech_overlap_s": 3.76,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 955.2,
+      "playback_end": 969.34,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.68"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后到时候您看看哪家公司到时候比较多交一下然后多找你家多找你家然后给个报价给个报价咱们发片人怎么不是这个价格呢基本上也比较透明主要是都差不多",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 969.42,
+      "end": 983.44,
+      "speaker": "SPEAKER_05",
+      "text": "主要就是靠回程，现在搬货车就哗啦啦给你搬，搬完了就给你丢这丢那。你还不够，这个有这么比较稳定吗？小件啥的用哗啦啦，大件啥东西装了。",
+      "avg_logprob": -0.40597356847814614,
+      "no_speech_prob": 0.8088804483413696,
+      "speech_overlap_s": 2.17,
+      "speech_overlap_ratio": 1.085,
+      "playback_start": 969.36,
+      "playback_end": 983.4,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "主要是就是靠回脚现在搬干货车就哗啦啦给你搬搬完了就给你丢这丢那你还不够这个有这么比较稳定吗小件啥的用哗啦啦大件啥东西装了",
+      "correction_note": "修正'靠回脚'为'靠回程'，调整断句和标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 983.48,
+      "end": 997.42,
+      "speaker": "SPEAKER_05",
+      "text": "然后找到，找到有证，分出通过有证。电脑啥的不能给什么碰到我，咱主要是用那个东西。对，专业的东西他就搬，专业的，他能得什么意思？对对，他也能给咱们加几个点。",
+      "avg_logprob": -0.40597356847814614,
+      "no_speech_prob": 0.8088804483413696,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 983.42,
+      "playback_end": 997.34,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.81"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后找到找到邮证分出通过邮证电脑啥的不能给什么碰到我咱主要是用那个东西对专业的东西他就搬业的他能得什么意思对对对他能给咱们加几个点",
+      "correction_note": "修正'邮证'为'有证'，调整'搬业'为'专业'，完善断句。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 997.42,
+      "end": 1010.4,
+      "speaker": "SPEAKER_05",
+      "text": "专业的跟会计人都得包装好，到时候搬个家，搬不好的东西。对，那边如果人员够的话多派一个人去搬家之后，直接搬一个给你看一眼。",
+      "avg_logprob": -0.3585579559093213,
+      "no_speech_prob": 0.8129241466522217,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 997.36,
+      "playback_end": 1010.34,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "专业的跟会计人都得包装好到时候搬个家换不好的东西对 那边如果人员够的话多派一个人去搬家之后直接搬一个给你看一眼",
+      "correction_note": "修正'换不好的东西'为'搬不好的东西'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1010.42,
+      "end": 1023.4,
+      "speaker": "SPEAKER_05",
+      "text": "主要是咱们电脑上别的给个人看着，所以说这个打包特别重要。那个纸箱咱们得找个人去买一下？这不，搬家公司一般都有。",
+      "avg_logprob": -0.3585579559093213,
+      "no_speech_prob": 0.8129241466522217,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1010.36,
+      "playback_end": 1023.34,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "主要是咱们电脑上别的给个人看着所以说这个打包特别重要那个纸箱咱们得找个人去买一下这不要 搬家公司一般都有",
+      "correction_note": "调整'这不要'为'这不，'，添加问号和逗号。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1023.42,
+      "end": 1036.82,
+      "speaker": "SPEAKER_05",
+      "text": "到时候人家包给他们贵的呢，他们那个贵的呢？咱们打包还是自己打包？不，就嗯，那行，那也可以。电脑的比较贵重物品就那种电脑啥的别给咱们碰了。",
+      "avg_logprob": -0.3818350013779716,
+      "no_speech_prob": 0.8200399279594421,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1023.36,
+      "playback_end": 1036.74,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "到时候人家包给他们贵的呢他们那个贵的呢咱们打包还是自己打包不就嗯 那行 那也可以电脑的比较贵重物品就那种电脑啥的别给咱们碰了",
+      "correction_note": "拆分'不就嗯'为'不，就嗯'，调整标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1036.82,
+      "end": 1050.52,
+      "speaker": "SPEAKER_05",
+      "text": "一个拆箱子也得十几块钱一个呢？那这样，大家可能报一下你们各自都需要多少这种纸箱，那就得回去，然后等机预算。一个公司一个部门电脑就十多台。",
+      "avg_logprob": -0.3818350013779716,
+      "no_speech_prob": 0.8200399279594421,
+      "speech_overlap_s": 3.5,
+      "speech_overlap_ratio": 1.061,
+      "playback_start": 1036.76,
+      "playback_end": 1050.44,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "要么拆箱子也得十几块钱一个呢那这样大家可能报一下你们各自都需要多少这种纸箱那就得回去然后等机预算一个公司一个部门电脑就十多台",
+      "correction_note": "修正'要么'为'一个'，调整断句和标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1050.52,
+      "end": 1064.7,
+      "speaker": "SPEAKER_05",
+      "text": "对，电脑肯定都得装箱。到时候这事儿还得去问一下，到时候有多少东西要搬来，到时候这边搬家的同伴好能知道大概要多少辆车。车，这个就是咋说的。",
+      "avg_logprob": -0.3818350013779716,
+      "no_speech_prob": 0.8200399279594421,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1050.46,
+      "playback_end": 1064.64,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "对 电脑肯定都得装箱到时候这事儿还得去困惑一下,到时候有多少东西要搬来,到时候这边搬家的同伴好,能知道大概要多少辆车。车,这个就是咋说的。",
+      "correction_note": "修正'困惑'为'问一下'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1064.72,
+      "end": 1077.7,
+      "speaker": "SPEAKER_05",
+      "text": "咱这也跟搬家公司，跟各种物品有多少件。之前这边，这不是有别的公司给搬过吗？就是那种小车那种，面的那种。小车咋，那不行。",
+      "avg_logprob": -0.3485339879989624,
+      "no_speech_prob": 0.7916088700294495,
+      "speech_overlap_s": 7.57,
+      "speech_overlap_ratio": 1.081,
+      "playback_start": 1064.66,
+      "playback_end": 1077.64,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱这也跟搬家公司,跟各种物品有多少件。之前这边,这不是有别的公司给搬过吗?就是那种小车那种,面低那种。小车咋,那不行。",
+      "correction_note": "修正'面低'为'面的'，调整标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1077.72,
+      "end": 1089.72,
+      "speaker": "SPEAKER_05",
+      "text": "那不行，那太小，那得搬十辆？那得跟着多少辆车。大车多了点儿便宜，但是不太保险，还是找专业一点的，找专业一点的保险。",
+      "avg_logprob": -0.3485339879989624,
+      "no_speech_prob": 0.7916088700294495,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1077.66,
+      "playback_end": 1089.64,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.79"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那不行,那太小,那搬十辆。那得跟着多少辆车。大车多了点儿便宜,但是不太保险,还是找专业一点的找专业一点的保险",
+      "correction_note": "调整'搬十辆'为'得搬十辆'，添加问号。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1089.72,
+      "end": 1099.7,
+      "speaker": "SPEAKER_05",
+      "text": "这个事儿我还真不知道，那大车咱找不着多少钱。油证差不多了，油证油证就是咋说，咱得扑死了，咱得赔不是，油证车要劲。",
+      "avg_logprob": -0.40973556250856635,
+      "no_speech_prob": 0.9220103621482849,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1089.66,
+      "playback_end": 1099.64,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.92"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这个事儿我还真不知道,那大车咱找不着多少钱油证差不多了,油证油证就是咋说,咱得扑死了,咱得赔不是,油证车要劲",
+      "correction_note": "添加逗号分隔，保留原文'油证'未改（可能指'有证'）。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1099.72,
+      "end": 1109.7,
+      "speaker": "SPEAKER_05",
+      "text": "没法涨，涨完之后，你说你涨人家生意没得多少钱。反正不管怎么样，就是咱们一定是打包得值钱，别等着这个搬家前一天才急急忙忙打包。",
+      "avg_logprob": -0.40973556250856635,
+      "no_speech_prob": 0.9220103621482849,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1099.66,
+      "playback_end": 1109.64,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "没法涨,涨完之后,你说你涨人家生意没得多少钱反正不管怎么样,就是咱们一定是打包得值钱别等着这个搬家前一天才急急忙忙打包",
+      "correction_note": "添加标点，未发现明显错误。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1109.72,
+      "end": 1120.72,
+      "speaker": "SPEAKER_05",
+      "text": "大件就到时候人车来了，你都来得很劲，这一天两天三天这倒可以。大件啥的，准备工作咱们就租啊，我说杨河三个十个晚上？你一天就晚上这儿了？",
+      "avg_logprob": -0.5221256776289507,
+      "no_speech_prob": 0.8195741176605225,
+      "speech_overlap_s": 3.5,
+      "speech_overlap_ratio": 1.167,
+      "playback_start": 1109.66,
+      "playback_end": 1120.64,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "大房就到时候人车来了,你都来得很劲这一天两天三天这倒可以大房啥的,准备工作咱们就租啊我说杨河三个十个晚上你一天就晚上这儿了",
+      "correction_note": "修正'大房'为'大件'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1120.72,
+      "end": 1135.72,
+      "speaker": "SPEAKER_05",
+      "text": "咱那个二三十呢，你知道吗？咱俩的想法咱还得提前，就是大件呗。大件的话，大车得估计，大车估一百两？台呢？八米的，六米的应该没事吧？六米长的。",
+      "avg_logprob": -0.5221256776289507,
+      "no_speech_prob": 0.8195741176605225,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1120.66,
+      "playback_end": 1135.64,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱那个二三十呢,你知道吗咱俩的想法咱还得提前就是大桌呗大桌的话大车得估计大车估一百两台呢八米的,六米的应该没事吧六米长的",
+      "correction_note": "修正'大桌'为'大件'，调整'两台'为'两？台'，添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1135.72,
+      "end": 1147.88,
+      "speaker": "SPEAKER_05",
+      "text": "有证都是八米以上的，没事，不贵。跟闺女许别什么了嘛？你都去看一下的。完了那个，看看白天，最好是白天，小车，小车也得用几台啊。",
+      "avg_logprob": -0.5221256776289507,
+      "no_speech_prob": 0.8195741176605225,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1135.66,
+      "playback_end": 1147.82,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.82"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "留证都是八米以上的没事不归,跟闺女许别什么了嘛,你都去看一下的,完了那个,看看白天,最好是白天,小车,小车也得用几台啊,",
+      "correction_note": "修正'留证'为'有证'，'不归'为'不贵'，调整标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1147.9,
+      "end": 1162.4,
+      "speaker": "SPEAKER_05",
+      "text": "晚上冒灾，这不方便。黑天吓唬我，这没有灯。往往搬过也不得。大车主要坐椅子，电脑，电脑桌啊。是啊，你这事归你管了，就得研究了，就得研究了。",
+      "avg_logprob": -0.514836457609399,
+      "no_speech_prob": 0.75750333070755,
+      "speech_overlap_s": 3.12,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1147.84,
+      "playback_end": 1162.34,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "晚上冒灾,这不方便,黑天吓唬我,这没有灯,往往搬过也不得,大车主要坐椅子,电脑,电脑桌啊,是啊,你这事归你管了,就得研究了,就得研究了,",
+      "correction_note": "添加标点，保留原文表达。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1162.42,
+      "end": 1176.24,
+      "speaker": "SPEAKER_05",
+      "text": "看看这个，因为主要是都不要紧嘛，看那大小的，完了掌握适度咱们。完了以后主要是白天，最好是白天，嗯，夜里不行，晚上还是，这边上午还是不行。",
+      "avg_logprob": -0.514836457609399,
+      "no_speech_prob": 0.75750333070755,
+      "speech_overlap_s": 4.75,
+      "speech_overlap_ratio": 1.07,
+      "playback_start": 1162.36,
+      "playback_end": 1176.18,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "看看这个,因为主要是都不要进嘛,看那大小的,完了掌握适度咱们,完了以后主要是白天,最好是白天嗯,夜里不行晚上还是,这边上午还是不行",
+      "correction_note": "同音字修正：进→紧；添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1176.26,
+      "end": 1187.66,
+      "speaker": "SPEAKER_05",
+      "text": "之前必须得全部搬离，就是三十号之前，三十号之前，现在也三十号之前了，那咱准备两天三天收拾。所以我们现在就首先讨论，因为后续落实小件啥的。",
+      "avg_logprob": -0.48006114169690733,
+      "no_speech_prob": 0.7397396564483643,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1176.2,
+      "playback_end": 1187.58,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.74"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "之前必须得全班班队就是三十号之前三十号之前现在也三十号之前了那咱准备两天三天唱歌所以我们现在就首先讨论因为后续落差小件啥的",
+      "correction_note": "全班班队→全部搬离；唱歌→收拾；落差→落实。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1187.66,
+      "end": 1201.26,
+      "speaker": "SPEAKER_05",
+      "text": "咱们就是慢慢归拢一下，过个小时就能搬走了。主要是把咱们这么一种东西打包，我们这边的那个押金是谁去交的押金。",
+      "avg_logprob": -0.48006114169690733,
+      "no_speech_prob": 0.7397396564483643,
+      "speech_overlap_s": 2.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1187.6,
+      "playback_end": 1201.18,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱们就是慢慢归路一下的过个小时就能挖走了主要是把咱们这么一种东西打不见我们这边的那个押金是谁去交的押金",
+      "correction_note": "归路→归拢；挖走→搬走；打不见→打包。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1201.26,
+      "end": 1215.4,
+      "speaker": "SPEAKER_05",
+      "text": "都得财政管理过去，到时候搬走了，押金都没退，那不可能了吧？他既然说通知你了，大部分时候他也就有人交接了，跟大家各部门的大家合作一下。",
+      "avg_logprob": -0.5522618487598451,
+      "no_speech_prob": 0.8280748128890991,
+      "speech_overlap_s": 3.32,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1201.2,
+      "playback_end": 1215.34,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "都得财政管理过去到时候搬走了 押金都没退那不可能了吧他既然说通知你了大部分时候他也就有人交接了跟大家各部门的大家合作一下",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1215.42,
+      "end": 1230.2,
+      "speaker": "SPEAKER_05",
+      "text": "该是有人交接，别把他们这边来的东西给损坏了，到时候后来给押金。那你跟班匠叔叔也说好了不是？咱说咱们现在自己打包这种事，咱们说要等他们。",
+      "avg_logprob": -0.5522618487598451,
+      "no_speech_prob": 0.8280748128890991,
+      "speech_overlap_s": 1.72,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1215.36,
+      "playback_end": 1230.14,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "该是有人交接别把他们这边来的东西给损坏了到时候后来给押金那你跟班匠叔叔也说好了不是 咱说咱们现在自己打包这种事咱们说要等他们",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1230.22,
+      "end": 1245.2,
+      "speaker": "SPEAKER_05",
+      "text": "他们这楼不已经准备要搬迁吗？所以说他们也不可能不给咱们。就是刚才那个我跟领导反映了一下，我们现在初步决定搬到六二线金牌路那边。",
+      "avg_logprob": -0.32631749817819306,
+      "no_speech_prob": 0.801798939704895,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1230.16,
+      "playback_end": 1245.14,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "他们这楼不已经准备要搬遷吗所以说他们也不可能不给咱们就是刚才那个我跟领导反映了一下我们现在出过京道搬到六二线金牌路那边",
+      "correction_note": "出过京道→初步决定；搬遷→搬迁。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1245.22,
+      "end": 1259.2,
+      "speaker": "SPEAKER_05",
+      "text": "不知道大家有没有什么想法？一个地点，金牌路，我们离地铁有三百米的样子，地铁和公交都不太方便，完全不方便。那边要是远了，下车就再走个十到二十分钟。",
+      "avg_logprob": -0.32631749817819306,
+      "no_speech_prob": 0.801798939704895,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 1245.16,
+      "playback_end": 1259.14,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "不知道大家有没有什么想法一个地铁金牌路我们地铁有三百米的样子地铁和公交都这种铁完全不方便那边要是远了下车就再走个十到二十分钟",
+      "correction_note": "一个地铁→一个地点；都这种铁→都不太方便。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1259.22,
+      "end": 1273.2,
+      "speaker": "SPEAKER_05",
+      "text": "那边有人选自己楼，然后主要是来骑车，应该选这么一条地铁，或者是我觉得那个多条地铁的比较方便，比如说那个站可以他们换乘换乘。",
+      "avg_logprob": -0.32953447213202164,
+      "no_speech_prob": 0.8790857195854187,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1259.16,
+      "playback_end": 1273.14,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.88"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那边有人写自己楼然后主要是来骑车应该写这么一条地铁或者是我觉得那个多条地铁的比较方便比如说那个战友可以他们导舰导舰",
+      "correction_note": "写→选；导舰→换乘。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1273.22,
+      "end": 1287.86,
+      "speaker": "SPEAKER_05",
+      "text": "正常应该比较方便，地铁也只能走一条街，6号线跟10号线啊。因为换乘方便在哪呢？他说得不用出那地铁站里头就能换乘，还有换乘站点。",
+      "avg_logprob": -0.32953447213202164,
+      "no_speech_prob": 0.8790857195854187,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1273.16,
+      "playback_end": 1287.78,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "正常应该比较方便地铁也只能走一条街6号线跟10号线啊因为导舰和地铁方便在哪呢他说得不用出那地铁站里头就能换乘还有换乘站点",
+      "correction_note": "导舰→换乘。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1287.86,
+      "end": 1302.46,
+      "speaker": "SPEAKER_05",
+      "text": "那边我看过，应该是说那边有14号线跟6号线都有，然后大家都换乘，那就方便了吧？那就特别方便。换乘也少一点。还有就是说，我们搬到那个地方，他到时候停车位",
+      "avg_logprob": -0.33412041569387674,
+      "no_speech_prob": 0.8204169869422913,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1287.8,
+      "playback_end": 1302.38,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那边我看过应该是说那边有14号线跟6号线都有然后大家都换乘那就方便了吧那就特别方便换乘也少一点还有就是说我们搬到那个地方他到时候停车位",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1302.46,
+      "end": 1317.04,
+      "speaker": "SPEAKER_05",
+      "text": "我们可能也要预留一下的，多少就是你们去研究，也得派一些人去研究。他们那边说的贵吗？公司现在主要是先调查大概有多少员工，到时候会开着车来。",
+      "avg_logprob": -0.33412041569387674,
+      "no_speech_prob": 0.8204169869422913,
+      "speech_overlap_s": 2.76,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1302.4,
+      "playback_end": 1316.98,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "我们可能也要预留一下的多少就是你们去研究,也得派一些人去研究他们那边说的贵吗?公司现在主要是先调查大概有多少员工,到时候会开着车来",
+      "correction_note": "添加标点。",
+      "intent": [
+        "提议",
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1317.06,
+      "end": 1328.84,
+      "speaker": "SPEAKER_05",
+      "text": "就有多少人能开车，到时候我们会去研究一下吧。现在咱们这边开车的就有，最少有十几二十车。您这边部门有啊，有五六十二车。因为哪儿啊，大伙都提前到。",
+      "avg_logprob": -0.5091267873549602,
+      "no_speech_prob": 0.8573205471038818,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1317.0,
+      "playback_end": 1328.78,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "就有多少人能开车到时候我们会去研究一下吧现在咱们这边开车的就有,最少有十几二车您这边部门有啊,有五六十二车因为哪儿啊,大伙都提前到",
+      "correction_note": "十几二车→十几二十车；添加标点。",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1328.86,
+      "end": 1343.62,
+      "speaker": "SPEAKER_05",
+      "text": "停车位比较紧张，应该立刻要没问题。你要是往楼吧，我们就那这个可能只有各部门负责人能够，嗯，大部分都得去看看其他的，去看看就自己解决了，都得。",
+      "avg_logprob": -0.5091267873549602,
+      "no_speech_prob": 0.8573205471038818,
+      "speech_overlap_s": 1.36,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1328.8,
+      "playback_end": 1343.54,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "停车位比较紧张应该立刻要没问题你要是往楼吧,我们就那这个可能只有各部门负责人能够嗯 大部分都得去看看其他的去看看就自己解决了都得 都得",
+      "correction_note": "清理重复的'都得'；添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1343.62,
+      "end": 1357.6,
+      "speaker": "SPEAKER_05",
+      "text": "这些事都得算，那个一算在那儿的吧，这原本也算一个挺重要的东西呢。地铁啥解决的，那车你得给解决了，没地方放你上班上不了啊，是不是啊？",
+      "avg_logprob": -0.36901711055210656,
+      "no_speech_prob": 0.23860898613929749,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1343.56,
+      "playback_end": 1357.54,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这些事都得也算 那个一算在那儿的吧这原本也算一个挺重要的东西呢地铁啥解决的 那车你得给解决了没地方放你上班上不了啊 是不是啊",
+      "correction_note": "也算→都得算；添加标点。",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1357.62,
+      "end": 1361.6,
+      "speaker": "SPEAKER_05",
+      "text": "就根据这个，根据他的地点，大概就。",
+      "avg_logprob": -0.36901711055210656,
+      "no_speech_prob": 0.23860898613929749,
+      "speech_overlap_s": 1.7,
+      "speech_overlap_ratio": 0.85,
+      "playback_start": 1357.56,
+      "playback_end": 1361.54,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "就根据这个根据他的地点 大概就",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1361.62,
+      "end": 1373.6,
+      "speaker": "SPEAKER_05",
+      "text": "有的你再去看看去，他们离家近你知道吗？最好都坐地铁。",
+      "avg_logprob": -0.5400902649451946,
+      "no_speech_prob": 0.8796996474266052,
+      "speech_overlap_s": 12.8,
+      "speech_overlap_ratio": 1.067,
+      "playback_start": 1361.56,
+      "playback_end": 1373.54,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "有的你再去看看去,他们离家近你知道吗,最好都要那么多地铁",
+      "correction_note": "修正地铁表述",
+      "intent": [
+        "命令",
+        "提问",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1373.62,
+      "end": 1388.0,
+      "speaker": "SPEAKER_05",
+      "text": "因为那个车位资源是有限的，不可能有车的都开车。那行，今天少做自己的，那晚得多做自己的。",
+      "avg_logprob": -0.5400902649451946,
+      "no_speech_prob": 0.8796996474266052,
+      "speech_overlap_s": 9.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1373.56,
+      "playback_end": 1387.94,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "因为那个车员组织是有限的,不可能有车的都开车的那行 今天少做自己的那晚安得多做自己的",
+      "correction_note": "修正'车员组织'为'车位资源'，'晚安'为'那晚'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1388.02,
+      "end": 1400.98,
+      "speaker": "SPEAKER_05",
+      "text": "反正公司能保证的肯定就是老板的，然后生产几个负责人的，然后再有一些经常跑外勤的，是吧？还有公司自己的销售，那就差不多了，没有太多的这个。",
+      "avg_logprob": -0.3212056477864583,
+      "no_speech_prob": 0.6086180210113525,
+      "speech_overlap_s": 3.36,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1387.96,
+      "playback_end": 1400.9,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "反正公司能保证的肯定就是老板的然后生产几个负责人的然后再有一些经常跑外勤的 是吧还有公司自己的销售那就差不多了没有太多的这个",
+      "correction_note": "标点调整",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1400.98,
+      "end": 1413.68,
+      "speaker": "SPEAKER_05",
+      "text": "他如果说怕没有车位，他就得提前走早点。那个，那个人当个估计，车位不是说特别紧张，但你要是晚了，你整个十点了，十点来钟，九点来钟，那没车位是正常的。",
+      "avg_logprob": -0.3212056477864583,
+      "no_speech_prob": 0.6086180210113525,
+      "speech_overlap_s": 1.72,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1400.92,
+      "playback_end": 1413.62,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "他如果说怕没有车位他就得提前走早点的当那个人当个估计车位不是说特别紧张但你要是晚了你整个十点了十点来中 九点来中那没车位是正常的",
+      "correction_note": "标点调整",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1413.7,
+      "end": 1427.68,
+      "speaker": "SPEAKER_05",
+      "text": "你上班不也迟到吗？那你自己解决车位。车位你要不咱解决不了，车位太多了，公司包不了。关于这些事情，要不就统一一下，50个人30个车位。",
+      "avg_logprob": -0.3297442535855877,
+      "no_speech_prob": 0.8606594204902649,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1413.64,
+      "playback_end": 1427.62,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "你上班不也吃到吗那你自己解决车位车位你要不咱解决不了车位太多了公司包不了关于这些事情不要就统一一下50个人30个车位",
+      "correction_note": "修正'吃到'为'迟到'，清理重复",
+      "intent": [
+        "提问",
+        "命令",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1427.7,
+      "end": 1439.72,
+      "speaker": "SPEAKER_05",
+      "text": "主要统一一下大家需要车位，车位只能说是领导或者说需要各部门、各部门的领导。",
+      "avg_logprob": -0.3297442535855877,
+      "no_speech_prob": 0.8606594204902649,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1427.64,
+      "playback_end": 1439.68,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "主要统一一下大家需要车位车位只能说是领导或者说需要各部门各部门的领导",
+      "correction_note": "标点调整",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1439.76,
+      "end": 1453.88,
+      "speaker": "SPEAKER_05",
+      "text": "跑外勤的，经常必须开车的，他可以就像员工。咱们现在有跑外勤的，他们的车位比较小。",
+      "avg_logprob": -0.41455578804016113,
+      "no_speech_prob": 0.8990545868873596,
+      "speech_overlap_s": 7.08,
+      "speech_overlap_ratio": 1.127,
+      "playback_start": 1439.7,
+      "playback_end": 1453.82,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "跑外勤的,经常必须开车的,他可以就像员工,咱们现在有跑外勤的,他们的车位比较小",
+      "correction_note": "标点调整",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1453.9,
+      "end": 1466.44,
+      "speaker": "SPEAKER_05",
+      "text": "他们没有固定时间点，跑外勤还有跑车路的，所以他们想开车去，他们只能自己找车位。只能说抓紧了，他早点去，能有车位。大概的话，那就定在十个车位主要。",
+      "avg_logprob": -0.41455578804016113,
+      "no_speech_prob": 0.8990545868873596,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1453.84,
+      "playback_end": 1466.38,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "他们时间没有固定点,跑外勤还有跑车路的所以他们想开车去,他们只能自己找车位只能说抓紧了,他早点去,能有车位大概的话,那就定在十个车位主要",
+      "correction_note": "标点调整",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1466.46,
+      "end": 1478.02,
+      "speaker": "SPEAKER_05",
+      "text": "十个差不多，但是我也可以争取一下，多争取一下。对对，因为咱们这个场地大，咱们这个实在没有，最少咱们多争取一下，我说争取到这个。",
+      "avg_logprob": -0.41455578804016113,
+      "no_speech_prob": 0.8990545868873596,
+      "speech_overlap_s": 1.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1466.4,
+      "playback_end": 1477.94,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "十个差不多但是我也可以争取一下,多争取一下对对因为咱们这个场地大咱们这个实在没有最少咱们多争取一下我说争取到这个",
+      "correction_note": "标点调整",
+      "intent": [
+        "同意",
+        "回应",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1478.02,
+      "end": 1491.86,
+      "speaker": "SPEAKER_05",
+      "text": "主要就是说咱们员工打会儿停的话，看到这几个车位大不大？嗯，是。然后尽量争取，尽量争取，但是争取不了那些，最少咱们争取十个左右。就是还有一个问题。",
+      "avg_logprob": -0.4362447727991882,
+      "no_speech_prob": 0.6343774795532227,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1477.96,
+      "playback_end": 1491.78,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "主要就是说咱们员工打会儿停的话看到这几个场位大不大嗯,是然后尽量争取尽量争取但是争取不了那些最少咱们争取十个左右就是还有一个问题",
+      "correction_note": "标点调整",
+      "intent": [
+        "提问",
+        "回应",
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1491.86,
+      "end": 1500.74,
+      "speaker": "SPEAKER_05",
+      "text": "就是我们现在搬到这个地方，就是说我们搬家嘛，顺便也要做这么一个事。就是说领导，就是反映跟领导反映过的时候。",
+      "avg_logprob": -0.4362447727991882,
+      "no_speech_prob": 0.6343774795532227,
+      "speech_overlap_s": 2.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1491.8,
+      "playback_end": 1500.68,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "就是我们现在搬到这个地方搬到这个地方就是说我们搬家嘛顺便也要做这么一个事就是说领导就是反映跟领导反映过的时候",
+      "correction_note": "标点调整",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1500.76,
+      "end": 1512.5,
+      "speaker": "SPEAKER_05",
+      "text": "我们有些员工他就是说回家也不太方便，然后呢，可能周一到周五在这儿搬一个宿舍。然后大家看有没有多少人要住在这个地方，这几个人好看是。",
+      "avg_logprob": -0.4257650619898087,
+      "no_speech_prob": 0.7950468063354492,
+      "speech_overlap_s": 3.14,
+      "speech_overlap_ratio": 1.189,
+      "playback_start": 1500.7,
+      "playback_end": 1512.44,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "我们有些员工他就是说回家也不太方便然后呢 可能周一到周五在这儿搬一个宿舍然后大家看有没有多少人要住在这个地方这几个人好看是",
+      "correction_note": "标点调整",
+      "intent": [
+        "陈述",
+        "提问",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1512.52,
+      "end": 1524.08,
+      "speaker": "SPEAKER_05",
+      "text": "咱们还是没当过一个员工，他们这个都让住人嘛？一般可能让住人的少。有个别加班的，那无所谓了，人家沙发都凑过去了。沙发还有那有的。",
+      "avg_logprob": -0.4257650619898087,
+      "no_speech_prob": 0.7950468063354492,
+      "speech_overlap_s": 1.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1512.46,
+      "playback_end": 1524.0,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.2s/11.6s",
+        "high no_speech_prob=0.80"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱们还是没当过一个员工他们这个都让住人嘛一般可能让住人的少有个别加班的那无所谓了人家沙发都凑过去了沙发还有那有的",
+      "correction_note": "标点调整",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1524.08,
+      "end": 1538.92,
+      "speaker": "SPEAKER_05",
+      "text": "咱的地摊太多了也不行，因为你们那个部门不是有对外的业务吗？到时候很需要有时差的。你要夜里坐到时候，顺便就留个座，要不少呢。人不是特别大，你要住人的话。",
+      "avg_logprob": -0.498528815604545,
+      "no_speech_prob": 0.6497805714607239,
+      "speech_overlap_s": 3.64,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1524.02,
+      "playback_end": 1538.84,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "咱的地摊太多了也不行因为你们那个部门不是有对外的业务吗到时候很需要有时差的你要夜里坐到时候顺便就留个座要不少呢 人不是特别大你要住人的话",
+      "correction_note": "标点调整",
+      "intent": [
+        "陈述",
+        "提问",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1538.92,
+      "end": 1552.94,
+      "speaker": "SPEAKER_05",
+      "text": "那个洗手间都得有，你过夜，不得不得洗澡吗？是。留的那个，那你一算开始就更大了。这个东西吧，你就说简单有个啥子人暂时休息，地摊还可以。",
+      "avg_logprob": -0.498528815604545,
+      "no_speech_prob": 0.6497805714607239,
+      "speech_overlap_s": 4.23,
+      "speech_overlap_ratio": 1.09,
+      "playback_start": 1538.86,
+      "playback_end": 1552.88,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "那个洗手间都得有你过夜不得不得洗澡吗是 留的那个那你一算开始就更大了这个东西吧你就说简单有个啥子人暂时休息地摊还可以",
+      "correction_note": "标点调整",
+      "intent": [
+        "陈述",
+        "提问",
+        "回应",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1552.96,
+      "end": 1566.58,
+      "speaker": "SPEAKER_05",
+      "text": "不是有沙发，吃的可以加碗饭？老板要加班，那就开饭吧。",
+      "avg_logprob": -0.5075999202891293,
+      "no_speech_prob": 0.7088420987129211,
+      "speech_overlap_s": 9.98,
+      "speech_overlap_ratio": 1.053,
+      "playback_start": 1552.9,
+      "playback_end": 1566.52,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "不一时有沙发,吃的可以加碗饭,老板要加班,那就开饭吧,",
+      "correction_note": "修正'不一时'为'不是有'，调整标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1566.6,
+      "end": 1576.3,
+      "speaker": "SPEAKER_05",
+      "text": "老板加班，老板自己决定了，咱自己搞不了了，因为他开车在办公室，他那个椅子整个沙发床，主要是员工加班。",
+      "avg_logprob": -0.5075999202891293,
+      "no_speech_prob": 0.7088420987129211,
+      "speech_overlap_s": 3.96,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1566.54,
+      "playback_end": 1576.24,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "老板加班,老板自己决定了,咱自己咱们搞不了了,因为他开车在那个办公,他那个椅子整个沙发床,主要是员工加班,",
+      "correction_note": "删除重复'咱们'，修正'办公'为'办公室'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1576.32,
+      "end": 1588.64,
+      "speaker": "SPEAKER_05",
+      "text": "主要是员工，老板可以出去，人家随意了，但是在咱们这个办公地点也得考虑，有的住得实在是远的话。",
+      "avg_logprob": -0.5075999202891293,
+      "no_speech_prob": 0.7088420987129211,
+      "speech_overlap_s": 3.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1576.26,
+      "playback_end": 1588.56,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "主要是员工,老板可以出去,人家随意了,但是在咱们这个办公地点也得有考虑有的住的实在是远的话",
+      "correction_note": "修正'有考虑'为'考虑'，'住的'为'住得'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1588.64,
+      "end": 1601.54,
+      "speaker": "SPEAKER_05",
+      "text": "他们上次好些员工就提要求说这个报车费的事，要不然这个开车费也不报销，加班这个应该打车。有的七八十，八九十，小一百。",
+      "avg_logprob": -0.4615283203125,
+      "no_speech_prob": 0.8648895621299744,
+      "speech_overlap_s": 4.07,
+      "speech_overlap_ratio": 1.007,
+      "playback_start": 1588.58,
+      "playback_end": 1601.5,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "他们上次好些员工就提要求说这个报车费的事要不然这个开车费也不大加班这个应该打车有的七八十八九十小一百",
+      "correction_note": "修正'不大加班'为'不报销'，调整数字表述。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1601.58,
+      "end": 1612.16,
+      "speaker": "SPEAKER_05",
+      "text": "有的更不少，一天都白赶。加班晚了才报车费，应该得报点。下班晚了，公交、地铁都没有了。",
+      "avg_logprob": -0.4615283203125,
+      "no_speech_prob": 0.8648895621299744,
+      "speech_overlap_s": 2.72,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1601.52,
+      "playback_end": 1612.08,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "有的有的更不少的一天都白赶加班晚了才报车费应该得报点下班晚了,公交了,地铁都没有了。",
+      "correction_note": "删除重复'有的'，增加标点。",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1612.16,
+      "end": 1626.18,
+      "speaker": "SPEAKER_05",
+      "text": "比如说9点钟以后的，这个9点以后，下班要到9点、10点多。其实下班可以的话，现在好像是说不给报，但是说可以住宿，",
+      "avg_logprob": -0.4603700530662965,
+      "no_speech_prob": 0.9174683690071106,
+      "speech_overlap_s": 7.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1612.1,
+      "playback_end": 1626.14,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "10点到9点钟以后的,这个9点以后,下班要到9点10点多。其实下班可以的话,现在好像是说不给报,但是说可以住宿,",
+      "correction_note": "修正'10点到'为'比如说'，调整语序使通顺。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1626.22,
+      "end": 1640.6,
+      "speaker": "SPEAKER_05",
+      "text": "因为我们新搬的地方后面肯定得报销。新搬的房子有点时间应该得报点，让他去跟员工协商一下子，看看能不能租点咱们搬的新的一个地方，让他提供这个地方住房。",
+      "avg_logprob": -0.4603700530662965,
+      "no_speech_prob": 0.9174683690071106,
+      "speech_overlap_s": 2.51,
+      "speech_overlap_ratio": 1.255,
+      "playback_start": 1626.16,
+      "playback_end": 1640.52,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "因为我们新搬的地方后肯定得报完。新搬的房子有点时间应该得爆点让他去跟员工协商一下子看看能不能做点咱们搬的新的一个地方让他出这个地方住房",
+      "correction_note": "修正'报完'为'报销'，'爆点'为'报点'，'做点'为'租点'。",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1640.6,
+      "end": 1654.46,
+      "speaker": "SPEAKER_05",
+      "text": "因为现在都是租房的，不是固定的。是哪个房子感觉不够？我们搬过去之后再联系一下，就是说看当地房子什么价，看他们有没有到期了。",
+      "avg_logprob": -0.43164495740618025,
+      "no_speech_prob": 0.8274487853050232,
+      "speech_overlap_s": 1.2,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1640.54,
+      "playback_end": 1654.4,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "因为现在都是住房的不是固定的是哪个房子感觉不够我们搬过去之后再联系一下就是说看当地房子什么家看他们有没有到期了",
+      "correction_note": "修正'住房的'为'租房的'，'什么家'为'什么价'。",
+      "intent": [
+        "陈述",
+        "提问",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1654.48,
+      "end": 1667.56,
+      "speaker": "SPEAKER_05",
+      "text": "或者说时间短的可以上这边来住了，那边咱们的业务公司、合作公司是不是不太多呀？咱们合作的公司好像在北边多一点。",
+      "avg_logprob": -0.43164495740618025,
+      "no_speech_prob": 0.8274487853050232,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1654.42,
+      "playback_end": 1668.21,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.83"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "或者说时间短的可以上这边来住了那边咱们的业务公司合作公司是不是不太多呀咱们合作的一个公司好像在北边多一点",
+      "correction_note": "增加标点，调整结构。",
+      "intent": [
+        "提议",
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1668.06,
+      "end": 1681.34,
+      "speaker": "SPEAKER_05",
+      "text": "北边七八家都在北边、东边这几个面吧，就是去考察那边去看的。",
+      "avg_logprob": -0.37729993779608545,
+      "no_speech_prob": 0.8356673717498779,
+      "speech_overlap_s": 1.54,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1668.01,
+      "playback_end": 1681.34,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "北边七八家都在北边东边这几个面吧就是去考察那边去看去的",
+      "correction_note": "增加逗号分隔。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1681.62,
+      "end": 1693.46,
+      "speaker": "SPEAKER_05",
+      "text": "因为他这公司的具体方案都得考察一下，那边探讨上那边去。我们那个地点不是已经敲定了就在那一块吗？然后现在领导反映说这个地方也挺大的。",
+      "avg_logprob": -0.37729993779608545,
+      "no_speech_prob": 0.8356673717498779,
+      "speech_overlap_s": 3.34,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1681.56,
+      "playback_end": 1693.4,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "因为他这公司的具体方案都得考察一下那边拖着上那边去我们那个地点不是已经敲定了就在那一块吗然后现在领导反应会这个地方也挺大的",
+      "correction_note": "修正'拖着'为'探讨'，'反应会'为'反映说'。",
+      "intent": [
+        "陈述",
+        "确认"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1693.48,
+      "end": 1706.8,
+      "speaker": "SPEAKER_05",
+      "text": "应该有一部分是之前留的装修，我不知道。大家就是现在主要是基于之前他们装修的地方去改，然后可能能留住一两间宿舍。那这里就是咋说的，先看先定吧。",
+      "avg_logprob": -0.3420409622725907,
+      "no_speech_prob": 0.7754354476928711,
+      "speech_overlap_s": 2.84,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1693.42,
+      "playback_end": 1706.72,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "应该有一部分是之前留的装修我不知道大家就是现在主要是基于之前他们装修的地方去改然后可能能留住一两间宿舍那这里就是咋说的先看先定过",
+      "correction_note": "修正'先定过'为'先定吧'，调整标点。",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1706.8,
+      "end": 1721.34,
+      "speaker": "SPEAKER_05",
+      "text": "也不能说咱们说吧，光说也不行。但是我觉得还是这个离甲方近一点还是方便一点，离咱们也比较方便。我们有时候搞业务的，他们来回来的一天跑十几趟。",
+      "avg_logprob": -0.3420409622725907,
+      "no_speech_prob": 0.7754354476928711,
+      "speech_overlap_s": 2.13,
+      "speech_overlap_ratio": 1.133,
+      "playback_start": 1706.74,
+      "playback_end": 1721.28,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "也不能说咱们说吧光说也不行但是我觉得还是这个离甲方近一点还是方便一点离咱们一年比较光明我们有时候考业务的他们来回来的一天跑十几趟",
+      "correction_note": "修正'一年比较光明'为'也比较方便'，'考业务的'为'搞业务的'。",
+      "intent": [
+        "陈述",
+        "反对"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1721.36,
+      "end": 1736.2,
+      "speaker": "SPEAKER_05",
+      "text": "离太远了都耽误在路上。对，您说这个，您说这个东西到时候要考虑一下。然后我们现在要搬的一个地方主要就是它的装修，就是看一下这个图片，主要是这个样子。",
+      "avg_logprob": -0.358132206536586,
+      "no_speech_prob": 0.7344726324081421,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1721.3,
+      "playback_end": 1736.12,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.73"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "离太远了都耽误在路上对您说这个您说这个东西到时候要考虑一下然后我们现在要搬的一个地方主要就是它的装修就是看一下这个图片主要是这个样子",
+      "correction_note": "增加标点，修正'对您说'为'对，您说'。",
+      "intent": [
+        "回应",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1736.2,
+      "end": 1746.38,
+      "speaker": "SPEAKER_05",
+      "text": "然后呢它的样子，这不需要啥，主要是空间了。或者咱们就是安排的过程中有这几种参考的，大家不知道对这个有什么看法？",
+      "avg_logprob": -0.358132206536586,
+      "no_speech_prob": 0.7344726324081421,
+      "speech_overlap_s": 0.64,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1736.14,
+      "playback_end": 1746.32,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.6s/10.2s",
+        "high no_speech_prob=0.73"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后呢它的样子这不没啥需要主要是空间了或者咱们就是安排的过程上有这几种参考的,大家不知道对这个有什么看法",
+      "correction_note": "修正'这不没啥需要'为'这不需要啥'，末尾改为问号。",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1746.4,
+      "end": 1758.14,
+      "speaker": "SPEAKER_05",
+      "text": "一个是他那个那个不说那什么离那个客户近一些也可以但是来回跑了,时间短,这北京太大了这个好那头就是说太多的话,有点",
+      "avg_logprob": -0.38411037373987045,
+      "no_speech_prob": 0.6772077679634094,
+      "speech_overlap_s": 5.46,
+      "speech_overlap_ratio": 1.101,
+      "playback_start": 1746.34,
+      "playback_end": 1758.08,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.68"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "一个是他那个那个不说那什么离那个客户近一些也可以但是来回跑了,时间短,这北京太大了这个好那头就是说太多的话,有点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1758.16,
+      "end": 1767.54,
+      "speaker": "SPEAKER_05",
+      "text": "这个我们考虑到了,然后我们领导也看了一下离那个地方有十多分钟的样子,也不太懂那还可以,那还可以就是他里边具体的装修的话",
+      "avg_logprob": -0.38411037373987045,
+      "no_speech_prob": 0.6772077679634094,
+      "speech_overlap_s": 2.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1758.1,
+      "playback_end": 1767.5,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.68"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "这个我们考虑到了,然后我们领导也看了一下离那个地方有十多分钟的样子,也不太懂那还可以,那还可以就是他里边具体的装修的话",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1767.58,
+      "end": 1779.5,
+      "speaker": "SPEAKER_05",
+      "text": "我觉得他这装修能用的就尽量用吧我们可能也不需要打装修简单装修,主要就是划分几块区域我们办公不是说那些简单点就可以",
+      "avg_logprob": -0.38411037373987045,
+      "no_speech_prob": 0.6772077679634094,
+      "speech_overlap_s": 2.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1767.52,
+      "playback_end": 1779.44,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "我觉得他这装修能用的就尽量用吧我们可能也不需要打装修简单装修,主要就是划分几块区域我们办公不是说那些简单点就可以",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1779.52,
+      "end": 1794.5,
+      "speaker": "SPEAKER_05",
+      "text": "大家现在可以看一下里边的平面图装修简单明了就行简单明了就行是吧反正咱就讨论这些事你定一下的完了看一下的大家现在可以看一下这个图片",
+      "avg_logprob": -0.28558161560918244,
+      "no_speech_prob": 0.7584872245788574,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1779.46,
+      "playback_end": 1794.44,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "大家现在可以看一下里边的平面图装修简单明了就行简单明了就行是吧反正咱就讨论这些事你定一下的完了看一下的大家现在可以看一下这个图片",
+      "intent": [
+        "命令",
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1794.52,
+      "end": 1808.88,
+      "speaker": "SPEAKER_05",
+      "text": "然后把里边的东西到时候改一下后边再有什么事的话可以及时反馈一下今天主要就讨论的就这些事儿搬家的这些流程啊就是大概有20号然后我们就定一下开班",
+      "avg_logprob": -0.28558161560918244,
+      "no_speech_prob": 0.7584872245788574,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1794.46,
+      "playback_end": 1808.8,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后把里边的东西到时候改一下后边再有什么事的话可以及时反馈一下今天主要就讨论的就这些事儿搬家的这些流程啊就是大概有20号然后我们就定一下开班",
+      "intent": [
+        "陈述",
+        "提议",
+        "总结"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1808.88,
+      "end": 1821.74,
+      "speaker": "SPEAKER_05",
+      "text": "定业职业就这样嘛派人下去自己付着自己就完了咱们也就是一熟识的要搬家公司来咱就可以搬家了那我们今天就这个会就大概拍到这儿先",
+      "avg_logprob": -0.3864006280899048,
+      "no_speech_prob": 0.4286244511604309,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1808.82,
+      "playback_end": 1821.68,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "定业职业就这样嘛派人下去自己付着自己就完了咱们也就是一熟识的要搬家公司来咱就可以搬家了那我们今天就这个会就大概拍到这儿先",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1821.76,
+      "end": 1832.22,
+      "speaker": "SPEAKER_05",
+      "text": "然后呢就主要由您来负责后边联系搬家公司还有自己预算这些事儿然后我们地点大概先初步定在一个地方如果后续有什么意见的话大家再来及时的反馈",
+      "avg_logprob": -0.3864006280899048,
+      "no_speech_prob": 0.4286244511604309,
+      "speech_overlap_s": 3.28,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1821.7,
+      "playback_end": 1832.18,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后呢就主要由您来负责后边联系搬家公司还有自己预算这些事儿然后我们地点大概先初步定在一个地方如果后续有什么意见的话大家再来及时的反馈",
+      "intent": [
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1832.26,
+      "end": 1846.4,
+      "speaker": "SPEAKER_05",
+      "text": "然后人员安排的话就是你们再去调查一下具体有多少人要停车然后呢我们搬到那个地方停车位然后再看一下行行就是打出了一个什么日程",
+      "avg_logprob": -0.33129970171979367,
+      "no_speech_prob": 0.30872756242752075,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1832.2,
+      "playback_end": 1846.32,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "然后人员安排的话就是你们再去调查一下具体有多少人要停车然后呢我们搬到那个地方停车位然后再看一下行行就是打出了一个什么日程",
+      "intent": [
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1846.4,
+      "end": 1853.661,
+      "speaker": "SPEAKER_05",
+      "text": "往大伙再看一下哪家的修改后边的排班也就下来了基本上就今天就开到这这个会谢谢大家",
+      "avg_logprob": -0.33129970171979367,
+      "no_speech_prob": 0.30872756242752075,
+      "speech_overlap_s": 2.12,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1846.34,
+      "playback_end": 1854.311,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "往大伙再看一下哪家的修改后边的排班也就下来了基本上就今天就开到这这个会谢谢大家",
+      "intent": [
+        "命令",
+        "提议",
+        "寒暄"
+      ],
+      "phase": "corrected"
+    }
+  ],
+  "timing": {
+    "diarization": 70.41,
+    "asr": 607.99,
+    "alignment": 98.03,
+    "llm": 440.11,
+    "total": 1218.03
+  },
+  "num_speakers": 7,
+  "meeting_summary": {
+    "topic": "公司搬迁筹备会议：新址选择、搬家时间与资源配置",
+    "summary": "公司因现有办公地点即将被收回，各部门负责人讨论搬家事宜。会议初步确定搬至东三环到东四环之间的大望路附近，暂定需要50个工位和4-5个小办公室，搬家时间计划在20号左右，利用周末进行。同时讨论了搬家公司、车辆限制、停车位、员工住宿及加班车费等事项。",
+    "key_points": [
+      "新地点初步选定在东三环到东四环之间（大望路附近），交通便利且租金相对合理。",
+      "办公空间需求：暂定50个工位、4-5个小办公室、一个可容纳全体员工的会议室，并强调需要独立卫生间和茶水间。",
+      "搬家时间定于20号左右，计划利用周末两天完成，需提前打包并避开工作日。",
+      "搬迁由专人负责联系搬家公司，要求专业、有保险，并注意大车进城时间限制。",
+      "停车位争取10个左右，优先分配给领导、部门负责人和经常跑外勤的员工。",
+      "考虑为加班员工提供住宿或报销车费（如晚于9点下班）。"
+    ],
+    "decisions": [
+      "新址方向确定为东三环至东四环之间，后续进行实际考察。",
+      "暂定搬迁时间为20号前后，利用周六日加班。",
+      "搬家公司由专人负责联系并报预算。",
+      "停车位数量争取10个左右，优先核心人员。"
+    ],
+    "action_items": [
+      "负责人联系搬家公司并获取报价。",
+      "各部门统计需要搬运的物品及纸箱数量。",
+      "安排人员到新址实地考察并查看平面图。",
+      "调查员工停车需求和通勤情况。",
+      "与员工沟通搬家时间和加班安排。",
+      "核实新址是否有可利用的旧装修以节省成本。"
+    ],
+    "participants": [
+      "SPEAKER_05"
+    ]
+  }
+}

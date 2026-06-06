@@ -22,12 +22,43 @@ Usage:
 from __future__ import annotations
 
 import os
+import sys
+import types
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 import numpy as np
 import torch
+
+
+def _drop_optional_speechbrain_lazy_modules() -> None:
+    """Avoid optional SpeechBrain k2 lazy imports during PyTorch inspection.
+
+    PyTorch Lightning calls ``inspect.stack()`` while loading checkpoints.
+    Python's inspect module walks ``sys.modules`` and probes ``__file__``;
+    SpeechBrain's optional k2 integration is a LazyModule, so that probe can
+    try to import k2 even though diarization does not use it.
+    """
+    for name in list(sys.modules):
+        if name.startswith("speechbrain.integrations.k2_fsa"):
+            sys.modules.pop(name, None)
+    sys.modules.setdefault("k2", types.ModuleType("k2"))
+    try:
+        from speechbrain.utils.importutils import LazyModule
+
+        if not getattr(LazyModule, "_asr_file_probe_patch", False):
+            original_getattr = LazyModule.__getattr__
+
+            def _safe_getattr(self, attr):
+                if attr == "__file__":
+                    raise AttributeError(attr)
+                return original_getattr(self, attr)
+
+            LazyModule.__getattr__ = _safe_getattr
+            LazyModule._asr_file_probe_patch = True
+    except Exception:
+        pass
 
 
 @dataclass
@@ -93,6 +124,7 @@ class PyannoteDiarizationBackend:
             return self._pipeline
 
         from pyannote.audio import Pipeline
+        _drop_optional_speechbrain_lazy_modules()
 
         from src.utils.config import project_root, get_env
 

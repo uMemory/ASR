@@ -1,0 +1,3520 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\833d9c56a7595cf672d469505886f3601133a3eed1981134d325889f1022e044\\M_R003S01C01.flac",
+  "segments": [
+    {
+      "start": 3.95,
+      "end": 13.98,
+      "speaker": "SPEAKER_03",
+      "text": "零零一幼儿园长，零一零教师，零一一教师，零一二厨师，零一三保安。",
+      "avg_logprob": -0.2135871478489467,
+      "no_speech_prob": 0.10998416692018509,
+      "speech_overlap_s": 2.05,
+      "speech_overlap_ratio": 0.342,
+      "start_asr_raw": 0.0,
+      "playback_start": 2.7,
+      "playback_end": 13.92,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "零零一一幼儿校长零一零教师零一一教师零一二厨师零一三保安",
+      "correction_note": "修正'幼儿校长'为'幼儿园长'，添加逗号分隔。",
+      "intent": [
+        "介绍",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 14.0,
+      "end": 27.98,
+      "speaker": "SPEAKER_03",
+      "text": "这次我要把大家伙都叫过来，咱们把咱这个幼儿园重新再开一次会，因为毕竟大半年快过去了嘛。",
+      "avg_logprob": -0.2135871478489467,
+      "no_speech_prob": 0.10998416692018509,
+      "speech_overlap_s": 2.2,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 13.94,
+      "playback_end": 27.92,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "零一四扎车这次我要把大家伙都叫过来咱们把咱这个幼儿园重新再开一次会因为毕竟大半年快过去了嘛",
+      "correction_note": "修正'零一四扎车'为'这次'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 28.0,
+      "end": 34.62,
+      "speaker": "SPEAKER_03",
+      "text": "快过去了，马上这个要放假了。",
+      "avg_logprob": -0.38137759438043906,
+      "no_speech_prob": 0.6169710159301758,
+      "speech_overlap_s": 6.8,
+      "speech_overlap_ratio": 1.03,
+      "playback_start": 27.94,
+      "playback_end": 35.27,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "快过去了 马上这个要放假了",
+      "correction_note": "添加逗号。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 37.4,
+      "end": 47.92,
+      "speaker": "SPEAKER_03",
+      "text": "我这边呢，因为也就冬天了，咱们把大家叫过来，看看咱们幼儿园还有什么安全啊、包括问题，包括各个方面的。",
+      "avg_logprob": -0.38137759438043906,
+      "no_speech_prob": 0.6169710159301758,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 37.35,
+      "playback_end": 48.57,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我这边呢 因为也就冬天了咱们把大家叫过来看看咱们幼儿园还有什么安全啊包括问题 包括各个方面的",
+      "correction_note": "添加逗号、顿号。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 49.35,
+      "end": 53.08,
+      "speaker": "SPEAKER_03",
+      "text": "你们幼儿老师们对孩子这块的学习，",
+      "avg_logprob": -0.38137759438043906,
+      "no_speech_prob": 0.6169710159301758,
+      "speech_overlap_s": 4.05,
+      "speech_overlap_ratio": 0.92,
+      "start_asr_raw": 48.7,
+      "playback_start": 48.95,
+      "playback_end": 53.02,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你们幼儿老师们对孩子这块的学习",
+      "correction_note": "添加逗号。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 53.1,
+      "end": 80.08,
+      "speaker": "SPEAKER_03",
+      "text": "还有一些教育，咱们有没有要探讨的？包括就是招生。招生这次也是重要，咱有个幼儿园，中途咱要招收一些。招生这块工作量也不大，但是也需要招收一些。",
+      "avg_logprob": -0.30244146391402843,
+      "no_speech_prob": 0.7064862251281738,
+      "speech_overlap_s": 29.6,
+      "speech_overlap_ratio": 1.096,
+      "playback_start": 53.04,
+      "playback_end": 80.02,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.71"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "还有一些教育,咱们有没有要探讨的,包括就是招生,招生这次也是中途,咱有个幼儿园,幼儿园中途咱要招育一些,招生这块工作量也不大,但是也需要招育一些。",
+      "correction_note": "修正'招育'为'招收'，调整标点。",
+      "intent": [
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 80.1,
+      "end": 94.08,
+      "speaker": "SPEAKER_03",
+      "text": "所以咱的班级人员都还没有满呢，包括咱们的市场这边，包括孩子的一些健康情况，还有一些饮食情况。",
+      "avg_logprob": -0.26991538314132,
+      "no_speech_prob": 0.6208536028862,
+      "speech_overlap_s": 3.1,
+      "speech_overlap_ratio": 1.033,
+      "playback_start": 80.04,
+      "playback_end": 94.02,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "所以咱的班级人员都还没有买呢包括就是咱们的市场这边包括孩子的一些健康情况还有一些饮食情况",
+      "correction_note": "修正'买'为'满'，添加逗号。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 94.1,
+      "end": 108.08,
+      "speaker": "SPEAKER_03",
+      "text": "包括教室这边对孩子的一些健康啦，包括一些生活起居啦，还有一些这个教育啦，还有一些安全啦，包括安全、科普、生活方面，都要赶紧说一下。",
+      "avg_logprob": -0.26991538314132,
+      "no_speech_prob": 0.6208536028862,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 94.04,
+      "playback_end": 108.02,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "包括教室这边对孩子的一些健康啦包括一些生活起居啦还有一些这个教育啦还有一些安全啦包括科幻普通这边都要赶紧说一下",
+      "correction_note": "修正'科幻普通'为'安全、科普、生活方面'，添加逗号。",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 108.1,
+      "end": 117.26,
+      "speaker": "SPEAKER_03",
+      "text": "说一下，看看有没有什么问题要提问的，咱们大家都坐在一块，一起解决一下。",
+      "avg_logprob": -0.3778448909162039,
+      "no_speech_prob": 0.7586113214492798,
+      "speech_overlap_s": 4.4,
+      "speech_overlap_ratio": 1.048,
+      "playback_start": 108.04,
+      "playback_end": 117.26,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "说一下看看有没有什么问题要提问的咱们大家都坐在一块一起解决一下",
+      "correction_note": "添加逗号、句号。",
+      "intent": [
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 117.54,
+      "end": 131.681,
+      "speaker": "SPEAKER_03",
+      "text": "咱们的幼儿园整体不要出现重大的一些事故，因为年关了，大家都是安全为主，天也冷了。",
+      "avg_logprob": -0.3778448909162039,
+      "no_speech_prob": 0.7586113214492798,
+      "speech_overlap_s": 6.71,
+      "speech_overlap_ratio": 0.822,
+      "playback_start": 117.48,
+      "playback_end": 132.331,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱们的幼儿园整体不要出现重大的一些事故因为年关了大家都是安全为主天也冷了",
+      "correction_note": "添加逗号、句号。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 132.86,
+      "end": 147.36,
+      "speaker": "SPEAKER_03",
+      "text": "包括孩子们来的时候是否有感冒的情况，咱们保健老师这边一定要及时报备。如果发现那个孩子有些生病了，及时给他家长联系。",
+      "avg_logprob": -0.3778448909162039,
+      "no_speech_prob": 0.7586113214492798,
+      "speech_overlap_s": 3.01,
+      "speech_overlap_ratio": 0.717,
+      "playback_start": 132.81,
+      "playback_end": 147.3,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "包括孩子们来的时候是否有感冒的情况咱们医院老师这边一定要及时报备如果发现那个医院员有些生病了及时给他家长联系",
+      "correction_note": "修正'医院老师'为'保健老师'，'医院员'为'孩子'，添加标点。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 147.38,
+      "end": 160.32,
+      "speaker": "SPEAKER_03",
+      "text": "是在学校就医，还是家长过来接回去观察？包括这个孩子如果出现各种情况，一定要给家长及时做汇报。",
+      "avg_logprob": -0.3391363553911726,
+      "no_speech_prob": 0.8055759072303772,
+      "speech_overlap_s": 6.24,
+      "speech_overlap_ratio": 1.147,
+      "playback_start": 147.32,
+      "playback_end": 160.26,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "是在学校就医还是家长过来接会及近观察包括这个孩子应该需要一些出现各种情况一定要给家长这会儿做汇报",
+      "correction_note": "修正'会及近'为'回去'，'应该需要一些出现'为'如果出现'，'这会儿'为'及时'。",
+      "intent": [
+        "提问",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 160.34,
+      "end": 172.12,
+      "speaker": "SPEAKER_03",
+      "text": "家长沟通，你要给我这边说一下。你看下面谁先说一下这个情况？那我说一下吧。",
+      "avg_logprob": -0.3391363553911726,
+      "no_speech_prob": 0.8055759072303772,
+      "speech_overlap_s": 2.9,
+      "speech_overlap_ratio": 1.036,
+      "playback_start": 160.28,
+      "playback_end": 172.06,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "家长沟通你要给我这边说一下你看下面谁在先说一下这个情况那个我说一下吧",
+      "correction_note": "修正'在先'为'先'，标点调整。",
+      "intent": [
+        "命令",
+        "提问",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 172.14,
+      "end": 186.12,
+      "speaker": "SPEAKER_03",
+      "text": "说一下这个明年春季的那个招生工作，看怎么去招生去，因为现在这个幼儿园越来越多，然后竞争力也特别的大。",
+      "avg_logprob": -0.2428515642538838,
+      "no_speech_prob": 0.6804348230361938,
+      "speech_overlap_s": 6.1,
+      "speech_overlap_ratio": 1.017,
+      "playback_start": 172.08,
+      "playback_end": 186.06,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "说一下这个明年春季的那个招生工作看怎么去招生去因为现在这个幼儿园越来越多然后竞争力也特别的大",
+      "correction_note": "添加逗号、句号。",
+      "intent": [
+        "命令",
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 186.14,
+      "end": 201.12,
+      "speaker": "SPEAKER_03",
+      "text": "所以说那个招生工作一定要提前，现在离过年不到两个月的时间了，这个时间一定要抓紧。如果明年过完春节...",
+      "avg_logprob": -0.2428515642538838,
+      "no_speech_prob": 0.6804348230361938,
+      "speech_overlap_s": 5.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 186.08,
+      "playback_end": 201.06,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "所以说那个招生工作一定要提前几年现在离过年不到两个月的时间了这个时间一定要抓紧如果明年过完春节",
+      "correction_note": "添加逗号、句号、省略号。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 201.14,
+      "end": 215.12,
+      "speaker": "SPEAKER_03",
+      "text": "一些适龄儿童就要路远了，所以说一定要提前通知，就是说这个招生策略他们是怎么去招生的。",
+      "avg_logprob": -0.2523250784925235,
+      "no_speech_prob": 0.8171483278274536,
+      "speech_overlap_s": 6.09,
+      "speech_overlap_ratio": 1.218,
+      "playback_start": 201.08,
+      "playback_end": 215.06,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "一些士临儿童就要路远了所以说一定要提前通行就是说这个招生策略他们是怎么去招生去",
+      "correction_note": "士临->适龄，通行->通知，招生去->招生的",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 215.14,
+      "end": 229.14,
+      "speaker": "SPEAKER_03",
+      "text": "我建议就是说以老带新吧，就是教一些班级的孩子对他们的亲戚朋友或者同龄们去宣传一下，就是说这个幼儿园。",
+      "avg_logprob": -0.2523250784925235,
+      "no_speech_prob": 0.8171483278274536,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 215.08,
+      "playback_end": 229.06,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我建议就是说以老带新吧就是教一些班级的孩子对他们的亲戚朋友或者同龄们去宣传一下就是说这个幼儿园",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 229.14,
+      "end": 242.16,
+      "speaker": "SPEAKER_03",
+      "text": "咱这个幼儿园的优点在这个办园特色，比如说学校的一些环境、老师的那个教学去宣传一下，然后给孩子一些奖励。",
+      "avg_logprob": -0.39757268569048715,
+      "no_speech_prob": 0.7842403650283813,
+      "speech_overlap_s": 1.52,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 229.08,
+      "playback_end": 242.1,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "咱这个幼儿园的优点在这个班园特色比如说学校的一些环境老师的那个教学去宣传一下然后给孩子一些奖励",
+      "correction_note": "班园->办园",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 242.18,
+      "end": 256.16,
+      "speaker": "SPEAKER_03",
+      "text": "就是去一些小区门口做一些宣传单页。",
+      "avg_logprob": -0.23126704352242605,
+      "no_speech_prob": 0.6719871163368225,
+      "speech_overlap_s": 12.1,
+      "speech_overlap_ratio": 0.864,
+      "playback_start": 242.12,
+      "playback_end": 256.1,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就是去一些小区门口做一些宣传单译",
+      "correction_note": "单译->单页",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 256.18,
+      "end": 270.16,
+      "speaker": "SPEAKER_03",
+      "text": "单页上做的就是在学校的环境啦、小孩的一些活动啦、每年搞的一些活动啦、小孩子的作品啦、上的什么课啦，做一些宣传单页。",
+      "avg_logprob": -0.23126704352242605,
+      "no_speech_prob": 0.6719871163368225,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 256.12,
+      "playback_end": 270.1,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "单译上做的就是在学校的环境啦小孩一些活动啦每年搞的一些活动啦小孩子的作品啦上的什么课啦做一些宣传单译",
+      "correction_note": "单译->单页",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 270.18,
+      "end": 274.2,
+      "speaker": "SPEAKER_03",
+      "text": "然后去小区宣传。",
+      "avg_logprob": -0.3446030793366609,
+      "no_speech_prob": 0.933415949344635,
+      "speech_overlap_s": 4.5,
+      "speech_overlap_ratio": 1.125,
+      "playback_start": 270.12,
+      "playback_end": 274.85,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后去小区宣傳",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 276.18,
+      "end": 290.16,
+      "speaker": "SPEAKER_03",
+      "text": "或者是近期开展一个活动吧，就是让一些有意向的家长带着孩子来幼儿园经常参观。",
+      "avg_logprob": -0.3446030793366609,
+      "no_speech_prob": 0.933415949344635,
+      "speech_overlap_s": 9.83,
+      "speech_overlap_ratio": 1.092,
+      "playback_start": 276.13,
+      "playback_end": 290.1,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "或者是近期开展一个活動吧就是让一些有意向的家长帶著孩子来幼兒园經常參觀",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 290.18,
+      "end": 304.16,
+      "speaker": "SPEAKER_03",
+      "text": "因为说的再好再好的，这个家长他没见到，他肯定他没有不能光听宣传，然后就叫他们带着孩子来学校。",
+      "avg_logprob": -0.3446030793366609,
+      "no_speech_prob": 0.933415949344635,
+      "speech_overlap_s": 4.7,
+      "speech_overlap_ratio": 1.175,
+      "playback_start": 290.12,
+      "playback_end": 304.1,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.93"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "因为说的再好再好的这个家长他没见到他肯定他没有不能光吞宣传然后就叫他们带着孩子来修校",
+      "correction_note": "吞->听，修校->学校",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 304.18,
+      "end": 314.2,
+      "speaker": "SPEAKER_03",
+      "text": "体验一下，看看在学校的环境，看看孩子上课的那个氛围，做活动的一些那个场景。",
+      "avg_logprob": -0.2630066916207287,
+      "no_speech_prob": 0.8343545198440552,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 304.12,
+      "playback_end": 314.85,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "体验一下 看看在修校的环境看看孩子上课的那个氛围做活动的一些那个场景",
+      "correction_note": "修校->学校",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 316.18,
+      "end": 329.66,
+      "speaker": "SPEAKER_03",
+      "text": "他们回去一定会重新地跟别的幼儿园比较比较，或者在网络上进行。现在网络特别的发达。",
+      "avg_logprob": -0.2630066916207287,
+      "no_speech_prob": 0.8343545198440552,
+      "speech_overlap_s": 3.5,
+      "speech_overlap_ratio": 1.167,
+      "playback_start": 316.13,
+      "playback_end": 329.6,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.83"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "他们回去一定会重心的跟别的幼儿园比较比较或者在网络上进行 现在网络特别的发达",
+      "correction_note": "重心的->重新地",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 329.68,
+      "end": 342.66,
+      "speaker": "SPEAKER_03",
+      "text": "然后在网络上进行一些现场通过这个家长，通过每个家长发一个朋友圈。",
+      "avg_logprob": -0.30714458889431423,
+      "no_speech_prob": 0.7631856203079224,
+      "speech_overlap_s": 3.8,
+      "speech_overlap_ratio": 1.086,
+      "playback_start": 329.62,
+      "playback_end": 342.6,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后在网络上进行一些现场通过这个家港 通过每个家港发一个朋友圈",
+      "correction_note": "家港->家长",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 342.68,
+      "end": 351.2,
+      "speaker": "SPEAKER_03",
+      "text": "然后每天发个朋友圈，这个朋友圈的作用也是特别的大。",
+      "avg_logprob": -0.30714458889431423,
+      "no_speech_prob": 0.7631856203079224,
+      "speech_overlap_s": 8.4,
+      "speech_overlap_ratio": 0.988,
+      "playback_start": 342.62,
+      "playback_end": 351.85,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后每天发个朋友圈 这个朋友圈的作用也是特别的大",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 375.18,
+      "end": 388.6,
+      "speaker": "SPEAKER_03",
+      "text": "就是你去别的地方进行宣传吗？去小区宣传吧。去一个小区，小区因为他们这个离得哪个小区近？",
+      "avg_logprob": -0.39546196613836726,
+      "no_speech_prob": 0.8160932660102844,
+      "speech_overlap_s": 1.3,
+      "speech_overlap_ratio": 0.234,
+      "playback_start": 375.13,
+      "playback_end": 388.54,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.82"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就是你去別的地方進行宣傳嗎去小区宣傳吧去一个小区小区因为他们这个離的哪个小区间",
+      "correction_note": "繁体转简体，間->近",
+      "intent": [
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 388.62,
+      "end": 401.22,
+      "speaker": "SPEAKER_03",
+      "text": "他们肯定会优先选择这儿的，然后叫他们看了咱学校环境，他们连你这家小朋友都在一个小区，他们肯定会希望就是说在一块儿都入这个学校。",
+      "avg_logprob": -0.39546196613836726,
+      "no_speech_prob": 0.8160932660102844,
+      "speech_overlap_s": 2.51,
+      "speech_overlap_ratio": 1.082,
+      "playback_start": 388.56,
+      "playback_end": 401.14,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "他们肯定会優先选擇这兒的然后叫他们看了單学校環境他们連你这家小朋友都在一个小区他们肯定会希望就是说在一塊兒都入这个学校",
+      "correction_note": "繁体转简体，單->咱",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 401.22,
+      "end": 414.3,
+      "speaker": "SPEAKER_03",
+      "text": "那要看到咱学校特别的好，然后办学也特别的正规，环境也特别的优美，肯定会优先选择咱这个幼儿园的，就是都在一块儿嘛。",
+      "avg_logprob": -0.3501523104580966,
+      "no_speech_prob": 0.7587974667549133,
+      "speech_overlap_s": 3.75,
+      "speech_overlap_ratio": 1.13,
+      "playback_start": 401.16,
+      "playback_end": 414.22,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "那要看到咱学校特别的好然后办学也特别的正规环境也特别的优美肯定会优先选择咱这个幼儿园的就是都在一块儿嘛",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 414.3,
+      "end": 419.4,
+      "speaker": "SPEAKER_03",
+      "text": "小朋友肯定都要在一块儿上学，他就优先选择这儿吧。",
+      "avg_logprob": -0.3501523104580966,
+      "no_speech_prob": 0.7587974667549133,
+      "speech_overlap_s": 3.25,
+      "speech_overlap_ratio": 1.083,
+      "playback_start": 414.24,
+      "playback_end": 420.05,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "小朋友肯定都要在一块儿上学他就优先选择这儿吧",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 423.38,
+      "end": 434.56,
+      "speaker": "SPEAKER_03",
+      "text": "那就是招生这块儿，就是今年年龄要靠后一点。",
+      "avg_logprob": -0.3501523104580966,
+      "no_speech_prob": 0.7587974667549133,
+      "speech_overlap_s": 1.19,
+      "speech_overlap_ratio": 0.377,
+      "playback_start": 423.33,
+      "playback_end": 435.21,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.2s/11.2s",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "那就是 周中那块儿就是今年年龄要靠厚一点",
+      "correction_note": "修正'周中'为'招生'，'靠厚'为'靠后'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 440.54,
+      "end": 453.54,
+      "speaker": "SPEAKER_03",
+      "text": "去年有的孩子太小了，招过来以后不好管理，不好管理给一般教师们、老师增加了不少负担。",
+      "avg_logprob": -0.39377768834431964,
+      "no_speech_prob": 0.7866596579551697,
+      "speech_overlap_s": 0.99,
+      "speech_overlap_ratio": 0.33,
+      "playback_start": 440.49,
+      "playback_end": 453.46,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/13.0s",
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.79"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "去年有的孩子太小了招过来以后不好管理不好管理给一般教师们、老师增加了不少负担",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 453.54,
+      "end": 481.22,
+      "speaker": "SPEAKER_03",
+      "text": "所以招生这一块，再把年龄拔一下，到了年龄的，不到年龄的，因为咱要严卡。因为都是好多家长都上班了，他们过来以后，大家看孩子，送到幼儿园让大家看，太大了咱们幼儿园老师们的确有点负担大。",
+      "avg_logprob": -0.4196761858345258,
+      "no_speech_prob": 0.8801822066307068,
+      "speech_overlap_s": 9.99,
+      "speech_overlap_ratio": 0.361,
+      "playback_start": 453.48,
+      "playback_end": 481.16,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "所以招生这一块,再把年龄拔过来拔拔拔,到了年龄了,不到年龄了,因为咱要研卡,因为都是好多家长都上班了,他们过来以后,大家看孩子,送到幼儿园让大家看,太少了咱们过来幼儿师们的确有点大,",
+      "correction_note": "修正'研卡'为'严卡'，'太少了'为'太大了'，'幼儿师们'为'幼儿园老师们'",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 481.24,
+      "end": 496.22,
+      "speaker": "SPEAKER_03",
+      "text": "像小学，他们上小学的时候卡得比较紧，前半年后半年，就隔一天就不让，所以咱这边要卡到。那原来就是说年龄在一周半，现在不行，放到了两周吧。",
+      "avg_logprob": -0.35486670101390166,
+      "no_speech_prob": 0.8382307887077332,
+      "speech_overlap_s": 3.3,
+      "speech_overlap_ratio": 0.917,
+      "playback_start": 481.18,
+      "playback_end": 496.16,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "像小学问他,上小学的时候他们卡得比較緊前半年的后半年,就割一天就不让所以咱这邊要砍对,那原来就是说年齡在一周半现在不行,放了二,兩周吧",
+      "correction_note": "修正'比較緊'为'比较紧'，'割一天'为'隔一天'，'砍对'为'卡到'，'兩周'为'两周'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 496.24,
+      "end": 510.42,
+      "speaker": "SPEAKER_03",
+      "text": "因为一周半你自己能力基本上是没有，而且会有各种，就是说也有可能会发生一些危险，所以说就把年龄砍在两周吧。",
+      "avg_logprob": -0.35486670101390166,
+      "no_speech_prob": 0.8382307887077332,
+      "speech_overlap_s": 4.79,
+      "speech_overlap_ratio": 1.14,
+      "playback_start": 496.18,
+      "playback_end": 510.36,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "因为一周半你自己能力基本上是没有而且会有各種,就是说也有可能会發生一些危險所以说就把年齡砍在兩周吧",
+      "correction_note": "繁体转简体",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 510.44,
+      "end": 523.58,
+      "speaker": "SPEAKER_03",
+      "text": "两周至五周，然后家长带着孩子来幼儿园参加的时候给人登记一下，然后给他们送个小礼品。",
+      "avg_logprob": -0.4162650181696965,
+      "no_speech_prob": 0.844332218170166,
+      "speech_overlap_s": 4.35,
+      "speech_overlap_ratio": 1.182,
+      "playback_start": 510.38,
+      "playback_end": 523.52,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "两周至五周然后家长带着孩子来幼儿参加的时候给人登记一下然后给他们送个小礼品",
+      "correction_note": "修正'幼儿'为'幼儿园'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 523.6,
+      "end": 526.62,
+      "speaker": "SPEAKER_03",
+      "text": "送个孩子喜欢的那种小礼品。",
+      "avg_logprob": -0.4162650181696965,
+      "no_speech_prob": 0.844332218170166,
+      "speech_overlap_s": 3.05,
+      "speech_overlap_ratio": 1.017,
+      "playback_start": 523.54,
+      "playback_end": 527.27,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "送个孩子喜欢的那种小礼品",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 534.32,
+      "end": 548.08,
+      "speaker": "SPEAKER_03",
+      "text": "就是说给一些家长，因为现在有的幼儿园放学太早，四点半或者是五点，家里没有老人的，父母工作的，没有时间来接。",
+      "avg_logprob": -0.4162650181696965,
+      "no_speech_prob": 0.844332218170166,
+      "speech_overlap_s": 2.99,
+      "speech_overlap_ratio": 1.083,
+      "playback_start": 534.27,
+      "playback_end": 548.0,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就是说给一些家长因为现在有的幼儿园放学太早四点半或者是五点家里没有老人的父母工作的没有时间来接",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 548.08,
+      "end": 563.08,
+      "speaker": "SPEAKER_03",
+      "text": "这是一个挺大的问题。家长来的时候都给家长说一下，五点正式放学，但是有父母接不了的情况下，让他们放心。",
+      "avg_logprob": -0.17776654067548733,
+      "no_speech_prob": 0.4069179594516754,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 548.02,
+      "playback_end": 563.0,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这是一个挺大的问题家长来的时候都给家长说一下五点正式放学但是有父母接不了的情况下让他们放心",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 563.08,
+      "end": 576.08,
+      "speaker": "SPEAKER_03",
+      "text": "孩子在幼儿园都是特别安全的，我们会统一把这些接不了的孩子统一安排一个教室，然后给他们准备一些零食，放动画片。",
+      "avg_logprob": -0.17776654067548733,
+      "no_speech_prob": 0.4069179594516754,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 563.02,
+      "playback_end": 576.0,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "孩子在幼儿园都是特别安全的我们会统一把这些接不了的孩子统一一个教室然后给他们准备一些零食了放了动画片了",
+      "correction_note": "补充'安排'，'放了'改为'放'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 576.08,
+      "end": 589.08,
+      "speaker": "SPEAKER_03",
+      "text": "让家长把孩子送到这儿特别的放心，感觉这是一个挺大的问题吧，给家长都说明一下，就是做到这一点也是一个优势。",
+      "avg_logprob": -0.16966100008982532,
+      "no_speech_prob": 0.9191023111343384,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 576.02,
+      "playback_end": 589.0,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "让家长把孩子送到这儿特别的放心感觉这是一个挺大的问题吧给家长都说明一下就是做到这一点也是一个",
+      "correction_note": "补充'优势'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 589.08,
+      "end": 603.08,
+      "speaker": "SPEAKER_03",
+      "text": "也是咱这个幼儿园的一个优势吧，那家长都无后顾之忧，就是再晚接孩子都不会说太担心孩子，孩子在幼儿园也是玩得比较开心的。",
+      "avg_logprob": -0.16966100008982532,
+      "no_speech_prob": 0.9191023111343384,
+      "speech_overlap_s": 3.1,
+      "speech_overlap_ratio": 1.033,
+      "playback_start": 589.02,
+      "playback_end": 603.0,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.92"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "也是咱这个幼儿园的一个优势吧那家长都无后果之忧就是再晚接孩子都不会说太担心孩子孩子在幼儿园也是比较玩得比较开心的",
+      "correction_note": "修正'无后果之忧'为'无后顾之忧'，删除多余'比较'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 603.08,
+      "end": 616.08,
+      "speaker": "SPEAKER_03",
+      "text": "不会说那孩子在幼儿园留下什么特别不好的那个啥，不安全，那家长放心。然后就是说最好。",
+      "avg_logprob": -0.21868723836438408,
+      "no_speech_prob": 0.984901487827301,
+      "speech_overlap_s": 4.4,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 603.02,
+      "playback_end": 616.0,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "不会说那孩子在幼儿园留下特别故障特别的那个啥不安全那家长放心然后就是说最好",
+      "correction_note": "修正'特别故障'为'特别不好的'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 616.08,
+      "end": 628.08,
+      "speaker": "SPEAKER_03",
+      "text": "最好就是周六也上班，周末那孩子在那上学，双休日感觉对一些父母来说有点做不到。",
+      "avg_logprob": -0.21868723836438408,
+      "no_speech_prob": 0.984901487827301,
+      "speech_overlap_s": 3.1,
+      "speech_overlap_ratio": 1.033,
+      "playback_start": 616.02,
+      "playback_end": 628.0,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.98"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "最好就是周日周六周六也上班周九那孩子在那上学雙雙日感觉对一些父母来说有点做不到",
+      "correction_note": "修正'周日周六周六也上班周九'为'周六也上班，周末'，'雙雙日'为'双休日'",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 628.08,
+      "end": 642.08,
+      "speaker": "SPEAKER_03",
+      "text": "因为周九一般现在双休日的工作很少，所以说周九上班，周九幼儿园开园只歇个礼拜天，反正这些都要向家长说明。",
+      "avg_logprob": -0.2588564321535443,
+      "no_speech_prob": 0.7925118803977966,
+      "speech_overlap_s": 5.3,
+      "speech_overlap_ratio": 1.06,
+      "playback_start": 628.02,
+      "playback_end": 642.0,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "因为周九一般现在雙雙日的工作很少所以说周九上班 周九幼兒园开园只寫个禮拜天反正这些都要向家长说明",
+      "correction_note": "修改'雙雙日'为'双休日'，'只寫個'为'只歇个'，繁体转简体，添加标点。",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 642.08,
+      "end": 655.94,
+      "speaker": "SPEAKER_03",
+      "text": "或者是在相关单元上都标注一下，跟家长说明一下。然后就是对来源的家长说一些，就是说签多少名吧。",
+      "avg_logprob": -0.2588564321535443,
+      "no_speech_prob": 0.7925118803977966,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 642.02,
+      "playback_end": 655.88,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "或者是在相关單元上都標註一下跟家长说明一下然后就是说被来源的家长说一些就是说签多少名吧",
+      "correction_note": "修改'被来源'为'对来源'，调整语序，添加标点。",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 655.96,
+      "end": 669.54,
+      "speaker": "SPEAKER_03",
+      "text": "报名有优惠，我感觉这样会对他们报名的参与会起到一些推动的作用，我先说这些吧。",
+      "avg_logprob": -0.3791622805905032,
+      "no_speech_prob": 0.9134353995323181,
+      "speech_overlap_s": 1.31,
+      "speech_overlap_ratio": 1.092,
+      "playback_start": 655.9,
+      "playback_end": 669.48,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "报名有优惠我感觉这样会对他们报名的参与会起到一些推动的作用我先说这些吧",
+      "correction_note": "添加标点，无其他修改。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 669.56,
+      "end": 676.14,
+      "speaker": "SPEAKER_03",
+      "text": "关于张诚的问题，您看下面那个部分说一下情况。",
+      "avg_logprob": -0.3791622805905032,
+      "no_speech_prob": 0.9134353995323181,
+      "speech_overlap_s": 2.26,
+      "speech_overlap_ratio": 0.883,
+      "playback_start": 669.5,
+      "playback_end": 676.79,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "关于张诚的问题您看下面那个部分说一下情况",
+      "correction_note": "添加标点。",
+      "intent": [
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 678.12,
+      "end": 681.14,
+      "speaker": "SPEAKER_03",
+      "text": "我说一下吧，我是咱这保安那个。",
+      "avg_logprob": -0.20083729855649107,
+      "no_speech_prob": 0.6611217260360718,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 678.07,
+      "playback_end": 681.79,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我说一下吧我是咱这保安那个",
+      "correction_note": "添加标点。",
+      "intent": [
+        "介绍",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 683.12,
+      "end": 697.1,
+      "speaker": "SPEAKER_03",
+      "text": "就是马上过年了，希望家长送孩子的时候，今年也是疫情的关系，都叫孩子戴好口罩。然后那个，也都送孩子的时候送到门口，家长都可以赶紧回去了。",
+      "avg_logprob": -0.20083729855649107,
+      "no_speech_prob": 0.6611217260360718,
+      "speech_overlap_s": 1.77,
+      "speech_overlap_ratio": 0.885,
+      "playback_start": 683.07,
+      "playback_end": 697.04,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就是马上过年了希望家长送孩子的时候今年也是疫情罢了都叫孩子配好口罩然后那个也都送孩子的时候送到门口家长都可以赶紧回去了",
+      "correction_note": "修改'疫情罢了'为'疫情的关系'，'配好口罩'为'戴好口罩'，添加标点。",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 697.12,
+      "end": 711.1,
+      "speaker": "SPEAKER_03",
+      "text": "不要在门口聚集，还有那个下午要是接孩子的时候，都排好队，有个距离。还有希望孩子，幼儿园孩子都小，",
+      "avg_logprob": -0.20083729855649107,
+      "no_speech_prob": 0.6611217260360718,
+      "speech_overlap_s": 2.03,
+      "speech_overlap_ratio": 1.015,
+      "playback_start": 697.06,
+      "playback_end": 711.04,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.66"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "不要在门口聚集还有那个下午要是接孩子的时候孩子的时候都排好队有个距离还有希望孩子幼儿园孩子都小",
+      "correction_note": "删除重复'孩子的时候'，添加标点。",
+      "intent": [
+        "命令",
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 711.12,
+      "end": 725.1,
+      "speaker": "SPEAKER_03",
+      "text": "不要在楼梯这儿乱跑，还有玩的滑梯什么的，希望老师能陪着一块儿玩的话，老师能陪着点，不要让孩子单独在这儿磕着碰着。",
+      "avg_logprob": -0.23405693372090658,
+      "no_speech_prob": 0.9011138081550598,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 711.06,
+      "playback_end": 725.04,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "不要在楼梯这儿混跑还有玩的滑梯什么的希望老师能陪着一块儿玩的话老师能陪着点不要让孩子单独在这儿在课上碰到",
+      "correction_note": "修改'混跑'为'乱跑'，'在课上碰到'为'磕着碰着'，添加标点。",
+      "intent": [
+        "命令",
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 725.12,
+      "end": 729.1,
+      "speaker": "SPEAKER_03",
+      "text": "孩子都小，需要有人专门陪着。",
+      "avg_logprob": -0.23405693372090658,
+      "no_speech_prob": 0.9011138081550598,
+      "speech_overlap_s": 2.4,
+      "speech_overlap_ratio": 1.2,
+      "playback_start": 725.06,
+      "playback_end": 729.04,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "孩子都小需要有人专门陪着",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 729.12,
+      "end": 746.08,
+      "speaker": "SPEAKER_03",
+      "text": "放学的时候，家长都拿着孩子接送卡。",
+      "avg_logprob": -0.5616495164774232,
+      "no_speech_prob": 0.7935065031051636,
+      "speech_overlap_s": 12.56,
+      "speech_overlap_ratio": 0.741,
+      "playback_start": 729.06,
+      "playback_end": 746.0,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "放学的时候 家长都拿着孩子接送卡",
+      "correction_note": "添加标点。",
+      "intent": [
+        "命令",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 746.08,
+      "end": 757.6,
+      "speaker": "SPEAKER_03",
+      "text": "因为这过年了，万一有个孩子的问题，家长都拿着一个一卡接一个孩子，没有卡的，不允许接走孩子。",
+      "avg_logprob": -0.5616495164774232,
+      "no_speech_prob": 0.7935065031051636,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 746.02,
+      "playback_end": 757.52,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "因为这过年了 万一有个孩子的问题家长都拿着一个一卡一接孩子的没有卡的 不允许孩子接走",
+      "correction_note": "修改'一卡一接孩子的'为'一卡接一个孩子'，'不允许孩子接走'为'不允许接走孩子'，添加标点。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 757.6,
+      "end": 771.98,
+      "speaker": "SPEAKER_03",
+      "text": "反正还得每个班都错开时间，是吧，错十分钟的放学时间，对。今年疫情吧，今年也是疫情的关系那个。",
+      "avg_logprob": -0.4484087626139323,
+      "no_speech_prob": 0.703691303730011,
+      "speech_overlap_s": 4.1,
+      "speech_overlap_ratio": 0.488,
+      "playback_start": 757.54,
+      "playback_end": 771.92,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "反正还得每个班都错开时间是吧错十分钟的放学对 今年疫情吧今年也是疫情的过那个",
+      "correction_note": "修改'错十分钟的放学对'为'错十分钟的放学时间，对'，'疫情的过'为'疫情的关系'，添加标点。",
+      "intent": [
+        "提议",
+        "确认",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 772.0,
+      "end": 784.78,
+      "speaker": "SPEAKER_03",
+      "text": "小班的先让那个都错开时间，一个班一个班的，然后错十分钟就把时间错开了，对。",
+      "avg_logprob": -0.4484087626139323,
+      "no_speech_prob": 0.703691303730011,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 771.94,
+      "playback_end": 785.43,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.70"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "小班的先让那个都错开时间一个班一个班的那个然后错十分钟就把时间错开了对对对",
+      "correction_note": "删除多余的'对对对'，添加标点。",
+      "intent": [
+        "提议",
+        "确认",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 786.05,
+      "end": 799.78,
+      "speaker": "SPEAKER_03",
+      "text": "家长都排队，别太拥挤。家长都那个排队离了点距离吧，都戴好口罩，因为今年吧也是疫情，家长都防护好，孩子也戴好口罩，冬天那个接孩子的时候",
+      "avg_logprob": -0.23688647241303415,
+      "no_speech_prob": 0.7687921524047852,
+      "speech_overlap_s": 2.75,
+      "speech_overlap_ratio": 0.688,
+      "start_asr_raw": 784.8,
+      "playback_start": 785.65,
+      "playback_end": 799.72,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "家长都排队 别太拥挤家长都那个排队离了点距离吧都戴好口罩因为今年吧也是疫情家长都防护好孩子也戴好口罩冬天那个接孩子的时候",
+      "correction_note": "添加标点，调整语序。",
+      "intent": [
+        "命令",
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 799.8,
+      "end": 809.8,
+      "speaker": "SPEAKER_03",
+      "text": "也都慢点，不要拥挤，别磕着碰着了。还有就是孩子你这块，还有就是孩子上楼的情况你要保证一下，因为啊",
+      "avg_logprob": -0.23688647241303415,
+      "no_speech_prob": 0.7687921524047852,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 799.74,
+      "playback_end": 809.72,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/10.0s",
+        "high no_speech_prob=0.77"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "也都慢点 不要拥挤别咳着碰着了还有就是孩子你这块还有就是孩子上楼的情况你要保证一下因为啊",
+      "correction_note": "修改'咳着碰着'为'磕着碰着'，添加标点。",
+      "intent": [
+        "命令",
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 809.8,
+      "end": 837.82,
+      "speaker": "SPEAKER_03",
+      "text": "孩子都是一拨一拨来的，我发现好几次都是一家一家来的，都是这个点过来的。家长阿姨们家都踩着点过来的。孩子上的话就是不要让他发生这个拥挤，因为咱们的楼梯本身就是人家这儿窄的。这时候咱们保安要注意一下就是，门口咱要放上来。",
+      "avg_logprob": -0.42594956451991817,
+      "no_speech_prob": 0.7209099531173706,
+      "speech_overlap_s": 19.7,
+      "speech_overlap_ratio": 0.704,
+      "playback_start": 809.74,
+      "playback_end": 838.47,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "孩子都是一往二来的,我发现好几次都是一家的来的,都是这个点过来的,家长阿姨们家都踩着点过来的,孩子上的话就是不要让他发生这个拥挤,因为咱们的楼梯本身就是人家这儿栽的,这时候咱们保安要注意一下就是,门口咱要放上来,",
+      "correction_note": "修正'一往二来'为'一拨一拨'，'一家的'为'一家一家'，'栽的'为'窄的'。",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 841.55,
+      "end": 852.82,
+      "speaker": "SPEAKER_03",
+      "text": "在这个校区医院院内，因为好多孩子来了以后，因为咱这个校园正在有这个儿童器械，儿童器械有了这个器材，包括这个马蹄拉。",
+      "avg_logprob": -0.4061314216026893,
+      "no_speech_prob": 0.898468554019928,
+      "speech_overlap_s": 2.3,
+      "speech_overlap_ratio": 0.767,
+      "start_asr_raw": 840.6,
+      "playback_start": 841.15,
+      "playback_end": 852.76,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.90"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "在这个校区医院院内因为好多孩子来了以后因为咱这个校园正在有这个儿童鸡儿童鸡有了这个器材包括这个马蹄拉",
+      "correction_note": "修正'儿童鸡'为'儿童器械'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 852.84,
+      "end": 864.32,
+      "speaker": "SPEAKER_03",
+      "text": "就怕它中途的话还没有进教室，而且玩了一些扭的器材。那保安点的话一定要督促一下，就是现在上课期间流量很高。",
+      "avg_logprob": -0.4061314216026893,
+      "no_speech_prob": 0.898468554019928,
+      "speech_overlap_s": 3.1,
+      "speech_overlap_ratio": 0.981,
+      "playback_start": 852.78,
+      "playback_end": 864.24,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "就怕它就是中途的话还没有进教室而且玩了一些牛的器材那保安店的话一定要督促一下就是现在上课期间力量很高",
+      "correction_note": "修正'牛的'为'扭的'，'保安店'为'保安点'，'力量很高'为'流量很高'。",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 864.32,
+      "end": 879.32,
+      "speaker": "SPEAKER_03",
+      "text": "小孩们要进到这个教室以后，上楼梯的话一定要注意，当然排好队有秩序的上楼，不要出现这种拥挤情况。",
+      "avg_logprob": -0.41654298890311764,
+      "no_speech_prob": 0.5645031929016113,
+      "speech_overlap_s": 8.53,
+      "speech_overlap_ratio": 0.569,
+      "playback_start": 864.26,
+      "playback_end": 879.24,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "小孩们要进到这个教室以后,上楼梯的话,一定要注意,当然排好队有秩序的上楼,不要出现这种拥挤情况。",
+      "correction_note": "添加标点。",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 879.32,
+      "end": 888.32,
+      "speaker": "SPEAKER_03",
+      "text": "往上那边还有就是继续管理好。",
+      "avg_logprob": -0.5168913791054174,
+      "no_speech_prob": 0.9017459750175476,
+      "speech_overlap_s": 1.27,
+      "speech_overlap_ratio": 0.141,
+      "playback_start": 879.26,
+      "playback_end": 888.24,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=14%",
+        "high no_speech_prob=0.90"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "網上那邊还有就是即使管理好",
+      "correction_note": "繁体转简体，修正'网上'为'往上'，'即使'为'继续'。",
+      "intent": [
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 888.32,
+      "end": 898.34,
+      "speaker": "SPEAKER_03",
+      "text": "有些幼儿老师看不过来孩子，万一那个班的孩子……",
+      "avg_logprob": -0.5168913791054174,
+      "no_speech_prob": 0.9017459750175476,
+      "speech_overlap_s": 3.43,
+      "speech_overlap_ratio": 0.49,
+      "playback_start": 888.26,
+      "playback_end": 898.99,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有些幼兒師看不过来孩子万一那个班的孩子",
+      "correction_note": "繁体转简体，修正'幼兒師'为'幼儿老师'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 921.35,
+      "end": 932.32,
+      "speaker": "SPEAKER_03",
+      "text": "留在老师这边，保安一下子，孩子不少，他没有那么多时间来照顾到，因为孩子很小，也调皮。",
+      "avg_logprob": -0.57980834113227,
+      "no_speech_prob": 0.9359362721443176,
+      "speech_overlap_s": 1.47,
+      "speech_overlap_ratio": 0.735,
+      "start_asr_raw": 920.82,
+      "playback_start": 920.95,
+      "playback_end": 932.97,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "留在老師这邊保安一下子,孩子不少他没有那麼多时间来照顧到因为孩子很少,也調皮",
+      "correction_note": "繁体转简体，修正'很少'为'很小'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 932.95,
+      "end": 942.34,
+      "speaker": "SPEAKER_03",
+      "text": "还要加强这个护导，进学校以后，上课期间定时在学校院内进行检查。",
+      "avg_logprob": -0.4706627283340845,
+      "no_speech_prob": 0.6510030627250671,
+      "speech_overlap_s": 3.4,
+      "speech_overlap_ratio": 0.68,
+      "start_asr_raw": 932.32,
+      "playback_start": 932.55,
+      "playback_end": 942.99,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "还要加强这个护士进学校以后上课期间定是在学校院内进行检查",
+      "correction_note": "修正'护士'为'护导'，'定是'为'定时'。",
+      "intent": [
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 955.32,
+      "end": 969.62,
+      "speaker": "SPEAKER_03",
+      "text": "下面能不能说一下？那个我说一下吧。我是做厨师的，是吧？管孩子的饮食了。然后现在家长都比较，就是这孩子都稍微比较关心孩子的饮食。",
+      "avg_logprob": -0.4706627283340845,
+      "no_speech_prob": 0.6510030627250671,
+      "speech_overlap_s": 1.1,
+      "speech_overlap_ratio": 0.55,
+      "playback_start": 955.27,
+      "playback_end": 969.56,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.1s/14.3s",
+        "high no_speech_prob=0.65"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "下面能不能说一下那个我说一下吧我是做廚師是吧管孩子那个飲食了然后现在家长都比較就是这孩子都少比較关心孩子那个飲食",
+      "correction_note": "繁体转简体，修正'都少'为'都稍微'。",
+      "intent": [
+        "提问",
+        "介绍",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 969.64,
+      "end": 979.18,
+      "speaker": "SPEAKER_03",
+      "text": "饮食还有那个卫生方面的。然后我那个啥，尽那个给孩子那个……",
+      "avg_logprob": -0.307952880859375,
+      "no_speech_prob": 0.6323426961898804,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 1.25,
+      "playback_start": 969.58,
+      "playback_end": 979.83,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "飲食还有那个衛生方面的然后我那个啥盡那个给孩子那个",
+      "correction_note": "繁体转简体。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 981.16,
+      "end": 994.44,
+      "speaker": "SPEAKER_03",
+      "text": "尽那个就是做饭，尽那个食材方面必须保证它是环保而不是有机食品、绿色食品，然后绝对不使用那个过期的。",
+      "avg_logprob": -0.307952880859375,
+      "no_speech_prob": 0.6323426961898804,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 981.11,
+      "playback_end": 994.36,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "盡那个就是做飯盡那个食材方面必須保證它是環保而不是有機食品 綠色食品然后絕对不藉那个过期的",
+      "correction_note": "繁体转简体，修正'不藉'为'不使用'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 994.44,
+      "end": 1007.14,
+      "speaker": "SPEAKER_03",
+      "text": "保证选用无公害食品，然后给孩子做到要是有营养，有营养就是那个……",
+      "avg_logprob": -0.5155063810802641,
+      "no_speech_prob": 0.7099239826202393,
+      "speech_overlap_s": 3.7,
+      "speech_overlap_ratio": 1.088,
+      "playback_start": 994.38,
+      "playback_end": 1007.08,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.71"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "保證藉著无供害食品然后给孩子做到要是有營養有營養就是那个",
+      "correction_note": "繁体转简体，修正'藉著'为'选用'，'无供害'为'无公害'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1007.16,
+      "end": 1020.82,
+      "speaker": "SPEAKER_03",
+      "text": "比较全面的，让孩子吃了放心。就是卫生方面也要做到干净整洁。",
+      "avg_logprob": -0.5155063810802641,
+      "no_speech_prob": 0.7099239826202393,
+      "speech_overlap_s": 3.83,
+      "speech_overlap_ratio": 1.019,
+      "playback_start": 1007.1,
+      "playback_end": 1020.78,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "傳遍 比較傳遍的让孩子吃了放心就是衛生方面也要做到乾淨整潔",
+      "correction_note": "繁体转简体，修正'傳遍'为'全面'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1020.86,
+      "end": 1031.78,
+      "speaker": "SPEAKER_03",
+      "text": "不让家长进餐厅一看就是觉得卫生不到位，有意见。",
+      "avg_logprob": -0.2193661332130432,
+      "no_speech_prob": 0.6446280479431152,
+      "speech_overlap_s": 7.5,
+      "speech_overlap_ratio": 1.071,
+      "playback_start": 1020.8,
+      "playback_end": 1031.72,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "不让家长進餐廳一看就是觉得衛生不到位有意见",
+      "correction_note": "繁体转简体。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1031.8,
+      "end": 1044.82,
+      "speaker": "SPEAKER_03",
+      "text": "绝对让家长看到放心。然后我就是设计了我做了一个，最近不是要招生吗？",
+      "avg_logprob": -0.2193661332130432,
+      "no_speech_prob": 0.6446280479431152,
+      "speech_overlap_s": 5.05,
+      "speech_overlap_ratio": 1.01,
+      "playback_start": 1031.74,
+      "playback_end": 1044.78,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "絕对让家长看到放心然后我就是設計了我做了一个 最近不是要招生嗎",
+      "correction_note": "繁体转简体。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1044.86,
+      "end": 1058.78,
+      "speaker": "SPEAKER_03",
+      "text": "我又重新规划一下给孩子做饭这个计划，然后做了一个表，然后叫大家有个微信群可以看一下。",
+      "avg_logprob": -0.24365604625028722,
+      "no_speech_prob": 0.7548513412475586,
+      "speech_overlap_s": 6.5,
+      "speech_overlap_ratio": 0.929,
+      "playback_start": 1044.8,
+      "playback_end": 1058.72,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我又重新规划一下给孩子做飯这个計划然后做了一个表然后叫大家有个微信群可以看一下",
+      "correction_note": "繁体转简体，标点恢复",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1058.8,
+      "end": 1073.78,
+      "speaker": "SPEAKER_03",
+      "text": "周一早餐上，我给孩子以前是米粥、小米粥、红枣小米粥，我现在就是改成是肉粥螺蛳粉，然后家里的就是说。",
+      "avg_logprob": -0.24365604625028722,
+      "no_speech_prob": 0.7548513412475586,
+      "speech_overlap_s": 4.95,
+      "speech_overlap_ratio": 0.99,
+      "playback_start": 1058.74,
+      "playback_end": 1073.72,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "週一早餐上我给孩子以前是米粥小米粥 紅棗小米粥我现在就是改成是漏粥螺獅粉然后家裡的就是说",
+      "correction_note": "漏粥→肉粥，螺獅粉→螺蛳粉，繁体转简体，标点恢复",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1073.8,
+      "end": 1088.78,
+      "speaker": "SPEAKER_03",
+      "text": "吃的比以前更有营养。然后那个周日呢，周日那个给他把那个饭改成那个午饭改成那个牛肉羊藕。",
+      "avg_logprob": -0.30859725419865097,
+      "no_speech_prob": 0.2644266188144684,
+      "speech_overlap_s": 3.05,
+      "speech_overlap_ratio": 1.017,
+      "playback_start": 1073.74,
+      "playback_end": 1088.72,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "吃的比以前更有營養然后那个周日呢周日那个给他把那个飯改成那个中午飯改成那个牛肉羊藕",
+      "correction_note": "繁体转简体，标点恢复",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1088.8,
+      "end": 1102.02,
+      "speaker": "SPEAKER_03",
+      "text": "加了一些，多加了个羊藕，然后营养让它比以前更加完善。然后周三",
+      "avg_logprob": -0.30859725419865097,
+      "no_speech_prob": 0.2644266188144684,
+      "speech_overlap_s": 4.85,
+      "speech_overlap_ratio": 1.212,
+      "playback_start": 1088.74,
+      "playback_end": 1101.98,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "加了一些 多加了个羊藕然后营养让它比以前更加完善然后周三",
+      "correction_note": "繁体转简体，标点恢复",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1102.06,
+      "end": 1115.22,
+      "speaker": "SPEAKER_03",
+      "text": "周三是中午做了给它改成的花生鸡蛋骨头汤，然后每周叫它不重样。",
+      "avg_logprob": -0.3899535146252862,
+      "no_speech_prob": 0.6800152659416199,
+      "speech_overlap_s": 9.0,
+      "speech_overlap_ratio": 0.957,
+      "playback_start": 1102.0,
+      "playback_end": 1115.87,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "周三是中午做了给它改成的花生鸡蛋骨头汤然后每周叫它不重样",
+      "correction_note": "标点恢复",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1116.05,
+      "end": 1127.2,
+      "speaker": "SPEAKER_03",
+      "text": "周四是晚饭，晚饭改成肉蓉螺蛳粉。",
+      "avg_logprob": -0.314931060956872,
+      "no_speech_prob": 0.7065189480781555,
+      "speech_overlap_s": 8.0,
+      "speech_overlap_ratio": 1.0,
+      "start_asr_raw": 1115.26,
+      "playback_start": 1115.65,
+      "playback_end": 1127.12,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.71"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "周四是晚饭晚饭改成肉蓉螺蛳粉",
+      "correction_note": "螺獅→螺蛳，繁体转简体，标点恢复",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1127.2,
+      "end": 1143.18,
+      "speaker": "SPEAKER_03",
+      "text": "周五早晨改成肉粥红萝卜面汤。",
+      "avg_logprob": -0.314931060956872,
+      "no_speech_prob": 0.7065189480781555,
+      "speech_overlap_s": 14.55,
+      "speech_overlap_ratio": 0.909,
+      "playback_start": 1127.14,
+      "playback_end": 1143.12,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "周五早晨改成肉粥红萝卜面汤",
+      "correction_note": "标点恢复",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1143.2,
+      "end": 1156.78,
+      "speaker": "SPEAKER_03",
+      "text": "我把那个加了一个肉粥，把那个小米粥（大家可以看一下那个微信群），跟以前比较一下，就是营养都是比以前提高了不少。",
+      "avg_logprob": -0.30564982716630146,
+      "no_speech_prob": 0.8208425641059875,
+      "speech_overlap_s": 4.2,
+      "speech_overlap_ratio": 0.778,
+      "playback_start": 1143.14,
+      "playback_end": 1156.72,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "我把那个加了一个漏粥把那个小米粥大家可以看一下那个微信群跟以前比較一下就是營養都是比以前提高了不少",
+      "correction_note": "漏粥→肉粥，比較→比较，改标点",
+      "intent": [
+        "陈述",
+        "评论"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1156.8,
+      "end": 1170.0,
+      "speaker": "SPEAKER_03",
+      "text": "然后不是说周六，周六早晨又加了一个肉粥排骨粉汤，然后不是要新招生，然后叫家长叫他们。",
+      "avg_logprob": -0.30564982716630146,
+      "no_speech_prob": 0.8208425641059875,
+      "speech_overlap_s": 3.05,
+      "speech_overlap_ratio": 1.525,
+      "playback_start": 1156.74,
+      "playback_end": 1169.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.82"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后不是说週六週六早晨又加了一个漏了排骨粉排骨粉湯然后不是要新招生然后叫家长叫他们",
+      "correction_note": "漏了排骨粉排骨粉湯→肉粥排骨粉汤，繁體轉簡體，标点恢复",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1170.0,
+      "end": 1184.98,
+      "speaker": "SPEAKER_03",
+      "text": "他肯定家长都得注重着孩子的食谱，让他看跟上跟不上，然后看了一下，就是都有这个意向，然后让他来咱学校来。",
+      "avg_logprob": -0.30564982716630146,
+      "no_speech_prob": 0.8208425641059875,
+      "speech_overlap_s": 3.45,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 1169.94,
+      "playback_end": 1184.92,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "他肯定家长都得注重著孩子的食譜让他看跟上跟不上然后看了一下就是动有这个意向然后让来咱学校来",
+      "correction_note": "著→着，食譜→食谱，动→都，加标点",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1185.0,
+      "end": 1199.98,
+      "speaker": "SPEAKER_03",
+      "text": "然后招生更省心一些吧，就是应该招好招生，让学生来，让那个学生来咱来咱这儿那个幼儿园。",
+      "avg_logprob": -0.2569413895302631,
+      "no_speech_prob": 0.6987821459770203,
+      "speech_overlap_s": 4.55,
+      "speech_overlap_ratio": 1.137,
+      "playback_start": 1184.94,
+      "playback_end": 1199.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.70"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后招生更省心一些吧就是应该招好招生让学生来让那个学生来咱来咱这儿那个幼儿园",
+      "correction_note": "繁体转简体，标点恢复",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1200.0,
+      "end": 1209.7,
+      "speaker": "SPEAKER_03",
+      "text": "让家长更放心，咱们做好就是各方面来就是卫生、饮食、工作。",
+      "avg_logprob": -0.2569413895302631,
+      "no_speech_prob": 0.6987821459770203,
+      "speech_overlap_s": 2.25,
+      "speech_overlap_ratio": 1.125,
+      "playback_start": 1199.94,
+      "playback_end": 1210.35,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "让家长更放心咱们做好就是各方面来就是卫生 饮食 工作",
+      "correction_note": "标点恢复",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1211.48,
+      "end": 1216.06,
+      "speaker": "SPEAKER_03",
+      "text": "领导借鉴一下，可以给个意见，做不好了再改进。",
+      "avg_logprob": -0.46355783178451215,
+      "no_speech_prob": 0.4196561276912689,
+      "speech_overlap_s": 2.48,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1211.43,
+      "playback_end": 1216.71,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "领导借鉴一下可以给个意见做了不好了再改进",
+      "correction_note": "标点恢复",
+      "intent": [
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1217.8,
+      "end": 1232.021,
+      "speaker": "SPEAKER_03",
+      "text": "这块就是，第一就是要保证孩子的饮食安全，但是第一位呢，绝对没有过期食品，都是绿色的，第二就是本人呢？",
+      "avg_logprob": -0.46355783178451215,
+      "no_speech_prob": 0.4196561276912689,
+      "speech_overlap_s": 2.84,
+      "speech_overlap_ratio": 0.64,
+      "playback_start": 1217.75,
+      "playback_end": 1232.671,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这块就是第一就是要保证孩子的饮食安全但是第一位呢绝对没有过期软食品都是绿色的第二就是本人呢?",
+      "correction_note": "软食品→食品，繁体转简体，标点恢复",
+      "intent": [
+        "陈述",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1232.78,
+      "end": 1244.46,
+      "speaker": "SPEAKER_03",
+      "text": "有营养的，有消化的，对，你知道，孩子多少因为现在孩子正在正常期，因为他也小，有的就是，咱们要做的那些。",
+      "avg_logprob": -0.6098472817430218,
+      "no_speech_prob": 0.9283761382102966,
+      "speech_overlap_s": 2.68,
+      "speech_overlap_ratio": 1.229,
+      "playback_start": 1232.73,
+      "playback_end": 1244.4,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有营养的,有消化的对你知道,孩子多少因为现在孩子正在正常期因为他也小有的就是,咱们要做的那些",
+      "correction_note": "繁体转简体，标点恢复",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1244.48,
+      "end": 1256.14,
+      "speaker": "SPEAKER_03",
+      "text": "营养消化不好的菜，食品像一些大米辣、硬的大米饭，尽量就是让它蒸软一点。",
+      "avg_logprob": -0.6098472817430218,
+      "no_speech_prob": 0.9283761382102966,
+      "speech_overlap_s": 4.27,
+      "speech_overlap_ratio": 0.89,
+      "playback_start": 1244.42,
+      "playback_end": 1256.08,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "营养消化不好的菜、食品像一些大米辣、硬大米辣尽量就是让它蒸软一点",
+      "correction_note": "将\"硬大米辣\"改为\"硬的大米饭\"，因\"辣\"可能是\"饭\"的误识。",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1256.16,
+      "end": 1269.14,
+      "speaker": "SPEAKER_03",
+      "text": "不要吃这些硬的或是方便面、米饭，都不利于消化，所以这个问题。",
+      "avg_logprob": -0.4723014360592689,
+      "no_speech_prob": 0.808356523513794,
+      "speech_overlap_s": 4.4,
+      "speech_overlap_ratio": 0.629,
+      "playback_start": 1256.1,
+      "playback_end": 1269.08,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "不要吃这些硬的或是方便的米茶都没有入於消化所以这个问题",
+      "correction_note": "将\"米茶\"改为\"米饭\"，\"入於\"改为\"利于\"。",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1269.16,
+      "end": 1274.18,
+      "speaker": "SPEAKER_03",
+      "text": "每日你都要统计一下这个孩子。",
+      "avg_logprob": -0.4723014360592689,
+      "no_speech_prob": 0.808356523513794,
+      "speech_overlap_s": 5.4,
+      "speech_overlap_ratio": 1.08,
+      "playback_start": 1269.1,
+      "playback_end": 1274.83,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "每日你这碗要是統計一下这个孩子",
+      "correction_note": "将\"你这碗要是\"改为\"你都要\"。",
+      "intent": [
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1277.16,
+      "end": 1290.541,
+      "speaker": "SPEAKER_03",
+      "text": "孩子爱吃哪个？对，观察一下看他都喜欢吃什么，咱就多给他。对，观察孩子你做的菜哪个菜下得比较快，对吧？对。",
+      "avg_logprob": -0.4723014360592689,
+      "no_speech_prob": 0.808356523513794,
+      "speech_overlap_s": 1.4,
+      "speech_overlap_ratio": 0.7,
+      "playback_start": 1277.11,
+      "playback_end": 1290.501,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "孩子愛吃哪个对觀察一下看他都喜歡吃什麼咱就多给他对 关家孩子你做的菜哪个菜下的比较快 对吧对",
+      "correction_note": "删除多余重复，将\"关家\"改为\"观察\"。",
+      "intent": [
+        "提问",
+        "命令",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1290.581,
+      "end": 1304.06,
+      "speaker": "SPEAKER_03",
+      "text": "这个就是你们也要巡查一下，就是下菜快的原因是什么，要清淡的对吧？是不是下得快还是待着就得下得快？尽量的还有那个色味儿足是吧？尽量地大力的齐全。",
+      "avg_logprob": -0.5294956408048931,
+      "no_speech_prob": 0.8661524057388306,
+      "speech_overlap_s": 3.19,
+      "speech_overlap_ratio": 1.078,
+      "playback_start": 1290.521,
+      "playback_end": 1304.0,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这个就是你们也要就是巡查一下就是下菜快的原因是什么要清淡的对吧是不是下的快还是待着就得下的快尽量的还有那个色味儿足是吧尽量的大力期权",
+      "correction_note": "将\"大力期权\"改为\"大力的齐全\"。",
+      "intent": [
+        "命令",
+        "提问",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1304.08,
+      "end": 1317.58,
+      "speaker": "SPEAKER_03",
+      "text": "那就是后期，咱就是这个，咱们后厨，这个孩子这个碗筷咱一定要进行消毒哦。消毒清洁对呀。后厨这块也是肯定多到位了，对。",
+      "avg_logprob": -0.5294956408048931,
+      "no_speech_prob": 0.8661524057388306,
+      "speech_overlap_s": 3.08,
+      "speech_overlap_ratio": 1.242,
+      "playback_start": 1304.02,
+      "playback_end": 1317.52,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "那就是后期咱就是这个咱们后路这个孩子这个碗块咱一定要进行消毒哦 消毒清潔对呀 后厨这块也是肯定多到位了 对",
+      "correction_note": "将\"后路\"改为\"后厨\"，\"碗块\"改为\"碗筷\"。",
+      "intent": [
+        "命令",
+        "陈述",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1317.6,
+      "end": 1331.58,
+      "speaker": "SPEAKER_03",
+      "text": "后厨一定要消毒，还有高温消毒柜一定要消毒。每天检查菜池是否够，每天要进行采购。",
+      "avg_logprob": -0.2627701504539897,
+      "no_speech_prob": 0.7718026041984558,
+      "speech_overlap_s": 2.65,
+      "speech_overlap_ratio": 1.325,
+      "playback_start": 1317.54,
+      "playback_end": 1331.52,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "后厨说不定一定要消毒还有高硬消毒棍一定要消毒每天检查菜池是否够每天要进行采购",
+      "correction_note": "将\"说不定\"删除，\"高硬消毒棍\"改为\"高温消毒柜\"。",
+      "intent": [
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1331.6,
+      "end": 1339.58,
+      "speaker": "SPEAKER_03",
+      "text": "每天就是采购新鲜的，对。每天采购新鲜的菜，肯定不会过期的，那就是。",
+      "avg_logprob": -0.2627701504539897,
+      "no_speech_prob": 0.7718026041984558,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1331.54,
+      "playback_end": 1339.52,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "每天就是采购新鲜的对 每天采购新鲜的菜肯定不会能过期的那就是",
+      "correction_note": "将\"不能\"改为\"不\"。",
+      "intent": [
+        "陈述",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1339.6,
+      "end": 1352.14,
+      "speaker": "SPEAKER_03",
+      "text": "下午的话，你看，是不是再加一个午点，加点心，拿一个小点心，下午茶之类的小点心。",
+      "avg_logprob": -0.5469050740086755,
+      "no_speech_prob": 0.8814980387687683,
+      "speech_overlap_s": 5.48,
+      "speech_overlap_ratio": 0.578,
+      "playback_start": 1339.54,
+      "playback_end": 1352.08,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "下午的话,你看,是不是再加一个五点,加点心,拿一个小点心,下午茶之類的小点心,",
+      "correction_note": "将\"五点\"改为\"午点\"。",
+      "intent": [
+        "提议",
+        "提问"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1352.16,
+      "end": 1366.38,
+      "speaker": "SPEAKER_03",
+      "text": "五花茶，酸奶什么的，小蛋糕啦，酸奶就放上去，燕麦，燕麦粥，燕麦茶。现在给他上了这块。",
+      "avg_logprob": -0.5469050740086755,
+      "no_speech_prob": 0.8814980387687683,
+      "speech_overlap_s": 4.02,
+      "speech_overlap_ratio": 0.931,
+      "playback_start": 1352.1,
+      "playback_end": 1366.32,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.88"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "五花茶,酸奶什麼,小蛋糕啦,酸奶就放上去,燕麥,燕麥粥,燕麥茶,现在给他上了这块",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1366.4,
+      "end": 1380.88,
+      "speaker": "SPEAKER_03",
+      "text": "所以你们后厨这块，我们有那样一些不小的工作在这里是。现在都不管孩子的营养，人家进幼园肯定都是先看看那饭做得怎么样，首先能吃得好，对，吃得好。",
+      "avg_logprob": -0.5883200693938692,
+      "no_speech_prob": 0.8239017128944397,
+      "speech_overlap_s": 3.06,
+      "speech_overlap_ratio": 1.195,
+      "playback_start": 1366.34,
+      "playback_end": 1380.8,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "所以你们扣补这块我们有那样一些不小的工作在这里是 现在都不管孩子的营养人家进幼园肯定都是先看看那饭做得怎么样首先能吃得好对 吃得好",
+      "correction_note": "将\"扣补\"改为\"后厨\"。",
+      "intent": [
+        "陈述",
+        "评论"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1380.88,
+      "end": 1395.18,
+      "speaker": "SPEAKER_03",
+      "text": "对，一个吃得好，一个是安全的，就是管理到位。发现过去孩子有挑食的现象，也计划就是给他做一下更多的选择。",
+      "avg_logprob": -0.5883200693938692,
+      "no_speech_prob": 0.8239017128944397,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1380.82,
+      "playback_end": 1395.12,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对 一个吃得好 一个是安全的就是管理到位发现过去孩子有挑食的现象也计划就是给他做一下更多的一个选择",
+      "intent": [
+        "同意",
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1395.2,
+      "end": 1409.14,
+      "speaker": "SPEAKER_03",
+      "text": "比如这一块的话，您要不能让他们挑食吧？孩子来了，老是整天说不能让他们挑食。您老实说，孩子就是他不吃，然后我家孩子他就不吃青菜。",
+      "avg_logprob": -0.5438411800005963,
+      "no_speech_prob": 0.9097870588302612,
+      "speech_overlap_s": 0.72,
+      "speech_overlap_ratio": 0.194,
+      "playback_start": 1395.14,
+      "playback_end": 1409.08,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=19%",
+        "short speech support=0.7s/13.9s",
+        "high no_speech_prob=0.91"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "比如这一块的话您要不能让他们挑食吧孩子来了老是正确研究不能让他们挑食您老实说孩子就是他就是不吃然后我家孩子他就不吃清酒",
+      "correction_note": "将\"正确研究\"改为\"整天说\"，\"清酒\"改为\"青菜\"。",
+      "intent": [
+        "陈述",
+        "提问",
+        "评论"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1409.16,
+      "end": 1422.9,
+      "speaker": "SPEAKER_03",
+      "text": "他在学校里面，老师的话，他在学校也不吃青菜。是，现在孩子都不喜欢吃青菜。挑食的孩子就都注意看他去喜欢吃哪一方面的菜。现在不想吃了就像我。",
+      "avg_logprob": -0.5438411800005963,
+      "no_speech_prob": 0.9097870588302612,
+      "speech_overlap_s": 1.68,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1409.1,
+      "playback_end": 1422.84,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "他在学校里面唱老实的话他在学校也不吃清酒是 现在孩子都不喜欢吃清酒挑食的孩子就都注意看他去喜欢吃哪一方面的菜现在不想吃了就像我",
+      "correction_note": "将\"唱老实的话\"改为\"老师的话\"，\"清酒\"改为\"青菜\"。",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1422.92,
+      "end": 1430.94,
+      "speaker": "SPEAKER_03",
+      "text": "有些东西我到现在我一口不吃，是。多数小孩都挺好吃的，所以就是。",
+      "avg_logprob": -0.3967167601293447,
+      "no_speech_prob": 0.9356682300567627,
+      "speech_overlap_s": 2.33,
+      "speech_overlap_ratio": 1.165,
+      "playback_start": 1422.86,
+      "playback_end": 1431.59,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有些东西我到现在我一口不吃是 多数小孩都挺好吃的所以就是",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1432.92,
+      "end": 1442.9,
+      "speaker": "SPEAKER_03",
+      "text": "挑着，大部分不爱吃这个菜的，就不要做了。你下去，你要给教师们进行一次沟通。",
+      "avg_logprob": -0.3967167601293447,
+      "no_speech_prob": 0.9356682300567627,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1432.87,
+      "playback_end": 1442.84,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "挑这严重的大部分不爱吃这个菜的就不要做了你下去你要给这个教师们进行一次沟通",
+      "correction_note": "修正'挑这严重的'为'挑着'，删除多余'个'，添加逗号句号",
+      "intent": [
+        "命令",
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1442.92,
+      "end": 1457.9,
+      "speaker": "SPEAKER_03",
+      "text": "有的就多做点，一旦发现孩子剩完剩完再及时处理。不能留到下一个。不是，及时就处理掉了，就是处理了。",
+      "avg_logprob": -0.6410915027965199,
+      "no_speech_prob": 0.9051333069801331,
+      "speech_overlap_s": 9.1,
+      "speech_overlap_ratio": 1.137,
+      "playback_start": 1442.86,
+      "playback_end": 1457.84,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.91"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有的就多做点,一代就发现孩子生完生完再及时处理。不能留到下一个。不是,及时就处理掉了,就是处理了。",
+      "correction_note": "修正'一代'为'一旦'，'生完'为'剩完'，添加标点",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1457.92,
+      "end": 1469.94,
+      "speaker": "SPEAKER_03",
+      "text": "有的又多做点的，一旦发现孩子剩完剩菜再及时处理，不能留到下一个。不是，及时就处理掉了，不是，就是处理了。",
+      "avg_logprob": -0.4940910339355469,
+      "no_speech_prob": 0.8136965036392212,
+      "speech_overlap_s": 5.6,
+      "speech_overlap_ratio": 0.933,
+      "playback_start": 1457.86,
+      "playback_end": 1470.59,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有个又多做点的,一代就是发现孩子生完生菜在及时处理不能留到三个不是,及时就处理掉了不是,就是处理了",
+      "correction_note": "修正'生菜'为'剩菜'，'三个'为'下一个'，添加标点",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1475.92,
+      "end": 1477.94,
+      "speaker": "SPEAKER_03",
+      "text": "待会就是，后期一会，一会我再说。",
+      "avg_logprob": -0.4940910339355469,
+      "no_speech_prob": 0.8136965036392212,
+      "speech_overlap_s": 1.63,
+      "speech_overlap_ratio": 0.815,
+      "playback_start": 1475.87,
+      "playback_end": 1478.59,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.81"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "待会就是,后期一会,一会我再说",
+      "intent": [
+        "转场",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1483.92,
+      "end": 1487.26,
+      "speaker": "SPEAKER_03",
+      "text": "老师应该全面负责本班的教育工作。",
+      "avg_logprob": -0.15537866969017466,
+      "no_speech_prob": 0.3464862108230591,
+      "speech_overlap_s": 3.03,
+      "speech_overlap_ratio": 0.902,
+      "playback_start": 1483.87,
+      "playback_end": 1487.2,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "老师应该全面负责本班的教育工作",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1487.28,
+      "end": 1499.26,
+      "speaker": "SPEAKER_01",
+      "text": "结合本班的实际，和班主任沟通商量好教育计划，包括总结本月、本周、本日的计划，认真执行作息制度。",
+      "avg_logprob": -0.15537866969017466,
+      "no_speech_prob": 0.3464862108230591,
+      "speech_overlap_s": 2.99,
+      "speech_overlap_ratio": 1.038,
+      "playback_start": 1487.22,
+      "playback_end": 1499.2,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "结合本班的实际和班主任沟通商量好教育计划包括总结本月、本周、本日的计划认真执行作息制度",
+      "correction_note": "添加逗号句号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1499.28,
+      "end": 1512.88,
+      "speaker": "SPEAKER_01",
+      "text": "坚持户外活动、体育锻炼以及心理疏导，照顾好幼儿的进餐、睡眠、日常生活，注意幼儿的保暖，及时增加衣服，改善不良习惯。",
+      "avg_logprob": -0.15537866969017466,
+      "no_speech_prob": 0.3464862108230591,
+      "speech_overlap_s": 4.03,
+      "speech_overlap_ratio": 1.007,
+      "playback_start": 1499.22,
+      "playback_end": 1512.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "坚持户外活动、体育锻炼以及心理疏导照顾好幼儿的进餐、睡眠、日常生活注意幼儿的保暖及时增加衣服改善不良习惯",
+      "correction_note": "添加逗号句号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1512.88,
+      "end": 1525.88,
+      "speaker": "SPEAKER_01",
+      "text": "对幼儿应该和蔼可亲，细心观察，有计划地教育，努力钻研业务，积极参加学校的各项活动。",
+      "avg_logprob": -0.12665080060862532,
+      "no_speech_prob": 0.7372102737426758,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 0.917,
+      "playback_start": 1512.82,
+      "playback_end": 1525.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对幼儿应该怀可亲 细心观察 有计划的教育努力专业业务 积极参加学校的各项活动",
+      "correction_note": "修正'怀可亲'为'和蔼可亲'，'专业业务'为'钻研业务'",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1525.88,
+      "end": 1538.88,
+      "speaker": "SPEAKER_01",
+      "text": "认真开展各类型的活动，做好家长的工作，认真填写家园联系手册。",
+      "avg_logprob": -0.12665080060862532,
+      "no_speech_prob": 0.7372102737426758,
+      "speech_overlap_s": 7.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1525.82,
+      "playback_end": 1538.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "认真展开各类型的活动做好家长的工作 认真填写家务员联系手册",
+      "correction_note": "修正'家务员'为'家园'，'展开'为'开展'，添加逗号句号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1538.88,
+      "end": 1551.88,
+      "speaker": "SPEAKER_01",
+      "text": "发现幼儿问题及时与班主任、家长沟通，及时公布；注意幼儿安全，加强幼儿自我保护意识；做好交接工作，填写交接班记录；根据天气变化，",
+      "avg_logprob": -0.1621932057501043,
+      "no_speech_prob": 0.9307366013526917,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1538.82,
+      "playback_end": 1551.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "发现幼儿问题及时与班主任家长及时公布注意幼儿安全加强幼儿自我保护意识做好交接工作填写交接班纪录根据天气变化",
+      "correction_note": "修正'及时公布'前加'沟通'，'纪录'为'记录'，添加标点",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1551.88,
+      "end": 1558.9,
+      "speaker": "SPEAKER_01",
+      "text": "及时为幼儿增加衣服，备入午睡时做学试。",
+      "avg_logprob": -0.1621932057501043,
+      "no_speech_prob": 0.9307366013526917,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1551.82,
+      "playback_end": 1559.55,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "及时为幼儿增加衣服备入午睡时做学试",
+      "correction_note": "添加逗号句号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1569.75,
+      "end": 1582.88,
+      "speaker": "SPEAKER_01",
+      "text": "像幼儿园老师必须严格遵守作息制度，加强工作责任心，要做好安全检查，避免铅笔、橡皮等物品。",
+      "avg_logprob": -0.1426410026920652,
+      "no_speech_prob": 0.6629968881607056,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 0.786,
+      "start_asr_raw": 1568.88,
+      "playback_start": 1569.35,
+      "playback_end": 1582.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "像幼儿园老师必须严格遵守作息制度教师加强工作责任心要做好安全检查避免签笔橡皮",
+      "correction_note": "修正'签笔橡皮'为'铅笔、橡皮等物品'，添加逗号句号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1582.88,
+      "end": 1595.88,
+      "speaker": "SPEAKER_01",
+      "text": "以免发生意外事故。儿童在吃饭的时候，热饭菜不要直接给孩子接触，怕引起烫伤。",
+      "avg_logprob": -0.1426410026920652,
+      "no_speech_prob": 0.6629968881607056,
+      "speech_overlap_s": 2.1,
+      "speech_overlap_ratio": 1.05,
+      "playback_start": 1582.82,
+      "playback_end": 1595.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "以免发生意外事故儿童在吃饭的时候热饭菜不要直接给孩子上接触怕还引起烫伤",
+      "correction_note": "修正'上接触'为'直接接触'，'还引起'为'引起'，添加逗号句号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1595.88,
+      "end": 1608.9,
+      "speaker": "SPEAKER_01",
+      "text": "教育孩子不能吃不卫生的，像一些铅笔、橡皮、辣条不要往嘴里放，更不能玩棍棒。",
+      "avg_logprob": -0.21985813063018175,
+      "no_speech_prob": 0.4476807713508606,
+      "speech_overlap_s": 13.43,
+      "speech_overlap_ratio": 1.033,
+      "playback_start": 1595.82,
+      "playback_end": 1609.55,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "教育孩子不能吃不衛生的,像一些鉛筆橡皮辣不要往嘴里放,更不能玩棍棒。",
+      "correction_note": "繁体转简体，修正'辣'为'辣条'，添加逗号句号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1609.88,
+      "end": 1624.88,
+      "speaker": "SPEAKER_01",
+      "text": "幼儿园下楼之前要检查好所有的电源，关好窗户，也不要让孩子去触碰电源。像一些低一点的窗户，孩子不要过去触碰。",
+      "avg_logprob": -0.21985813063018175,
+      "no_speech_prob": 0.4476807713508606,
+      "speech_overlap_s": 15.2,
+      "speech_overlap_ratio": 1.013,
+      "playback_start": 1609.83,
+      "playback_end": 1624.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "幼儿园下楼之前要检查好所有的关好窗户电源,也不要让孩子去触碰电源,像一些低一点的窗户孩子不要过去触碰。",
+      "correction_note": "修正语序，添加逗号句号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1624.88,
+      "end": 1630.9,
+      "speaker": "SPEAKER_01",
+      "text": "孩子要出去的时候，老师要尽快整理教室卫生。",
+      "avg_logprob": -0.15974858163417072,
+      "no_speech_prob": 0.24643927812576294,
+      "speech_overlap_s": 6.4,
+      "speech_overlap_ratio": 1.067,
+      "playback_start": 1624.82,
+      "playback_end": 1631.55,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "孩子要出去的时候,老师要尽快等你,教室卫生。",
+      "correction_note": "将'等你'改为'整理'，更符合上下文。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1635.88,
+      "end": 1643.9,
+      "speaker": "SPEAKER_01",
+      "text": "而且努力做好本职工作，搞好同事间的协作，互相帮忙，顾全大局。",
+      "avg_logprob": -0.15974858163417072,
+      "no_speech_prob": 0.24643927812576294,
+      "speech_overlap_s": 8.83,
+      "speech_overlap_ratio": 1.104,
+      "playback_start": 1635.83,
+      "playback_end": 1644.55,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "而且努力做好本职工作,搞好同时间的协作,互助帮忙,护全大局。",
+      "correction_note": "修正'同时间'为'同事间'，'护全大局'为'顾全大局'。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1646.88,
+      "end": 1652.88,
+      "speaker": "SPEAKER_01",
+      "text": "对待家长要主动、热心、耐心，与家长建立正常关系。",
+      "avg_logprob": -0.15974858163417072,
+      "no_speech_prob": 0.24643927812576294,
+      "speech_overlap_s": 5.83,
+      "speech_overlap_ratio": 0.972,
+      "playback_start": 1646.83,
+      "playback_end": 1652.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对待家长要主动热心耐心,与家长建立正常关系。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1652.88,
+      "end": 1670.88,
+      "speaker": "SPEAKER_01",
+      "text": "不托家长代购物品，如有家长上门送礼，要婉言谢绝，遵守公共秩序，讲究社会公德，爱护公物，做到无违规违纪，节约水电，节约纸张。",
+      "avg_logprob": -0.2698438984074005,
+      "no_speech_prob": 0.8899169564247131,
+      "speech_overlap_s": 17.0,
+      "speech_overlap_ratio": 0.944,
+      "playback_start": 1652.82,
+      "playback_end": 1670.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "不托家长代购物品,如有家长上门,送上门要晚年谢绝,遵守公共秩序,奖威称爱公务,做到无归缘处集约水电指导。",
+      "correction_note": "修正'晚年谢绝'为'婉言谢绝'，'奖威称爱公务'为'讲究社会公德，爱护公物'，'无归缘处集约水电指导'为'无违规违纪，节约水电，节约纸张'。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1670.88,
+      "end": 1690.88,
+      "speaker": "SPEAKER_01",
+      "text": "不随意评论家长和孩子，不允许在工作期间闲聊，教学要严谨。",
+      "avg_logprob": -0.21183616236636513,
+      "no_speech_prob": 0.7400119304656982,
+      "speech_overlap_s": 7.57,
+      "speech_overlap_ratio": 0.378,
+      "playback_start": 1670.82,
+      "playback_end": 1690.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "不随意评论家长和孩子,不允许在工作期间闲聊,教学要严谨。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1690.88,
+      "end": 1711.88,
+      "speaker": "SPEAKER_01",
+      "text": "对待幼儿要和蔼可亲，仔细观察幼儿，有计划、有目的地选择教育内容，运用多种教育形式促进幼儿在不同水平上获得更多的发展。",
+      "avg_logprob": -0.1685412767771128,
+      "no_speech_prob": 0.7779386639595032,
+      "speech_overlap_s": 16.33,
+      "speech_overlap_ratio": 0.778,
+      "playback_start": 1690.82,
+      "playback_end": 1712.53,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对待幼儿要荷兰可亲,仔细观察幼儿,有计划目的地选择教育内容,运用多种教育形式促进幼儿在不同水平上获得更多的发展。",
+      "correction_note": "修正'荷兰可亲'为'和蔼可亲'。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1712.85,
+      "end": 1727.9,
+      "speaker": "SPEAKER_01",
+      "text": "从学校进门到学校出门，都是你们幼儿教室这块的职责。",
+      "avg_logprob": -0.2846489281489931,
+      "no_speech_prob": 0.8579326272010803,
+      "speech_overlap_s": 7.47,
+      "speech_overlap_ratio": 0.467,
+      "start_asr_raw": 1711.88,
+      "playback_start": 1712.45,
+      "playback_end": 1728.55,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "从学校进门到学校出门都是你们幼儿教室这块的职责",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1737.05,
+      "end": 1749.88,
+      "speaker": "SPEAKER_01",
+      "text": "你们都要及时地掌握和了解每个孩子的内心的情况，这个孩子是否是调皮的，有的孩子是否是不爱说话的，你们一定要抓住孩子的特点。",
+      "avg_logprob": -0.2846489281489931,
+      "no_speech_prob": 0.8579326272010803,
+      "speech_overlap_s": 0.83,
+      "speech_overlap_ratio": 0.415,
+      "start_asr_raw": 1735.88,
+      "playback_start": 1736.65,
+      "playback_end": 1749.8,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.8s/12.8s",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "你们都要及时地掌握要了解到孩子各个孩子的内心的情况,这个孩子是否是调皮的,有的是是否是不爱说话的,你们要一定要抓住孩子的血体。",
+      "correction_note": "修正'要了解到'为'和'，'孩子各个孩子'为'每个孩子'，'血体'为'特点'。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1749.88,
+      "end": 1762.9,
+      "speaker": "SPEAKER_01",
+      "text": "这个是很重要的。比如这个孩子哪方面比较弱，你们要了解清楚。",
+      "avg_logprob": -0.2661390793629182,
+      "no_speech_prob": 0.904159665107727,
+      "speech_overlap_s": 2.8,
+      "speech_overlap_ratio": 0.933,
+      "playback_start": 1749.82,
+      "playback_end": 1763.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.90"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这个是很重要的。比如这个孩子哪方面比较弱,你们要了解清楚。了解清楚",
+      "correction_note": "删除重复的'了解清楚'。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1764.88,
+      "end": 1770.9,
+      "speaker": "SPEAKER_01",
+      "text": "因为现在小孩们嘛都喜欢，就是",
+      "avg_logprob": -0.3169880800468977,
+      "no_speech_prob": 0.8543058037757874,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 0.8,
+      "playback_start": 1764.83,
+      "playback_end": 1771.55,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "因为现在小孩们嘛都喜歡就是",
+      "correction_note": "繁体'喜歡'转简体'喜欢'。",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1772.88,
+      "end": 1776.9,
+      "speaker": "SPEAKER_01",
+      "text": "千万不要不要出现的。",
+      "avg_logprob": -0.3169880800468977,
+      "no_speech_prob": 0.8543058037757874,
+      "speech_overlap_s": 0.23,
+      "speech_overlap_ratio": 0.115,
+      "playback_start": 1772.83,
+      "playback_end": 1777.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=12%",
+        "short speech support=0.2s/4.0s",
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "千万不要不要出现的",
+      "intent": [
+        "命令",
+        "反对"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1786.88,
+      "end": 1794.9,
+      "speaker": "SPEAKER_01",
+      "text": "这个咱的幼儿园老师们一定要就是把这块注意一下，包括就是放学以后",
+      "avg_logprob": -0.3169880800468977,
+      "no_speech_prob": 0.8543058037757874,
+      "speech_overlap_s": 0.97,
+      "speech_overlap_ratio": 0.485,
+      "playback_start": 1786.83,
+      "playback_end": 1795.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/8.0s",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这个咱的醫院老師们一定要就是把这块注意一下包括就是放学以后",
+      "correction_note": "修正'醫院'为'幼儿园'。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1799.75,
+      "end": 1802.9,
+      "speaker": "SPEAKER_01",
+      "text": "就是因为咱学校都是比较暖和的，",
+      "avg_logprob": -0.2808220217926334,
+      "no_speech_prob": 0.8765833377838135,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 0.4,
+      "start_asr_raw": 1798.88,
+      "playback_start": 1799.35,
+      "playback_end": 1803.55,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "就是因为咱学校都是比较暖和的",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1807.88,
+      "end": 1817.88,
+      "speaker": "SPEAKER_03",
+      "text": "一定要把这个衣服及时给孩子们穿上，尤其在做这个下去做这个户外运动的时候。",
+      "avg_logprob": -0.2808220217926334,
+      "no_speech_prob": 0.8765833377838135,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 0.25,
+      "playback_start": 1807.83,
+      "playback_end": 1817.8,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/10.0s",
+        "high no_speech_prob=0.88"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "一定要把这个衣服及时给孩子们穿上尤其在做这个下去做这个户外运工的时候",
+      "correction_note": "修正'运工'为'运动'。",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1817.88,
+      "end": 1828.88,
+      "speaker": "SPEAKER_03",
+      "text": "你一定要把握好每个孩子的这个行为，你一定要把每个孩子的这个",
+      "avg_logprob": -0.47690273670668015,
+      "no_speech_prob": 0.8539403676986694,
+      "speech_overlap_s": 1.37,
+      "speech_overlap_ratio": 0.208,
+      "playback_start": 1817.82,
+      "playback_end": 1829.53,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=21%",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你一定要把握好每个孩子的这个行为你一定要把每个孩子的这个",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1830.35,
+      "end": 1842.9,
+      "speaker": "SPEAKER_03",
+      "text": "每个孩子要在你的视线里，不要出你的视线，首先安全我们都要做哦。所以你以后就是比如有这种大型的。",
+      "avg_logprob": -0.47690273670668015,
+      "no_speech_prob": 0.8539403676986694,
+      "speech_overlap_s": 3.96,
+      "speech_overlap_ratio": 0.792,
+      "start_asr_raw": 1828.88,
+      "playback_start": 1829.95,
+      "playback_end": 1843.55,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "每个孩子的要在你的视线里不要出你的视线首先暗谈我们都要做哦所以你以后就是比如有这个大型的那个",
+      "correction_note": "修正'暗谈'为'安全'，'这个大型的那个'补全为'这种大型的'",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1849.45,
+      "end": 1852.38,
+      "speaker": "SPEAKER_03",
+      "text": "或者要出来那趟，哦，把特卫你俩要进行配合。",
+      "avg_logprob": -0.5661829168146307,
+      "no_speech_prob": 0.9024688005447388,
+      "speech_overlap_s": 0.91,
+      "speech_overlap_ratio": 0.455,
+      "start_asr_raw": 1848.36,
+      "playback_start": 1849.05,
+      "playback_end": 1853.03,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "或者要出来那趟奥巴特卫你俩要进行配合",
+      "correction_note": "保留'奥巴特卫'的近似音，加逗号",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1861.45,
+      "end": 1869.58,
+      "speaker": "SPEAKER_03",
+      "text": "不要玩一些大型的、这个有危险的活动。",
+      "avg_logprob": -0.5661829168146307,
+      "no_speech_prob": 0.9024688005447388,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 0.308,
+      "start_asr_raw": 1860.36,
+      "playback_start": 1861.05,
+      "playback_end": 1870.23,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "不要玩一些大型的这个做外行动有危险的",
+      "correction_note": "修正'做外行动'为'活动'",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1875.55,
+      "end": 1887.38,
+      "speaker": "SPEAKER_03",
+      "text": "孩子穿的也比较厚一点，也稍大一点，就是要磕一下，还可能互相加码都比较难，都比较僵硬。",
+      "avg_logprob": -0.5115780579416376,
+      "no_speech_prob": 0.9243292808532715,
+      "speech_overlap_s": 3.81,
+      "speech_overlap_ratio": 0.762,
+      "start_asr_raw": 1874.36,
+      "playback_start": 1875.15,
+      "playback_end": 1888.03,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "孩子穿的也比较厚一点,也少大人就是要课一下,还可能互相加碼都比较难,都比较僵硬",
+      "correction_note": "修正'少大人'为'稍大一点'，'课一下'为'磕一下'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1892.36,
+      "end": 1894.38,
+      "speaker": "SPEAKER_03",
+      "text": "保护孩子的安全。",
+      "avg_logprob": -0.5115780579416376,
+      "no_speech_prob": 0.9243292808532715,
+      "speech_overlap_s": 2.09,
+      "speech_overlap_ratio": 1.045,
+      "playback_start": 1892.31,
+      "playback_end": 1895.03,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "保护孩子的安全",
+      "correction_note": "加句号",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1896.36,
+      "end": 1900.34,
+      "speaker": "SPEAKER_03",
+      "text": "多做一些锻炼，增强他的身体。",
+      "avg_logprob": -0.5115780579416376,
+      "no_speech_prob": 0.9243292808532715,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 1.15,
+      "playback_start": 1896.31,
+      "playback_end": 1900.28,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "多做一些课案,增强他的身体",
+      "correction_note": "修正'课案'为'锻炼'",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1900.36,
+      "end": 1919.34,
+      "speaker": "SPEAKER_03",
+      "text": "抗逆体制，体制的影响，包括你们的后续要做一些课件，包括教学内容，要下一些功夫，以动画和故事结合。",
+      "avg_logprob": -0.5469449601083431,
+      "no_speech_prob": 0.9399969577789307,
+      "speech_overlap_s": 14.4,
+      "speech_overlap_ratio": 0.758,
+      "playback_start": 1900.3,
+      "playback_end": 1919.28,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.94"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "抗疫体制,体制的影响,包括你们的后续要做一些课卷,包括教学内容,要做一些功夫一下,以动画和故事结合。",
+      "correction_note": "修正'抗疫'为'抗逆'，'课卷'为'课件'，'功夫一下'为'下一些功夫'",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1919.36,
+      "end": 1933.34,
+      "speaker": "SPEAKER_03",
+      "text": "室内活动的时候，室外活动的时候，偶尔也有太阳的时候，太阳的时候，或者下午的时候。",
+      "avg_logprob": -0.575638460309318,
+      "no_speech_prob": 0.8658815622329712,
+      "speech_overlap_s": 8.2,
+      "speech_overlap_ratio": 1.025,
+      "playback_start": 1919.3,
+      "playback_end": 1933.28,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.87"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "室内活动的时候,室外活动的时候,偶尔也游泳太阳的时候,太阳的时候,或者下午的时候",
+      "correction_note": "修正'游泳太阳'为'有太阳'",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1933.36,
+      "end": 1948.34,
+      "speaker": "SPEAKER_03",
+      "text": "也做做室外活动，对身体也好。下午的时候，好见的话也做一下国外的。他老在屋子里，有单独咱们的阳光了没有？科技而单已经就是。",
+      "avg_logprob": -0.575638460309318,
+      "no_speech_prob": 0.8658815622329712,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1933.3,
+      "playback_end": 1948.28,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "也做做室外活动,对身体也好下午的时候,好见的话也做一下国外的,他老在屋子里,有单独咱们的阳光了没有 科技耳单已经就是",
+      "correction_note": "修正'好见'为'好的'，'国外'保留，保留'科技而单'",
+      "intent": [
+        "提议",
+        "提问",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1948.36,
+      "end": 1963.36,
+      "speaker": "SPEAKER_03",
+      "text": "有动画的故事来进行教育的。因为现在孩子肌肉，小孩就是肌肉能力特别强，小孩聪明了。",
+      "avg_logprob": -0.34492447592995384,
+      "no_speech_prob": 0.8658749461174011,
+      "speech_overlap_s": 2.8,
+      "speech_overlap_ratio": 0.35,
+      "playback_start": 1948.3,
+      "playback_end": 1963.28,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "有动画的故事来进行遭害的因为现在孩子肌肉小孩就是肌肉能力特别强小孩聪明了",
+      "correction_note": "修正'遭害'为'教育'，加逗号",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1963.36,
+      "end": 1972.34,
+      "speaker": "SPEAKER_03",
+      "text": "现在小孩都特别聪明，肌肉能力非常强，记忆力也好，他现在就是往脑子里装东西。",
+      "avg_logprob": -0.34492447592995384,
+      "no_speech_prob": 0.8658749461174011,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1963.3,
+      "playback_end": 1972.28,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "现在小孩都特别聪明肌肉能力非常强记忆力也好他现在就是把脑子装东西",
+      "correction_note": "修正'把脑子装东西'为'往脑子里装东西'，加逗号句号",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1972.36,
+      "end": 1999.34,
+      "speaker": "SPEAKER_03",
+      "text": "东西的时候，包括你们有一些手工的，多做一些手工，多做一些手工课，做一些小纸片、小卡片，用一些背心的，做一些小物件的，教育老师一定要把这个层次提升。",
+      "avg_logprob": -0.44166794376096863,
+      "no_speech_prob": 0.8523486256599426,
+      "speech_overlap_s": 18.29,
+      "speech_overlap_ratio": 0.677,
+      "playback_start": 1972.3,
+      "playback_end": 1999.28,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.85"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "东西的时候,包括你们有一些手工的,多做一些手工,多做一些手工课,做一些小纸片,小卡片,用一些背心的,做一些小物件的,教育老师一定要把这个导致提升。",
+      "correction_note": "修正'导致提升'为'层次提升'，加顿号",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 1999.36,
+      "end": 2012.84,
+      "speaker": "SPEAKER_03",
+      "text": "每周的话还有一个奖励机制，每周奖励一个小红花，小朋友要听话，有时候奖励。",
+      "avg_logprob": -0.4838955911357751,
+      "no_speech_prob": 0.901107668876648,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 0.222,
+      "playback_start": 1999.3,
+      "playback_end": 2012.78,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.0s/13.5s",
+        "high no_speech_prob=0.90"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "每周的话还有一个奖励机制每周奖励一个小红花小朋友要听话有时候绑架",
+      "correction_note": "修正'绑架'为'奖励'",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2012.86,
+      "end": 2017.88,
+      "speaker": "SPEAKER_03",
+      "text": "你一定要帮你出一个榜样，让下面的一个孩子。",
+      "avg_logprob": -0.4838955911357751,
+      "no_speech_prob": 0.901107668876648,
+      "speech_overlap_s": 1.59,
+      "speech_overlap_ratio": 0.795,
+      "playback_start": 2012.8,
+      "playback_end": 2018.53,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你一定要帮你出一个绑架让下面的一个孩子",
+      "correction_note": "修正'绑架'为'榜样'",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2019.86,
+      "end": 2033.84,
+      "speaker": "SPEAKER_03",
+      "text": "要带一下，要带好了就有一些小奖励。现在的小孩不是以批评为主，他就是以奖励为主。",
+      "avg_logprob": -0.4838955911357751,
+      "no_speech_prob": 0.901107668876648,
+      "speech_overlap_s": 1.1,
+      "speech_overlap_ratio": 0.275,
+      "playback_start": 2019.81,
+      "playback_end": 2033.78,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=1.1s/14.0s",
+        "high no_speech_prob=0.90"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "要带一下要带好了就有一些小奖励现在小修的孩子不是以批评为主 他就是以奖励为主",
+      "correction_note": "修正'小修的孩子'为'小孩'，加逗号句号",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2033.86,
+      "end": 2046.84,
+      "speaker": "SPEAKER_03",
+      "text": "一奖励了，小孩们都愿意，奖励他都会往前争，奖励得都会比较表现得非常积极，一个小奖励，小孩都愿意。",
+      "avg_logprob": -0.3055948529924665,
+      "no_speech_prob": 0.9275718331336975,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2033.8,
+      "playback_end": 2046.78,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "一奖励了小孩们都愿意奖励他都会往前争奖励去都会比较表现得非常积极一个小偏袜小孩都愿意奖励",
+      "correction_note": "将'小偏袜'修正为'小奖励'，调整语序使通顺",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2046.86,
+      "end": 2055.84,
+      "speaker": "SPEAKER_03",
+      "text": "对，所以小孩来说，很好哄你，感觉就是说的话，很好哄你，你说他感觉好话。",
+      "avg_logprob": -0.3055948529924665,
+      "no_speech_prob": 0.9275718331336975,
+      "speech_overlap_s": 3.9,
+      "speech_overlap_ratio": 0.975,
+      "playback_start": 2046.8,
+      "playback_end": 2055.78,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对 所以小孩来说 很好护你感觉就是说的话 很好护你的你说他感觉好话",
+      "correction_note": "将'护'修正为'哄'，符合口语习惯",
+      "intent": [
+        "回应",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2055.86,
+      "end": 2069.84,
+      "speaker": "SPEAKER_03",
+      "text": "你夸他两句，给他个小礼物，他感觉他特别棒。所以就是，老师这块儿也要增加一下自己的一些乐趣，也要有好感。",
+      "avg_logprob": -0.3596271472972828,
+      "no_speech_prob": 0.9462711811065674,
+      "speech_overlap_s": 6.3,
+      "speech_overlap_ratio": 1.05,
+      "playback_start": 2055.8,
+      "playback_end": 2070.49,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你夸他两句,给他个小礼物,他感觉他特别棒。所以就是,老师这块儿也要增加一下自己的一些乐理。也要那些好感。",
+      "correction_note": "将'乐理'修正为'乐趣'，'那些好感'修正为'有好感'",
+      "intent": [
+        "陈述",
+        "提议"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2070.65,
+      "end": 2079.84,
+      "speaker": "SPEAKER_03",
+      "text": "所以的话就是，咱下来就是把咱那个安全说一下，大伙儿的安全再沟通了一下。",
+      "avg_logprob": -0.3596271472972828,
+      "no_speech_prob": 0.9462711811065674,
+      "speech_overlap_s": 5.11,
+      "speech_overlap_ratio": 0.73,
+      "start_asr_raw": 2069.86,
+      "playback_start": 2070.25,
+      "playback_end": 2079.78,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "所以的话就是,咱下来就是把咱那个安全说一下,大伙儿的安全再通透了一下。",
+      "correction_note": "将'通透'修正为'沟通'",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2079.86,
+      "end": 2088.84,
+      "speaker": "SPEAKER_03",
+      "text": "包括就是，有年关上了，把各个方面的安全，包括主要的安全，路上安全，",
+      "avg_logprob": -0.35453121313888036,
+      "no_speech_prob": 0.8940883874893188,
+      "speech_overlap_s": 1.5,
+      "speech_overlap_ratio": 0.167,
+      "playback_start": 2079.8,
+      "playback_end": 2088.78,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low speech overlap=17%",
+        "high no_speech_prob=0.89"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "包括就是,有年关上了,把各个方面的安全,包括主要的安全,路上安全,",
+      "correction_note": "无修正",
+      "intent": [
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2088.86,
+      "end": 2101.84,
+      "speaker": "SPEAKER_03",
+      "text": "老师对孩子有哪些安全的，大家都可以说一下。其实你都肯定有一些对孩子的小安全知识，",
+      "avg_logprob": -0.35453121313888036,
+      "no_speech_prob": 0.8940883874893188,
+      "speech_overlap_s": 6.9,
+      "speech_overlap_ratio": 0.986,
+      "playback_start": 2088.8,
+      "playback_end": 2101.78,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "老师对孩子有哪些安全的,大家都可以说一下。其实你都肯定有一些对孩子的小安全知识,",
+      "correction_note": "无修正",
+      "intent": [
+        "提议",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2101.86,
+      "end": 2114.84,
+      "speaker": "SPEAKER_03",
+      "text": "你一个人的知识不如大家伙的知识多，是吧？对，尤其快过年了，接孩子的，老师也给家长沟通好，让家长拿着接送卡，",
+      "avg_logprob": -0.35453121313888036,
+      "no_speech_prob": 0.8940883874893188,
+      "speech_overlap_s": 4.3,
+      "speech_overlap_ratio": 1.075,
+      "playback_start": 2101.8,
+      "playback_end": 2114.78,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你一个人的知识不如大家伙的知识做,是吧?对,尤其快过年了,接孩子的,老师也给家长沟通好,让家长拿着接送卡,",
+      "correction_note": "将'做'修正为'多'",
+      "intent": [
+        "提问",
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2114.86,
+      "end": 2127.84,
+      "speaker": "SPEAKER_03",
+      "text": "因为孩子也都不认识的，也不让跟他走。快过年了，太乱了。快过年了也乱了，小孩他本身就小了，让他看着不认识的，不能跟别人走。",
+      "avg_logprob": -0.26700138175574534,
+      "no_speech_prob": 0.37581002712249756,
+      "speech_overlap_s": 5.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2114.8,
+      "playback_end": 2127.78,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "因为让孩子也都不认识的,也不让给他走。快过年了,太乱了。快过年了也乱了,小孩他本身就小了,让他看不认识的,不能给别人走。",
+      "correction_note": "将'给他走'修正为'跟他走'，'看不认识的'修正为'看着不认识的'，'给别人走'修正为'跟别人走'",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2127.86,
+      "end": 2139.08,
+      "speaker": "SPEAKER_03",
+      "text": "然后让家长也就带着接送卡，然后接孩子的时候也都排好队，今年也是疫情嘛，都有个距离，排着队，一个一个来，不要往前拥挤。",
+      "avg_logprob": -0.26700138175574534,
+      "no_speech_prob": 0.37581002712249756,
+      "speech_overlap_s": 6.69,
+      "speech_overlap_ratio": 1.115,
+      "playback_start": 2127.8,
+      "playback_end": 2139.73,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后让家长也就带着家长拿着接送卡,然后接孩子的时候也都排好队,今年也是疫情嘛 都有个距离排着队一个一个来 不要往前拥挤",
+      "correction_note": "删除重复的'家长'，补充逗号",
+      "intent": [
+        "命令",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2145.46,
+      "end": 2155.88,
+      "speaker": "SPEAKER_03",
+      "text": "你们看看对孩子在学校的安全有没有什么在意，学校安全在家哪些东西，对吧？",
+      "avg_logprob": -0.529961177280971,
+      "no_speech_prob": 0.7847980260848999,
+      "speech_overlap_s": 2.31,
+      "speech_overlap_ratio": 0.962,
+      "playback_start": 2145.41,
+      "playback_end": 2156.53,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "你们看看对孩子在学校的安全有没有什么在意学校安全在家哪些东西对吧",
+      "correction_note": "添加逗号，调整语序",
+      "intent": [
+        "提问",
+        "确认",
+        "陈述"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2157.86,
+      "end": 2171.5,
+      "speaker": "SPEAKER_03",
+      "text": "这旁边食堂就是厨师做完饭以后，如果他们的那个煤气肯定要管好，不过你说吧，煤气要管好，这个方面不能让他们乱动，有漏气什么的。",
+      "avg_logprob": -0.529961177280971,
+      "no_speech_prob": 0.7847980260848999,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2157.81,
+      "playback_end": 2171.42,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "这旁边食堂就是厨师做完饭以后如果它们那个煤气肯定要管好不过你说吧煤气管好这个方面不能在它们乱动有漏气什么的",
+      "correction_note": "将'它们'修正为'他们'，'煤气管好'修正为'煤气要管好'，'不能在它们'修正为'不能让他们'",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2171.5,
+      "end": 2183.6,
+      "speaker": "SPEAKER_03",
+      "text": "然后卫生方面，就及时地面清洁干净，保持清洁干净，让它的地面是干燥的，不是那么光滑的，有点滑倒。保安这边就是把这个",
+      "avg_logprob": -0.5198948152603642,
+      "no_speech_prob": 0.8066394925117493,
+      "speech_overlap_s": 4.45,
+      "speech_overlap_ratio": 1.236,
+      "playback_start": 2171.44,
+      "playback_end": 2183.54,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "然后卫生方面就及时地面清洁干净除掉清洁干净在它地是干燥了不是那光滑的有点摔倒保安这段就是把这个",
+      "correction_note": "将'除掉'修正为'保持'，'在它地是干燥了'修正为'让它的地面是干燥的'，'不是那光滑的有点摔倒'修正为'不是那么光滑的，有点滑倒'，'保安这段'修正为'保安这边'",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2183.62,
+      "end": 2197.6,
+      "speaker": "SPEAKER_03",
+      "text": "马上有可能这种天要下雪了嘛，对，下雪外边也路滑，把上幼儿园的台阶都铺好。",
+      "avg_logprob": -0.5198948152603642,
+      "no_speech_prob": 0.8066394925117493,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 2183.56,
+      "playback_end": 2197.54,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "马上有可能这种东西要下雪了嘛对 下雪外边也露滑把上幼儿园的台阶都铺好",
+      "correction_note": "将'露滑'修正为'路滑'，添加逗号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2197.62,
+      "end": 2211.6,
+      "speaker": "SPEAKER_03",
+      "text": "别让孩子上的时候滑倒了，尽量保持上教室的地面干，楼梯上都干燥一点，不要有水什么的，让孩子尽量上楼梯的时候也排着。",
+      "avg_logprob": -0.22289851616168843,
+      "no_speech_prob": 0.7439408898353577,
+      "speech_overlap_s": 3.47,
+      "speech_overlap_ratio": 1.157,
+      "playback_start": 2197.56,
+      "playback_end": 2211.54,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "别让孩子上的时候滑倒了尽量保持上教室的地面干楼梯上都干燥一点 不要有水什么的让孩子尽量上楼梯的时候也排着",
+      "correction_note": "添加逗号",
+      "intent": [
+        "陈述",
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2211.62,
+      "end": 2216.6,
+      "speaker": "SPEAKER_03",
+      "text": "不要乱打乱闹地往上跑，一个一个扶着楼梯上。",
+      "avg_logprob": -0.22289851616168843,
+      "no_speech_prob": 0.7439408898353577,
+      "speech_overlap_s": 3.3,
+      "speech_overlap_ratio": 1.1,
+      "playback_start": 2211.56,
+      "playback_end": 2216.54,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.74"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "不要乱打乱闹的时候往上跑一个一个扶着楼梯上",
+      "correction_note": "将'的时候'修正为'地'，添加逗号",
+      "intent": [
+        "命令"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2216.62,
+      "end": 2232.6,
+      "speaker": "SPEAKER_03",
+      "text": "对，两个孩子闹的话，弄不好就会摔下来，磕着碰着的，下边就铺好地毯，最好让孩子就是说，假如说孩子真是摔下来，也不会是磕着，下边铺好地毯做好防护吧，因为冬天冷嘛。",
+      "avg_logprob": -0.338291188944941,
+      "no_speech_prob": 0.8549997806549072,
+      "speech_overlap_s": 16.5,
+      "speech_overlap_ratio": 1.031,
+      "playback_start": 2216.56,
+      "playback_end": 2232.54,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "对,两个孩子闹的话,弄不好就会摔下来,磕着碰着的,下边就铺好地毯,最好让孩子就是说,假如说孩子真是摔下来,也不会是磕着,下边铺好地毯做好防护吧,因为冬天冷嘛。",
+      "correction_note": "添加标点，修正无意义重复",
+      "intent": [
+        "陈述",
+        "命令",
+        "回应"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 2232.62,
+      "end": 2241.64,
+      "speaker": "SPEAKER_03",
+      "text": "所以安全的话你们下班再多注意一下，今天告一段落，你们该把自己的工作做得更好。",
+      "avg_logprob": -0.5886787033081055,
+      "no_speech_prob": 0.6153215765953064,
+      "speech_overlap_s": 3.8,
+      "speech_overlap_ratio": 0.95,
+      "playback_start": 2232.56,
+      "playback_end": 2242.29,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "所以安全的话你们下班再多注意一下今天告一段落你们該把自己的工作做得做好",
+      "correction_note": "繁体转简体，修正'做得做好'为'做得更好'，添加标点",
+      "intent": [
+        "陈述",
+        "命令",
+        "总结"
+      ],
+      "phase": "corrected"
+    }
+  ],
+  "timing": {
+    "diarization": 64.24,
+    "asr": 348.4,
+    "alignment": 73.74,
+    "llm": 510.9,
+    "total": 1000.76
+  },
+  "num_speakers": 9,
+  "meeting_summary": {
+    "topic": "幼儿园学期末工作会议：安全、招生、饮食与教学部署",
+    "summary": "园长召集教师、保安和厨师召开学期末会议，重点总结冬季安全措施、招生策略优化、饮食营养改进以及教师教学职责。会议明确了招生年龄调整、日常安全管理和食谱更新等具体行动，旨在提升幼儿园整体运营质量和竞争力。",
+    "key_points": [
+      "安全方面：强调冬季防滑、楼梯护导、接送卡制度、疫情防护（戴口罩、错时放学），保安需加强校园巡查。",
+      "招生策略：以老带新、小区宣传单、开放日体验活动，招生年龄从1.5岁调整至2-5周岁，并增设周六托管服务。",
+      "饮食改进：厨师更新每周食谱（如肉粥、骨头汤等），注重营养均衡与卫生消毒，每日采购新鲜食材并消毒餐具。",
+      "教师职责：制定教学计划、关注幼儿个体差异、坚持户外活动、采用奖励机制（小红花）激励幼儿，并做好家长沟通。"
+    ],
+    "decisions": [
+      "招生年龄统一调整为2至5周岁，严卡年龄限制。",
+      "幼儿园实行周六上班、周日休息的托管安排。",
+      "楼梯及户外区域铺设防滑地毯，确保冬季安全。",
+      "厨师制定新食谱并发至微信群，每周不重样。",
+      "每周对幼儿实施小红花奖励机制。"
+    ],
+    "action_items": [
+      "教师：执行作息制度，每日检查幼儿着装与安全，填写交接班记录。",
+      "保安：监督家长排队、佩戴口罩，持卡接送，维护入园/离园秩序。",
+      "厨师：每日采购新鲜食材，确保餐具高温消毒，统计幼儿喜好调整菜品。",
+      "所有人员：加强冬季护导，避免幼儿在楼梯、滑梯处追逐打闹。"
+    ],
+    "participants": [
+      "园长",
+      "教师",
+      "保安",
+      "厨师"
+    ]
+  }
+}

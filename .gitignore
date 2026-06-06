@@ -14,9 +14,24 @@ __pycache__/
 .idea/
 .vscode/
 
+# Local planning and report artifacts
+docs/
+reporter/
+final_plan.md
+
 # Large artifacts
-models/
-dataset/
+models/**
+!models/
+!models/**/
+!models/**/.gitkeep
+models/**/.git/
+models/**/.git/**
+dataset/**
+!dataset/
+!dataset/**/
+!dataset/**/.gitkeep
+dataset/**/.git/
+dataset/**/.git/**
 data/
 cache/
 outputs/

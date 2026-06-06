@@ -74,7 +74,7 @@ def main() -> int:
     tbl.add_column("status")
 
     failed = 0
-    for module in ("asr", "diarization", "alignment", "embedding", "separation"):
+    for module in ("asr", "diarization", "alignment", "embedding"):
         for k, v in mcfg.get(module, {}).items():
             if not isinstance(v, str):
                 continue

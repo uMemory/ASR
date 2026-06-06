@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import re
+import ast
 from typing import Any
 
 from src.utils.logger import get_logger
@@ -18,6 +19,7 @@ logger = get_logger(__name__)
 
 # Maximum segments per LLM call (to stay within context window limits).
 _MAX_SEGMENTS_PER_BATCH = 15
+_MAX_CORRECTION_TOKENS = 12000
 
 
 # 繁→简常用字映射
@@ -55,6 +57,10 @@ _ZH_HANS = {
     "讓": "让", "聽": "听", "雜": "杂", "簡": "简", "斷": "断",
     "許": "许", "區": "区", "討": "讨", "論": "论", "適": "适",
     "給": "给", "聲": "声", "華": "华", "廣": "广", "線": "线",
+    "沒": "没", "備": "备", "場": "场", "續": "续",
+    "運": "运", "轉": "转", "辦": "办", "間": "间", "從": "从",
+    "親": "亲", "劉": "刘", "陳": "陈", "張": "张", "鄭": "郑",
+    "吳": "吴", "楊": "杨", "孫": "孙", "趙": "赵", "羅": "罗",
 }
 
 
@@ -124,7 +130,8 @@ _SYSTEM_ZH = """你是一个中文语音识别后处理助手。你的任务是�
 输出格式（严格 JSON）：
 {"segments": [{"index": 0, "text": "修正后的文本", "note": "修正说明（可选）"}, ...]}
 
-其中 index 对应输入中的序号，note 只在有修正时填写。"""
+其中 index 对应输入中的序号，note 只在有修正时填写。
+只输出 JSON 本身，不要输出 Markdown 代码块、解释文字或额外前后缀。"""
 
 _SYSTEM_EN = """You are an English speech recognition post-processing assistant. Your tasks:
 1. Read a multi-speaker conversation transcript (with speaker labels and timestamps)
@@ -141,7 +148,8 @@ Correction principles:
 Output format (strict JSON):
 {"segments": [{"index": 0, "text": "corrected text", "note": "correction note (optional)"}, ...]}
 
-The index corresponds to the input sequence number. Only include 'note' when a correction was made."""
+The index corresponds to the input sequence number. Only include 'note' when a correction was made.
+Return raw JSON only. Do not include markdown fences, explanations, or extra text before/after JSON."""
 
 
 def _format_transcript(segments: list[dict[str, Any]]) -> str:
@@ -162,6 +170,123 @@ def _format_transcript(segments: list[dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
+def _strip_json_noise(text: str) -> str:
+    """Remove common non-JSON wrappers without changing valid JSON content."""
+    text = text.strip().lstrip("\ufeff")
+    text = text.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+    text = re.sub(r"^\s*```(?:json|JSON)?\s*", "", text)
+    text = re.sub(r"\s*```\s*$", "", text)
+    return text.strip()
+
+
+def _balanced_json_candidates(raw: str) -> list[str]:
+    """Return likely JSON snippets from an LLM response.
+
+    LLMs sometimes wrap JSON in markdown, add explanatory text, or return a
+    top-level array.  A balanced scan is safer than a greedy ``\{.*\}`` regex.
+    """
+    raw = raw or ""
+    candidates: list[str] = []
+
+    stripped = _strip_json_noise(raw)
+    if stripped:
+        candidates.append(stripped)
+
+    for match in re.finditer(r"```(?:json|JSON)?\s*([\s\S]*?)```", raw):
+        block = _strip_json_noise(match.group(1))
+        if block:
+            candidates.append(block)
+
+    for opener, closer in (("{", "}"), ("[", "]")):
+        stack = 0
+        start: int | None = None
+        in_string = False
+        escape_next = False
+        for i, ch in enumerate(raw):
+            if in_string:
+                if escape_next:
+                    escape_next = False
+                elif ch == "\\":
+                    escape_next = True
+                elif ch == '"':
+                    in_string = False
+                continue
+            if ch == '"':
+                in_string = True
+                continue
+            if ch == opener:
+                if stack == 0:
+                    start = i
+                stack += 1
+            elif ch == closer and stack:
+                stack -= 1
+                if stack == 0 and start is not None:
+                    candidates.append(raw[start:i + 1].strip())
+                    start = None
+
+    unique: list[str] = []
+    seen: set[str] = set()
+    for candidate in candidates:
+        candidate = _strip_json_noise(candidate)
+        if candidate and candidate not in seen:
+            seen.add(candidate)
+            unique.append(candidate)
+    return unique
+
+
+def _loads_loose_json(candidate: str) -> Any:
+    """Parse strict JSON first, then tolerate common LLM JSON mistakes."""
+    candidate = _strip_json_noise(candidate)
+    attempts = [candidate]
+
+    repaired = re.sub(r",\s*([}\]])", r"\1", candidate)
+    repaired = re.sub(r"^\s*(?:json|JSON)\s*[:：]\s*", "", repaired)
+    if repaired != candidate:
+        attempts.append(repaired)
+
+    last_error: Exception | None = None
+    for text in attempts:
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError as exc:
+            last_error = exc
+
+    # Python-literal style responses are common when the model uses single quotes.
+    for text in attempts:
+        try:
+            return ast.literal_eval(text)
+        except (SyntaxError, ValueError) as exc:
+            last_error = exc
+
+    if last_error:
+        raise last_error
+    raise ValueError("empty JSON candidate")
+
+
+def _normalise_correction_items(parsed: Any) -> list[Any]:
+    """Extract correction items from common LLM response shapes."""
+    if isinstance(parsed, list):
+        return parsed
+    if not isinstance(parsed, dict):
+        return []
+    for key in ("segments", "corrections", "results", "items"):
+        value = parsed.get(key)
+        if isinstance(value, list):
+            return value
+    # Occasionally returned as {"0": "text", "1": {"text": "..."}}
+    if parsed and all(str(k).isdigit() for k in parsed.keys()):
+        items: list[dict[str, Any]] = []
+        for k, v in parsed.items():
+            if isinstance(v, dict):
+                item = dict(v)
+                item.setdefault("index", int(k))
+            else:
+                item = {"index": int(k), "text": v}
+            items.append(item)
+        return items
+    return []
+
+
 def _parse_corrections(raw: str, count: int) -> list[dict[str, Any]]:
     """Parse the LLM JSON response into a list of correction dicts.
 
@@ -173,26 +298,45 @@ def _parse_corrections(raw: str, count: int) -> list[dict[str, Any]]:
         {"text": "", "note": None} for _ in range(count)
     ]
 
-    # Extract JSON from the response (may be wrapped in markdown fences)
-    match = re.search(r"\{[\s\S]*\}", raw)
-    if not match:
+    candidates = _balanced_json_candidates(raw)
+    if not candidates:
         logger.warning("Corrector: could not find JSON in LLM response:\n%s", raw[:500])
         return corrections
 
-    try:
-        parsed = json.loads(match.group(0))
-    except json.JSONDecodeError:
-        logger.warning("Corrector: invalid JSON in LLM response:\n%s", raw[:500])
+    parsed: Any = None
+    parse_errors: list[str] = []
+    for candidate in candidates:
+        try:
+            parsed = _loads_loose_json(candidate)
+            if _normalise_correction_items(parsed):
+                break
+        except Exception as exc:
+            parse_errors.append(f"{type(exc).__name__}: {exc}")
+            parsed = None
+
+    if parsed is None:
+        logger.warning(
+            "Corrector: invalid JSON in LLM response (%s):\n%s",
+            "; ".join(parse_errors[-2:]) if parse_errors else "unknown error",
+            raw[:500],
+        )
         return corrections
 
-    segs = parsed.get("segments", [])
-    if not isinstance(segs, list):
+    segs = _normalise_correction_items(parsed)
+    if not segs:
+        logger.warning("Corrector: JSON parsed but no correction list found:\n%s", raw[:500])
         return corrections
 
     for item in segs:
-        idx = item.get("index")
-        text = item.get("text", "")
-        note = item.get("note") or None
+        if not isinstance(item, dict):
+            continue
+        idx = item.get("index", item.get("id"))
+        if isinstance(idx, str) and idx.isdigit():
+            idx = int(idx)
+        text = item.get("text", item.get("corrected_text", item.get("correction", "")))
+        if not isinstance(text, str):
+            text = str(text) if text is not None else ""
+        note = item.get("note") or item.get("reason") or None
         if isinstance(idx, int) and 0 <= idx < count and text.strip():
             corrections[idx] = {"text": text.strip(), "note": note}
 
@@ -247,7 +391,7 @@ def llm_correct_segments(
         ]
 
         logger.info("Corrector: sending %d segments to %s", len(batch), adapter.model_name)
-        raw = adapter.chat(messages, temperature=0.1, max_tokens=4096)
+        raw = adapter.chat(messages, temperature=0.1, max_tokens=_MAX_CORRECTION_TOKENS)
         corrections = _parse_corrections(raw, len(batch))
 
         for i, seg in enumerate(batch):

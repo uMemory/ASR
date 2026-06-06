@@ -2,1881 +2,2379 @@
   "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\7cade5b7b0552691a440d7f45e663d464bcfce6c2612f19b5fbda6fa9eb640f4\\R8007_M8010_N_SPK8050.wav",
   "segments": [
     {
-      "start": 27.993,
-      "end": 32.013,
-      "speaker": "A",
-      "text": "对，有没有备选方案？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体，添加标点并改为疑问语气",
+      "start": 30.0,
+      "end": 31.261,
+      "speaker": "SPEAKER_02",
+      "text": "有没有备选方案？",
+      "avg_logprob": -0.4898058425548465,
+      "no_speech_prob": 0.5984961986541748,
+      "speech_overlap_s": 1.24,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 29.95,
+      "playback_end": 31.911,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "有没有备写方案",
+      "correction_note": "修正‘备写’为‘备选’",
       "intent": [
-        "同意",
         "提问"
       ]
     },
     {
-      "start": 34.507,
-      "end": 36.315,
-      "speaker": "A",
+      "start": 34.92,
+      "end": 36.221,
+      "speaker": "SPEAKER_02",
       "text": "场地租金。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体，添加句号",
+      "avg_logprob": -0.4898058425548465,
+      "no_speech_prob": 0.5984961986541748,
+      "speech_overlap_s": 1.28,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 34.87,
+      "playback_end": 36.871,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "场地租金",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 40.43,
-      "end": 41.729,
-      "speaker": "A",
+      "start": 40.96,
+      "end": 41.661,
+      "speaker": "SPEAKER_02",
+      "text": "空间。",
+      "avg_logprob": -0.4898058425548465,
+      "no_speech_prob": 0.5984961986541748,
+      "speech_overlap_s": 0.68,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 40.91,
+      "playback_end": 42.311,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "空勤",
+      "correction_note": "修正‘空勤’为‘空间’",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 43.48,
+      "end": 44.101,
+      "speaker": "SPEAKER_02",
+      "text": "交通。",
+      "avg_logprob": -0.4898058425548465,
+      "no_speech_prob": 0.5984961986541748,
+      "speech_overlap_s": 0.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 43.43,
+      "playback_end": 44.751,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "交通",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 48.72,
+      "end": 49.302,
+      "speaker": "SPEAKER_02",
       "text": "公交。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "推测为“公交”的ASR错误，添加句号",
+      "avg_logprob": -0.4898058425548465,
+      "no_speech_prob": 0.5984961986541748,
+      "speech_overlap_s": 0.56,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 48.67,
+      "playback_end": 49.952,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "公交",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 48.327,
-      "end": 49.306,
-      "speaker": "A",
-      "text": "公司。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "推测为“公司”的ASR错误，添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 51.719,
-      "end": 52.225,
-      "speaker": "A",
-      "text": "就是大家想要做一下主。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 56.36,
-      "end": 58.38,
-      "speaker": "A",
-      "text": "3元一平房租还贵。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“一截”为“一平”，添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 61.253,
-      "end": 62.283,
-      "speaker": "A",
-      "text": "太贵了。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体，修正“房”为“了”，添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 66.282,
-      "end": 68.04,
-      "speaker": "A",
-      "text": "对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 71.328,
-      "end": 79.348,
-      "speaker": "A",
-      "text": "为了公司长远考虑，贵点也没事，大家交通很方便。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 92.894,
-      "end": 94.198,
-      "speaker": "A",
-      "text": "对对对对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 96.708,
-      "end": 99.475,
-      "speaker": "A",
-      "text": "选一个比较合理。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 108.453,
-      "end": 113.473,
-      "speaker": "A",
-      "text": "行，对对对，地铁公交都挺方便这块。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "清理重复对为三个，添加标点",
-      "intent": [
-        "回应",
-        "陈述"
-      ]
-    },
-    {
-      "start": 127.133,
-      "end": 128.517,
-      "speaker": "A",
-      "text": "可以可以可以。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正最后一个“可”为“可以”，添加句号",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 130.576,
-      "end": 132.777,
-      "speaker": "A",
-      "text": "可以继续，对对对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体，修正“繼”为“继续”，清理重复对",
-      "intent": [
-        "同意",
-        "回应",
-        "陈述"
-      ]
-    },
-    {
-      "start": 136.522,
-      "end": 138.596,
-      "speaker": "A",
-      "text": "大家的交通方面也挺便利。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 156.8,
-      "end": 159.099,
-      "speaker": "A",
-      "text": "对对对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正ASR错误：'对你对'改为'对对对'，并添加句号。",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 160.968,
-      "end": 163.739,
-      "speaker": "A",
-      "text": "对对对对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 165.946,
-      "end": 168.68,
-      "speaker": "A",
-      "text": "好，跳，对对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
-      "intent": [
-        "命令",
-        "回应"
-      ]
-    },
-    {
-      "start": 180.509,
-      "end": 182.385,
-      "speaker": "A",
-      "text": "对对，调查全职。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和句号。",
-      "intent": [
-        "回应",
-        "提议"
-      ]
-    },
-    {
-      "start": 184.154,
-      "end": 186.958,
-      "speaker": "A",
-      "text": "东边，东边行，东边交通方便。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和句号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 193.992,
-      "end": 195.379,
-      "speaker": "A",
-      "text": "三花一里。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 208.117,
-      "end": 208.699,
-      "speaker": "A",
-      "text": "对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 225.076,
-      "end": 227.644,
-      "speaker": "A",
-      "text": "看看大伙有啥意见没有？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加问号。",
+      "start": 56.4,
+      "end": 57.941,
+      "speaker": "SPEAKER_02",
+      "text": "三块钱的房租还贵？",
+      "avg_logprob": -0.4898058425548465,
+      "no_speech_prob": 0.5984961986541748,
+      "speech_overlap_s": 1.52,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 56.35,
+      "playback_end": 58.591,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "三块钱的房租还贵",
+      "correction_note": "保留原意",
       "intent": [
         "提问"
       ]
     },
     {
-      "start": 230.965,
-      "end": 231.573,
-      "speaker": "A",
-      "text": "空。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
+      "start": 60.95,
+      "end": 74.86,
+      "speaker": "SPEAKER_02",
+      "text": "太贵？房租？对，为了公司长远考虑，贵点也没事。",
+      "avg_logprob": -0.4830990353146115,
+      "no_speech_prob": 0.8531864881515503,
+      "speech_overlap_s": 1.65,
+      "speech_overlap_ratio": 0.635,
+      "start_asr_raw": 60.0,
+      "playback_start": 60.55,
+      "playback_end": 75.51,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "太贵房租对为了公司长远考虑贵点也没事",
+      "correction_note": "拆分并添加标点",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 76.75,
+      "end": 79.58,
+      "speaker": "SPEAKER_02",
+      "text": "大家交通很方便。",
+      "avg_logprob": -0.4830990353146115,
+      "no_speech_prob": 0.8531864881515503,
+      "speech_overlap_s": 5.23,
+      "speech_overlap_ratio": 1.108,
+      "start_asr_raw": 74.9,
+      "playback_start": 76.35,
+      "playback_end": 80.23,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "大家交通很方便",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 240.635,
-      "end": 241.478,
-      "speaker": "A",
-      "text": "工。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 248.937,
-      "end": 253.628,
-      "speaker": "A",
-      "text": "对，50个工位，嗯，会议，这就是我们的会议。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体，添加逗号和句号。",
-      "intent": [
-        "回应",
-        "陈述"
-      ]
-    },
-    {
-      "start": 258.185,
-      "end": 261.208,
-      "speaker": "A",
-      "text": "对，八块钱水有一个就够。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和句号。",
-      "intent": [
-        "回应",
-        "陈述"
-      ]
-    },
-    {
-      "start": 263.348,
-      "end": 264.77,
-      "speaker": "A",
-      "text": "小会议室有两个。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 270.368,
-      "end": 271.786,
-      "speaker": "A",
-      "text": "对，一间教室那样就。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和句号。",
-      "intent": [
-        "回应",
-        "陈述"
-      ]
-    },
-    {
-      "start": 275.414,
-      "end": 276.363,
-      "speaker": "A",
-      "text": "第一天考察。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 279.852,
-      "end": 281.219,
-      "speaker": "A",
-      "text": "根据实际情，",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 292.188,
-      "end": 293.209,
-      "speaker": "A",
-      "text": "办公室。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 301.115,
-      "end": 303.135,
-      "speaker": "A",
-      "text": "对，四个小办公室，主要是",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "回应",
-        "陈述"
-      ]
-    },
-    {
-      "start": 312.522,
-      "end": 314.542,
-      "speaker": "A",
-      "text": "五个六个都行。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 325.887,
-      "end": 326.836,
-      "speaker": "A",
-      "text": "定下来。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "命令"
-      ]
-    },
-    {
-      "start": 332.468,
-      "end": 334.488,
-      "speaker": "A",
-      "text": "洗手间洗手间。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 343.302,
-      "end": 345.322,
-      "speaker": "A",
-      "text": "对对，自己用。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'而用'为'用'",
-      "intent": [
-        "回应",
-        "陈述"
-      ]
-    },
-    {
-      "start": 361.426,
-      "end": 361.852,
-      "speaker": "A",
-      "text": "对。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 368.041,
-      "end": 369.062,
-      "speaker": "A",
-      "text": "那是用人。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 385.962,
-      "end": 390.982,
-      "speaker": "A",
-      "text": "得找个保洁员。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "提议"
-      ]
-    },
-    {
-      "start": 393.56,
-      "end": 395.533,
-      "speaker": "A",
-      "text": "招个保洁员，最少得一个人。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'保健员'为'保洁员'",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 410.65,
-      "end": 411.027,
-      "speaker": "A",
-      "text": "对。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 417.788,
-      "end": 418.805,
-      "speaker": "A",
-      "text": "茶水间。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'茶水煎'为'茶水间'",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 426.901,
-      "end": 428.921,
-      "speaker": "A",
-      "text": "先试试能不能整好。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'西安史'为'先试试'，'整哈'为'整好'",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 446.408,
-      "end": 447.455,
-      "speaker": "A",
-      "text": "也对。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 491.363,
-      "end": 495.883,
-      "speaker": "A",
-      "text": "最好是小哥，现在咱有会议室。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号分隔主语和状语",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 504.661,
-      "end": 505.458,
-      "speaker": "A",
-      "text": "地板砖。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 511.63,
-      "end": 513.807,
-      "speaker": "A",
-      "text": "地毯安静，对对对，等地毯安。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "保持原意，添加标点",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 528.37,
-      "end": 535.542,
-      "speaker": "A",
-      "text": "刷漆吧，白色的，乳胶漆，刷白色就行。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正‘乳腰’为‘乳胶’，补充‘行’使语义完整",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 543.895,
-      "end": 545.063,
-      "speaker": "A",
-      "text": "对对对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 551.81,
-      "end": 553.801,
-      "speaker": "A",
-      "text": "刮腻子就。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正‘膀子’为‘腻子’（墙面施工术语）",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 560.247,
-      "end": 562.123,
-      "speaker": "A",
-      "text": "搞定。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 570.389,
-      "end": 571.41,
-      "speaker": "A",
-      "text": "中修。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 581.307,
-      "end": 583.012,
-      "speaker": "A",
-      "text": "什么时候可以收拾东西？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "补充‘西’，句末改为问号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 595.06,
-      "end": 597.849,
-      "speaker": "A",
-      "text": "房子装修好了，办公。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正‘煮’为‘装修’，繁体‘辦公’转简体‘办公’",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 604.612,
-      "end": 605.696,
-      "speaker": "A",
-      "text": "搬家时间？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正‘幫人’为‘搬家’，繁体‘時’转简体，句末加问号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 614.838,
-      "end": 618.858,
-      "speaker": "A",
-      "text": "又有两三天，差不多了，有两三天。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号分隔重复部分",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 628.422,
-      "end": 637.422,
-      "speaker": "A",
-      "text": "对，规划好了，怎么办？有没有大件的，小件啥的，是吧？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "调整标点，末尾改为问号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 644.858,
-      "end": 645.567,
-      "speaker": "A",
-      "text": "继。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体‘繼’转简体‘继’，加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 659.168,
-      "end": 660.775,
-      "speaker": "A",
-      "text": "滴滴酸甜。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "加句号，保持原样（可能为口语化表达）",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 672.449,
-      "end": 675.0,
-      "speaker": "A",
-      "text": "预算，必须有预算。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 701.153,
-      "end": 709.133,
-      "speaker": "A",
-      "text": "有的部门挺快，我部门快，我部门东西多，有部门东西多。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正同音字：东→多",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 717.387,
-      "end": 728.387,
-      "speaker": "A",
-      "text": "大伙帮助帮助呗，帮助你们搬，对，你们部门东西多，其他部门可以协助你去搬家。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正断句，搬对→搬，对",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 735.14,
-      "end": 738.66,
-      "speaker": "A",
-      "text": "没事那有我们来帮助你。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 743.83,
-      "end": 744.303,
-      "speaker": "A",
-      "text": "这。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 748.319,
-      "end": 750.766,
-      "speaker": "A",
-      "text": "大家都能。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正同音字：答案端耳→大家都能",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 762.46,
-      "end": 765.48,
-      "speaker": "A",
-      "text": "这都没事，让各部门能协调一下子。",
-      "speaker_original": "SPEAKER_00",
+      "start": 90.0,
+      "end": 100.02,
+      "speaker": "SPEAKER_02",
+      "text": "对，选一些比较合理的。",
+      "avg_logprob": -0.36785153781666474,
+      "no_speech_prob": 0.7906433939933777,
+      "speech_overlap_s": 6.8,
+      "speech_overlap_ratio": 0.68,
+      "playback_start": 89.95,
+      "playback_end": 100.67,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对 选一些比较合理的",
       "correction_note": "添加标点",
       "intent": [
+        "同意",
         "提议"
       ]
     },
     {
-      "start": 773.378,
-      "end": 775.398,
-      "speaker": "A",
-      "text": "差不多，差不多。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正",
+      "start": 108.0,
+      "end": 114.02,
+      "speaker": "SPEAKER_02",
+      "text": "行，对对对，地铁、公交都挺方便这块。",
+      "avg_logprob": -0.36785153781666474,
+      "no_speech_prob": 0.7906433939933777,
+      "speech_overlap_s": 6.55,
+      "speech_overlap_ratio": 1.092,
+      "playback_start": 107.95,
+      "playback_end": 114.67,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "行 对对对 地铁 公交都挺方便这块",
+      "correction_note": "添加标点",
       "intent": [
-        "回应"
+        "回应",
+        "同意",
+        "陈述"
       ]
     },
     {
-      "start": 779.74,
-      "end": 782.407,
-      "speaker": "A",
-      "text": "提前个四五天就。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正",
+      "start": 120.0,
+      "end": 139.02,
+      "speaker": "SPEAKER_02",
+      "text": "可以，嗯，对对，大家的交通方面也挺便利。",
+      "avg_logprob": -0.6018607847152218,
+      "no_speech_prob": 0.633148193359375,
+      "speech_overlap_s": 11.25,
+      "speech_overlap_ratio": 0.592,
+      "playback_start": 119.95,
+      "playback_end": 139.67,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "可以,可以,可以,嗯,可以,对对,对对,嗯,大家的交通方面也挺便利。",
+      "correction_note": "清理重复语气词",
+      "intent": [
+        "回应",
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 180.0,
+      "end": 187.02,
+      "speaker": "SPEAKER_02",
+      "text": "对对，到东边，东边行，东边交通方便。",
+      "avg_logprob": -0.36586585797761617,
+      "no_speech_prob": 0.7515919804573059,
+      "speech_overlap_s": 2.6,
+      "speech_overlap_ratio": 0.867,
+      "playback_start": 179.95,
+      "playback_end": 187.67,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.75"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对对 调查全职东边 东边行 东边交通方便",
+      "correction_note": "修正‘调查全职’为‘到东边’",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 194.0,
+      "end": 196.02,
+      "speaker": "SPEAKER_02",
+      "text": "对，三环以内。",
+      "avg_logprob": -0.36586585797761617,
+      "no_speech_prob": 0.7515919804573059,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 0.8,
+      "playback_start": 193.95,
+      "playback_end": 196.67,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对 三环一礼",
+      "correction_note": "修正‘一礼’为‘以内’",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 226.0,
+      "end": 228.02,
+      "speaker": "SPEAKER_01",
+      "text": "有啥意见没有？",
+      "avg_logprob": -0.3369510875028722,
+      "no_speech_prob": 0.9102243781089783,
+      "speech_overlap_s": 1.95,
+      "speech_overlap_ratio": 0.975,
+      "playback_start": 225.95,
+      "playback_end": 228.67,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "有啥意见没有",
+      "intent": [
+        "提问"
+      ]
+    },
+    {
+      "start": 230.75,
+      "end": 234.02,
+      "speaker": "SPEAKER_01",
+      "text": "空间，对。",
+      "avg_logprob": -0.3369510875028722,
+      "no_speech_prob": 0.9102243781089783,
+      "speech_overlap_s": 1.2,
+      "speech_overlap_ratio": 0.6,
+      "start_asr_raw": 230.0,
+      "playback_start": 230.35,
+      "playback_end": 234.67,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "空间对",
+      "correction_note": "修正表达",
       "intent": [
         "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 793.628,
-      "end": 795.649,
-      "speaker": "A",
-      "text": "有时间，有时间。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 801.61,
-      "end": 804.63,
-      "speaker": "A",
-      "text": "对，大车不让进。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 806.673,
-      "end": 807.398,
-      "speaker": "A",
-      "text": "不。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正",
-      "intent": [
-        "反对"
-      ]
-    },
-    {
-      "start": 812.056,
-      "end": 815.077,
-      "speaker": "A",
-      "text": "对，大车是晚上10点不要进。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和点字",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 830.483,
-      "end": 833.406,
-      "speaker": "A",
-      "text": "大车运动长现在。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正，语义存疑",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 844.743,
-      "end": 846.763,
-      "speaker": "B",
-      "text": "没事。",
-      "speaker_original": "SPEAKER_01",
-      "correction_note": "繁体转简体",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 854.513,
-      "end": 855.121,
-      "speaker": "A",
-      "text": "我得。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "保留原样，添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 857.045,
-      "end": 859.289,
-      "speaker": "A",
-      "text": "搬家别影响别的工作。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "命令",
-        "陈述"
-      ]
-    },
-    {
-      "start": 863.018,
-      "end": 865.038,
-      "speaker": "A",
-      "text": "对对，就是加班。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 872.3,
-      "end": 873.114,
-      "speaker": "A",
-      "text": "对对对。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
         "同意"
       ]
     },
     {
-      "start": 881.513,
-      "end": 888.84,
-      "speaker": "A",
-      "text": "那就周六周日，平时大家都挺忙，周六周六大伙加个班。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "删除语气词‘嗯’，调整语序并添加逗号",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 904.987,
-      "end": 906.408,
-      "speaker": "A",
-      "text": "不用不用，有一个人跟车就行。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述",
-        "反对"
-      ]
-    },
-    {
-      "start": 908.707,
-      "end": 918.207,
-      "speaker": "A",
-      "text": "大车大车不让进白天，好像找中国邮政差不多，中国邮政的车好像国家很让进。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 920.547,
-      "end": 922.967,
-      "speaker": "A",
-      "text": "不是，邮政国家很让进。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "反对",
-        "陈述"
-      ]
-    },
-    {
-      "start": 925.608,
-      "end": 927.445,
-      "speaker": "A",
-      "text": "不行咱就找中国邮政的。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正‘邮轮’为‘邮政’",
-      "intent": [
-        "提议"
-      ]
-    },
-    {
-      "start": 927.445,
-      "end": 928.615,
-      "speaker": "B",
-      "text": "车。",
+      "start": 248.65,
+      "end": 250.02,
+      "speaker": "SPEAKER_01",
+      "text": "工位，对，50个工位。",
+      "avg_logprob": -0.3369510875028722,
+      "no_speech_prob": 0.9102243781089783,
+      "speech_overlap_s": 1.35,
+      "speech_overlap_ratio": 0.675,
+      "start_alignment_raw": 240.0,
+      "start_asr_raw": 247.65,
+      "playback_start": 248.25,
+      "playback_end": 250.67,
       "speaker_original": "SPEAKER_01",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 934.214,
-      "end": 943.719,
-      "speaker": "A",
-      "text": "对，小的三四个人，对看东西啥的，但东西坏了啥的得不得看着点。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 945.335,
-      "end": 947.039,
-      "speaker": "A",
-      "text": "不怕磕。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 958.818,
-      "end": 963.695,
-      "speaker": "A",
-      "text": "多找几家，货比三家，给个报价。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正‘货币三家’为‘货比三家’",
-      "intent": [
-        "提议"
-      ]
-    },
-    {
-      "start": 966.547,
-      "end": 967.34,
-      "speaker": "A",
-      "text": "好用。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 970.158,
-      "end": 975.178,
-      "speaker": "A",
-      "text": "现在办公室就呼啦啦，车多。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 979.169,
-      "end": 987.86,
-      "speaker": "A",
-      "text": "小件啥都用过来了，大件啥东西装不了的，用，找着中国邮政。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "调整逗号，使语意更清晰。",
+      "text_before_llm": "工位对 50个工位",
+      "correction_note": "添加逗号分隔，补充句号",
       "intent": [
         "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 992.77,
-      "end": 994.694,
-      "speaker": "A",
-      "text": "专业。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 997.107,
-      "end": 1001.127,
-      "speaker": "A",
-      "text": "专业的跟快递的，他都给你包装好了。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "将'快递者'改为'快递的'，更符合口语。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1021.238,
-      "end": 1024.258,
-      "speaker": "A",
-      "text": "对，主要是电脑还在。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体'电腦'转简体'电脑'，添加逗号。",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1030.688,
-      "end": 1033.442,
-      "speaker": "A",
-      "text": "电脑比较贵重的物品。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "将'归重'修正为'贵重'。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1036.848,
-      "end": 1040.093,
-      "speaker": "A",
-      "text": "要不开车的时候都。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "将'时都'修正为'时候都'，保持口语风格。",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1045.741,
-      "end": 1050.561,
-      "speaker": "A",
-      "text": "一个公司一个部门，电脑就十多台。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号分隔。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1063.088,
-      "end": 1072.387,
-      "speaker": "A",
-      "text": "对，咱这里跟搬家公司，跟人家搬家公司各种物品是有多少件？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和问号，去除末尾多余'是'。",
-      "intent": [
-        "同意",
-        "提问"
-      ]
-    },
-    {
-      "start": 1080.807,
-      "end": 1085.937,
-      "speaker": "A",
-      "text": "嗯，对，大车，大车，桌子，椅子。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "将'椅'补全为'椅子'，添加逗号。",
-      "intent": [
-        "回应",
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1088.536,
-      "end": 1090.362,
-      "speaker": "A",
-      "text": "嗯，专业大车就。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "将'大臣'修正为'大车'，添加逗号。",
-      "intent": [
-        "回应",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1093.463,
-      "end": 1096.265,
-      "speaker": "A",
-      "text": "有有证，有。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "将'症'修正为'证'，添加逗号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1098.29,
-      "end": 1102.306,
-      "speaker": "A",
-      "text": "不是，油证车要进白天也。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号，使语意更清晰。",
-      "intent": [
-        "反对",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1107.79,
-      "end": 1118.81,
-      "speaker": "A",
-      "text": "对对，打包准备工作得做一天两天。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "去除重复的'准备工作'，保留口语化表达。",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1127.062,
-      "end": 1130.794,
-      "speaker": "A",
-      "text": "大车得雇一台两台。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "将'顾'修正为'雇'（雇佣）。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1135.297,
-      "end": 1138.317,
-      "speaker": "A",
-      "text": "油证都是8米以上的。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正，添加句号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1145.337,
-      "end": 1149.202,
-      "speaker": "A",
-      "text": "小车也得用几台小货车。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“小”为“小货车”，使语义完整。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1153.454,
-      "end": 1156.323,
-      "speaker": "A",
-      "text": "大车主要桌椅、电脑桌。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加顿号分隔，标点规范化。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1170.127,
-      "end": 1174.534,
-      "speaker": "A",
-      "text": "主要是白天夜里不行，不方便。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号，使语句更清晰。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1178.328,
-      "end": 1180.693,
-      "speaker": "A",
-      "text": "30号之前呢？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体，添加问号。",
-      "intent": [
-        "提问"
-      ]
-    },
-    {
-      "start": 1182.817,
-      "end": 1185.297,
-      "speaker": "A",
-      "text": "那咱准备两天三天。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "删除末尾多余的“操”，可能是ASR误识别。",
-      "intent": [
-        "提议",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1192.486,
-      "end": 1195.506,
-      "speaker": "A",
-      "text": "对对，先把主要东西先拉走。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "保持原样。",
-      "intent": [
-        "同意",
-        "提议"
-      ]
-    },
-    {
-      "start": 1210.846,
-      "end": 1211.667,
-      "speaker": "A",
-      "text": "对对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号。",
-      "intent": [
         "同意"
       ]
     },
     {
-      "start": 1215.487,
-      "end": 1216.308,
-      "speaker": "A",
-      "text": "说说说。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "保持口语重复，添加句号。",
+      "start": 252.0,
+      "end": 254.02,
+      "speaker": "SPEAKER_01",
+      "text": "会议室。",
+      "avg_logprob": -0.3369510875028722,
+      "no_speech_prob": 0.9102243781089783,
+      "speech_overlap_s": 1.5,
+      "speech_overlap_ratio": 0.75,
+      "playback_start": 251.95,
+      "playback_end": 254.67,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "会议室",
+      "correction_note": "添加句号",
       "intent": [
-        "命令"
+        "陈述"
       ]
     },
     {
-      "start": 1220.768,
-      "end": 1225.789,
-      "speaker": "A",
-      "text": "很快有那得跟搬家公司得说好了是吧？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“有一”为“有”，删除多余“一”，添加问号。",
+      "start": 256.0,
+      "end": 283.98,
+      "speaker": "SPEAKER_01",
+      "text": "对，大会议室有一个就够，小会议室有两个就够，对，一间教室呢，那是行，对，先考察，根据实际情况，对。",
+      "avg_logprob": -0.33333794545319123,
+      "no_speech_prob": 0.8400182723999023,
+      "speech_overlap_s": 11.95,
+      "speech_overlap_ratio": 0.427,
+      "playback_start": 255.95,
+      "playback_end": 284.63,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对,大会议室有一个就够,小会议室有两就够,对,一间教室呢,那是行,对,先考察,根据实际情况,对。",
+      "correction_note": "修正'有两'为'有两个'，调整标点",
       "intent": [
+        "同意",
         "陈述",
-        "提问"
-      ]
-    },
-    {
-      "start": 1248.393,
-      "end": 1251.548,
-      "speaker": "A",
-      "text": "地铁公交。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“禮地铁公”为“地铁公交”，繁体转简体。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1255.784,
-      "end": 1256.493,
-      "speaker": "A",
-      "text": "我公司。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“我攻”为“我公司”，同音字错误。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1259.632,
-      "end": 1264.975,
-      "speaker": "A",
-      "text": "多大的写字楼应该公交地铁都比较方便。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“多对都”为“多大的”，使语义通顺。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1273.165,
-      "end": 1278.165,
-      "speaker": "A",
-      "text": "正常应该公交比较方便，地铁也只能走一条线。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "保持原样，添加逗号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1293.922,
-      "end": 1294.943,
-      "speaker": "A",
-      "text": "那就方便了吧。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "保持原样，添加句号。",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1306.038,
-      "end": 1308.058,
-      "speaker": "A",
-      "text": "那得预约一下。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体，添加句号。",
-      "intent": [
         "提议"
       ]
     },
     {
-      "start": 1312.147,
-      "end": 1312.872,
-      "speaker": "A",
-      "text": "收。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "无修正",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 1317.108,
-      "end": 1320.601,
-      "speaker": "A",
-      "text": "都有多少人能开车，统一一下子。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句末句号",
-      "intent": [
-        "提问",
-        "命令"
-      ]
-    },
-    {
-      "start": 1324.583,
-      "end": 1325.604,
-      "speaker": "A",
-      "text": "20多台。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1328.701,
-      "end": 1330.048,
-      "speaker": "A",
-      "text": "停车位比较紧张。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1339.838,
-      "end": 1340.585,
-      "speaker": "A",
-      "text": "可以看看。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "提议"
-      ]
-    },
-    {
-      "start": 1344.226,
-      "end": 1344.989,
-      "speaker": "A",
-      "text": "停车位。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1362.788,
-      "end": 1369.927,
-      "speaker": "A",
-      "text": "我们部门十多个人，得有十多个人开车的差不多。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“开学的”为“开车的”",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1376.356,
-      "end": 1377.436,
-      "speaker": "A",
-      "text": "行吧行吧。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“行那行那”为更常见的“行吧行吧”",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 1382.65,
-      "end": 1388.138,
-      "speaker": "A",
-      "text": "那行，要么今天少开车，自己去多坐公交地铁。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“少坐自己”为“少开车”",
-      "intent": [
-        "回应",
-        "提议"
-      ]
-    },
-    {
-      "start": 1393.012,
-      "end": 1394.787,
-      "speaker": "A",
-      "text": "各部门的人。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“胳膊部胳膊部”为“各部门”",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1396.808,
-      "end": 1397.829,
-      "speaker": "A",
-      "text": "对销售好点。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "提议"
-      ]
-    },
-    {
-      "start": 1417.345,
-      "end": 1420.365,
-      "speaker": "A",
-      "text": "车位好解决。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1428.365,
-      "end": 1431.284,
-      "speaker": "A",
-      "text": "那就要体谅一下。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "提议"
-      ]
-    },
-    {
-      "start": 1438.169,
-      "end": 1439.591,
-      "speaker": "A",
-      "text": "各部门的领导。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "繁体转简体",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1448.041,
-      "end": 1451.757,
-      "speaker": "A",
-      "text": "跑外勤的人也得考虑到里头销售啥的。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正“跑外勤奋”为“跑外勤的人”",
-      "intent": [
-        "提议"
-      ]
-    },
-    {
-      "start": 1453.441,
-      "end": 1458.186,
-      "speaker": "A",
-      "text": "他们时间没有固定点，跑外景还有跑销售的。",
-      "speaker_original": "SPEAKER_00",
+      "start": 293.0,
+      "end": 302.98,
+      "speaker": "SPEAKER_01",
+      "text": "对，四个小办公室，主要是。",
+      "avg_logprob": -0.4049728642339292,
+      "no_speech_prob": 0.6339551210403442,
+      "speech_overlap_s": 3.0,
+      "speech_overlap_ratio": 0.3,
+      "playback_start": 292.95,
+      "playback_end": 303.63,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对 四个小办公室 主要是",
       "correction_note": "添加逗号和句号",
       "intent": [
+        "同意",
         "陈述"
       ]
     },
     {
-      "start": 1466.502,
-      "end": 1467.523,
-      "speaker": "A",
-      "text": "十个差不多。",
-      "speaker_original": "SPEAKER_00",
+      "start": 312.45,
+      "end": 314.52,
+      "speaker": "SPEAKER_01",
+      "text": "五个六个都行。",
+      "avg_logprob": -0.7642358779907227,
+      "no_speech_prob": 0.8248089551925659,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 0.348,
+      "start_asr_raw": 303.0,
+      "playback_start": 312.05,
+      "playback_end": 315.17,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.76",
+        "high no_speech_prob=0.82"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "五个六个都行",
       "correction_note": "添加句号",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1470.822,
-      "end": 1471.379,
-      "speaker": "A",
-      "text": "对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 1480.238,
-      "end": 1482.972,
-      "speaker": "A",
-      "text": "看他的停车场位大不大呗，是不？",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "将逗号改为问号，语意更通顺",
-      "intent": [
-        "提问"
-      ]
-    },
-    {
-      "start": 1485.942,
-      "end": 1488.004,
-      "speaker": "A",
-      "text": "尽量多赠几个车位。",
-      "speaker_original": "SPEAKER_00",
+      "start": 367.26,
+      "end": 372.88,
+      "speaker": "SPEAKER_01",
+      "text": "那就用人。",
+      "avg_logprob": -2.955433209737142,
+      "no_speech_prob": 0.5001161694526672,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 0.321,
+      "playback_start": 367.21,
+      "playback_end": 373.53,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-2.96"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "那就用人",
       "correction_note": "添加句号",
       "intent": [
         "提议"
       ]
     },
     {
-      "start": 1491.207,
-      "end": 1492.224,
-      "speaker": "A",
-      "text": "啊。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 1510.951,
-      "end": 1512.571,
-      "speaker": "A",
-      "text": "朱徐好像够。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
+      "start": 374.5,
+      "end": 395.52,
+      "speaker": "SPEAKER_01",
+      "text": "要找一个保洁员，找个保洁员最少得一个人。",
+      "avg_logprob": -0.7854971452192827,
+      "no_speech_prob": 0.8623086810112,
+      "speech_overlap_s": 7.85,
+      "speech_overlap_ratio": 0.374,
+      "playback_start": 374.45,
+      "playback_end": 396.17,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.79",
+        "high no_speech_prob=0.86"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "要找一个保潔员 找个保潔员最少得一个人",
+      "correction_note": "繁体转简体，添加逗号",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1516.05,
-      "end": 1516.512,
-      "speaker": "A",
-      "text": "对对。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
+      "start": 419.15,
+      "end": 431.76,
+      "speaker": "SPEAKER_02",
+      "text": "对，吸烟室能不能整好的，得要跟他们商量。",
+      "avg_logprob": -0.6463582175118583,
+      "no_speech_prob": 0.7585343718528748,
+      "speech_overlap_s": 3.25,
+      "speech_overlap_ratio": 0.325,
+      "start_alignment_raw": 404.5,
+      "playback_start": 419.1,
+      "playback_end": 432.41,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对吸烟室能不能整好的得要跟它们唱歌",
+      "correction_note": "修正'唱歌'为'商量'，调整标点",
       "intent": [
         "同意",
+        "提议"
+      ]
+    },
+    {
+      "start": 447.38,
+      "end": 448.721,
+      "speaker": "SPEAKER_02",
+      "text": "只有这个。",
+      "avg_logprob": -4.236764090401786,
+      "no_speech_prob": 0.3585050404071808,
+      "speech_overlap_s": 0.27,
+      "speech_overlap_ratio": 0.205,
+      "playback_start": 447.33,
+      "playback_end": 449.371,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-4.24"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "只有这个",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 484.26,
+      "end": 496.24,
+      "speaker": "SPEAKER_02",
+      "text": "最好是小隔间的，现在咱有会议室。",
+      "avg_logprob": -0.46562544504801434,
+      "no_speech_prob": 0.8277900218963623,
+      "speech_overlap_s": 2.51,
+      "speech_overlap_ratio": 0.279,
+      "playback_start": 484.21,
+      "playback_end": 496.89,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "最好是小隔间的现在咱有会议室",
+      "correction_note": "添加逗号和句号",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 505.26,
+      "end": 514.28,
+      "speaker": "SPEAKER_02",
+      "text": "地毯安装，对对对，整地毯先。",
+      "avg_logprob": -0.46562544504801434,
+      "no_speech_prob": 0.8277900218963623,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 0.229,
+      "playback_start": 505.21,
+      "playback_end": 514.93,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "地毯安定对对对 整地毯先",
+      "correction_note": "修正'安定'为'安装'，调整标点",
+      "intent": [
+        "同意",
+        "提议"
+      ]
+    },
+    {
+      "start": 528.26,
+      "end": 536.28,
+      "speaker": "SPEAKER_02",
+      "text": "刷漆吧，刷漆，白色的乳胶漆，刷白色就行。",
+      "avg_logprob": -0.4192493438720703,
+      "no_speech_prob": 0.6118109822273254,
+      "speech_overlap_s": 4.7,
+      "speech_overlap_ratio": 1.175,
+      "playback_start": 528.21,
+      "playback_end": 536.93,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "刷漆吧 刷漆 白色的乳17 刷白色就行",
+      "correction_note": "修正'乳17'为'乳胶漆'，调整标点",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 543.55,
+      "end": 545.28,
+      "speaker": "SPEAKER_02",
+      "text": "对对对。",
+      "avg_logprob": -0.5897133039391559,
+      "no_speech_prob": 0.8332855105400085,
+      "speech_overlap_s": 1.71,
+      "speech_overlap_ratio": 0.57,
+      "start_asr_raw": 542.26,
+      "playback_start": 543.15,
+      "playback_end": 545.93,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对对对",
+      "correction_note": "添加句号",
+      "intent": [
+        "同意"
+      ]
+    },
+    {
+      "start": 551.26,
+      "end": 554.28,
+      "speaker": "SPEAKER_02",
+      "text": "刮下仿瓷就行。",
+      "avg_logprob": -0.5897133039391559,
+      "no_speech_prob": 0.8332855105400085,
+      "speech_overlap_s": 2.7,
+      "speech_overlap_ratio": 0.9,
+      "playback_start": 551.21,
+      "playback_end": 554.93,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "刮下纺织就行",
+      "correction_note": "修正'纺织'为'仿瓷'，添加句号",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 561.26,
+      "end": 562.26,
+      "speaker": "SPEAKER_02",
+      "text": "干净。",
+      "avg_logprob": -0.5897133039391559,
+      "no_speech_prob": 0.8332855105400085,
+      "speech_overlap_s": 1.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 561.21,
+      "playback_end": 562.91,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "干净",
+      "correction_note": "添加句号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 571.26,
+      "end": 583.28,
+      "speaker": "SPEAKER_02",
+      "text": "什么时候可以收拾东西？",
+      "avg_logprob": -0.625640869140625,
+      "no_speech_prob": 0.8991370797157288,
+      "speech_overlap_s": 3.6,
+      "speech_overlap_ratio": 0.3,
+      "playback_start": 571.21,
+      "playback_end": 583.93,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "什么时候可以收拾东西",
+      "correction_note": "添加疑问句标点",
+      "intent": [
+        "提问"
+      ]
+    },
+    {
+      "start": 604.76,
+      "end": 605.642,
+      "speaker": "SPEAKER_02",
+      "text": "是时间。",
+      "avg_logprob": -2.544905485930266,
+      "no_speech_prob": 0.5200074911117554,
+      "speech_overlap_s": 0.36,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 604.71,
+      "playback_end": 606.292,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-2.54"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "的是时间",
+      "correction_note": "修正ASR错误，原句‘的是时间’语义不通，推测为‘是时间’",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 614.8,
+      "end": 619.041,
+      "speaker": "SPEAKER_02",
+      "text": "有两三天差不多了。",
+      "avg_logprob": -2.544905485930266,
+      "no_speech_prob": 0.5200074911117554,
+      "speech_overlap_s": 2.72,
+      "speech_overlap_ratio": 0.965,
+      "playback_start": 614.75,
+      "playback_end": 619.691,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-2.54"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "又有两三天差不多了有两三天",
+      "correction_note": "修正重复和可能的识别错误，‘又有’改为‘有’，删除重复的‘有两三天’",
+      "intent": [
+        "回答"
+      ]
+    },
+    {
+      "start": 629.15,
+      "end": 638.281,
+      "speaker": "SPEAKER_02",
+      "text": "对，规划好了，怎么办？有没有大件的、小件啥的，是吧？嗯。",
+      "avg_logprob": -0.43747959714947326,
+      "no_speech_prob": 0.3809799551963806,
+      "speech_overlap_s": 8.52,
+      "speech_overlap_ratio": 0.947,
+      "start_asr_raw": 628.26,
+      "playback_start": 628.75,
+      "playback_end": 638.931,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对,规划好了,怎么办,有没有,有没有大件的,小件啥的,是吧。嗯",
+      "intent": [
+        "同意",
+        "陈述",
+        "提问",
+        "确认",
         "回应"
       ]
     },
     {
-      "start": 1520.587,
-      "end": 1529.5,
-      "speaker": "A",
-      "text": "沙发还有那有咱的地毯嘛，躺地上都能将就，一地毯装修地毯。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加逗号和句号，原文保留",
+      "start": 644.58,
+      "end": 645.801,
+      "speaker": "SPEAKER_02",
+      "text": "具体。",
+      "avg_logprob": -0.6701596866954457,
+      "no_speech_prob": 0.6621070504188538,
+      "speech_overlap_s": 0.93,
+      "speech_overlap_ratio": 0.775,
+      "playback_start": 644.53,
+      "playback_end": 646.451,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.67",
+        "high no_speech_prob=0.66"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "具体",
+      "intent": [
+        "命令"
+      ]
+    },
+    {
+      "start": 655.7,
+      "end": 656.941,
+      "speaker": "SPEAKER_02",
+      "text": "霍拉拉。",
+      "avg_logprob": -0.6701596866954457,
+      "no_speech_prob": 0.6621070504188538,
+      "speech_overlap_s": 1.22,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 655.65,
+      "playback_end": 657.591,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.67",
+        "high no_speech_prob=0.66"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "霍拉拉",
+      "correction_note": "疑似ASR错误但无法确定，保留原样",
+      "intent": [
+        "旁白"
+      ]
+    },
+    {
+      "start": 659.45,
+      "end": 661.0,
+      "speaker": "SPEAKER_02",
+      "text": "大概三天。",
+      "avg_logprob": -0.6701596866954457,
+      "no_speech_prob": 0.6621070504188538,
+      "speech_overlap_s": 1.53,
+      "speech_overlap_ratio": 0.736,
+      "start_asr_raw": 658.9,
+      "playback_start": 659.05,
+      "playback_end": 661.65,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.67",
+        "high no_speech_prob=0.66"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "滴滴三天",
+      "correction_note": "修正ASR错误，‘滴滴’可能为‘大概’",
+      "intent": [
+        "回答"
+      ]
+    },
+    {
+      "start": 673.75,
+      "end": 675.28,
+      "speaker": "SPEAKER_02",
+      "text": "预算，必须有预算。",
+      "avg_logprob": -0.7589083399091449,
+      "no_speech_prob": 0.3458544611930847,
+      "speech_overlap_s": 2.81,
+      "speech_overlap_ratio": 0.351,
+      "start_asr_raw": 667.26,
+      "playback_start": 673.35,
+      "playback_end": 675.93,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.76"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "预算 必须有预算",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1536.82,
-      "end": 1537.841,
-      "speaker": "A",
-      "text": "不是。",
-      "speaker_original": "SPEAKER_00",
+      "start": 697.26,
+      "end": 709.28,
+      "speaker": "SPEAKER_01",
+      "text": "有的部门，我的部门挺快。我部门快，我部门东西少；有的部门东西多。",
+      "avg_logprob": -0.29753539141486673,
+      "no_speech_prob": 0.7161478996276855,
+      "speech_overlap_s": 9.31,
+      "speech_overlap_ratio": 0.776,
+      "playback_start": 697.21,
+      "playback_end": 709.24,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.72"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "有部门 我的部门挺快 我部门快 我部门东西少 有部门东西多",
+      "correction_note": "修正‘有部门’为‘有的部门’，并添加标点",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 709.32,
+      "end": 720.28,
+      "speaker": "SPEAKER_01",
+      "text": "大伙帮助帮助呗，帮助你们搬。",
+      "avg_logprob": -0.2684027408731395,
+      "no_speech_prob": 0.7742087841033936,
+      "speech_overlap_s": 5.4,
+      "speech_overlap_ratio": 0.491,
+      "playback_start": 709.26,
+      "playback_end": 720.93,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.77"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "大伙帮助帮助呗 帮助你们搬",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 721.25,
+      "end": 728.28,
+      "speaker": "SPEAKER_01",
+      "text": "对，你们部门东西多，其他部门可以协助你去搬家。",
+      "avg_logprob": -0.2684027408731395,
+      "no_speech_prob": 0.7742087841033936,
+      "speech_overlap_s": 7.5,
+      "speech_overlap_ratio": 0.938,
+      "start_asr_raw": 720.32,
+      "playback_start": 720.85,
+      "playback_end": 728.24,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对 你们部门东西多其他部门可以协助你去搬家",
+      "intent": [
+        "同意",
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 728.32,
+      "end": 741.28,
+      "speaker": "SPEAKER_01",
+      "text": "没事，那有我们来帮助你，然后还有那个多余的再找一个。",
+      "avg_logprob": -0.2684027408731395,
+      "no_speech_prob": 0.7742087841033936,
+      "speech_overlap_s": 5.5,
+      "speech_overlap_ratio": 0.55,
+      "playback_start": 728.26,
+      "playback_end": 741.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "没事 那有我们来帮助你然后还有那个多余再找一个",
+      "correction_note": "修正‘多余’为‘多余的’，调整标点",
+      "intent": [
+        "回应",
+        "提议"
+      ]
+    },
+    {
+      "start": 747.95,
+      "end": 750.28,
+      "speaker": "SPEAKER_01",
+      "text": "大家都能管。",
+      "avg_logprob": -0.591590842422174,
+      "no_speech_prob": 0.8371601104736328,
+      "speech_overlap_s": 2.21,
+      "speech_overlap_ratio": 0.737,
+      "start_asr_raw": 747.26,
+      "playback_start": 747.55,
+      "playback_end": 750.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "答案端尔管",
+      "correction_note": "修正ASR错误，‘答案端尔管’推测为‘大家都能管’",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 762.05,
+      "end": 764.28,
+      "speaker": "SPEAKER_01",
+      "text": "这都没事，让各部门能协调一下子。",
+      "avg_logprob": -0.591590842422174,
+      "no_speech_prob": 0.8371601104736328,
+      "speech_overlap_s": 2.21,
+      "speech_overlap_ratio": 0.737,
+      "start_asr_raw": 761.26,
+      "playback_start": 761.65,
+      "playback_end": 764.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这都没事 让各部门能协调一下子",
+      "intent": [
+        "陈述",
+        "提议"
+      ]
+    },
+    {
+      "start": 768.26,
+      "end": 782.24,
+      "speaker": "SPEAKER_01",
+      "text": "差不多差不多，提前个四五天就行。",
+      "avg_logprob": -0.4959682117808949,
+      "no_speech_prob": 0.8343244791030884,
+      "speech_overlap_s": 3.02,
+      "speech_overlap_ratio": 0.431,
+      "playback_start": 768.21,
+      "playback_end": 782.89,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.83"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "差不多差不多提前个四五天就行",
+      "intent": [
+        "回应",
+        "提议"
+      ]
+    },
+    {
+      "start": 793.45,
+      "end": 795.26,
+      "speaker": "SPEAKER_01",
+      "text": "有时间有时间。",
+      "avg_logprob": -0.4959682117808949,
+      "no_speech_prob": 0.8343244791030884,
+      "speech_overlap_s": 2.9,
+      "speech_overlap_ratio": 0.223,
+      "start_asr_raw": 782.26,
+      "playback_start": 793.05,
+      "playback_end": 795.18,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.83"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "有时间有时间",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 795.26,
+      "end": 810.24,
+      "speaker": "SPEAKER_01",
+      "text": "对，大车不要进不要进。",
+      "avg_logprob": -0.4824817975362142,
+      "no_speech_prob": 0.701361358165741,
+      "speech_overlap_s": 2.5,
+      "speech_overlap_ratio": 0.312,
+      "playback_start": 795.2,
+      "playback_end": 810.89,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.70"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对 大车不要进不要进",
+      "intent": [
+        "同意",
+        "命令"
+      ]
+    },
+    {
+      "start": 811.65,
+      "end": 815.241,
+      "speaker": "SPEAKER_01",
+      "text": "对，大车是晚上10点你不要进。",
+      "avg_logprob": -0.4824817975362142,
+      "no_speech_prob": 0.701361358165741,
+      "speech_overlap_s": 2.92,
+      "speech_overlap_ratio": 0.73,
+      "start_asr_raw": 810.26,
+      "playback_start": 811.25,
+      "playback_end": 815.891,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对 大车是晚上10点你不要进",
+      "intent": [
+        "同意",
+        "命令"
+      ]
+    },
+    {
+      "start": 830.42,
+      "end": 833.441,
+      "speaker": "SPEAKER_01",
+      "text": "大车现在用？",
+      "avg_logprob": -0.8850218828986672,
+      "no_speech_prob": 0.5768365263938904,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 830.37,
+      "playback_end": 834.091,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.89",
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "大车用了现在现在",
+      "correction_note": "修正'用了现在现在'为'现在用？'，使语义通顺。",
+      "intent": [
+        "提问"
+      ]
+    },
+    {
+      "start": 845.95,
+      "end": 847.28,
+      "speaker": "SPEAKER_01",
+      "text": "没事，想办法。",
+      "avg_logprob": -0.4644104452694164,
+      "no_speech_prob": 0.7322957515716553,
+      "speech_overlap_s": 2.3,
+      "speech_overlap_ratio": 0.767,
+      "start_asr_raw": 844.26,
+      "playback_start": 845.55,
+      "playback_end": 847.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "没事 想办法",
+      "intent": [
+        "回应",
+        "提议"
+      ]
+    },
+    {
+      "start": 856.26,
+      "end": 859.28,
+      "speaker": "SPEAKER_01",
+      "text": "搬家别影响别的工作日。",
+      "avg_logprob": -0.4644104452694164,
+      "no_speech_prob": 0.7322957515716553,
+      "speech_overlap_s": 2.61,
+      "speech_overlap_ratio": 0.87,
+      "playback_start": 856.21,
+      "playback_end": 859.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "搬家别影响别的工作日",
+      "intent": [
+        "命令"
+      ]
+    },
+    {
+      "start": 863.55,
+      "end": 865.28,
+      "speaker": "SPEAKER_01",
+      "text": "对对，就是加个班。",
+      "avg_logprob": -0.4644104452694164,
+      "no_speech_prob": 0.7322957515716553,
+      "speech_overlap_s": 2.91,
+      "speech_overlap_ratio": 0.97,
+      "start_asr_raw": 862.26,
+      "playback_start": 863.15,
+      "playback_end": 865.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对对 就是加个班",
+      "intent": [
+        "同意",
+        "提议"
+      ]
+    },
+    {
+      "start": 871.95,
+      "end": 873.28,
+      "speaker": "SPEAKER_01",
+      "text": "对对对。",
+      "avg_logprob": -0.4644104452694164,
+      "no_speech_prob": 0.7322957515716553,
+      "speech_overlap_s": 1.31,
+      "speech_overlap_ratio": 0.655,
+      "start_asr_raw": 871.26,
+      "playback_start": 871.55,
+      "playback_end": 873.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对对对",
+      "intent": [
+        "同意"
+      ]
+    },
+    {
+      "start": 874.26,
+      "end": 889.28,
+      "speaker": "SPEAKER_01",
+      "text": "那就周六周日吧，平时大家都挺，嗯，都工作，都挺忙，嗯，周六周六大伙加个班。",
+      "avg_logprob": -0.4743810954846834,
+      "no_speech_prob": 0.7624073028564453,
+      "speech_overlap_s": 8.7,
+      "speech_overlap_ratio": 0.58,
+      "playback_start": 874.21,
+      "playback_end": 889.93,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.76"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "那就周六周日吧 平时大家都挺 嗯 都工作 都挺忙 嗯 周六周六大伙加个班",
+      "intent": [
+        "提议",
+        "陈述"
+      ]
+    },
+    {
+      "start": 919.26,
+      "end": 923.28,
+      "speaker": "SPEAKER_01",
+      "text": "不是有这个国家很要紧。",
+      "avg_logprob": -0.27626934299221284,
+      "no_speech_prob": 0.5642120838165283,
+      "speech_overlap_s": 2.4,
+      "speech_overlap_ratio": 1.2,
+      "playback_start": 919.21,
+      "playback_end": 923.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "不是有这个国家很要紧",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 925.26,
+      "end": 927.28,
+      "speaker": "SPEAKER_01",
+      "text": "不行咱就找中国有这个的车。",
+      "avg_logprob": -0.27626934299221284,
+      "no_speech_prob": 0.5642120838165283,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 925.21,
+      "playback_end": 927.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "不行咱就找中国有这个的车",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 933.85,
+      "end": 939.28,
+      "speaker": "SPEAKER_01",
+      "text": "最少得三四个人，得看东西啥的，咱的东西。",
+      "avg_logprob": -0.27626934299221284,
+      "no_speech_prob": 0.5642120838165283,
+      "speech_overlap_s": 1.41,
+      "speech_overlap_ratio": 0.705,
+      "start_asr_raw": 933.26,
+      "playback_start": 933.45,
+      "playback_end": 939.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "最少得三四个人得看东西啥的咱东西",
+      "correction_note": "修正'咱东西'为'咱的东西'，添加逗号分隔。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 941.26,
+      "end": 943.28,
+      "speaker": "SPEAKER_01",
+      "text": "坏了啥的得不得看着点？",
+      "avg_logprob": -0.27626934299221284,
+      "no_speech_prob": 0.5642120838165283,
+      "speech_overlap_s": 1.81,
+      "speech_overlap_ratio": 0.905,
+      "playback_start": 941.21,
+      "playback_end": 943.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "坏了啥的得不得看着点",
+      "correction_note": "添加问号表示疑问语气。",
+      "intent": [
+        "提问"
+      ]
+    },
+    {
+      "start": 945.26,
+      "end": 947.28,
+      "speaker": "SPEAKER_01",
+      "text": "不怕磕碰啥的。",
+      "avg_logprob": -0.27626934299221284,
+      "no_speech_prob": 0.5642120838165283,
+      "speech_overlap_s": 1.99,
+      "speech_overlap_ratio": 0.995,
+      "playback_start": 945.21,
+      "playback_end": 947.93,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "不怕磕碰啥的",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 949.26,
+      "end": 963.78,
+      "speaker": "SPEAKER_01",
+      "text": "对，多找几家，货比三家，给个报价。",
+      "avg_logprob": -0.41222138838334516,
+      "no_speech_prob": 0.7826634645462036,
+      "speech_overlap_s": 4.81,
+      "speech_overlap_ratio": 0.332,
+      "playback_start": 949.21,
+      "playback_end": 963.74,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对 多找几家 货币三家 给个报价",
+      "correction_note": "修正'货币三家'为'货比三家'。",
+      "intent": [
+        "同意",
+        "提议"
+      ]
+    },
+    {
+      "start": 963.82,
+      "end": 974.98,
+      "speaker": "SPEAKER_01",
+      "text": "现在搬家公司就哗啦啦车多。",
+      "avg_logprob": -0.41222138838334516,
+      "no_speech_prob": 0.7826634645462036,
+      "speech_overlap_s": 4.6,
+      "speech_overlap_ratio": 0.411,
+      "playback_start": 963.76,
+      "playback_end": 974.94,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.78"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "现在本港公司就哗啦啦 哗啦啦车多",
+      "correction_note": "原'本港公司'修正为'搬家公司'，与上下文一致。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 975.02,
+      "end": 1001.86,
+      "speaker": "SPEAKER_01",
+      "text": "嗯，嗯，小件啥都用过来了，大件啥东西装不了都用，咱找着找着邮政，中国邮政，专业的跟快递的他都给你包装好了，嗯。",
+      "avg_logprob": -0.31304327234045254,
+      "no_speech_prob": 0.7302784323692322,
+      "speech_overlap_s": 19.88,
+      "speech_overlap_ratio": 0.74,
+      "playback_start": 974.96,
+      "playback_end": 1002.51,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.73"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "嗯,嗯,小件啥都用过来了,大件啥东西装不了都用,咱找着,找着邮证,中国邮证,专业的专业的专业的跟快递者他都给你包装好了,嗯。",
+      "correction_note": "清理重复的'专业的'，'邮证'修正为'邮政'，'快递者'修正为'快递的'。",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1012.85,
+      "end": 1014.82,
+      "speaker": "SPEAKER_01",
+      "text": "这得各人看着的。",
+      "avg_logprob": -0.9245476000236742,
+      "no_speech_prob": 0.6312337517738342,
+      "speech_overlap_s": 4.05,
+      "speech_overlap_ratio": 0.412,
+      "start_asr_raw": 1004.96,
+      "playback_start": 1012.45,
+      "playback_end": 1015.47,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.92"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "这得各人看着的",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1022.65,
+      "end": 1024.38,
+      "speaker": "SPEAKER_01",
+      "text": "主要是电脑还得。",
+      "avg_logprob": -0.9245476000236742,
+      "no_speech_prob": 0.6312337517738342,
+      "speech_overlap_s": 3.14,
+      "speech_overlap_ratio": 1.033,
+      "start_asr_raw": 1021.32,
+      "playback_start": 1022.25,
+      "playback_end": 1025.03,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.92"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "主要是电脑还得",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1030.76,
+      "end": 1032.94,
+      "speaker": "SPEAKER_01",
+      "text": "电脑比较贵重的物品。",
+      "avg_logprob": -0.9245476000236742,
+      "no_speech_prob": 0.6312337517738342,
+      "speech_overlap_s": 2.16,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1030.71,
+      "playback_end": 1033.59,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.92"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "电脑比较贵重物品",
+      "correction_note": "补充缺少的'的'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1036.45,
+      "end": 1038.26,
+      "speaker": "SPEAKER_01",
+      "text": "要不开车的时候。",
+      "avg_logprob": -0.48218103555532604,
+      "no_speech_prob": 0.6041883826255798,
+      "speech_overlap_s": 1.83,
+      "speech_overlap_ratio": 0.551,
+      "start_asr_raw": 1034.96,
+      "playback_start": 1036.05,
+      "playback_end": 1038.91,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "要不开车的时候",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1039.45,
+      "end": 1050.6,
+      "speaker": "SPEAKER_01",
+      "text": "一个公司一个部门电脑就十多台。",
+      "avg_logprob": -0.48218103555532604,
+      "no_speech_prob": 0.6041883826255798,
+      "speech_overlap_s": 5.0,
+      "speech_overlap_ratio": 0.407,
+      "start_asr_raw": 1038.28,
+      "playback_start": 1039.05,
+      "playback_end": 1050.56,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "一个公司一个部门电脑就十多台",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1050.64,
+      "end": 1072.6,
+      "speaker": "SPEAKER_01",
+      "text": "对对，咱这里跟搬家公司，跟人家搬家各种物品，是吧，有多少件，是吧。",
+      "avg_logprob": -0.5288115414706144,
+      "no_speech_prob": 0.7868146896362305,
+      "speech_overlap_s": 9.1,
+      "speech_overlap_ratio": 0.414,
+      "playback_start": 1050.58,
+      "playback_end": 1073.25,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对对 咱这里跟搬家公司 跟人家搬家各种物品 是吧 有多少件 是吧",
+      "intent": [
+        "同意",
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1081.83,
+      "end": 1086.2,
+      "speaker": "SPEAKER_01",
+      "text": "对，大车，大车，桌子，椅子。",
+      "avg_logprob": -0.43832673524555404,
+      "no_speech_prob": 0.3679368793964386,
+      "speech_overlap_s": 0.97,
+      "speech_overlap_ratio": 0.97,
+      "playback_start": 1081.78,
+      "playback_end": 1086.85,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对大车,大车,桌子,椅子",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1088.26,
+      "end": 1090.58,
+      "speaker": "SPEAKER_01",
+      "text": "专业，专业，大车，那就。",
+      "avg_logprob": -0.43832673524555404,
+      "no_speech_prob": 0.3679368793964386,
+      "speech_overlap_s": 2.3,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1088.21,
+      "playback_end": 1091.23,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "专业,专业,大车,那就",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1093.2,
+      "end": 1102.581,
+      "speaker": "SPEAKER_01",
+      "text": "邮政差不多了，邮政不是，邮政车让进白天也进。",
+      "avg_logprob": -0.43832673524555404,
+      "no_speech_prob": 0.3679368793964386,
+      "speech_overlap_s": 2.23,
+      "speech_overlap_ratio": 1.042,
+      "playback_start": 1093.15,
+      "playback_end": 1103.231,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "邮政差不多了,邮政邮政不是,邮政车让进白天验进",
+      "correction_note": "清理重复'邮政'，修正'验进'为'也进'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1111.55,
+      "end": 1119.6,
+      "speaker": "SPEAKER_01",
+      "text": "对对对，这打包啥的，准备工作，准备工作得做一天两天。",
+      "avg_logprob": -0.3203838287837922,
+      "no_speech_prob": 0.8444324731826782,
+      "speech_overlap_s": 7.4,
+      "speech_overlap_ratio": 0.822,
+      "start_alignment_raw": 1107.54,
+      "start_asr_raw": 1110.23,
+      "playback_start": 1111.15,
+      "playback_end": 1120.25,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.84"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "对对对 这打包啥的 准备工作 准备工作得做了一天两天",
+      "correction_note": "调整'做了一天两天'为'做一天两天'，更符合口语。",
+      "intent": [
+        "同意",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1126.58,
+      "end": 1130.6,
+      "speaker": "SPEAKER_01",
+      "text": "大车得雇，大车雇一台两台怎么的。",
+      "avg_logprob": -0.3203838287837922,
+      "no_speech_prob": 0.8444324731826782,
+      "speech_overlap_s": 4.53,
+      "speech_overlap_ratio": 1.132,
+      "playback_start": 1126.53,
+      "playback_end": 1131.25,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "大车得顾 大车顾一台两台怎么的",
+      "correction_note": "修正'顾'为'雇'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1132.58,
+      "end": 1137.6,
+      "speaker": "SPEAKER_01",
+      "text": "大车有证都是8米以上的。",
+      "avg_logprob": -0.3203838287837922,
+      "no_speech_prob": 0.8444324731826782,
+      "speech_overlap_s": 3.93,
+      "speech_overlap_ratio": 0.786,
+      "playback_start": 1132.53,
+      "playback_end": 1138.25,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "大车 油证都是8米以上的",
+      "correction_note": "修正'油证'为'有证'，根据语境推测。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1140.58,
+      "end": 1149.3,
+      "speaker": "SPEAKER_01",
+      "text": "小车小车也得用几台小车。",
+      "avg_logprob": -0.32517277464574695,
+      "no_speech_prob": 0.8366754055023193,
+      "speech_overlap_s": 4.13,
+      "speech_overlap_ratio": 0.475,
+      "playback_start": 1140.53,
+      "playback_end": 1149.95,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.84"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "小车小车也得用用几台小车",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1153.38,
+      "end": 1156.22,
+      "speaker": "SPEAKER_01",
+      "text": "大车，主要桌椅了，电脑电脑桌好的。",
+      "avg_logprob": -0.32517277464574695,
+      "no_speech_prob": 0.8366754055023193,
+      "speech_overlap_s": 2.82,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1153.33,
+      "playback_end": 1156.87,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.84"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "大车主要桌椅了电脑电脑桌好的",
+      "correction_note": "调整语序并添加标点",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1162.34,
+      "end": 1174.9,
+      "speaker": "SPEAKER_01",
+      "text": "夜里不行，夜里不行，主要是白天。夜里，夜里不行，不方便。",
+      "avg_logprob": -0.32517277464574695,
+      "no_speech_prob": 0.8366754055023193,
+      "speech_overlap_s": 1.54,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1162.29,
+      "playback_end": 1174.86,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.84"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "夜里不行夜里不行主要是白天,夜里,夜里不行,不方便。",
+      "correction_note": "添加标点，保留重复口语",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1174.94,
+      "end": 1184.88,
+      "speaker": "SPEAKER_01",
+      "text": "30号之前呢，那咱准备两天三天，差不多。",
+      "avg_logprob": -0.42390750703357516,
+      "no_speech_prob": 0.9343242645263672,
+      "speech_overlap_s": 4.4,
+      "speech_overlap_ratio": 0.44,
+      "playback_start": 1174.88,
+      "playback_end": 1185.53,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "30号之前呢,那咱准备两天三天,差不多。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1192.15,
+      "end": 1195.9,
+      "speaker": "SPEAKER_01",
+      "text": "先把主要东西先拉走。",
+      "avg_logprob": -0.678444428877397,
+      "no_speech_prob": 0.736115574836731,
+      "speech_overlap_s": 4.07,
+      "speech_overlap_ratio": 0.37,
+      "start_asr_raw": 1184.88,
+      "playback_start": 1191.75,
+      "playback_end": 1196.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.68",
+        "high no_speech_prob=0.74"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "先把主要东西先拉走",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1200.53,
+      "end": 1225.88,
+      "speaker": "SPEAKER_01",
+      "text": "压力对，嗯，很快有压力，那得跟搬家公司说好了，是吧？",
+      "avg_logprob": -0.5534117849249589,
+      "no_speech_prob": 0.8251615762710571,
+      "speech_overlap_s": 9.8,
+      "speech_overlap_ratio": 0.392,
+      "start_alignment_raw": 1195.88,
+      "playback_start": 1200.48,
+      "playback_end": 1225.8,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "鸭精对,对,嗯,说,说,说,很快有压力,那得跟搬家公司得说好了,是吧?",
+      "correction_note": "修正‘鸭精’为‘压力’，删除多余重复‘对’和‘说’",
+      "intent": [
+        "同意",
+        "回应",
+        "陈述",
+        "提问"
+      ]
+    },
+    {
+      "start": 1225.88,
+      "end": 1227.9,
+      "speaker": "SPEAKER_02",
+      "text": "嗯。",
+      "avg_logprob": -4.116572676033809,
+      "no_speech_prob": 0.5184493660926819,
+      "speech_overlap_s": 0.47,
+      "speech_overlap_ratio": 0.235,
+      "playback_start": 1225.82,
+      "playback_end": 1228.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-4.12"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "ё",
+      "correction_note": "ASR乱码修正为语气词",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1239.05,
+      "end": 1239.56,
+      "speaker": "SPEAKER_02",
+      "text": "墙。",
+      "avg_logprob": -4.116572676033809,
+      "no_speech_prob": 0.5184493660926819,
+      "speech_overlap_s": 0.49,
+      "speech_overlap_ratio": 0.245,
+      "start_asr_raw": 1237.54,
+      "playback_start": 1238.65,
+      "playback_end": 1240.21,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-4.12"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "牆",
+      "correction_note": "繁体转简体，添加标点",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1248.36,
+      "end": 1252.5,
+      "speaker": "SPEAKER_02",
+      "text": "嗯。",
+      "avg_logprob": -4.116572676033809,
+      "no_speech_prob": 0.5184493660926819,
+      "speech_overlap_s": 1.39,
+      "speech_overlap_ratio": 0.695,
+      "playback_start": 1248.31,
+      "playback_end": 1253.15,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-4.12"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "angs j",
+      "correction_note": "无意义字符修正为语气词",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1261.15,
+      "end": 1265.02,
+      "speaker": "SPEAKER_02",
+      "text": "公交、地铁都到写字楼，应该公交、地铁都比较方便。",
+      "avg_logprob": -0.30588469071821733,
+      "no_speech_prob": 0.8483352661132812,
+      "speech_overlap_s": 4.45,
+      "speech_overlap_ratio": 1.112,
+      "start_alignment_raw": 1255.0,
+      "start_asr_raw": 1260.65,
+      "playback_start": 1260.75,
+      "playback_end": 1265.67,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "公交都写字楼,应该公交地铁都比较方便",
+      "correction_note": "修正‘都’为‘到’，添加标点",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1273.0,
+      "end": 1277.02,
+      "speaker": "SPEAKER_02",
+      "text": "正常应该公交比较方便，地铁也就只能走一条线。",
+      "avg_logprob": -0.30588469071821733,
+      "no_speech_prob": 0.8483352661132812,
+      "speech_overlap_s": 3.75,
+      "speech_overlap_ratio": 0.938,
+      "playback_start": 1272.95,
+      "playback_end": 1277.67,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "正常应该公交比较方便,地铁也就只能走一条线",
       "correction_note": "添加句号",
       "intent": [
-        "反对"
+        "陈述"
       ]
     },
     {
-      "start": 1539.723,
-      "end": 1540.554,
-      "speaker": "A",
-      "text": "做人口。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号，原文保留",
+      "start": 1293.55,
+      "end": 1296.58,
+      "speaker": "SPEAKER_02",
+      "text": "干涉原有的分样。",
+      "avg_logprob": -4.922637939453125,
+      "no_speech_prob": 0.5106711387634277,
+      "speech_overlap_s": 0.91,
+      "speech_overlap_ratio": 0.379,
+      "start_asr_raw": 1292.06,
+      "playback_start": 1293.15,
+      "playback_end": 1297.23,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-4.92"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "干涉源肉的分佯的",
+      "correction_note": "根据上下文推测修正，原句‘干涉源肉的分佯’不可读",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1553.662,
-      "end": 1564.683,
-      "speaker": "A",
-      "text": "有沙发是吧，也有沙发。嗯，吃的可以叫外卖，是不是加班的？嗯。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正ASR错误：\"有故意\"改为\"也有\"，调整语序并添加标点",
+      "start": 1305.6,
+      "end": 1314.48,
+      "speaker": "SPEAKER_02",
+      "text": "最后，这个，好的。",
+      "avg_logprob": -4.922637939453125,
+      "no_speech_prob": 0.5106711387634277,
+      "speech_overlap_s": 1.31,
+      "speech_overlap_ratio": 0.963,
+      "playback_start": 1305.55,
+      "playback_end": 1314.4,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-4.92"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "最后 square again Lucywhat这是 好的",
+      "correction_note": "清理英文和乱码，保留可读部分",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1314.48,
+      "end": 1326.5,
+      "speaker": "SPEAKER_02",
+      "text": "对，有多少人能开车，是吧？统一下，20多台。",
+      "avg_logprob": -0.37218910714854364,
+      "no_speech_prob": 0.8875334858894348,
+      "speech_overlap_s": 4.7,
+      "speech_overlap_ratio": 0.671,
+      "playback_start": 1314.42,
+      "playback_end": 1326.46,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对 有多少人能开车 是吧 统一下子的20多台",
+      "correction_note": "添加标点，拆分长句",
+      "intent": [
+        "回应",
+        "提问",
+        "确认",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1326.54,
+      "end": 1331.5,
+      "speaker": "SPEAKER_02",
+      "text": "那停车位比较紧张，北京是。",
+      "avg_logprob": -0.37218910714854364,
+      "no_speech_prob": 0.8875334858894348,
+      "speech_overlap_s": 3.8,
+      "speech_overlap_ratio": 0.76,
+      "playback_start": 1326.48,
+      "playback_end": 1332.15,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "那停车位比较紧张 北京 是",
+      "correction_note": "添加逗号",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1339.55,
+      "end": 1345.5,
+      "speaker": "SPEAKER_02",
+      "text": "去看看停车位。",
+      "avg_logprob": -0.37218910714854364,
+      "no_speech_prob": 0.8875334858894348,
+      "speech_overlap_s": 1.4,
+      "speech_overlap_ratio": 0.467,
+      "start_asr_raw": 1338.48,
+      "playback_start": 1339.15,
+      "playback_end": 1346.15,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "去看看停车位",
+      "correction_note": "添加句号",
+      "intent": [
+        "提议"
+      ]
+    },
+    {
+      "start": 1362.75,
+      "end": 1370.002,
+      "speaker": "SPEAKER_02",
+      "text": "我们部门得有十多个人开车差不多有。",
+      "avg_logprob": -0.4703083405127892,
+      "no_speech_prob": 0.6978856325149536,
+      "speech_overlap_s": 2.73,
+      "speech_overlap_ratio": 0.683,
+      "start_asr_raw": 1361.48,
+      "playback_start": 1362.35,
+      "playback_end": 1370.652,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "我们部门得有十多个人开车差不多有",
+      "correction_note": "原文可能缺少宾语，但语义基本通顺，保留原样并添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1376.38,
+      "end": 1377.501,
+      "speaker": "SPEAKER_02",
+      "text": "行，那行，那行。",
+      "avg_logprob": -0.47339996637082565,
+      "no_speech_prob": 0.7269272208213806,
+      "speech_overlap_s": 1.1,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1376.33,
+      "playback_end": 1378.151,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.73"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "行 那行 那行",
+      "correction_note": "口语重复保留，添加标点。",
+      "intent": [
+        "回应"
+      ]
+    },
+    {
+      "start": 1382.48,
+      "end": 1388.2,
+      "speaker": "SPEAKER_02",
+      "text": "那行，那么今天少坐自己的车，多坐公交地铁。",
+      "avg_logprob": -0.47339996637082565,
+      "no_speech_prob": 0.7269272208213806,
+      "speech_overlap_s": 6.2,
+      "speech_overlap_ratio": 1.088,
+      "playback_start": 1382.43,
+      "playback_end": 1388.85,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "那行 那么今天少坐自己去 多坐公交地铁",
+      "correction_note": "修正'少坐自己去'为'少坐自己的车'，使语义通顺。",
+      "intent": [
+        "回应",
+        "提议"
+      ]
+    },
+    {
+      "start": 1392.98,
+      "end": 1394.8,
+      "speaker": "SPEAKER_02",
+      "text": "各部门的人。",
+      "avg_logprob": -0.47339996637082565,
+      "no_speech_prob": 0.7269272208213806,
+      "speech_overlap_s": 1.8,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1392.93,
+      "playback_end": 1395.45,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "各部门门人",
+      "correction_note": "修正'各部门门人'为'各部门的人'。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1396.78,
+      "end": 1398.301,
+      "speaker": "SPEAKER_02",
+      "text": "对，销售啥的。",
+      "avg_logprob": -0.47339996637082565,
+      "no_speech_prob": 0.7269272208213806,
+      "speech_overlap_s": 1.5,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1396.73,
+      "playback_end": 1398.951,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对 销售啥的",
+      "correction_note": "添加逗号。",
+      "intent": [
+        "回应",
+        "陈述"
+      ]
+    },
+    {
+      "start": 1418.15,
+      "end": 1419.9,
+      "speaker": "SPEAKER_02",
+      "text": "车位，车位好解决。",
+      "avg_logprob": -0.6480933507283528,
+      "no_speech_prob": 0.40786170959472656,
+      "speech_overlap_s": 3.23,
+      "speech_overlap_ratio": 0.158,
+      "start_asr_raw": 1399.48,
+      "playback_start": 1417.75,
+      "playback_end": 1420.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "车位 车位好解决",
+      "correction_note": "添加逗号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1428.85,
+      "end": 1431.9,
+      "speaker": "SPEAKER_02",
+      "text": "嗯哦，那就要尽量体谅一下吧。",
+      "avg_logprob": -0.40615456899007163,
+      "no_speech_prob": 0.7692437171936035,
+      "speech_overlap_s": 4.0,
+      "speech_overlap_ratio": 1.0,
+      "start_alignment_raw": 1419.88,
+      "start_asr_raw": 1427.53,
+      "playback_start": 1428.45,
+      "playback_end": 1432.55,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "嗯哦 那就要尽量体谅一下吧",
+      "correction_note": "添加逗号。",
+      "intent": [
+        "回应",
+        "提议"
+      ]
+    },
+    {
+      "start": 1437.88,
+      "end": 1439.9,
+      "speaker": "SPEAKER_02",
+      "text": "各部门的领导。",
+      "avg_logprob": -0.40615456899007163,
+      "no_speech_prob": 0.7692437171936035,
+      "speech_overlap_s": 2.0,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1437.83,
+      "playback_end": 1439.86,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "各部门的领导",
+      "correction_note": "无修正。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1439.94,
+      "end": 1458.88,
+      "speaker": "SPEAKER_02",
+      "text": "跑外勤也得考虑到里头，销售啥的。他们时间没有固定点，跑外勤还有跑销售的。",
+      "avg_logprob": -0.2883864084879557,
+      "no_speech_prob": 0.8574442863464355,
+      "speech_overlap_s": 9.97,
+      "speech_overlap_ratio": 0.525,
+      "playback_start": 1439.88,
+      "playback_end": 1459.53,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "跑外勤也得考虑到里头,销售啥的。他们时间没有固定点,跑外勤还有跑销售的。",
+      "correction_note": "修正逗号位置，保留原意。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1466.25,
+      "end": 1467.88,
+      "speaker": "SPEAKER_02",
+      "text": "10个差不多。",
+      "avg_logprob": -0.5316284548851752,
+      "no_speech_prob": 0.7805776000022888,
+      "speech_overlap_s": 1.5,
+      "speech_overlap_ratio": 0.167,
+      "start_asr_raw": 1458.88,
+      "playback_start": 1465.85,
+      "playback_end": 1468.53,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "10个差不多",
+      "correction_note": "添加句号。",
+      "intent": [
+        "回答"
+      ]
+    },
+    {
+      "start": 1477.88,
+      "end": 1488.88,
+      "speaker": "SPEAKER_02",
+      "text": "看他看他的停车场位大不大呗，是不是今天再增加几个，多增加几个车位？",
+      "avg_logprob": -0.5316284548851752,
+      "no_speech_prob": 0.7805776000022888,
+      "speech_overlap_s": 0.9,
+      "speech_overlap_ratio": 0.45,
+      "playback_start": 1477.83,
+      "playback_end": 1488.8,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "short speech support=0.9s/11.0s",
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.78"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "看他看他的停车场位大不大呗 是不是今天涨几多,多涨几个车位?",
+      "correction_note": "修正'涨几多'为'再增加几个'，'多涨'为'多增加'，使语义清晰。",
       "intent": [
         "陈述",
         "提问",
+        "提议"
+      ]
+    },
+    {
+      "start": 1488.88,
+      "end": 1512.9,
+      "speaker": "SPEAKER_02",
+      "text": "主席好像够呛。",
+      "avg_logprob": -0.8442991574605306,
+      "no_speech_prob": 0.8103839159011841,
+      "speech_overlap_s": 4.23,
+      "speech_overlap_ratio": 0.176,
+      "playback_start": 1488.82,
+      "playback_end": 1513.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.84",
+        "low speech overlap=18%",
+        "high no_speech_prob=0.81"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "主席好像够呛",
+      "correction_note": "添加句号。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1542.88,
+      "end": 1558.88,
+      "speaker": "SPEAKER_02",
+      "text": "有规时有沙发，是吧？规时有沙发，加班啥的。",
+      "avg_logprob": -0.3913171457689862,
+      "no_speech_prob": 0.5737360119819641,
+      "speech_overlap_s": 7.43,
+      "speech_overlap_ratio": 0.464,
+      "playback_start": 1542.83,
+      "playback_end": 1558.8,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "有规时有沙发 是吧 规时有沙发 加班啥的",
+      "correction_note": "添加标点，保留原词汇（'规时'可能为方言或ASR误，但无法确认，故保留）。",
+      "intent": [
+        "陈述",
         "确认"
       ]
     },
     {
-      "start": 1568.056,
-      "end": 1568.815,
-      "speaker": "A",
-      "text": "老板。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1574.603,
-      "end": 1576.623,
-      "speaker": "A",
-      "text": "主要是员工加班。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1595.41,
-      "end": 1599.447,
-      "speaker": "A",
-      "text": "加班的应该给。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "添加句号，口语省略主语",
+      "start": 1558.88,
+      "end": 1565.9,
+      "speaker": "SPEAKER_02",
+      "text": "吃的可以叫外卖，是不是？加班的主要是员工加班。",
+      "avg_logprob": -0.3913171457689862,
+      "no_speech_prob": 0.5737360119819641,
+      "speech_overlap_s": 6.03,
+      "speech_overlap_ratio": 1.206,
+      "playback_start": 1558.82,
+      "playback_end": 1566.55,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "吃的可以叫外卖 是不是 加班的主要是员工加班",
+      "correction_note": "添加逗号和问号。",
       "intent": [
         "陈述",
-        "提议"
+        "确认",
+        "提问"
       ]
     },
     {
-      "start": 1603.747,
-      "end": 1606.669,
-      "speaker": "A",
-      "text": "加班晚太晚了，车费应该给报销。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'往太保'为'晚了'，'爆点'为'报销'，繁体转简体。",
-      "intent": [
-        "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 1608.387,
-      "end": 1612.218,
-      "speaker": "A",
-      "text": "加班晚了，公交车、地铁都没有。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'瓦子'为'晚了'，'公交了'为'公交车'，繁体转简体。",
+      "start": 1593.88,
+      "end": 1606.9,
+      "speaker": "SPEAKER_02",
+      "text": "加班的，加班的应该给，不是，加班晚了才把车费应该给报销。",
+      "avg_logprob": -0.2716771595513643,
+      "no_speech_prob": 0.8712669014930725,
+      "speech_overlap_s": 8.33,
+      "speech_overlap_ratio": 0.641,
+      "playback_start": 1593.83,
+      "playback_end": 1607.55,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase",
+        "high no_speech_prob=0.87"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "加班的,加班的应该给,不是,加班晚了才把车费应该给报点",
+      "correction_note": "修正'报点'为'报销'，并调整语序使更通顺。",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1614.985,
-      "end": 1621.702,
-      "speaker": "A",
-      "text": "对，9点以后加班，加到9点10点，公交没有了。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'工交'为'公交'，繁体转简体。",
+      "start": 1607.95,
+      "end": 1621.7,
+      "speaker": "SPEAKER_02",
+      "text": "加班晚了，公交车、地铁都没有了。对，九点以后加班，加到九点十点，嗯，公交车没有了。",
+      "avg_logprob": -0.2716771595513643,
+      "no_speech_prob": 0.8712669014930725,
+      "speech_overlap_s": 4.87,
+      "speech_overlap_ratio": 0.812,
+      "start_asr_raw": 1606.94,
+      "playback_start": 1607.55,
+      "playback_end": 1622.35,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "加班晚了,公交了,地铁都没有了对,九点以后加班,加到九点十点嗯 地公交没有了",
+      "correction_note": "修正“公交了”为“公交车”，修正“地公交”为“公交车”，并调整句序和标点。",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1628.08,
+      "end": 1632.42,
+      "speaker": "SPEAKER_02",
+      "text": "对对，加班是晚了九点十点，应该给报销。",
+      "avg_logprob": -0.46409018380301337,
+      "no_speech_prob": 0.6407651305198669,
+      "speech_overlap_s": 4.32,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1628.03,
+      "playback_end": 1633.07,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对对 加班是晚了九点十点 应该给报点",
+      "correction_note": "修正“报点”为“报销”（根据上下文推测，加班晚了应报销交通费）。",
       "intent": [
         "同意",
         "陈述"
       ]
     },
     {
-      "start": 1628.063,
-      "end": 1632.363,
-      "speaker": "A",
-      "text": "对对，加班晚了，9点以后的时间应该给报销。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'加班的'为'加班'，'9点时间'为'9点以后的时间'，繁体转简体。",
+      "start": 1643.4,
+      "end": 1643.902,
+      "speaker": "SPEAKER_02",
+      "text": "租房。",
+      "avg_logprob": -0.46409018380301337,
+      "no_speech_prob": 0.6407651305198669,
+      "speech_overlap_s": 0.48,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1643.35,
+      "playback_end": 1644.552,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "租房",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1658.45,
+      "end": 1659.78,
+      "speaker": "SPEAKER_02",
+      "text": "这个这个行。",
+      "avg_logprob": -0.9090480804443359,
+      "no_speech_prob": 0.08022478967905045,
+      "speech_overlap_s": 1.31,
+      "speech_overlap_ratio": 0.12,
+      "start_asr_raw": 1648.88,
+      "playback_start": 1658.05,
+      "playback_end": 1660.43,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.91",
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "这个这个行",
+      "intent": [
+        "同意"
+      ]
+    },
+    {
+      "start": 1668.96,
+      "end": 1669.382,
+      "speaker": "SPEAKER_02",
+      "text": "北边。",
+      "avg_logprob": -0.9090480804443359,
+      "no_speech_prob": 0.08022478967905045,
+      "speech_overlap_s": 0.4,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1668.91,
+      "playback_end": 1670.032,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-0.91"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "北边",
+      "intent": [
+        "陈述"
+      ]
+    },
+    {
+      "start": 1708.88,
+      "end": 1715.9,
+      "speaker": "SPEAKER_02",
+      "text": "对，离咱们近点比较方便，还是。",
+      "avg_logprob": -0.5899549722671509,
+      "no_speech_prob": 0.7845095992088318,
+      "speech_overlap_s": 2.23,
+      "speech_overlap_ratio": 0.319,
+      "playback_start": 1708.83,
+      "playback_end": 1716.55,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对 离咱们近点比较方便 还是",
+      "correction_note": "添加逗号和句号，保留末尾口语“还是”。",
       "intent": [
         "同意",
-        "陈述",
-        "提议"
-      ]
-    },
-    {
-      "start": 1642.812,
-      "end": 1644.179,
-      "speaker": "A",
-      "text": "租。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1658.658,
-      "end": 1659.907,
-      "speaker": "A",
-      "text": "这个。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1668.952,
-      "end": 1669.829,
-      "speaker": "A",
-      "text": "北。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1713.974,
-      "end": 1716.234,
-      "speaker": "A",
-      "text": "对，离咱们近点比较方便。",
-      "speaker_original": "SPEAKER_00",
-      "correction_note": "修正'还是'为句号，调整语序。",
-      "intent": [
-        "同意",
-        "陈述"
-      ]
-    },
-    {
-      "start": 1724.099,
-      "end": 1725.403,
-      "speaker": "A",
+      "start": 1724.45,
+      "end": 1725.9,
+      "speaker": "SPEAKER_02",
       "text": "对对。",
-      "speaker_original": "SPEAKER_00",
+      "avg_logprob": -0.5899549722671509,
+      "no_speech_prob": 0.7845095992088318,
+      "speech_overlap_s": 1.3,
+      "speech_overlap_ratio": 0.65,
+      "start_asr_raw": 1723.88,
+      "playback_start": 1724.05,
+      "playback_end": 1726.55,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "对 对",
       "intent": [
-        "同意",
-        "回应"
+        "同意"
       ]
     },
     {
-      "start": 1737.818,
-      "end": 1738.839,
-      "speaker": "A",
-      "text": "样子。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1745.294,
-      "end": 1747.314,
-      "speaker": "A",
-      "text": "你说下子你说下子。",
-      "speaker_original": "SPEAKER_00",
+      "start": 1737.64,
+      "end": 1748.4,
+      "speaker": "SPEAKER_02",
+      "text": "你必须读 kitty律师这样的字眼。",
+      "avg_logprob": -3.65829345703125,
+      "no_speech_prob": 0.3285246193408966,
+      "speech_overlap_s": 4.81,
+      "speech_overlap_ratio": 0.448,
+      "playback_start": 1737.59,
+      "playback_end": 1749.05,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "low avg_logprob=-3.66"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "你必须读 kitty律师这样的字眼。",
+      "correction_note": "保留原样，无法确定是否为ASR错误。",
       "intent": [
         "命令"
       ]
     },
     {
-      "start": 1763.063,
-      "end": 1765.083,
-      "speaker": "A",
-      "text": "那行。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 1772.362,
-      "end": 1774.12,
-      "speaker": "A",
-      "text": "简单装修就行。",
-      "speaker_original": "SPEAKER_00",
+      "start": 1778.38,
+      "end": 1785.16,
+      "speaker": "SPEAKER_02",
+      "text": "装修是简单明了就行。",
+      "avg_logprob": -0.5966914296150208,
+      "no_speech_prob": 0.694988489151001,
+      "speech_overlap_s": 2.56,
+      "speech_overlap_ratio": 0.379,
+      "playback_start": 1778.33,
+      "playback_end": 1785.81,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "装修是简单明了就行",
       "intent": [
         "陈述"
       ]
     },
     {
-      "start": 1783.313,
-      "end": 1785.013,
-      "speaker": "A",
-      "text": "装修简单明了就行。",
-      "speaker_original": "SPEAKER_00",
+      "start": 1808.14,
+      "end": 1809.761,
+      "speaker": "SPEAKER_02",
+      "text": "看一下看一下，定下时间。",
+      "avg_logprob": -0.34411096572875977,
+      "no_speech_prob": 0.4586485028266907,
+      "speech_overlap_s": 1.6,
+      "speech_overlap_ratio": 1.0,
+      "playback_start": 1808.09,
+      "playback_end": 1810.411,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "看一下看一下定下时间",
+      "correction_note": "添加逗号分隔。",
       "intent": [
-        "陈述"
-      ]
-    },
-    {
-      "start": 1799.176,
-      "end": 1799.834,
-      "speaker": "B",
-      "text": "行。",
-      "speaker_original": "SPEAKER_01",
-      "intent": [
-        "回应"
-      ]
-    },
-    {
-      "start": 1808.12,
-      "end": 1809.793,
-      "speaker": "A",
-      "text": "看一下，看一下，定下时间。",
-      "speaker_original": "SPEAKER_00",
-      "intent": [
-        "命令",
-        "提议"
+        "提议",
+        "命令"
       ]
     }
   ],
   "timing": {
-    "diarization": 52.34,
-    "asr": 87.5,
-    "alignment": 10.86,
-    "llm": 312.35,
-    "total": 463.21
+    "diarization": 52.14,
+    "asr": 306.19,
+    "alignment": 45.82,
+    "llm": 203.71,
+    "total": 608.1
   },
   "num_speakers": 3,
   "meeting_summary": {
-    "topic": "公司搬迁规划讨论",
-    "summary": "会议主要讨论了公司新办公室的选址、租金、交通便利性、装修方案、搬家安排以及员工通勤和加班报销等问题。与会者倾向于选择交通便利的地点，并计划在周末组织搬家，同时考虑聘请搬家公司并做好物品打包。",
+    "topic": "公司搬迁相关事宜讨论",
+    "summary": "对话主要围绕公司新办公地点的选址、装修、搬家安排以及员工交通和加班福利等事项展开讨论。参与者就场地交通便利性（优先东边三环内）、装修方案（刷白漆、铺地毯）、搬家时间（周六周日）、搬家预算和搬家公司选择（货比三家）等达成了初步共识，并考虑了员工加班晚归的交通报销问题。",
     "key_points": [
-      "新办公室选址要求交通便利（地铁公交），租金3元/平被认为偏贵但为长远考虑可接受。",
-      "办公室布局包括50个工位、会议室、小办公室、茶水间等，装修选择简单刷白漆和铺地毯。",
-      "搬家计划分阶段进行，考虑大车限行，计划使用搬家公司或中国邮政，并做好电脑等贵重物品的打包。"
+      "新办公地点优先考虑东边、三环以内，方便地铁公交，并需考察停车位。",
+      "装修要求简单即可：白色乳胶漆、铺地毯，考虑设置吸烟室小隔间。",
+      "搬家安排在周末，避免影响工作日，需提前打包，多找几家搬家公司比较报价。",
+      "考虑员工加班至九点十点后的交通费报销。"
     ],
     "decisions": [
-      "选择交通便利的东边区域（三花一里）。",
-      "装修采用乳胶漆刷白色、铺地毯。",
-      "搬家时间安排在周末，不占用工作时间。",
-      "为加班到9点后的员工报销车费。"
+      "新办公地点选择东边三环内交通便利的区域。",
+      "装修方案为刷白色乳胶漆、铺地毯，并考虑设置吸烟室小隔间。",
+      "搬家时间定在周六周日，不影响工作日。"
     ],
     "action_items": [
-      "调查搬家公司报价，货比三家。",
-      "统计各部门开车人数，协调停车位。",
-      "安排打包准备工作（1-2天）。",
-      "预订搬家公司车辆。"
+      "考察具体办公场地的交通、停车位。",
+      "联系多家搬家公司获取报价并比较。",
+      "提前一两天进行打包准备工作。",
+      "制定搬家预算。"
     ],
     "participants": [
-      "A",
-      "B"
+      "SPEAKER_01",
+      "SPEAKER_02"
     ]
   }
 }

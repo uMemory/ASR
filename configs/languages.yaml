@@ -1,4 +1,4 @@
-# Supported languages and per-language defaults.
+# Supported languages and per-language defaults for multi-scenario long-form audio.
 
 supported: [zh, en]
 default: zh
@@ -6,9 +6,10 @@ default: zh
 zh:
   asr_initial_prompt: ""      # empty to avoid prompt leak (HF pipeline known issue)
   llm_system_prompt_lang: zh
-  intent_labels: [陈述, 提问, 同意, 反对, 提议, 总结, 命令, 澄清, 确认, 打断, 寒暄, 回应]
+  # Broad discourse labels for meetings, news, programs, interviews, film/TV, and podcasts.
+  intent_labels: [陈述, 提问, 回答, 同意, 反对, 提议, 总结, 命令, 澄清, 确认, 打断, 寒暄, 回应, 旁白, 引述, 转场, 介绍, 评论]
 
 en:
   asr_initial_prompt: ""
   llm_system_prompt_lang: en
-  intent_labels: [statement, question, agree, disagree, proposal, summary, command, clarification, confirmation, interruption, smalltalk, acknowledgment]
+  intent_labels: [statement, question, answer, agree, disagree, proposal, summary, command, clarification, confirmation, interruption, smalltalk, acknowledgment, narration, quotation, transition, introduction, commentary]

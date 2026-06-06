@@ -1,0 +1,720 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\fa376570374ef1a95f6529e2c6bb074db09829d44efda0e479635420305b89fb\\cjfer.wav",
+  "segments": [
+    {
+      "start": 0.85,
+      "end": 8.0,
+      "speaker": "SPEAKER_07",
+      "text": "The Democratic Party putting its far-left agenda on full display last night during the second round of presidential debates.",
+      "start_asr_raw": 0.0,
+      "playback_start": 0.0,
+      "playback_end": 7.92,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "The Democratic Party putting its far-left agenda on full display last night during the second round of presidential debates.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 17.0,
+      "speaker": "SPEAKER_03",
+      "text": "Health care, in my view, is a human right. And we have got to pass a Medicare-for-all single-payer system.",
+      "playback_start": 7.94,
+      "playback_end": 16.92,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "Health care, in my view, is a human right. And we have got to pass a Medicare-for-all single-payer system.",
+      "intent": [
+        "statement",
+        "proposal"
+      ]
+    },
+    {
+      "start": 17.0,
+      "end": 23.0,
+      "speaker": "SPEAKER_04",
+      "text": "Who here would abolish their private health insurance in favor of a government-run plan?",
+      "playback_start": 16.94,
+      "playback_end": 23.65,
+      "speaker_original": "SPEAKER_04",
+      "text_before_llm": "Who here would abolish their private health insurance in favor of a government-run plan?",
+      "intent": [
+        "question"
+      ]
+    },
+    {
+      "start": 26.0,
+      "end": 34.24,
+      "speaker": "SPEAKER_00",
+      "text": "Raise your hand if your government plan would provide coverage for undocumented immigrants.",
+      "playback_start": 25.95,
+      "playback_end": 34.16,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "Raise your hand if your government plan would provide coverage for undocumented immigrants.",
+      "intent": [
+        "command",
+        "question"
+      ]
+    },
+    {
+      "start": 34.24,
+      "end": 40.84,
+      "speaker": "SPEAKER_06",
+      "text": "You cannot let people who are sick, no matter where they come from, no matter what their status, go uncovered. You can't do that.",
+      "playback_start": 34.18,
+      "playback_end": 40.76,
+      "speaker_original": "SPEAKER_06",
+      "text_before_llm": "You cannot let people who are sick, no matter where they come from, no matter what their status, go uncovered. You can't do that.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 40.84,
+      "end": 46.04,
+      "speaker": "SPEAKER_07",
+      "text": "I will release children from cages. I will get rid of the private detention centers.",
+      "playback_start": 40.78,
+      "playback_end": 45.96,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "I will release children from cages. I will get rid of the private detention centers.",
+      "intent": [
+        "statement",
+        "proposal"
+      ]
+    },
+    {
+      "start": 46.04,
+      "end": 63.36,
+      "speaker": "SPEAKER_10",
+      "text": "Raise your hand if you think it should be a civil offense rather than a crime to cross a border without documentation. If someone is here without documents and that is their only offense, is that person to be deported?",
+      "playback_start": 45.98,
+      "playback_end": 63.28,
+      "speaker_original": "SPEAKER_10",
+      "text_before_llm": "Raise your hand if you think it should be a civil offense rather than a crime to cross a border without documentation. If someone is here without documents and that is their only offense, is that person to be deported?",
+      "intent": [
+        "command",
+        "question"
+      ]
+    },
+    {
+      "start": 63.36,
+      "end": 68.0,
+      "speaker": "SPEAKER_06",
+      "text": "No. That person can be a part of this great American experience.",
+      "playback_start": 63.3,
+      "playback_end": 67.92,
+      "speaker_original": "SPEAKER_06",
+      "text_before_llm": "No. That person can be a part of this great American experience.",
+      "intent": [
+        "answer",
+        "statement"
+      ]
+    },
+    {
+      "start": 68.0,
+      "end": 70.84,
+      "speaker": "SPEAKER_05",
+      "text": "I don't even call it climate change, it's a climate crisis.",
+      "playback_start": 67.94,
+      "playback_end": 70.76,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "I don't even call it climate change, it's a climate crisis.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 70.84,
+      "end": 81.36,
+      "speaker": "SPEAKER_03",
+      "text": "The old ways are no longer relevant. The scientists tell us we have 12 years before there is irreparable damage to this planet. This is a global issue.",
+      "playback_start": 70.78,
+      "playback_end": 81.28,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "The old ways are no longer relevant. The scientists tell us we have 12 years before there is irreparable damage to this planet. This is a global issue.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 81.36,
+      "end": 112.12,
+      "speaker": "SPEAKER_07",
+      "text": "The 2020 contenders facing criticism from both sides for isolating the majority of voters with their slate of progressive policies, leaving many to declare President Trump as the winner. Check out this headline from NBC News, the winner of the first Democratic debate, Donald Trump. And here's the New York Post headline slamming Democrats with this cover, who wants to lose the election? Even Trump's harshest critics are dismayed at the performances. Take for example David Brooks who said this in a New York Times op-ed.",
+      "playback_start": 81.3,
+      "playback_end": 112.04,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "The 2020 contenders facing criticism from both sides for isolating the majority of voters with their slate of progressive policies, leaving many to declare President Trump as the winner. Check out this headline from NBC News, the winner of the first Democratic debate, Donald Trump. And here's the New York Post headline slamming Democrats with this cover, who wants to lose the election? Even Trump's harshest critics are dismayed at the performances. Take for example David Brooks who said this in a New York Times op-ed.",
+      "intent": [
+        "statement",
+        "commentary",
+        "quotation"
+      ]
+    },
+    {
+      "start": 112.12,
+      "end": 141.08,
+      "speaker": "SPEAKER_07",
+      "text": "The party seems to think it can win without any of the 35% of us in the moderate camp. The ones who actually delivered the 2018 midterm win. The progressive narrative is dominating in part because progressives these days have a direct and forceful story to tell and no interest in compromising it. It's dominating because no moderate wants to bear the brunt of progressive fury by opposing it. Scarborough looking absolutely distraught with the Democratic field.",
+      "playback_start": 112.06,
+      "playback_end": 141.0,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "The party seems to think it can win without any of the 35% of us in the moderate camp. The ones who actually delivered the 2018 midterm win. The progressive narrative is dominating in part because progressives these days have a direct and forceful story to tell and no interest in compromising it. It's dominating because no moderate wants to bear the brunt of progressive fury by opposing it. Scarborough looking absolutely distraught with the Democratic field.",
+      "intent": [
+        "statement",
+        "quotation",
+        "commentary"
+      ]
+    },
+    {
+      "start": 141.08,
+      "end": 169.64,
+      "speaker": "SPEAKER_11",
+      "text": "Last night was a disaster for the Democratic party. It is the position of every Democrat on that stage that illegal immigrants, if they cross the border illegally, should get health care for life. It is then the position of every Democrat on that stage that if they cross the border illegally, it's not even illegal anymore. But that loses Wisconsin, that loses Pennsylvania, that loses Florida, that loses North Carolina, it may lose Virginia.",
+      "playback_start": 141.02,
+      "playback_end": 169.56,
+      "speaker_original": "SPEAKER_11",
+      "text_before_llm": "Last night was a disaster for the Democratic party. It is the position of every Democrat on that stage that illegal immigrants, if they cross the border illegally, should get health care for life. It is then the position of every Democrat on that stage that if they cross the border illegally, it's not even illegal anymore. But that loses Wisconsin, that loses Pennsylvania, that loses Florida, that loses North Carolina, it may lose Virginia.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 169.64,
+      "end": 175.62,
+      "speaker": "SPEAKER_07",
+      "text": "And of course, the president himself didn't miss an opportunity to pounce on his rivals from the G20 summit in Japan.",
+      "playback_start": 169.58,
+      "playback_end": 175.54,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "And of course, the president himself didn't miss an opportunity to pounce on his rivals from the G20 summit in Japan.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 175.62,
+      "end": 198.58,
+      "speaker": "SPEAKER_02",
+      "text": "I've been watching the debates a little bit in between meetings and I wasn't impressed. But when you look at the socialism and you look at what it can do, that's what you're talking about there. That's become like the Socialist Party. In fact, I heard there's a rumor the Democrats are going to change the name of the party from the Democrat Party to the Socialist Party. I'm hearing that, but let's see if they do it.",
+      "playback_start": 175.56,
+      "playback_end": 198.5,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "I've been watching the debates a little bit in between meetings and I wasn't impressed. But when you look at the socialism and you look at what it can do, that's what you're talking about there. That's become like the Socialist Party. In fact, I heard there's a rumor the Democrats are going to change the name of the party from the Democrat Party to the Socialist Party. I'm hearing that, but let's see if they do it.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 198.58,
+      "end": 202.7,
+      "speaker": "SPEAKER_07",
+      "text": "All right, Dana, did the Democrats commit political suicide the last two nights?",
+      "playback_start": 198.52,
+      "playback_end": 202.62,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "All right, Dana, did the Democrats commit political suicide the last two nights?",
+      "intent": [
+        "question",
+        "transition"
+      ]
+    },
+    {
+      "start": 202.7,
+      "end": 231.1,
+      "speaker": "SPEAKER_05",
+      "text": "Well, there are nine more debates, and I think 31 weeks before the first voting takes place at the Iowa caucuses. So I would say that if this past two days didn't feel too good for the Democrats, they've Got away. They've got some opportunities, but it's hard to make a first impression over and over again and to change people's minds. I do think that they narrowed down the field a little bit over the last two nights, and so I think they probably have a plausible six out of the 20 that were on the stage.",
+      "playback_start": 202.64,
+      "playback_end": 231.02,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "Well, there are nine more debates, and I think 31 weeks before the first voting takes place at the Iowa caucuses. So I would say that if this past two days didn't feel too good for the Democrats, they've Got away. They've got some opportunities, but it's hard to make a first impression over and over again and to change people's minds. I do think that they narrowed down the field a little bit over the last two nights, and so I think they probably have a plausible six out of the 20 that were on the stage.",
+      "intent": [
+        "answer",
+        "statement"
+      ]
+    },
+    {
+      "start": 231.1,
+      "end": 247.44,
+      "speaker": "SPEAKER_05",
+      "text": "Now there are a couple who were not on stage that will be on the next stage, like Governor Steve Bullock of Montana. I think some of these candidates will find it very hard to keep up the pretense that they have a full-time campaign that is operational. this idea that anyone can win after these last two nights, I think that goes away.",
+      "playback_start": 231.04,
+      "playback_end": 247.36,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "Now there are a couple who were not on stage that will be on the next stage, like Governor Steve Bullock of Montana. I think some of these candidates will find it very hard to keep up the pretense that they have a full-time campaign that is operational. this idea that anyone can win after these last two nights, I think that goes away.",
+      "intent": [
+        "answer",
+        "statement"
+      ]
+    },
+    {
+      "start": 247.44,
+      "end": 249.4,
+      "speaker": "SPEAKER_07",
+      "text": "Who do you think your top six are after these two days?",
+      "playback_start": 247.38,
+      "playback_end": 249.32,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "Who do you think your top six are after these two days?",
+      "intent": [
+        "question"
+      ]
+    },
+    {
+      "start": 249.4,
+      "end": 263.76,
+      "speaker": "SPEAKER_05",
+      "text": "I haven't written down my top six, but I think they're obviously your frontrunners, Biden, Bernie, Elizabeth Warren, Kamala Harris. I'm gonna keep Buttigieg in there. And then I think it's a, you could go with like a Booker Castro, perhaps one of the governors.",
+      "playback_start": 249.34,
+      "playback_end": 263.68,
+      "speaker_original": "SPEAKER_05",
+      "text_before_llm": "I haven't written down my top six, but I think they're obviously your frontrunners, Biden, Bernie, Elizabeth Warren, Kamala Harris. I'm gonna keep Buttigieg in there. And then I think it's a, you could go with like a Booker Castro, perhaps one of the governors.",
+      "intent": [
+        "answer",
+        "statement"
+      ]
+    },
+    {
+      "start": 263.76,
+      "end": 270.0,
+      "speaker": "SPEAKER_11",
+      "text": "Craig, you look disgusted. No Marianne Williamson, no Marianne Williamson,",
+      "playback_start": 263.7,
+      "playback_end": 270.0,
+      "speaker_original": "SPEAKER_11",
+      "text_before_llm": "Craig, you look disgusted. No Marianne Williamson, no Marianne Williamson,",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 270.08,
+      "end": 300.44,
+      "speaker": "SPEAKER_09",
+      "text": "who clearly should be the frontrunner. Her book return to love. Yeah. Well, you know, I don't have to read her book when I can feel her in my soul I feel her in my very soul It's the last night she was speaking to me into me only that that I was made of love Mmm, and then I could float above the earth as a big ball of love. I'm voting for her. I'm switching parties I don't know if I'm in a party. Anyway You want me to go? Yeah Continue policy wise the big problem here is that for progressive?",
+      "playback_start": 270.02,
+      "playback_end": 300.36,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_09",
+      "text_before_llm": "who clearly should be the frontrunner. Her book return to love. Yeah. Well, you know, I don't have to read her book when I can feel her in my soul I feel her in my very soul It's the last night she was speaking to me into me only that that I was made of love Mmm, and then I could float above the earth as a big ball of love. I'm voting for her. I'm switching parties I don't know if I'm in a party. Anyway You want me to go? Yeah Continue policy wise the big problem here is that for progressive?",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 300.44,
+      "end": 331.34,
+      "speaker": "SPEAKER_09",
+      "text": "policies to survive you have to ignore the concept of incentives so that's how I mean it's great you can support amnesty for all undocumented aliens and make it legal to cross the borders and offer huge safety nets when they get here if you don't understand the consequences of incentives because you just incentivize everybody to come here at once and if you thought that those caravans were a problem and the people suffering and the people dying you wait if this ever happens because it's just going to be crazy town. Now to the actual debate itself,",
+      "playback_start": 300.38,
+      "playback_end": 331.26,
+      "speaker_original": "SPEAKER_09",
+      "text_before_llm": "policies to survive you have to ignore the concept of incentives so that's how I mean it's great you can support amnesty for all undocumented aliens and make it legal to cross the borders and offer huge safety nets when they get here if you don't understand the consequences of incentives because you just incentivize everybody to come here at once and if you thought that those caravans were a problem and the people suffering and the people dying you wait if this ever happens because it's just going to be crazy town. Now to the actual debate itself,",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 331.34,
+      "end": 357.9,
+      "speaker": "SPEAKER_09",
+      "text": "I wanted to bury my head in my hands. It sounded like a room full of obnoxious jury foreman. You know, like the person who believes he's right on everything and they're all talking at once. And I have to blame the structure. I know it's pointless to bring this up because no one listens. They do the same thing. They use the same format, but the format is designed to narrow substance, Right because you have ten people so it gets narrow and narrow and then it forces people to go for applause lines or gotcha",
+      "playback_start": 331.28,
+      "playback_end": 357.82,
+      "speaker_original": "SPEAKER_09",
+      "text_before_llm": "I wanted to bury my head in my hands. It sounded like a room full of obnoxious jury foreman. You know, like the person who believes he's right on everything and they're all talking at once. And I have to blame the structure. I know it's pointless to bring this up because no one listens. They do the same thing. They use the same format, but the format is designed to narrow substance, Right because you have ten people so it gets narrow and narrow and then it forces people to go for applause lines or gotcha",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 357.9,
+      "end": 381.84,
+      "speaker": "SPEAKER_09",
+      "text": "Lines right so they have it. You know they have and sometimes it work it works Kamala's thing about the food fight worked, but other it just it just so you have somebody like yang He's just kind of like you know he's gone less than three minutes. Yeah, and but you know, but he should have what you know What he didn't wear a tie Look I thought it was kind of a good look too, but maybe that was it Maybe they. Maybe the moderators are like, no tie, no questions.",
+      "playback_start": 357.84,
+      "playback_end": 381.76,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_09",
+      "text_before_llm": "Lines right so they have it. You know they have and sometimes it work it works Kamala's thing about the food fight worked, but other it just it just so you have somebody like yang He's just kind of like you know he's gone less than three minutes. Yeah, and but you know, but he should have what you know What he didn't wear a tie Look I thought it was kind of a good look too, but maybe that was it Maybe they. Maybe the moderators are like, no tie, no questions.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 381.84,
+      "end": 407.24,
+      "speaker": "SPEAKER_07",
+      "text": "That's all he had was the no tie wand. Just looking at it politically. Forget about how you believe inside politically. If you're in these races, as Joe Scarborough said, in the Rust Belt, and the top of the ticket says we're going to take away your private health care and we're going to give it to illegals. Oh, yeah, and we're going to confiscate your guns and pay reparations, gay reparations, and global warming is the biggest geopolitical threat. These other senators and congressmen, they're going to have to distance themselves",
+      "playback_start": 381.78,
+      "playback_end": 407.16,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "That's all he had was the no tie wand. Just looking at it politically. Forget about how you believe inside politically. If you're in these races, as Joe Scarborough said, in the Rust Belt, and the top of the ticket says we're going to take away your private health care and we're going to give it to illegals. Oh, yeah, and we're going to confiscate your guns and pay reparations, gay reparations, and global warming is the biggest geopolitical threat. These other senators and congressmen, they're going to have to distance themselves",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 407.24,
+      "end": 410.54,
+      "speaker": "SPEAKER_07",
+      "text": "from the top of the democratic ticket, it's gonna be that dangerous.",
+      "playback_start": 407.18,
+      "playback_end": 410.46,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "from the top of the democratic ticket, it's gonna be that dangerous.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 410.54,
+      "end": 433.82,
+      "speaker": "SPEAKER_08",
+      "text": "If Jesse was voting, they would, but guess what? There are more Democrats in the country than Republicans. And guess what? This was a democratic primary debate, Jesse. And most Americans, by the way, agree with those people on stage about Medicare for All, about helping young people to pay for their education. You're wrong. Let's look at the polls. It's not about me. I'm just telling you, look at the facts.",
+      "playback_start": 410.48,
+      "playback_end": 433.74,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_08",
+      "text_before_llm": "If Jesse was voting, they would, but guess what? There are more Democrats in the country than Republicans. And guess what? This was a democratic primary debate, Jesse. And most Americans, by the way, agree with those people on stage about Medicare for All, about helping young people to pay for their education. You're wrong. Let's look at the polls. It's not about me. I'm just telling you, look at the facts.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 433.82,
+      "end": 439.32,
+      "speaker": "SPEAKER_07",
+      "text": "200 people have private healthcare. You're saying all of those people say, yeah, let's take it away and give it to the government?",
+      "playback_start": 433.76,
+      "playback_end": 439.24,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "200 people have private healthcare. You're saying all of those people say, yeah, let's take it away and give it to the government?",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 439.32,
+      "end": 458.22,
+      "speaker": "SPEAKER_08",
+      "text": "Dana has made this point to me time and again, that once you say Medicare for all, yes, it's very popular, but then you start taking away, and then there's lots of arguments. But the premise is Republicans have nothing, zero, in terms of repeal and replace after two years of all Republicans in the House and Senate and a Republican White House, no solutions, no help.",
+      "playback_start": 439.26,
+      "playback_end": 458.14,
+      "speaker_original": "SPEAKER_08",
+      "text_before_llm": "Dana has made this point to me time and again, that once you say Medicare for all, yes, it's very popular, but then you start taking away, and then there's lots of arguments. But the premise is Republicans have nothing, zero, in terms of repeal and replace after two years of all Republicans in the House and Senate and a Republican White House, no solutions, no help.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 458.22,
+      "end": 461.3,
+      "speaker": "SPEAKER_07",
+      "text": "You're comfortable with these positions these Democrats are taking.",
+      "playback_start": 458.16,
+      "playback_end": 461.22,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "You're comfortable with these positions these Democrats are taking.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 461.3,
+      "end": 478.46,
+      "speaker": "SPEAKER_08",
+      "text": "I love listening, because it's so interesting to me to see this. It's almost like a civic exercise. Oh, this is how Republicans saw a debate that attracted, I believe was 17 million or 15 million on Wednesday, 17 million yesterday. It set a record in that sense. Just a tremendous success. What record could it set?",
+      "playback_start": 461.24,
+      "playback_end": 479.11,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_08",
+      "text_before_llm": "I love listening, because it's so interesting to me to see this. It's almost like a civic exercise. Oh, this is how Republicans saw a debate that attracted, I believe was 17 million or 15 million on Wednesday, 17 million yesterday. It set a record in that sense. Just a tremendous success. What record could it set?",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 479.3,
+      "end": 483.58,
+      "speaker": "SPEAKER_09",
+      "text": "For Democrats, maybe. Not for Republicans. Republicans got more. I remember that. No, no, no.",
+      "playback_start": 479.25,
+      "playback_end": 483.5,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_09",
+      "text_before_llm": "For Democrats, maybe. Not for Republicans. Republicans got more. I remember that. No, no, no.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 483.58,
+      "end": 513.78,
+      "speaker": "SPEAKER_08",
+      "text": "Republicans, this is a record for Democrats. I keep saying this thing. This is a Democratic debate, you guys. Which is why there's a talk of incentives. It just strikes me that when you have a situation where you have a Democratic primary and you have Democrats speaking to their supporters, it's a success. And I think, you know, Yang was the biggest disappointment. I thought he was going to be a breakout star there. He was not. He had nothing. Marianne Williamson, I'm not sure why she's on the stage, but I got to tell you something.",
+      "playback_start": 483.52,
+      "playback_end": 513.7,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_08",
+      "text_before_llm": "Republicans, this is a record for Democrats. I keep saying this thing. This is a Democratic debate, you guys. Which is why there's a talk of incentives. It just strikes me that when you have a situation where you have a Democratic primary and you have Democrats speaking to their supporters, it's a success. And I think, you know, Yang was the biggest disappointment. I thought he was going to be a breakout star there. He was not. He had nothing. Marianne Williamson, I'm not sure why she's on the stage, but I got to tell you something.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 513.78,
+      "end": 516.26,
+      "speaker": "SPEAKER_08",
+      "text": "So many people today were like talking about Marianne Williamson.",
+      "playback_start": 513.72,
+      "playback_end": 516.18,
+      "speaker_original": "SPEAKER_08",
+      "text_before_llm": "So many people today were like talking about Marianne Williams.",
+      "correction_note": "Corrected 'Williams' to 'Williamson' based on speaker name context.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 516.26,
+      "end": 518.26,
+      "speaker": "SPEAKER_07",
+      "text": "All right, Katie. Everyone's Googling her.",
+      "playback_start": 516.2,
+      "playback_end": 518.18,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "All right, Katie. Everyone's Googling her.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 518.26,
+      "end": 519.26,
+      "speaker": "SPEAKER_08",
+      "text": "Yeah.",
+      "playback_start": 518.2,
+      "playback_end": 519.18,
+      "speaker_original": "SPEAKER_08",
+      "text_before_llm": "Yeah.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 519.26,
+      "end": 520.26,
+      "speaker": "SPEAKER_01",
+      "text": "They want to know where she came from.",
+      "playback_start": 519.2,
+      "playback_end": 520.18,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "They want to know where she came from.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 520.26,
+      "end": 526.28,
+      "speaker": "SPEAKER_07",
+      "text": "seems to think by saying, if you like your health care, you can't keep your health care. It's going to help Democrats in 2020.",
+      "playback_start": 520.2,
+      "playback_end": 526.2,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "seems to think by saying, if you like your health care, you can't keep your health care. It's going to help Democrats in 2020.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 526.28,
+      "end": 553.98,
+      "speaker": "SPEAKER_01",
+      "text": "A lot of the polling shows that Democrats want someone who can beat Donald Trump. What we saw over the past two nights is not the way to do it. When you're talking about stripping 250 million people in America, which is the majority of the country, of their private insurance, and then turning right around and saying, but illegal aliens are going to get health insurance on your back, so you're going to pay for it, that's a problem. Democrats, I'm not sure how they reconcile this idea of trying to make an argument about the working class",
+      "playback_start": 526.22,
+      "playback_end": 553.9,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "A lot of the polling shows that Democrats want someone who can beat Donald Trump. What we saw over the past two nights is not the way to do it. When you're talking about stripping 250 million people in America, which is the majority of the country, of their private insurance, and then turning right around and saying, but illegal aliens are going to get health insurance on your back, so you're going to pay for it, that's a problem. Democrats, I'm not sure how they reconcile this idea of trying to make an argument about the working class",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 553.98,
+      "end": 582.16,
+      "speaker": "SPEAKER_01",
+      "text": "and the economy while pushing factory killing climate change plans. Also, how do they reconcile promoting illegal immigration while also saying that they're for the working class and raising the minimum wage and raising wages when illegal immigration suppresses those wages? That's going to be a huge problem. And when Democrats stand up and they all raise their hand and say, we want health insurance paid for by taxpayers, including for abortion for illegal aliens, the question becomes, who are they really standing up for?",
+      "playback_start": 553.92,
+      "playback_end": 582.08,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "and the economy while pushing factory killing climate change plans. Also, how do they reconcile promoting illegal immigration while also saying that they're for the working class and raising the minimum wage and raising wages when illegal immigration suppresses those wages? That's going to be a huge problem. And when Democrats stand up and they all raise their hand and say, we want health insurance paid for by taxpayers, including for abortion for illegal aliens, the question becomes, who are they really standing up for?",
+      "intent": [
+        "statement",
+        "question",
+        "commentary"
+      ]
+    },
+    {
+      "start": 582.16,
+      "end": 599.36,
+      "speaker": "SPEAKER_01",
+      "text": "And President Trump has been very good about talking directly to people and saying, I'm standing up for Americans, I'm standing up for you. And Democrats seem to be trying to split this conversation about, well, we're for the American worker, but we're also for all these people who have come here illegally and broken the laws, which, by the way, we don't think should be laws anymore.",
+      "playback_start": 582.1,
+      "playback_end": 599.28,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "And President Trump has been very good about talking directly to people and saying, I'm standing up for Americans, I'm standing up for you. And Democrats seem to be trying to split this conversation about, well, we're for the American worker, but we're also for all these people who have come here legally and broken the laws, which, by the way, we don't think should be laws anymore.",
+      "correction_note": "Corrected 'legally' to 'illegally' to match context of broken laws.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 599.36,
+      "end": 625.96,
+      "speaker": "SPEAKER_08",
+      "text": "Maybe they're standing up for American values. Maybe it's the case that the incentive, you guys think it's an incentive to say, So open borders and no. Sovereignty is an American value, but the incentive, you say the incentive is, oh, because they might get health care here. First, there are like 10 or 11 million people already here in our midst. And then the second thing is the real reason that they're leaving is not because of any incentive here. The real reason is about problems when our economy is open and they get to stay.",
+      "playback_start": 599.3,
+      "playback_end": 625.88,
+      "speaker_original": "SPEAKER_08",
+      "text_before_llm": "Maybe they're standing up for American values. Maybe it's the case that the incentive, you guys think it's an incentive to say, So open borders and no. Sovereignty is an American value, but the incentive, you say the incentive is, oh, because they might get health care here. First, there are like 10 or 11 million people already here in our mix. And then the second thing is the real reason that they're leaving is not because of any incentive here. The real reason is about problems when our economy is open and they get to stay.",
+      "correction_note": "Corrected 'mix' to 'midst' for idiomatic expression.",
+      "intent": [
+        "statement",
+        "commentary",
+        "disagree"
+      ]
+    },
+    {
+      "start": 625.96,
+      "end": 627.24,
+      "speaker": "SPEAKER_08",
+      "text": "So I guess that's not an incentive.",
+      "playback_start": 625.9,
+      "playback_end": 627.16,
+      "speaker_original": "SPEAKER_08",
+      "text_before_llm": "So I guess that's not an incentive.",
+      "intent": [
+        "statement",
+        "summary"
+      ]
+    },
+    {
+      "start": 627.24,
+      "end": 634.24,
+      "speaker": "SPEAKER_07",
+      "text": "And listen, Juan seems to think they're on track, so let him. Thank you. Donald Trump's the centrist now, am I right? Look what you did.",
+      "playback_start": 627.18,
+      "playback_end": 634.279,
+      "speaker_original": "SPEAKER_07",
+      "text_before_llm": "And listen, Juan seems to think they're on track, so let him. Thank you. Donald Trump's the centrist now, am I right? Look what you did.",
+      "intent": [
+        "statement",
+        "question",
+        "commentary",
+        "transition"
+      ]
+    }
+  ],
+  "timing": {
+    "diarization": 18.64,
+    "asr": 576.84,
+    "alignment": 31.19,
+    "llm": 103.61,
+    "total": 730.35
+  },
+  "num_speakers": 12,
+  "meeting_summary": {
+    "topic": "Analysis and criticism of the second round of 2020 Democratic presidential debates, focusing on progressive policies and their electoral implications.",
+    "summary": "The transcript captures commentary on the second Democratic debate, where candidates advocated for Medicare-for-all, health coverage for undocumented immigrants, decriminalizing border crossings, and aggressive climate action. Critics argue these far-left positions alienate moderate voters and could hurt Democrats in general elections, with pundits and even Trump declaring the debate a disaster for the party.",
+    "key_points": [
+      "Candidates raised hands in favor of abolishing private insurance, covering undocumented immigrants, and making illegal border crossing a civil offense.",
+      "Multiple commentators (including Joe Scarborough, David Brooks, and the New York Post) characterized the debate as a political liability for Democrats.",
+      "President Trump mocked the debate as socialist and claimed Democrats might rename the party the 'Socialist Party'.",
+      "Discussion of the debate format's flaws: too many candidates, narrow substance, and incentives for applause lines over depth."
+    ],
+    "decisions": [],
+    "action_items": [],
+    "participants": [
+      "SPEAKER_07",
+      "SPEAKER_03",
+      "SPEAKER_04",
+      "SPEAKER_00",
+      "SPEAKER_06",
+      "SPEAKER_10",
+      "SPEAKER_05",
+      "SPEAKER_11",
+      "SPEAKER_02",
+      "SPEAKER_09",
+      "SPEAKER_08",
+      "SPEAKER_01"
+    ]
+  }
+}

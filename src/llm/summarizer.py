@@ -1,4 +1,4 @@
-"""LLM meeting summary generator.
+"""LLM long-form audio summary generator.
 
 Takes the full transcript (all segments) and asks the LLM to produce
 a structured summary: topic, key points, decisions, action items.
@@ -13,13 +13,13 @@ from .base import LLMAdapter
 
 logger = get_logger(__name__)
 
-_SUMMARY_PROMPT_ZH = """你是一个会议记录助手。请根据以下多人对话的转写内容，
-生成一份结构化的会议摘要。
+_SUMMARY_PROMPT_ZH = """你是一个长音频内容整理助手。请根据以下转写内容，
+生成一份适用于会议、访谈、新闻、节目、播客、影视片段等多场景的结构化摘要。
 
 输出格式（严格 JSON）：
 {
-  "topic": "会议主题（一句话）",
-  "summary": "会议内容概要（2-3句话）",
+  "topic": "内容主题（一句话）",
+  "summary": "内容概要（2-3句话）",
   "key_points": ["关键点1", "关键点2", "..."],
   "decisions": ["决策1", "决策2", "..."] 或 [],
   "action_items": ["待办1", "待办2", "..."] 或 [],
@@ -31,12 +31,13 @@ _SUMMARY_PROMPT_ZH = """你是一个会议记录助手。请根据以下多人�
 - key_points 至少列出 1-3 个要点
 - 使用中文输出"""
 
-_SUMMARY_PROMPT_EN = """You are a meeting notes assistant. Based on the following
-multi-speaker conversation transcript, generate a structured meeting summary.
+_SUMMARY_PROMPT_EN = """You are a long-form audio content assistant. Based on the
+following transcript, generate a structured summary for meetings, interviews,
+news, programs, podcasts, film/TV clips, or other spoken-audio scenarios.
 
 Output format (strict JSON):
 {
-  "topic": "Meeting topic (1 sentence)",
+  "topic": "Content topic (1 sentence)",
   "summary": "Brief summary (2-3 sentences)",
   "key_points": ["point1", "point2", "..."],
   "decisions": ["decision1", "decision2", "..."] or [],
@@ -54,7 +55,7 @@ def generate_summary(
     segments: list[dict[str, Any]],
     language: str = "zh",
 ) -> dict[str, Any]:
-    """Generate a structured meeting summary from all segments.
+    """Generate a structured content summary from all segments.
 
     Returns a dict with keys: topic, summary, key_points, decisions,
     action_items, participants.

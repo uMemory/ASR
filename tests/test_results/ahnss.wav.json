@@ -1,0 +1,737 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\d69b89f2968529b64c6e4d43df622b9ecbb356ccc79f15928ca3cf78f93912d8\\ahnss.wav",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 26.68,
+      "speaker": "SPEAKER_03",
+      "text": "Let's meet tonight's panel. We've got former criminal defense attorney and Fox News contributor Emily Campagna was here along with the one and only Richard Fowler host of the Richard Fowler show, also a Fox News contributor and from Reason magazine where he serves as editor at large and award winning host of the fifth column podcast. It is Matt Welch. Welcome everyone. So much to discuss. Let's start with Liz, because it was Biden that everyone was supposedly going to go after,",
+      "playback_start": 0.0,
+      "playback_end": 26.6,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "Let's meet tonight's part of panel. We've got former criminal defense attorney and Fox News contributor Emily Campagna was here along with the one and only Richard Fowler host of the Richard Fowler show, also a Fox News contributor and from Reason magazine where he serves as editor at large and award winning host of the fifth column podcast. It is Matt Welch. Welcome everyone. So much to discuss. Let's start with Liz, because it was Biden that everyone was supposedly going to go after,",
+      "correction_note": "Changed 'part of panel' to 'panel' for natural flow; 'meet' kept as likely intended.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 26.68,
+      "end": 34.84,
+      "speaker": "SPEAKER_03",
+      "text": "and he definitely took some shots in debates two and three, but now Liz is the big threat. How should the other candidates handle her? Should they all go after her?",
+      "playback_start": 26.62,
+      "playback_end": 34.76,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "and he definitely took some shots in debates two and three, but now Liz is the big threat. How should the other candidates handle her? Should they all go after her?",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 34.84,
+      "end": 64.06,
+      "speaker": "SPEAKER_01",
+      "text": "I think whether they should or not, they absolutely will, and they need to because she's been the one, the only one showing any kind of momentum anywhere. Biden's still sort of in more or less the same place. Other people are down. They should go after her. that I think that they will based on how they have behaved so far, particularly the former centrists who are running, so like Cory Booker, Joaquin Castro and Beto O'Rourke, all of whom have positions in the past that are not super progressive, actually, they like charter schools and things like that.",
+      "playback_start": 34.78,
+      "playback_end": 63.98,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "I think whether they should or not, they absolutely will, and they need to because she's been the one, the only one showing any kind of momentum anywhere. Biden's still sort of in more or less the same place. Other people are down. They should go after her. that I think that they will based on how they have behaved so far, particularly the former centrists who are running, so like Cory Booker, Joaquin Castro and Beto O'Rourke, all of whom have positions in the past that are not super progressive, actually, they like charter schools and things like that.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 64.06,
+      "end": 65.46,
+      "speaker": "SPEAKER_03",
+      "text": "At least they did.",
+      "playback_start": 64.0,
+      "playback_end": 65.38,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "At least they did.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 65.46,
+      "end": 67.46,
+      "speaker": "SPEAKER_01",
+      "text": "They did, right? And they're trying to hide all this.",
+      "playback_start": 65.4,
+      "playback_end": 67.38,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "They did, right? And they're trying to hide all this.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 67.46,
+      "end": 72.14,
+      "speaker": "SPEAKER_03",
+      "text": "Now they're hypocritical gum-flappers, they're saying whatever it takes for progressives to like them.",
+      "playback_start": 67.4,
+      "playback_end": 72.06,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "Now they're hypocritical gum flabbers, they're saying whatever it takes for progressives to like them.",
+      "correction_note": "Corrected 'gum flabbers' to 'gum-flappers' (a common colloquial term for talkative people, fitting the context).",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 72.14,
+      "end": 98.74,
+      "speaker": "SPEAKER_01",
+      "text": "They're terrified. And so what they say, they're trying to hide that past by trying to outwoke one another. So Joaquin Castro is like, you know, Bernie, he's not even hardcore enough, he's not for slavery reparations, I am, Beto O'Rourke is a one man get out the vote like team for the Republican party. He just every day, I'll take your gun and I'm going to take away your church based on viewpoint discrimination. So I think those are the people who are more likely to go after Elizabeth Warren where",
+      "playback_start": 72.08,
+      "playback_end": 98.66,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "They're terrified. And so what they say, they're trying to hide that past by trying to outwoke one another. So Joaquin Castro is like, you know, Bernie, he's not even hardcore enough, he's not for slavery reparations, I am, Beto O'Rourke is a one man get out the vote like team for the Republican party. He just every day, I'll take your gun and I'm going to take away your church based on viewpoint discrimination. So I think those are the people who are more likely to go after Elizabeth Warren where",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 98.74,
+      "end": 104.38,
+      "speaker": "SPEAKER_01",
+      "text": "where she's weak, which is with black voters specifically and with the whole Native American thing which rubs people the wrong way.",
+      "playback_start": 98.68,
+      "playback_end": 104.3,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "she's weak, which is with black voters specifically and with the whole Native American thing which rubs people around.",
+      "correction_note": "Corrected 'rubs people around' to 'rubs people the wrong way' (idiomatic expression).",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 104.38,
+      "end": 132.3,
+      "speaker": "SPEAKER_03",
+      "text": "So we finally saw Bernie and Liz on the same stage, but it's been an interesting dynamic with them because they have been pretty much in lockstep because they both need the other supporters. They cannot afford to alienate them, but Bernie made the shift. What do you chalk that up to? He's trying to get back into the race since he's now seen as being wounded in terms of his health, or is this where they make the big split and he tries to elbow her out and hurt her front runner status?",
+      "playback_start": 104.32,
+      "playback_end": 132.22,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "So we finally saw Bernie and Liz on the same stage, but it's been an interesting dynamic with them because they have been pretty much in lockstep because they both need the other supporters. They cannot afford to alienate them, but Bernie made the shift. What do you chalk that up to? He's trying to get back into the race since he's now seen as being wounded in terms of his health, or is this one they make the big split and he tries to elbow her out and hurt her front runner status?",
+      "correction_note": "Corrected 'one' to 'where' for clearer meaning.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 132.3,
+      "end": 144.86,
+      "speaker": "SPEAKER_02",
+      "text": "Listen, I think they're burnt if you talk to Bernie supporters They will all tell you that they would vote for Elizabeth Warren We had a lot of them call into serious progress this morning and they said that right we would vote for If she is the nominee we'll vote for Liz Warren if we think that Bernie drops out of this race",
+      "playback_start": 132.24,
+      "playback_end": 144.78,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "Listen, I think they're burnt if you talk to Bernie supporters They will all tell you that they would vote for Elizabeth Warren We had a lot of them call into serious progress this morning and they said that right we would vote for If she is the nominee we'll vote for Liz Warren if we think that Bernie drops out of this race",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 144.86,
+      "end": 153.66,
+      "speaker": "SPEAKER_03",
+      "text": "So I think that there is some potential to shift there. I think Bernie just going to try and convince people that he's perfectly healthy He feels better and he's staying in he can raise money. So shut up",
+      "playback_start": 144.8,
+      "playback_end": 153.66,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "So I think that there is some potential to shift there. I think Bernie just going to try and convince people that he's perfectly healthy He feels better and he's staying in he can raise money. So shut up",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 153.9,
+      "end": 172.02,
+      "speaker": "SPEAKER_02",
+      "text": "Yeah, I think that's gonna be the Bernie strategy which you're gonna see Bernie Sanders. Senator Sanders dude tomorrow is gonna show I'm healthy I'm viable. I'm still in this race even though I'm third. There's still momentum behind me I think when you see Joe Biden do is he's gonna what Joe Biden has to do here He's waiting on South Carolina. He knows he has a big black black base. He has to keep black voters",
+      "playback_start": 153.84,
+      "playback_end": 172.67,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "Yeah, I think that's gonna be the Bernie strategy which you're gonna see Bernie Sanders. Senator Sanders dude tomorrow is gonna show I'm healthy I'm viable. I'm still in this race even though I'm third. There's still momentum behind me I think when you see Joe Biden do is he's gonna what Joe Biden has to do here He's waiting on South Carolina. He knows he has a big black black base. He has to keep black voters",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 173.38,
+      "end": 178.4,
+      "speaker": "SPEAKER_03",
+      "text": "Yeah, but that's always a dangerous strategy Rudy Giuliani tried to do the same thing. Yeah, when he was waiting on",
+      "playback_start": 173.33,
+      "playback_end": 179.05,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "Yeah, but that's always a dangerous strategy Rudy Giuliani tried to do the same thing. Yeah, when he wait we's waiting on",
+      "correction_note": "Corrected 'when he wait we's waiting on' to 'when he was waiting on' (consistent with known strategy).",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 182.62,
+      "end": 197.42,
+      "speaker": "SPEAKER_02",
+      "text": "Absolutely, and so I think what you're gonna see Biden try to do he released his ethics plan I think it's a big mistake for Democrats like Julian Castro former HUD secretary to sort of attack Biden on Hunter Biden because what that Does is give a win to Donald Trump because Donald Trump is only making this argument about Hunter when most I mean",
+      "playback_start": 182.57,
+      "playback_end": 197.34,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "Absolutely, and so I think what you're gonna see Biden try to do he released his ethics plan I think it's a big mistake for Democrats like Julian Castro former HUD secretary to sort of attack Biden on Hunter Biden because what that Does is give a win to Donald Trump because Donald Trump is only making this argument about Hunter when most I mean",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 197.42,
+      "end": 200.14,
+      "speaker": "SPEAKER_03",
+      "text": "You can't sit on your hands and say nothing. So people as",
+      "playback_start": 197.36,
+      "playback_end": 200.79,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "You can't sit on your hands and say nothing. So people as",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 201.02,
+      "end": 215.18,
+      "speaker": "SPEAKER_02",
+      "text": "Folks come to come to his defense people to judge has come to his defense saying, you know We guess this is about Hunter and how we there's there's there's reporting on both sides that hunters done nothing wrong and Biden has done nothing wrong. Absolutely. We could talk about hunter and not about legal and doing by thing wrong",
+      "playback_start": 200.97,
+      "playback_end": 215.1,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "Folks come to come to his defense people to judge has come to his defense saying, you know We guess this is about Hunter and how we there's there's there's reporting on both sides that hunters done nothing wrong and Biden has done nothing wrong. Absolutely. We could talk about hunter and not about legal and doing by thing wrong",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 215.18,
+      "end": 219.2,
+      "speaker": "SPEAKER_03",
+      "text": "I think you can make the argument that it's wrong. He may not have broken any laws",
+      "playback_start": 215.12,
+      "playback_end": 219.2,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "I think you can make the argument that it's wrong. He may not have broken any laws",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 219.28,
+      "end": 223.0,
+      "speaker": "SPEAKER_02",
+      "text": "Absolutely, but the vice president has done nothing wrong and he's done nothing illegal",
+      "playback_start": 219.22,
+      "playback_end": 222.92,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "Absolutely, but the vice president has done nothing wrong and he's done nothing illegal",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 223.0,
+      "end": 252.4,
+      "speaker": "SPEAKER_03",
+      "text": "I mean, that's the that's what all the reporting it may not be illegal But it certainly is wrong and it's not acceptable from either party But let's look at some of the other candidates who are still in this race But you know barely hanging on like Kamala Harris. She was one of the more interesting people California moved up their primary and that looked like a layup for her that if she could do well in the southeast and you know get sure up some of the states in the far west she'd be fine but she just keeps dropping why I'm",
+      "playback_start": 222.94,
+      "playback_end": 252.32,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "I mean, that's the that's what all the reporting it may not be illegal But it certainly is wrong and it's not acceptable from either party But let's look at some of the other candidates who are still in this race But you know barely hanging on like Kamala Harris. She was one of the more interesting people California moved up their primary and that looked like a layup for her that if she could do well in the southeast and you know get sure up some of the states in the far west she'd be fine but she just keeps dropping why I'm",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 252.4,
+      "end": 276.78,
+      "speaker": "SPEAKER_00",
+      "text": "not sure why but she frankly has been one of the biggest disappointments for especially Californians that had placed a lot of faith in her I came from California she was the talk of the town for so long for some reason she hasn't been able I think to develop a cohesive policy to get out there in front where she feels confident where she sounds confident in it and where she sounds steady I think that there was a lot of flip-flopping there was a lot of of defensiveness on her part. And I think her attitude, frankly, turned people off from her.",
+      "playback_start": 252.34,
+      "playback_end": 276.7,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "not sure why but she frankly has been one of the biggest disappointments for especially Californians that had placed a lot of faith in her I came from California she was the talk of the town for so long for some reason she hasn't been able I think to develop a cohesive policy to get out there in front where she feels confident where she sounds confident in it and where she sounds steady I think that there was a lot of flip-flopping there was a lot of of defensiveness on her part. And I think her attitude, frankly, turned people off from her.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 276.78,
+      "end": 298.08,
+      "speaker": "SPEAKER_00",
+      "text": "And I think as others were rising, that's where Californians were placing their faith. Earlier, you asked potential winners and losers. I do have to say that the most to gain tomorrow night, in my opinion, is Mayor Pete and Tulsi Gabbard. Because the situation right now in Syria and Turkey, the two of them having the only deployment experience on the stage, I hope they will be asked about it. And I will be very interested to see how that resonates.",
+      "playback_start": 276.72,
+      "playback_end": 298.0,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "And I think as others were rising, that's where Californians were placing their faith. Earlier, you asked potential winners and losers. I do have to say that the most to gain tomorrow night, in my opinion, is Mayor Pete and Tulsi Gabbard. Because the situation right now in Syria and Turkey, the two of them having the only deployment experience on the stage, I hope they will be asked about it. And I will be very interested to see how that resonates.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 298.08,
+      "end": 324.62,
+      "speaker": "SPEAKER_03",
+      "text": "And I wrote that down because I want to see what they have to say. Those two in particular, I don't really care what anyone else has to say about foreign policy because I think they're just gonna spout platitudes. But those two, and I hope they give them enough time and I hope they devote enough time to foreign policy and don't ask the same stereotypical questions that some of the other moderators have fallen into. And of course, tomorrow night's debate also features billionaire Tom Steyer. Believe it or not, this is his first 2020 debate.",
+      "playback_start": 298.02,
+      "playback_end": 324.54,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "And I wrote that down because I want to see what they have to say. Those two in particular, I don't really care what anyone else has to say about foreign policy because I think they're just gonna spout platitudes. But those two, and I hope they give them enough time and I hope they devote enough time to foreign policy and don't ask the same stereotypical questions that some of the other moderators have fallen into. And of course, tomorrow night's debate also features billionaire Tom Steyer. Believe it or not, this is his first 2020 debate.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 324.62,
+      "end": 354.7,
+      "speaker": "SPEAKER_03",
+      "text": "A lot of people have absolutely no idea who he is. And he didn't qualify for the last three debates And he's got the polling and the donors this go-round somehow, because he's got a lot of money. But he's got to work awful hard on name recognition. Of course, Tulsi Gabbard, last week, the Hawaii Congresswoman and a rock war vet threatened to boycott this debate. She said it was rigged against the lesser-known candidates. But today she tweeted, quote, I will be attending the debate. Harumph. So which of the wannabes is best suited",
+      "playback_start": 324.56,
+      "playback_end": 354.62,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "A lot of people have absolutely no idea who he is. And he didn't qualify for the last three debates And he's got the polling and the donors this go-round somehow, because he's got a lot of money. But he's got to work awful hard on name recognition. Of course, Tulsi Gabbard, last week, the Hawaii Congresswoman and a rock war vet threatened to boycott this debate. She said it was rigged against the lesser-known candidates. But today she tweeted, quote, I will be attending the debate. Harumph. So which of the wannabes is best suited",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 354.7,
+      "end": 375.28,
+      "speaker": "SPEAKER_03",
+      "text": "to make a big leap tomorrow? And how about the rowdy Yang gang? How are they going to be? I still like Andrew Yang in this race, I know he's not going to be president, he's not really going to do anything, but I appreciate his voice in politics and I like about him what I like about Donald Trump, he's coming at this entire process from a very unorthodox perspective.",
+      "playback_start": 354.64,
+      "playback_end": 375.2,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "to make a big leap tomorrow? And how about the rowdy Yang gang? How are they going to be? I still like Andrew Yang in this race, I know he's not going to be president, he's not really going to do anything, but I appreciate his voice in politics and I like about him what I like about Donald Trump, he's coming at this entire process from a very unorthodox perspective.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 375.28,
+      "end": 407.24,
+      "speaker": "SPEAKER_01",
+      "text": "Yeah, he's got a little bit of the what the Fletch about him in his approach and the more you get sick of at any given moment the kind of charade of politics and the way that people always talk about things and the sort of platitudes they get, the more that you want the guy who's not wearing the tie. Dresses basically like Richard Fowler. And just has a rag bag of mostly crazy and occasionally pretty interesting ideas there, but who just at any time you hear him talk, you sort of hear the needle scratching across the record in a way that",
+      "playback_start": 375.22,
+      "playback_end": 407.16,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "Yeah, he's got a little bit of the what the Fletch about him in his approach and the more you get sick of at any given moment the kind of charade of politics and the way that people always talk about things and the sort of platitudes they get, the more that you want the guy who's not wearing the tie. Dresses basically like Richard Fowler. And just has a rag bag of mostly crazy and occasionally pretty interesting ideas there, but who just at any time you hear him talk, you sort of hear the needle scratching across the record in a way that",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 407.24,
+      "end": 422.96,
+      "speaker": "SPEAKER_01",
+      "text": "you don't with Amy Klobuchar, for example. So I think there's a lot of the lesser known candidates who don't really have a big different selling proposition of why they're still kind of bouncing around here. So I think it'll be someone who's more kind of a rando, like Yang, who has a chance to go up, or Tulsi, if a message gets through.",
+      "playback_start": 407.18,
+      "playback_end": 422.88,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "you don't with Amy Klobuchar, for example. So I think there's a lot of the lesser known candidates who don't really have a big different selling proposition of why they're still kind of bouncing around here. So I think it'll be someone who's more kind of a rando, like Yang, who has a chance to go up, or Tulsi, if a message gets through.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 422.96,
+      "end": 448.08,
+      "speaker": "SPEAKER_03",
+      "text": "And, you know, Andrew Yang has tried to go for those big moments. Tom Steyer absolutely has to, because, yes, Democrats know who he is because he's got a lot of money, and he's a one-or-two-issue kind of guy, particularly climate change and impeachment, but he has to really define who he is as a person for anyone to latch on to a political campaign, because there's a big difference between having money and influence and actually making an emotional connection with voters.",
+      "playback_start": 422.9,
+      "playback_end": 448.0,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "And, you know, Andrew Yang has tried to go for those big moments. Tom Steyer absolutely has to, because, yes, Democrats know who he is because he's got a lot of money, and he's a one-or-two-issue kind of guy, particularly climate change and impeachment, but he has to really define who he is as a person for anyone to latch on to a political campaign, because there's a big difference between having money and influence and actually making an emotional connection with voters.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 448.08,
+      "end": 463.28,
+      "speaker": "SPEAKER_02",
+      "text": "Absolutely. This is a make or break moment for Tom Steyer. This would be his first debate. This could be his last debate. He's put up a lot of commercials, a lot of ads. People have seen his face all across the country because he's running a big ad. He's doing a lot of ad buys. Will this translate on the debates? We'll have to see. I think we should start doing tick tocks.",
+      "playback_start": 448.02,
+      "playback_end": 463.2,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "Absolutely. This is a make or break moment for Tom Steyer. This would be his first debate. This could be his last debate. He's put up a lot of commercials, a lot of ads. People have seen his face all across the country because he's running a big ad. He's doing a lot of ad buys. Will this translate on the debates? We'll have to see. I think we should start doing tick tocks.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 463.28,
+      "end": 465.88,
+      "speaker": "SPEAKER_03",
+      "text": "Yeah, he should. People watch. Yeah.",
+      "playback_start": 463.22,
+      "playback_end": 465.8,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "Yeah, he should. People watch. Yeah.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 465.88,
+      "end": 489.0,
+      "speaker": "SPEAKER_02",
+      "text": "They don't watch. And I mean, I think also for some like a Kamala Harris, I think the reason why she's having so much trouble getting started is because if you talk to progressive base voters she sounds like a prosecutor and prosecutors very unpopular or very unpopular to progressives because it speaks to this lack of criminal justice reform it speaks to the fact that we have this prison industrial complex that does not work with progressive voters she can't have it both ways on no she cannot so really hard and it does not really work well for her",
+      "playback_start": 465.82,
+      "playback_end": 488.92,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "They don't watch. And I mean, I think also for some like a Kamala Harris, I think the reason why she's having so much trouble getting started is because if you talk to progressive base voters she sounds like a prosecutor and prosecutors very unpopular or very unpopular to progressives because it speaks to this lack of criminal justice reform it speaks to the fact that we have this prison industrial complex that does not work with progressive voters she can't have it both ways on no she cannot so really hard and it does not really work well for her",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 489.0,
+      "end": 495.88,
+      "speaker": "SPEAKER_00",
+      "text": "she was trying her entire record in California was that she was never a prosecutor that's the problem so I think although she she may read like that too",
+      "playback_start": 488.94,
+      "playback_end": 495.8,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "she was trying her entire record in California was that day she was never a prosecutor that's the problem so I think although she she may read like that to",
+      "correction_note": "Changed 'was that day' to 'was that she' and 'to' to 'too' based on context.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 495.88,
+      "end": 500.56,
+      "speaker": "SPEAKER_02",
+      "text": "Attorney General, you're a prosecutor. The top cop of the world. Yeah, she was a top cop.",
+      "playback_start": 495.82,
+      "playback_end": 500.48,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "Attorney General, you're a prosecutor. The top cop of the world. Yeah, she was a top cop.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 500.56,
+      "end": 506.16,
+      "speaker": "SPEAKER_00",
+      "text": "She was, right. But her record did not reflect at the time she was always trying to be a progressive prosecutor and that's never really fitting in those labels.",
+      "playback_start": 500.5,
+      "playback_end": 506.08,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "She was, right. But her record did not reflect at the time she was always trying to be a progressive prosecutor and that's never really fitting in those labels.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 506.16,
+      "end": 511.92,
+      "speaker": "SPEAKER_03",
+      "text": "Except for the people that she put in prison for a long time who she blocked from having to process trials. Exactly.",
+      "playback_start": 506.1,
+      "playback_end": 511.84,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "Except for the people that she put in prison for a long time who she blocked from having to process trials. Exactly.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 511.92,
+      "end": 536.36,
+      "speaker": "SPEAKER_00",
+      "text": "Exactly. Exactly. 100 percent. Prosecutor. Quite prosecutable. And if I could make a quick point on my thoughts just on Elizabeth Warren, I think it's really interesting that this week she's come out and identified as her target Facebook and really in this kind of concentrated manner. What does that do for her? Well, I think it releases her above the fray. So she's basically sitting there and saying, this is what I'm going to continue doing for you as president. This is what I think is so much more important rather than these other people on the stage.",
+      "playback_start": 511.86,
+      "playback_end": 536.28,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "Exactly. Exactly. 100 percent. Prosecutor. Quite prosecutable. And if I could make a quick point on my thoughts just on Elizabeth Warren, I think it's really interesting that this week she's come out and identified as her target Facebook and really in this kind of concentrated manner. What does that do for her? Well, I think it releases her above the fray. So she's basically sitting there and saying, this is what I'm going to continue doing for you as president. This is what I think is so much more important rather than these other people on the stage.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 536.36,
+      "end": 538.88,
+      "speaker": "SPEAKER_00",
+      "text": "I'm focusing on the common enemy we all have.",
+      "playback_start": 536.3,
+      "playback_end": 538.8,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "I'm focusing on the common enemy we all have.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 538.88,
+      "end": 546.32,
+      "speaker": "SPEAKER_03",
+      "text": "So is she the only one who's pretending like she's actually president and going after the ideas that she thinks are most critical?",
+      "playback_start": 538.82,
+      "playback_end": 546.24,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "So is she the only one who's pretending like she's actually president and going after the ideas that she thinks are most critical?",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 546.32,
+      "end": 578.64,
+      "speaker": "SPEAKER_00",
+      "text": "I think the only one who might also be doing that is Bernie Sanders, who I believe will take his heart attack in a situation, pivot it towards the necessity on his point of view for Medicare for all, show that he has the shining energy to be successful as a commander-in-chief in that Oval Office, and also the fact that he's differentiating himself so hardcore from Elizabeth Warren this week to say, don't give up on me, voters. Don't go to her. She's a capitalist. Stay with me and I'll prove to you why. Who doesn't want to be a capitalist?",
+      "playback_start": 546.26,
+      "playback_end": 578.56,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "I think the only one who might also be doing that is Bernie Sanders, who I believe will take his heart attack in a situation, pivot it towards the necessity on his point of view for Medicare for all, show that he has the shining energy to be successful as a commander-in-chief in that Oval Office, and also the fact that he's differentiating himself so hardcore from Elizabeth Warren this week to say, don't give up on me, voters. Don't go to her. She's a capitalist. Stay with me and I'll prove to you why. Who doesn't want to be a capitalist?",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 578.64,
+      "end": 585.4,
+      "speaker": "SPEAKER_01",
+      "text": "Nobody who's going to ever be a president of the United States of America. That clip shows why he's going to lose to Elizabeth Warren.",
+      "playback_start": 578.58,
+      "playback_end": 585.32,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "Nobody who's going to ever be a president of the United States of America. That clip shows why he's going to lose to Elizabeth Warren.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 585.4,
+      "end": 592.4,
+      "speaker": "SPEAKER_03",
+      "text": "Because she can. That's what I was, I watched it and I'm like, that helps her with moderate Democrats and undecided independents.",
+      "playback_start": 585.34,
+      "playback_end": 592.32,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "Because she can. That's what I was, I watched it and I'm like, that helps her with moderate Democrats and undecided independents.",
+      "intent": [
+        "statement"
+      ]
+    },
+    {
+      "start": 592.4,
+      "end": 601.6,
+      "speaker": "SPEAKER_01",
+      "text": "She can get Biden voters because she says, oh, I'm a capitalist. And then everything she does is, she's not being a capitalist. She wants to regulate the space between this phone and your pens.",
+      "playback_start": 592.34,
+      "playback_end": 601.52,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "She can get Biden voters because she says, oh, I'm a capitalist. And then everything she does is, she's not being a capitalist. She wants to regulate the space between this phone and your pens.",
+      "intent": [
+        "statement",
+        "quotation"
+      ]
+    },
+    {
+      "start": 601.6,
+      "end": 616.8,
+      "speaker": "SPEAKER_02",
+      "text": "She wants to regulate absolutely. And I think that's what we also heard from voters when they called on the show today on serious progress is people who are Biden supporters says I will also vote for Elizabeth Warren. So I think between these two men it's Elizabeth Warren as this third choice, the second choice that both Biden voters and Bernie voters can vote for.",
+      "playback_start": 601.54,
+      "playback_end": 616.72,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "She wants to regulate absolutely. And I think that's what we also heard from voters when they called on the show today on serious progress is people who are Biden supporters says I will also vote for Elizabeth Warren. So I think between these two men it's Elizabeth Warren as this third choice, the second choice that both Biden voters and Bernie voters can vote for.",
+      "intent": [
+        "statement",
+        "agree",
+        "quotation",
+        "summary"
+      ]
+    },
+    {
+      "start": 616.8,
+      "end": 633.62,
+      "speaker": "SPEAKER_03",
+      "text": "I just think it's interesting that Bernie's not going after Biden the way he's going after Liz. That he knows he has to make a big move. She is the biggest threat. He's still got a lot of money. He doesn't have to get out of the race right now. He's not like some of these, you know like Eric Swalwell who's just run out of money and never had any goodwill.",
+      "playback_start": 616.74,
+      "playback_end": 633.54,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "I just think it's interesting that Bernie's not going after Biden the way he's going after Liz. That he knows he has to make a big move. She is the biggest threat. He's still got a lot of money. He doesn't have to get out of the race right now. He's not like some of these, you know like Eric Swalwell who's just run out of money and never had any goodwill.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 633.62,
+      "end": 646.36,
+      "speaker": "SPEAKER_02",
+      "text": "I mean, there's a lot of candidates in this field that have a lot of money that won't have to get out of this race. I mean, I think there's a lot of arguments for Beto to get out of this race, Beto O'Rourke to get out of this race, but Beto has $20 million left, so he'll be in this race for the foreseeable future.",
+      "playback_start": 633.56,
+      "playback_end": 646.28,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "I mean, there's a lot of candidates in this field that have a lot of money that won't have to get this race. I mean, I think there's a lot of arguments for Beto to get out this race, Beto O'Rourke to get out this race, but Beto has $20 million left, so he'll be in this race for the foreseeable future.",
+      "correction_note": "Added missing 'out of' in two places for clarity.",
+      "intent": [
+        "statement",
+        "commentary"
+      ]
+    },
+    {
+      "start": 646.36,
+      "end": 656.0,
+      "speaker": "SPEAKER_00",
+      "text": "And don't forget, CBS has Elizabeth Warren leading by eight points in New Hampshire. So you mentioned earlier South Carolina and Biden kind of hanging his hopes on that. There are a lot of other states that seem to be favoring her hardcore.",
+      "playback_start": 646.3,
+      "playback_end": 655.92,
+      "low_confidence": true,
+      "low_confidence_reasons": [
+        "suspicious repeated phrase"
+      ],
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "And don't forget, CBS has Elizabeth Warren leading by eight points in New Hampshire. So you mentioned earlier South Carolina and Biden kind of hanging his hopes on that. There are a lot of other states that seem to be favoring her hardcore.",
+      "intent": [
+        "statement",
+        "command",
+        "commentary"
+      ]
+    },
+    {
+      "start": 656.0,
+      "end": 664.12,
+      "speaker": "SPEAKER_03",
+      "text": "Yes, and I'm sure that Bernie thought that he was just going to sew up New Hampshire. Like he's darning his socks. The party panel returns a little bit later.",
+      "playback_start": 655.94,
+      "playback_end": 664.294,
+      "speaker_original": "SPEAKER_03",
+      "text_before_llm": "Yes, and I'm sure that Bernie thought that he was just going to sew up New Hampshire. Like he's darning his socks. The party panel returns a little bit later.",
+      "intent": [
+        "agree",
+        "statement",
+        "transition"
+      ]
+    }
+  ],
+  "timing": {
+    "diarization": 30.35,
+    "asr": 613.86,
+    "alignment": 34.53,
+    "llm": 123.13,
+    "total": 801.98
+  },
+  "num_speakers": 4,
+  "meeting_summary": {
+    "topic": "Democratic primary debate preview and analysis of candidate strategies and dynamics.",
+    "summary": "The panel discusses the rise of Elizabeth Warren as a frontrunner and how other candidates like Bernie Sanders and Joe Biden are positioning themselves. They analyze the struggles of Kamala Harris, the potential breakout of lesser-known candidates like Andrew Yang and Tulsi Gabbard, and the make-or-break moment for Tom Steyer. The conversation also touches on the importance of foreign policy experience and the role of progressive vs. moderate voters.",
+    "key_points": [
+      "Panelists agree that candidates need to go after Elizabeth Warren due to her momentum, especially on her weaknesses with black voters and the Native American controversy.",
+      "Bernie Sanders is attempting to differentiate from Warren by emphasizing his health and viability, while also attacking her as a 'capitalist' to appeal to his base.",
+      "Joe Biden is relying on a strong showing in South Carolina and his support among black voters, but some panelists warn this is a risky strategy.",
+      "Kamala Harris's campaign is struggling because her record as a prosecutor alienates progressive voters; she has failed to develop a cohesive message.",
+      "Pete Buttigieg and Tulsi Gabbard may benefit from foreign policy questions due to their military deployment experience, given the Syria/Turkey situation.",
+      "Andrew Yang is seen as an unorthodox candidate who brings fresh perspectives, though he is unlikely to win; Tom Steyer needs to make a strong impression in his first debate to have any chance.",
+      "Elizabeth Warren's focus on Facebook and her 'capitalist' label may help her attract moderate Democrats and independents, positioning her as a second choice for both Biden and Sanders supporters."
+    ],
+    "decisions": [],
+    "action_items": [],
+    "participants": [
+      "SPEAKER_03 (Moderator)",
+      "SPEAKER_01 (Emily Campagna)",
+      "SPEAKER_02 (Richard Fowler)",
+      "SPEAKER_00 (Matt Welch)"
+    ]
+  }
+}

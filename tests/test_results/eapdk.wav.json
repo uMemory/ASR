@@ -1,0 +1,125 @@
+{
+  "file": "C:\\Users\\25189\\AppData\\Local\\Temp\\gradio\\d88459af9da01ec800fc0791a1df0498e2d0a310ae7a3fd285f154dd2ddb6763\\eapdk.wav",
+  "segments": [
+    {
+      "start": 17.55,
+      "end": 26.24,
+      "speaker": "SPEAKER_00",
+      "text": "Lonnie, you were involved in Mitt Romney's 2012 campaign building on what Ross was saying about the similarities between the rise of Donald Trump in 2016 and Bernie Sanders. What has changed since then and how do you see the role of decadence like Ross is describing in that? Well look I think what's changed is",
+      "start_asr_raw": 0.0,
+      "playback_start": 16.3,
+      "playback_end": 26.16,
+      "speaker_original": "SPEAKER_00",
+      "text_before_llm": "Lonnie, you were involved in Mitt Romney's 2012 campaign building on what Ross was saying about the similarities between the rise of Donald Trump in 2016 and Bernie Sanders. What has changed since then and how do you see the role of decadence like Ross is describing in that? Well look I think what's changed is",
+      "intent": [
+        "statement",
+        "question"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 26.24,
+      "end": 53.84,
+      "speaker": "SPEAKER_02",
+      "text": "we've had you know several intervening years of Donald Trump and I think for the Democratic Party. I agree completely with what Ross is saying in the sense that the Democratic Party as a party vehicle is pretty meaningless. What you have is a bunch of people and some institutions that don't necessarily have a lot of power anymore, but I do think there's a motivation amongst Democrats, a very strong motivation that is, to ensure that they find a way to come together and beat Donald Trump.",
+      "playback_start": 26.18,
+      "playback_end": 53.76,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "we've had you know several intervening years of Donald Trump and I think for the Democratic Party. I agree completely with what Ross is saying in the sense that the Democratic Party as a party vehicle is pretty meaningless. What you have is a bunch of people and some institutions that don't necessarily have a lot of power anymore, but I do think there's a motivation amongst Democrats, a very strong motivation that is, to ensure that they find a way to come together and beat Donald Trump.",
+      "intent": [
+        "answer",
+        "agree",
+        "statement"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 53.84,
+      "end": 83.3,
+      "speaker": "SPEAKER_02",
+      "text": "So in that sense, I think that the kind of skepticism that you still saw around Donald even lingering into the spring and summer of 2016, I think if Bernie Sanders becomes the presumptive nominee, a lot of that's gonna melt away much more quickly, precisely because of the intervening last couple of years and the motivation that a lot of Democrats feel to beat Donald Trump. So I do think that change is important, but I absolutely think the dynamic at play here, what's fueling Sanders, how he's able to get out there",
+      "playback_start": 53.78,
+      "playback_end": 83.22,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "So in that sense, I think that the kind of skepticism that you still saw around Donald even lingering into the spring and summer of 2016, I think if Bernie Sanders becomes the presumptive nominee, a lot of that's gonna melt away much more quickly, precisely because of the intervening last couple of years and the motivation that a lot of Democrats feel to beat Donald Trump. So I do think that change is important, but I absolutely think the dynamic at play here, what's fueling Sanders, how he's able to get out there",
+      "intent": [
+        "answer",
+        "statement"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 83.3,
+      "end": 92.76,
+      "speaker": "SPEAKER_02",
+      "text": "and paint in very bold strokes, whether you like it or not, I think that bears a lot of similarity And in fact, a lot of the appeal of Bernie Sanders comes from that.",
+      "playback_start": 83.24,
+      "playback_end": 92.68,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "and paint in very bold strokes, whether you like it or not, I think that bears a lot of similarity And in fact, a lot of the appeal of Bernie Sanders comes from that.",
+      "intent": [
+        "answer",
+        "statement"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 92.76,
+      "end": 116.12,
+      "speaker": "SPEAKER_01",
+      "text": "So Yamiche, we're talking big, important political themes here. Let's get more specific about where you are tonight. You're in Charleston, South Carolina, the site of that debate tonight. Joe Biden has long been the leader in the state of South Carolina. He has implored people to be patient with him, to get him to South Carolina state. He knows he has to win, but Bernie Sanders has crept up and nearly tied him in some of the polling there. What do you expect to see tonight?",
+      "playback_start": 92.7,
+      "playback_end": 116.77,
+      "speaker_original": "SPEAKER_01",
+      "text_before_llm": "So Yamiche, we're talking big, important political themes here. Let's get more specific about where you are tonight. You're in Charleston, South Carolina, the site of that debate tonight. Joe Biden has long been the leader in the state of South Carolina. He has implored people to be patient with him, to get him to South Carolina state. He knows he has to win, but Bernie Sanders has crept up and nearly tied him in some of the polling there. What do you expect to see tonight?",
+      "intent": [
+        "statement",
+        "question",
+        "transition"
+      ],
+      "phase": "corrected"
+    },
+    {
+      "start": 117.25,
+      "end": 120.02,
+      "speaker": "SPEAKER_02",
+      "text": "What I expect to see tonight is a Democratic field.",
+      "start_asr_raw": 116.12,
+      "playback_start": 117.2,
+      "playback_end": 120.02,
+      "speaker_original": "SPEAKER_02",
+      "text_before_llm": "What I expect to see tonight is a Democratic feel.",
+      "correction_note": "Corrected 'feel' to 'field' based on context.",
+      "intent": [
+        "answer",
+        "statement"
+      ],
+      "phase": "corrected"
+    }
+  ],
+  "timing": {
+    "diarization": 13.69,
+    "asr": 102.54,
+    "alignment": 6.49,
+    "llm": 63.07,
+    "total": 185.86
+  },
+  "num_speakers": 3,
+  "meeting_summary": {
+    "topic": "Analysis of the 2020 Democratic primary dynamics, comparing Bernie Sanders' rise to Donald Trump's 2016 campaign and previewing the South Carolina debate.",
+    "summary": "The conversation explores the parallels between Bernie Sanders' 2020 campaign and Donald Trump's 2016 rise, noting that the Democratic Party as an institution is weak but the strong motivation to beat Trump could quickly unify behind Sanders if he becomes the nominee. It also highlights the narrowing gap in South Carolina, where Joe Biden's long-held lead is being challenged by Sanders ahead of the debate.",
+    "key_points": [
+      "The Democratic Party structure is largely meaningless, similar to the 2016 rise of outsiders like Trump and Sanders.",
+      "Despite lingering skepticism in 2016, Democrats' intense desire to defeat Trump would likely cause earlier consolidation behind Bernie Sanders if he becomes the presumptive nominee.",
+      "Sanders' bold messaging and appeal bear strong similarity to Trump's 2016 campaign.",
+      "Joe Biden, long the frontrunner in South Carolina, now faces a near-tie with Bernie Sanders in recent polling."
+    ],
+    "decisions": [],
+    "action_items": [],
+    "participants": [
+      "SPEAKER_00",
+      "SPEAKER_01",
+      "SPEAKER_02"
+    ]
+  }
+}

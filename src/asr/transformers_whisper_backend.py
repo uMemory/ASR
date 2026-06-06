@@ -48,6 +48,7 @@ class TransformersWhisperBackend:
         compute_type: str = "float16",
         chunk_length_s: float = 30.0,
         batch_size: int = 8,
+        beam_size: int = 1,
     ) -> None:
         self.model_path = str(model_path)
         self.device = device if torch.cuda.is_available() else "cpu"
@@ -57,6 +58,7 @@ class TransformersWhisperBackend:
         )
         self.chunk_length_s = chunk_length_s
         self.batch_size = batch_size
+        self.beam_size = max(1, int(beam_size or 1))
         self._pipe = None
 
     def load(self):
@@ -103,6 +105,8 @@ class TransformersWhisperBackend:
             "temperature": (0.0, 0.2, 0.4, 0.6, 0.8, 1.0),
             "return_timestamps": True,
         })
+        if self.beam_size > 1:
+            generate_kwargs["num_beams"] = self.beam_size
         if language:
             generate_kwargs["language"] = language
             generate_kwargs["task"] = "transcribe"

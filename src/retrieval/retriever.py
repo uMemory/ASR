@@ -1,7 +1,8 @@
-"""多维复合检索器——5 维检索 + RRF（倒数排名融合）。
+"""多维复合检索器——查询改写 + 5 维检索 + RRF（倒数排名融合）。
 
 检索维度：
-    1. 语义检索  → BGE-M3 dense embedding cosine similarity
+    0. 查询改写   → 中英语义查询 + 关键词扩展
+    1. 语义检索   → BGE-M3 dense embedding cosine similarity
     2. 关键词检索 → BGE-M3 sparse lexical weights
     3. 说话人过滤 → 精确匹配 speaker ID
     4. 时间范围过滤 → 区间查询
@@ -22,6 +23,7 @@ from typing import Any
 
 import numpy as np
 
+from .query_rewriter import rewrite_query
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -57,11 +59,13 @@ class Retriever:
         self,
         index_path: str | Path,
         encoder: Any,
+        query_rewriter: Any | None = None,
         rrf_k: int = RRF_K,
         weights: dict[str, float] | None = None,
     ) -> None:
         self.index_path = Path(index_path)
         self.encoder = encoder
+        self.query_rewriter = query_rewriter
         self.rrf_k = rrf_k
         self.weights = weights or DEFAULT_WEIGHTS
 
@@ -118,20 +122,25 @@ class Retriever:
         if n_total == 0:
             return []
 
-        # ── 1. 解析自然语言（仅当没有显式约束时） ─────────────────
-        parsed = _parse_query(query)
+        # ── 1. 查询改写：生成中英等价语义查询、关键词和结构化约束 ─────
+        rewritten = rewrite_query(query, adapter=self.query_rewriter)
 
-        speaker = speaker or parsed.get("speaker")
-        intent = intent or parsed.get("intent")
+        speaker = speaker or rewritten.speaker
+        intent = intent or rewritten.intent or None
+        time_range = time_range or rewritten.time_range
 
         # ── 2. 各维度独立排序 ──────────────────────────────────────
         rank_lists: dict[str, list[tuple[int, float]]] = {}
 
         # 2a. 语义检索
-        rank_lists["semantic"] = self._semantic_search(query, top_k * 2)
+        rank_lists["semantic"] = self._multi_semantic_search(
+            rewritten.semantic_queries or [query], top_k * 2,
+        )
 
         # 2b. 关键词检索
-        rank_lists["keyword"] = self._keyword_search(query, top_k * 2)
+        rank_lists["keyword"] = self._multi_keyword_search(
+            rewritten.keyword_queries or [query], top_k * 2,
+        )
 
         # 2c. 说话人过滤（转为伪排序：匹配的 rank 0，否则 rank n_total）
         if speaker:
@@ -162,6 +171,7 @@ class Retriever:
             if intent and not _intent_matches(seg.get("intent", ""), intent):
                 continue
             seg["_score"] = round(score, 4)
+            seg["_query_rewrite"] = rewritten.as_debug_dict()
             seg["_rank_sources"] = {
                 dim: [i for i, (j, _) in enumerate(ranks) if j == idx][0] + 1
                 if any(j == idx for j, _ in ranks) else None
@@ -188,6 +198,17 @@ class Retriever:
         return [(int(indices[0][i]), float(scores[0][i]))
                 for i in range(len(indices[0])) if indices[0][i] >= 0]
 
+    def _multi_semantic_search(
+        self, queries: list[str], top_k: int,
+    ) -> list[tuple[int, float]]:
+        """Run dense retrieval for multiple rewritten queries and merge."""
+        merged: dict[int, float] = {}
+        for qi, q in enumerate(queries):
+            weight = 1.0 if qi == 0 else 0.92
+            for idx, score in self._semantic_search(q, top_k):
+                merged[idx] = max(merged.get(idx, float("-inf")), score * weight)
+        return sorted(merged.items(), key=lambda x: x[1], reverse=True)[:top_k]
+
     def _keyword_search(
         self, query: str, top_k: int
     ) -> list[tuple[int, float]]:
@@ -205,6 +226,17 @@ class Retriever:
 
         scores.sort(key=lambda x: x[1], reverse=True)
         return scores[:top_k]
+
+    def _multi_keyword_search(
+        self, queries: list[str], top_k: int,
+    ) -> list[tuple[int, float]]:
+        """Run sparse retrieval for multiple keyword variants and merge."""
+        merged: dict[int, float] = {}
+        for qi, q in enumerate(queries):
+            weight = 1.0 if qi == 0 else 0.9
+            for idx, score in self._keyword_search(q, top_k):
+                merged[idx] = max(merged.get(idx, float("-inf")), score * weight)
+        return sorted(merged.items(), key=lambda x: x[1], reverse=True)[:top_k]
 
     def _speaker_rank(self, speaker: str) -> list[tuple[int, float]]:
         """说话人精确匹配：匹配的 rank=0，否则很大的 rank。"""

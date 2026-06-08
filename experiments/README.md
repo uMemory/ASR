@@ -121,13 +121,16 @@ conda run -n TTS python -B experiments/evaluate_system.py `
 conda run -n TTS python -B experiments/evaluate_retrieval_saved.py `
   --encoder bge `
   --result-root outputs/batch_eval_llm/results `
-  --output-dir outputs/retrieval_eval_bge_multidim
+  --extra-result-dirs tests/test_results `
+  --output-dir outputs/retrieval_eval_bge_multidim_with_test
 ```
 
 评估分为两组：
 
 - 链路自检查询：使用完整原文查询和片段原文查询，目标片段已知，用于验证 BGE-M3 编码、FAISS 索引、稀疏关键词权重、RRF 融合和 Top-K 返回流程是否正常。
 - 模拟用户查询：根据转写内容设计自然语言问题，覆盖语义、关键词、跨语言、说话人约束、时间范围约束、意图约束和混合约束。
+
+其中 `outputs/batch_eval_llm/results` 主要提供带参考文本的数据集转写结果，`tests/test_results` 提供 Web UI 历史转写结果。多维混合检索指标会额外使用 `tests/test_results` 中的多说话人样本，例如 `ahnss.wav.json`、`cjfer.wav.json`、`R8007_M8010_N_SPK8050.wav.json` 等。
 
 两组评估都报告 `Hit@1`、`Hit@5`、`MRR@5` 和平均查询延迟。模拟用户查询比完整原文查询/片段原文查询更接近真实使用方式，但它仍是基于当前保存结果设计的小规模评估集，不等同于大规模人工相关性基准。
 
@@ -147,6 +150,8 @@ conda run -n TTS python -B experiments/evaluate_retrieval_saved.py `
 ```text
 outputs/retrieval_eval_bge_multidim/retrieval_eval_summary.md
 outputs/retrieval_eval_bge_multidim/retrieval_eval_summary.json
+outputs/retrieval_eval_bge_multidim_with_test/retrieval_eval_summary.md
+outputs/retrieval_eval_bge_multidim_with_test/retrieval_eval_summary.json
 outputs/retrieval_eval_bge/retrieval_eval_summary.md
 outputs/retrieval_eval_bge/retrieval_eval_summary.json
 ```

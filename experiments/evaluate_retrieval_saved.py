@@ -27,6 +27,8 @@ def _load_segments(result_dirs: list[Path]) -> list[dict[str, Any]]:
     for ds_root in result_dirs:
         dataset = ds_root.name
         for fp in sorted(ds_root.glob("*.json")):
+            if fp.name.startswith("manual_corrected"):
+                continue
             data = json.loads(fp.read_text(encoding="utf-8"))
             for i, seg in enumerate(data.get("segments", [])):
                 text = (seg.get("text") or "").strip()
@@ -179,6 +181,8 @@ def _intent_matches_case(seg_intent: Any, expected: list[str]) -> bool:
 def _is_relevant(hit: dict[str, Any], case: dict[str, Any]) -> bool:
     if case.get("dataset") and hit.get("_dataset") != case["dataset"]:
         return False
+    if case.get("file") and hit.get("_file") != case["file"]:
+        return False
     if case.get("speaker") and hit.get("speaker") != case["speaker"]:
         return False
     if case.get("time_range") and not _overlaps(hit, tuple(case["time_range"])):
@@ -311,12 +315,181 @@ def _realistic_query_cases() -> list[dict[str, Any]]:
             "intent": ["question"],
             "any_term_groups": [["stolen", "pound"], ["fortune", "give back"]],
         },
+        {
+            "query": "Elizabeth Warren biggest threat New Hampshire Biden",
+            "display_query": "ahnss 中关于 Elizabeth Warren 是最大威胁的讨论",
+            "dimension": "speaker+keyword",
+            "dataset": "test_results",
+            "file": "ahnss.wav.json",
+            "speaker": "SPEAKER_03",
+            "any_term_groups": [["biggest", "threat"], ["Elizabeth", "Warren"], ["New", "Hampshire"]],
+        },
+        {
+            "query": "Bernie Sanders heart attack healthy viable race",
+            "display_query": "ahnss 中 SPEAKER_02 谈 Bernie Sanders 健康和参选",
+            "dimension": "speaker+keyword",
+            "dataset": "test_results",
+            "file": "ahnss.wav.json",
+            "speaker": "SPEAKER_02",
+            "any_term_groups": [["Bernie", "healthy"], ["Sanders", "race"], ["heart", "attack"]],
+        },
+        {
+            "query": "前两分钟里关于 Warren 和 Bernie 同台的评论",
+            "display_query": "ahnss 前两分钟关于 Warren 和 Bernie 同台的评论",
+            "dimension": "time+speaker+keyword",
+            "dataset": "test_results",
+            "file": "ahnss.wav.json",
+            "speaker": "SPEAKER_03",
+            "time_range": (0.0, 140.0),
+            "any_term_groups": [["Bernie", "Liz"], ["same", "stage"], ["lockstep"]],
+        },
+        {
+            "query": "SPEAKER_00 对 Kamala Harris 和加州记录的评价",
+            "display_query": "ahnss 中 SPEAKER_00 对 Kamala Harris 和加州记录的评价",
+            "dimension": "speaker+semantic",
+            "dataset": "test_results",
+            "file": "ahnss.wav.json",
+            "speaker": "SPEAKER_00",
+            "any_term_groups": [["Kamala", "Harris"], ["Californians"], ["California", "record"], ["prosecutor"]],
+        },
+        {
+            "query": "Democratic debate private health insurance government plan",
+            "display_query": "cjfer 中关于私人医保和政府医保计划的提问",
+            "dimension": "intent+keyword",
+            "dataset": "test_results",
+            "file": "cjfer.wav.json",
+            "intent": ["question"],
+            "any_term_groups": [["private", "health", "insurance"], ["government-run", "plan"]],
+        },
+        {
+            "query": "undocumented immigrants coverage raise your hand",
+            "display_query": "cjfer 中关于无证移民医保覆盖的提问",
+            "dimension": "speaker+intent+keyword",
+            "dataset": "test_results",
+            "file": "cjfer.wav.json",
+            "speaker": "SPEAKER_00",
+            "intent": ["question", "command"],
+            "any_term_groups": [["undocumented", "immigrants"], ["Raise", "hand"], ["coverage"]],
+        },
+        {
+            "query": "climate crisis 12 years irreparable damage",
+            "display_query": "cjfer 中关于气候危机和 12 年窗口的讨论",
+            "dimension": "keyword+time",
+            "dataset": "test_results",
+            "file": "cjfer.wav.json",
+            "time_range": (60.0, 90.0),
+            "any_term_groups": [["climate", "crisis"], ["12", "years"], ["irreparable", "damage"]],
+        },
+        {
+            "query": "Speaker 07 asks Dana political suicide",
+            "display_query": "cjfer 中 SPEAKER_07 询问 Democrats 是否政治自杀",
+            "dimension": "speaker+intent+keyword",
+            "dataset": "test_results",
+            "file": "cjfer.wav.json",
+            "speaker": "SPEAKER_07",
+            "intent": ["question", "transition"],
+            "any_term_groups": [["political", "suicide"], ["Dana", "Democrats"]],
+        },
+        {
+            "query": "R8007 备选方案 房租 交通 公交",
+            "display_query": "R8007 中关于备选方案、房租和交通的早期讨论",
+            "dimension": "time+speaker+keyword",
+            "dataset": "test_results",
+            "file": "R8007_M8010_N_SPK8050.wav.json",
+            "speaker": "SPEAKER_02",
+            "time_range": (20.0, 120.0),
+            "any_term_groups": [["备选方案"], ["房租"], ["交通"], ["公交"]],
+        },
+        {
+            "query": "SPEAKER_01 大会议室 小会议室 工位",
+            "display_query": "R8007 中 SPEAKER_01 讨论工位和会议室配置",
+            "dimension": "speaker+keyword",
+            "dataset": "test_results",
+            "file": "R8007_M8010_N_SPK8050.wav.json",
+            "speaker": "SPEAKER_01",
+            "any_term_groups": [["工位"], ["会议室"], ["小会议室"], ["大会议室"]],
+        },
+        {
+            "query": "吸烟室 地毯 刷漆 仿瓷",
+            "display_query": "R8007 中关于吸烟室、地毯、刷漆和仿瓷的装修建议",
+            "dimension": "semantic+keyword",
+            "dataset": "test_results",
+            "file": "R8007_M8010_N_SPK8050.wav.json",
+            "any_term_groups": [["吸烟室"], ["地毯"], ["刷漆"], ["仿瓷"]],
+        },
+        {
+            "query": "超市 生鲜 晚上促销 剩菜 引流",
+            "display_query": "S_R003 中关于生鲜晚上促销和引流的建议",
+            "dimension": "intent+keyword",
+            "dataset": "test_results",
+            "file": "S_R003S01C01.flac.json",
+            "intent": ["提议"],
+            "any_term_groups": [["晚上", "促销"], ["引流"], ["价格降低"], ["开门", "活动"]],
+        },
+        {
+            "query": "超市烟草部 低价烟 高档烟 黄鹤楼",
+            "display_query": "L_R004 中关于烟草部低价烟和高档烟的汇报",
+            "dimension": "keyword",
+            "dataset": "test_results",
+            "file": "L_R004S01C01.flac.json",
+            "any_term_groups": [["低价烟"], ["高价烟"], ["黄鹤楼"], ["高档烟"]],
+        },
+        {
+            "query": "L_R004 海鲜 花蛤 鲈鱼 桂鱼 新鲜度",
+            "display_query": "L_R004 中关于海鲜花蛤、鲈鱼和新鲜度的讨论",
+            "dimension": "speaker+keyword",
+            "dataset": "test_results",
+            "file": "L_R004S01C01.flac.json",
+            "speaker": "SPEAKER_05",
+            "any_term_groups": [["花蛤"], ["鲈鱼"], ["桂鱼"], ["新鲜度"]],
+        },
+        {
+            "query": "S_R003 豆芽 土豆 胡萝卜 白萝卜 卖得好",
+            "display_query": "S_R003 中关于豆芽、土豆和萝卜等生鲜销售情况",
+            "dimension": "time+keyword",
+            "dataset": "test_results",
+            "file": "S_R003S01C01.flac.json",
+            "time_range": (200.0, 260.0),
+            "any_term_groups": [["豆芽"], ["土豆"], ["胡萝卜"], ["白萝卜"]],
+        },
+        {
+            "query": "手机 18到35岁 年轻化 电商直播带货 双11",
+            "display_query": "R8001 中关于手机年轻化定位和直播带货促销",
+            "dimension": "semantic+keyword",
+            "dataset": "test_results",
+            "file": "R8001_M8004_MS801.wav.json",
+            "any_term_groups": [["18到35岁"], ["年轻化"], ["直播带货"], ["双11"]],
+        },
+        {
+            "query": "R8001 明星代言 网红 直播 平台",
+            "display_query": "R8001 中关于明星代言、网红和直播平台的讨论",
+            "dimension": "speaker+keyword",
+            "dataset": "test_results",
+            "file": "R8001_M8004_MS801.wav.json",
+            "speaker": "SPEAKER_03",
+            "any_term_groups": [["明星代言"], ["网红"], ["直播"], ["平台"]],
+        },
+        {
+            "query": "cjfer Marianne Williamson return to love frontrunner",
+            "display_query": "cjfer 中关于 Marianne Williamson 和 Return to Love 的评论",
+            "dimension": "speaker+keyword",
+            "dataset": "test_results",
+            "file": "cjfer.wav.json",
+            "speaker": "SPEAKER_09",
+            "any_term_groups": [["Marianne", "Williamson"], ["return", "love"], ["frontrunner"]],
+        },
     ]
 
 
-def _evaluate_realistic_queries(retriever: Retriever, top_k: int = 5) -> list[dict[str, Any]]:
+def _evaluate_realistic_queries(
+    retriever: Retriever,
+    segments: list[dict[str, Any]],
+    top_k: int = 5,
+) -> list[dict[str, Any]]:
     evaluated: list[dict[str, Any]] = []
     for case in _realistic_query_cases():
+        if not any(_is_relevant(seg, case) for seg in segments):
+            continue
         t0 = time.time()
         hits = retriever.search(
             case["query"],
@@ -337,6 +510,7 @@ def _evaluate_realistic_queries(retriever: Retriever, top_k: int = 5) -> list[di
                 "display_query": case.get("display_query", case["query"]),
                 "dimension": case["dimension"],
                 "dataset": case["dataset"],
+                "file": case.get("file"),
                 "speaker": case.get("speaker"),
                 "time_range": case.get("time_range"),
                 "intent": case.get("intent"),
@@ -371,6 +545,11 @@ _DIMENSION_LABELS = {
     "speaker+keyword": "说话人+关键词",
     "speaker+intent+cross_language": "说话人+意图+跨语言",
     "time+intent+keyword": "时间范围+意图+关键词",
+    "time+speaker+keyword": "时间范围+说话人+关键词",
+    "speaker+semantic": "说话人+语义",
+    "intent+keyword": "意图+关键词",
+    "speaker+intent+keyword": "说话人+意图+关键词",
+    "keyword+time": "关键词+时间范围",
 }
 
 
@@ -441,6 +620,8 @@ def _write_markdown(summary: dict[str, Any], path: Path) -> None:
         for item in realistic["cases"]:
             lines.append(f"\n### {item.get('display_query') or item['query']}\n\n")
             constraints = [f"数据集={item['dataset']}", f"检索维度={_dimension_label(item['dimension'])}"]
+            if item.get("file"):
+                constraints.append(f"文件={item['file']}")
             if item.get("speaker"):
                 constraints.append(f"说话人={item['speaker']}")
             if item.get("time_range"):
@@ -481,6 +662,12 @@ def main() -> int:
         help="Root containing dataset subdirectories with saved JSON files.",
     )
     parser.add_argument("--datasets", nargs="+", default=["aishell1", "librispeech"])
+    parser.add_argument(
+        "--extra-result-dirs",
+        nargs="*",
+        default=[],
+        help="Additional directories containing saved JSON files directly, e.g. tests/test_results.",
+    )
     parser.add_argument("--samples-per-group", type=int, default=20)
     parser.add_argument("--output-dir", default="outputs/retrieval_eval")
     parser.add_argument(
@@ -500,6 +687,7 @@ def main() -> int:
     index_dir = output_dir / "index"
 
     result_dirs = [result_root / ds for ds in args.datasets]
+    result_dirs += [(root / item).resolve() for item in args.extra_result_dirs]
     segments = _load_segments(result_dirs)
     if not segments:
         raise SystemExit(f"No saved segments found under {result_root}")
@@ -585,7 +773,7 @@ def main() -> int:
             }
         )
 
-    realistic_cases = _evaluate_realistic_queries(retriever, top_k=5)
+    realistic_cases = _evaluate_realistic_queries(retriever, segments, top_k=5)
     dimensions = sorted({case["dimension"] for case in realistic_cases})
 
     summary = {

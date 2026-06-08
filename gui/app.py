@@ -8,7 +8,6 @@ import argparse, base64, io, json, re
 import sys, time, wave
 from html import escape
 from pathlib import Path
-from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
@@ -594,11 +593,19 @@ def _render_current_result_html() -> str:
         if fi < len(_last_audio_files) and _last_audio_files[fi][1]:
             audio_path = Path(_last_audio_files[fi][1])
             if audio_path.exists():
-                audio_src = "/file=" + quote(str(audio_path.resolve()).replace("\\", "/"))
-                file_audio_html = (
-                    f"<audio id='{audio_id}' src='{audio_src}' "
-                    f"preload='metadata' style='display:none'></audio>"
-                )
+                try:
+                    audio_data, audio_sr = sf.read(str(audio_path))
+                    if audio_data.ndim > 1:
+                        audio_data = audio_data.mean(axis=1)
+                    audio_src = "data:audio/wav;base64," + audio_to_base64(
+                        audio_data.astype(np.float32), audio_sr
+                    )
+                    file_audio_html = (
+                        f"<audio id='{audio_id}' src='{audio_src}' "
+                        f"preload='metadata' style='display:none'></audio>"
+                    )
+                except Exception:
+                    audio_id = ""
             else:
                 audio_id = ""
         summary_html = _render_summary_panel(result.get("meeting_summary"))

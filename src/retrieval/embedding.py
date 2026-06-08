@@ -16,6 +16,13 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch import Tensor
+
+# Transformers 4.51 imports generation helpers that optionally import sklearn.
+# In this Windows environment, sklearn -> pandas -> pyarrow can crash in native
+# extension loading, while BGE-M3 embedding does not need sklearn at all.
+import transformers.utils.import_utils as _tf_import_utils
+_tf_import_utils._sklearn_available = False
+
 from transformers import AutoModel, AutoTokenizer
 
 from src.utils.logger import get_logger

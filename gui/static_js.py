@@ -6,7 +6,7 @@ let activeAudio=null;
 function _getAudio(audioId){
   if(audioId){
     var direct=document.getElementById(audioId);
-    if(direct)return direct;
+    if(direct && direct.getAttribute('src'))return direct;
   }
   var wrap=document.getElementById('main-audio-player');
   if(wrap){var a=wrap.querySelector('audio');if(a)return a;}

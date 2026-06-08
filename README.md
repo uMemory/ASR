@@ -194,6 +194,8 @@ python scripts/demo_retrieval.py --audio .\audio.wav --seconds 120 --language zh
 
 检索索引默认保存在 `outputs/index`。
 
+Web UI 的“智能检索”会自动读取默认历史目录 `tests/test_results` 下的转写 JSON。若 `outputs/index` 不存在，或现有索引与当前历史结果不匹配，系统会自动基于这些历史结果重建 BGE-M3 检索索引；若 BGE-M3 索引构建失败，则临时降级为关键词检索。
+
 查询示例：
 
 ```text

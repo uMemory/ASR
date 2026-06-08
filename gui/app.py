@@ -157,6 +157,27 @@ def _hydrate_missing_results_from_output_dir(out_dir: Path, file_paths: list[str
     return recovered
 
 
+def _load_search_results_from_dir(out_dir: Path) -> int:
+    """Load saved JSON results for retrieval without requiring manual history load."""
+    if not out_dir.exists():
+        return 0
+    loaded = 0
+    json_files = sorted(out_dir.glob("*.json"), key=lambda p: p.stat().st_mtime)
+    for json_path in json_files:
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            continue
+        raw_results = data.get("files", []) if isinstance(data, dict) and "files" in data else [data]
+        for raw in raw_results:
+            if not isinstance(raw, dict) or not raw.get("segments"):
+                continue
+            _merge_result_into_state(raw, out_dir, replace_existing=True)
+            loaded += 1
+    return loaded
+
+
 def _speaker_label(speaker: object) -> str:
     return str(speaker or "?").strip()
 
@@ -763,10 +784,46 @@ def _build_rename_panel(segments: list[dict], file_index: int | None = None) -> 
 # 检索
 # ══════════════════════════════════════════════════════════════
 
+def _ensure_bge_index_for_segments(segs: list[dict]) -> tuple[bool, str]:
+    """Ensure outputs/index matches current searchable segments."""
+    if not segs:
+        return False, "无可索引片段"
+    if (_index_path / "dense.faiss").exists():
+        try:
+            from src.retrieval.indexer import load_index
+            meta, _, _ = load_index(_index_path)
+            if _segments_match_current(meta.get("segments", []), segs):
+                return True, "已使用现有 BGE-M3 索引"
+        except Exception:
+            pass
+
+    try:
+        from src.retrieval import EmbeddingEncoder
+        from src.retrieval.indexer import build_index
+        from src.utils.config import get_model_config
+
+        cfg = get_model_config()
+        enc = EmbeddingEncoder(
+            model_path=cfg["embedding"]["model"],
+            use_fp16=cfg["embedding"].get("use_fp16", True),
+            device=cfg.get("device", "cuda"),
+        )
+        enc.load()
+        try:
+            build_index(segs, enc, store_path=_index_path)
+        finally:
+            enc.unload()
+        return True, f"已重建 BGE-M3 索引：{len(segs)} 个片段"
+    except Exception as exc:
+        return False, f"BGE-M3 索引构建失败，已降级关键词检索：{exc}"
+
+
 def search_transcript(query, top_k):
+    _load_search_results_from_dir(_output_dir)
     segs = _all_segments_with_file_index()
     if not segs: return "<p style='color:#888'>无数据</p>"
-    if (_index_path / "dense.faiss").exists():
+    indexed_ok, index_status = _ensure_bge_index_for_segments(segs)
+    if indexed_ok:
         try:
             from src.retrieval import EmbeddingEncoder, Retriever
             from src.retrieval.indexer import load_index
@@ -795,7 +852,12 @@ def search_transcript(query, top_k):
     if not results: return "<p style='color:#888'>未找到</p>"
     used_files = sorted({int(s.get("_file_index", 0)) for s in results if "_file_index" in s})
     audio_tags = _audio_tags_for_current_files(used_files)
-    return audio_tags + "\n".join(
+    status_html = (
+        f"<p style='color:#777;font-size:0.9em;margin:0 0 8px 0'>"
+        f"{escape(index_status)}；当前检索语料 {len(segs)} 段，来源：tests/test_results"
+        f"</p>"
+    )
+    return status_html + audio_tags + "\n".join(
         _render_seg_html(
             s,
             audio_id=f"file-audio-{int(s.get('_file_index', 0))}" if "_file_index" in s else None,

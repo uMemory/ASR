@@ -156,6 +156,13 @@ outputs/retrieval_eval_bge/retrieval_eval_summary.md
 outputs/retrieval_eval_bge/retrieval_eval_summary.json
 ```
 
+当前包含 `tests/test_results` 的多维混合检索评估结果如下：
+
+- 索引片段数：`1315`。
+- 链路自检查询：`80` 条，`Hit@5 = 95.0%`，`MRR@5 = 0.944`。
+- 模拟用户多维查询：`34` 条，`Hit@1 = 91.2%`，`Hit@5 = 100.0%`，`MRR@5 = 0.949`。
+- 重点覆盖文件：`ahnss.wav.json`、`cjfer.wav.json`、`R8007_M8010_N_SPK8050.wav.json`、`R8001_M8004_MS801.wav.json`、`L_R004S01C01.flac.json`、`S_R003S01C01.flac.json`。
+
 ## 英文数据集说明
 
 当前定量英文 ASR 指标使用 LibriSpeech。LibriSpeech 提供官方参考文本，适合计算英文 WER。

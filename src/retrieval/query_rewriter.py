@@ -71,6 +71,27 @@ _BILINGUAL_PHRASES: list[tuple[str, str]] = [
     ("确认", "confirm confirmation"),
     ("讨论", "discuss discussion"),
     ("影响", "impact influence effect"),
+    ("政策", "policy policies"),
+    ("楼市", "real estate housing market property market"),
+    ("房地产", "real estate property housing"),
+    ("房贷", "mortgage housing loan"),
+    ("贷款", "loan mortgage"),
+    ("首套房", "first home first house"),
+    ("限购", "purchase restriction home purchase restriction"),
+    ("降息", "interest rate cut rate reduction"),
+    ("印度使徒", "Apostle of the Indies"),
+    ("使徒", "apostle"),
+    ("洗礼", "baptism baptized"),
+    ("受洗", "baptism baptized"),
+    ("有效", "valid effective"),
+    ("工位", "workstation desk seat"),
+    ("会议室", "meeting room conference room"),
+    ("小会议室", "small meeting room"),
+    ("大会议室", "large meeting room conference room"),
+    ("吸烟室", "smoking room"),
+    ("地毯", "carpet"),
+    ("刷漆", "paint repaint wall painting"),
+    ("仿瓷", "porcelain-like coating wall coating"),
     ("体验", "experience"),
     ("新闻", "news"),
     ("嘉宾", "guest"),
@@ -114,6 +135,22 @@ _EN_TO_ZH: list[tuple[str, str]] = [
     ("confirm", "确认"),
     ("discuss", "讨论"),
     ("impact", "影响"),
+    ("policy", "政策"),
+    ("real estate", "房地产 楼市"),
+    ("housing market", "楼市 房地产"),
+    ("mortgage", "房贷 贷款"),
+    ("loan", "贷款 房贷"),
+    ("apostle", "使徒 印度使徒"),
+    ("baptism", "洗礼 受洗"),
+    ("baptized", "洗礼 受洗"),
+    ("valid", "有效"),
+    ("workstation", "工位"),
+    ("desk", "工位"),
+    ("meeting room", "会议室"),
+    ("conference room", "会议室"),
+    ("smoking room", "吸烟室"),
+    ("carpet", "地毯"),
+    ("paint", "刷漆"),
     ("experience", "体验"),
     ("news", "新闻"),
     ("guest", "嘉宾"),
@@ -201,7 +238,10 @@ def rewrite_query_with_llm(query: str, adapter: Any) -> RewrittenQuery:
         keyword_queries=_dedupe_nonempty([original] + keywords + fallback.keyword_queries),
         speaker=str(speaker).strip() if isinstance(speaker, str) and speaker.strip() else fallback.speaker,
         time_range=_coerce_time_range(time_range) or fallback.time_range,
-        intent=_dedupe_nonempty(intent + fallback.intent),
+        # Only use rule-parsed explicit transcript intents. LLMs often label the
+        # user's own information-seeking question as "提问", which incorrectly
+        # filters out declarative target segments during retrieval.
+        intent=_dedupe_nonempty(fallback.intent),
     )
     return rewritten
 
@@ -257,6 +297,7 @@ def _extract_json(raw: str) -> dict[str, Any]:
     if not isinstance(parsed, dict):
         raise ValueError("LLM rewrite response is not an object")
     return parsed
+
 
 
 def _coerce_str_list(value: Any) -> list[str]:

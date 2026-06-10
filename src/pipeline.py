@@ -587,9 +587,18 @@ def _refine_segment_playback_boundaries(
         # island is followed by a clear gap, skip it. For later segments we
         # keep the earliest activity to avoid cutting low-energy syllables.
         if start <= 0.5 and len(overlaps) >= 2:
+            first_start = float(overlaps[0]["start"])
             first_end = float(overlaps[0]["end"])
+            first_duration = first_end - first_start
             for candidate in overlaps[1:]:
-                if float(candidate["start"]) - first_end >= 1.2:
+                # Only skip a likely startup click/noise burst. If the first
+                # activity starts several seconds in or lasts long enough to be
+                # speech, keep it; otherwise initial real words can be cut.
+                if (
+                    first_start <= 1.0
+                    and first_duration <= 0.7
+                    and float(candidate["start"]) - first_end >= 1.2
+                ):
                     selected = candidate
                     break
 

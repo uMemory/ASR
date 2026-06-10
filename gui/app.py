@@ -4,10 +4,11 @@
 """
 from __future__ import annotations
 
-import argparse, base64, io, json, re
+import argparse, base64, io, json, re, shutil
 import sys, time, wave
 from html import escape
 from pathlib import Path
+from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
@@ -39,6 +40,12 @@ def audio_to_base64(audio: np.ndarray, sr: int) -> str:
     return base64.b64encode(buf.getvalue()).decode()
 
 
+def _audio_src_for_path(path: str | Path) -> str:
+    """Return a lightweight Gradio-served URL for an audio file path."""
+    p = Path(path)
+    return "/file=" + quote(str(p.resolve()).replace("\\", "/"), safe="/:")
+
+
 # ══════════════════════════════════════════════════════════════
 # 全局状态
 # ══════════════════════════════════════════════════════════════
@@ -49,6 +56,13 @@ _last_audio_files: list[tuple[str, str]] = []  # (label, filepath)
 _last_segments_raw: list[dict] = []   # 未映射的原始段
 _index_path: Path = project_root() / "outputs" / "index"
 _output_dir: Path = project_root() / "tests" / "test_results"
+_search_result_dirs: list[Path] = [
+    project_root() / "outputs" / "batch_eval_llm" / "results",
+    _output_dir,
+]
+_retrieval_encoder = None
+_retrieval_query_adapter = None
+_search_dir_signatures: dict[str, tuple[int, float]] = {}
 _current_audio_b64: str = ""
 _current_audio_sr: int = 16000
 
@@ -162,8 +176,10 @@ def _load_search_results_from_dir(out_dir: Path) -> int:
     if not out_dir.exists():
         return 0
     loaded = 0
-    json_files = sorted(out_dir.glob("*.json"), key=lambda p: p.stat().st_mtime)
+    json_files = sorted(out_dir.rglob("*.json"), key=lambda p: str(p.relative_to(out_dir)).lower())
     for json_path in json_files:
+        if json_path.name.startswith("manual_corrected"):
+            continue
         try:
             with open(json_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -176,6 +192,52 @@ def _load_search_results_from_dir(out_dir: Path) -> int:
             _merge_result_into_state(raw, out_dir, replace_existing=True)
             loaded += 1
     return loaded
+
+
+def _load_search_results_from_default_dirs() -> tuple[int, list[str]]:
+    loaded = 0
+    sources: list[str] = []
+    seen: set[str] = set()
+    for out_dir in _search_result_dirs:
+        key = _canonical_path_key(out_dir)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        signature = _dir_json_signature(out_dir)
+        if _search_dir_signatures.get(key) == signature:
+            if out_dir.exists():
+                try:
+                    sources.append(str(out_dir.relative_to(project_root())))
+                except Exception:
+                    sources.append(str(out_dir))
+            continue
+        before = len(_last_file_results)
+        n = _load_search_results_from_dir(out_dir)
+        _search_dir_signatures[key] = signature
+        loaded += n
+        if n or len(_last_file_results) > before or out_dir.exists():
+            try:
+                sources.append(str(out_dir.relative_to(project_root())))
+            except Exception:
+                sources.append(str(out_dir))
+    return loaded, sources
+
+
+def _dir_json_signature(out_dir: Path) -> tuple[int, float]:
+    if not out_dir.exists():
+        return (0, 0.0)
+    count = 0
+    latest = 0.0
+    for json_path in out_dir.rglob("*.json"):
+        if json_path.name.startswith("manual_corrected"):
+            continue
+        try:
+            stat = json_path.stat()
+        except OSError:
+            continue
+        count += 1
+        latest = max(latest, stat.st_mtime)
+    return (count, latest)
 
 
 def _speaker_label(speaker: object) -> str:
@@ -218,21 +280,39 @@ def _render_seg_html(
             f" <span title='{reason_text}' "
             f"style='color:#b9770e;font-size:0.85em'>[低置信度]</span>"
         )
+    source_name = str(seg.get("_file_name") or seg.get("name") or "").strip()
+    source_html = ""
+    if source_name:
+        source_html = (
+            f"<span title='音频来源' "
+            f"style='color:#5d6d7e;background:#eef3f8;border:1px solid #d7e1ec;"
+            f"border-radius:4px;padding:1px 5px;margin-right:4px;font-size:0.82em'>"
+            f"{escape(source_name)}</span> "
+        )
     play_start = float(seg.get("playback_start", seg["start"]))
     play_end = float(seg.get("playback_end", seg["end"]))
-    audio_arg = f",'{audio_id}'" if audio_id else ""
+    audio_arg = f",'{audio_id}',this" if audio_id else ",null,this"
     click_js = onclick or f"playSeg({play_start},{play_end}{audio_arg})"
+    play_data_attr = ""
+    if not onclick:
+        play_data_attr = (
+            f"data-play-start='{play_start}' data-play-end='{play_end}' "
+            f"data-audio-id='{escape(audio_id or '')}'"
+        )
     file_attr = f"data-file-index='{file_index}'" if file_index is not None else ""
     b_file_attr = str(file_index) if file_index is not None else ""
+    onclick_attr = f"onclick=\"{click_js}\"" if click_js else ""
     return (
-        f"<div class='seg-line' onclick=\"{click_js}\" "
+        f"<div class='seg-line' {onclick_attr} "
         f"{file_attr} "
+        f"{play_data_attr} "
         f"title='点击播放 [{ts}]' "
         f"style='cursor:pointer;padding:3px 6px;margin:1px 0;border-radius:4px;"
         f"transition:background 0.15s' "
         f"onmouseover='this.style.background=\"#fdebd0\"' "
         f"onmouseout='this.style.background=\"transparent\"'>"
         f"<span style='color:#e67e22'>▸</span> {prefix} "
+        f"{source_html}"
         f"<span style='color:#888;font-family:monospace;font-size:0.9em'>{ts}</span> "
         f"<b data-speaker='{spk}' data-file-index='{b_file_attr}' "
         f"style='color:#c0392b'>{spk}</b>: {txt}{note}{intent_html}{confidence_html}</div>"
@@ -393,15 +473,28 @@ def _copy_audio_for_player(src_path: str, out_dir: Path, index: int = 0) -> tupl
     src = Path(src_path)
     if not src.exists():
         return None
-    dst = out_dir / f"_current_audio_{index}_{src.name}.wav"
+    dst = out_dir / f"_current_audio_{index}_{src.stem}.wav"
     try:
-        ad, asr = sf.read(str(src))
-        if ad.ndim > 1:
-            ad = ad.mean(axis=1)
-        sf.write(str(dst), ad.astype(np.float32), asr)
+        needs_write = True
+        if dst.exists():
+            try:
+                needs_write = dst.stat().st_mtime < src.stat().st_mtime or dst.stat().st_size == 0
+            except OSError:
+                needs_write = True
+        if needs_write:
+            ad, asr = sf.read(str(src), dtype="float32", always_2d=False)
+            if ad.ndim > 1:
+                ad = ad.mean(axis=1)
+            sf.write(str(dst), ad.astype(np.float32), asr, subtype="PCM_16")
         return (f"{index + 1}. {src.name}", str(dst))
     except Exception:
-        return None
+        fallback = out_dir / f"_current_audio_{index}_{src.name}"
+        try:
+            if not fallback.exists() or fallback.stat().st_size != src.stat().st_size:
+                shutil.copy2(src, fallback)
+            return (f"{index + 1}. {src.name}", str(fallback))
+        except Exception:
+            return None
 
 
 def refresh_history(output_dir_str):
@@ -601,7 +694,7 @@ def _render_summary_panel(summary: dict | None) -> str:
     )
 
 
-def _render_current_result_html() -> str:
+def _render_current_result_html(player_audio_id: str = "main-audio-player") -> str:
     if not _last_file_results and not _last_result:
         return "<p style='color:#888'>请先处理音频</p>"
     parts: list[str] = []
@@ -615,7 +708,7 @@ def _render_current_result_html() -> str:
             audio_path = Path(_last_audio_files[fi][1])
             if audio_path.exists():
                 try:
-                    audio_data, audio_sr = sf.read(str(audio_path))
+                    audio_data, audio_sr = sf.read(str(audio_path), dtype="float32", always_2d=False)
                     if audio_data.ndim > 1:
                         audio_data = audio_data.mean(axis=1)
                     audio_src = "data:audio/wav;base64," + audio_to_base64(
@@ -623,15 +716,20 @@ def _render_current_result_html() -> str:
                     )
                     file_audio_html = (
                         f"<audio id='{audio_id}' src='{audio_src}' "
-                        f"preload='metadata' style='display:none'></audio>"
+                        f"preload='metadata' playsinline style='display:none'></audio>"
                     )
                 except Exception:
-                    audio_id = ""
+                    audio_id = player_audio_id
             else:
-                audio_id = ""
+                audio_id = player_audio_id
+        else:
+            audio_id = player_audio_id
         summary_html = _render_summary_panel(result.get("meeting_summary"))
         rename_panel = _build_rename_panel(segs, fi)
-        seg_html = "\n".join(_render_seg_html(s, audio_id=audio_id, file_index=fi) for s in segs)
+        seg_html = "\n".join(
+            _render_seg_html(s, audio_id=audio_id, file_index=fi)
+            for s in segs
+        )
         name = escape(result.get("name", f"file{fi}"))
         parts.append(
             f"<details open class='transcript-file' data-file-index='{fi}' "
@@ -788,11 +886,14 @@ def _ensure_bge_index_for_segments(segs: list[dict]) -> tuple[bool, str]:
     """Ensure outputs/index matches current searchable segments."""
     if not segs:
         return False, "无可索引片段"
+    searchable = _searchable_segments_for_index(segs)
+    if not searchable:
+        return False, "无足够长的可索引片段"
     if (_index_path / "dense.faiss").exists():
         try:
             from src.retrieval.indexer import load_index
             meta, _, _ = load_index(_index_path)
-            if _segments_match_current(meta.get("segments", []), segs):
+            if _segments_match_current(meta.get("segments", []), searchable):
                 return True, "已使用现有 BGE-M3 索引"
         except Exception:
             pass
@@ -810,51 +911,83 @@ def _ensure_bge_index_for_segments(segs: list[dict]) -> tuple[bool, str]:
         )
         enc.load()
         try:
-            build_index(segs, enc, store_path=_index_path)
+            meta, _, _ = build_index(segs, enc, store_path=_index_path)
         finally:
             enc.unload()
-        return True, f"已重建 BGE-M3 索引：{len(segs)} 个片段"
+        return True, f"已重建 BGE-M3 索引：{meta.get('num_segments', len(searchable))} 个片段"
     except Exception as exc:
         return False, f"BGE-M3 索引构建失败，已降级关键词检索：{exc}"
 
 
+def _get_retrieval_encoder():
+    global _retrieval_encoder
+    if _retrieval_encoder is not None:
+        return _retrieval_encoder
+    from src.retrieval import EmbeddingEncoder
+    from src.utils.config import get_model_config
+
+    cfg = get_model_config()
+    enc = EmbeddingEncoder(
+        model_path=cfg["embedding"]["model"],
+        use_fp16=cfg["embedding"].get("use_fp16", True),
+        device=cfg.get("device", "cuda"),
+    )
+    enc.load()
+    _retrieval_encoder = enc
+    return enc
+
+
+def _get_query_rewriter_adapter():
+    global _retrieval_query_adapter
+    if _retrieval_query_adapter is not None:
+        return _retrieval_query_adapter
+    try:
+        from src.llm import load_llm_adapter
+        _retrieval_query_adapter = load_llm_adapter()
+    except Exception:
+        _retrieval_query_adapter = False
+    return None if _retrieval_query_adapter is False else _retrieval_query_adapter
+
+
 def search_transcript(query, top_k):
-    _load_search_results_from_dir(_output_dir)
+    t0 = time.time()
+    _, sources = _load_search_results_from_default_dirs()
     segs = _all_segments_with_file_index()
     if not segs: return "<p style='color:#888'>无数据</p>"
     indexed_ok, index_status = _ensure_bge_index_for_segments(segs)
     if indexed_ok:
         try:
-            from src.retrieval import EmbeddingEncoder, Retriever
+            from src.retrieval import Retriever
             from src.retrieval.indexer import load_index
-            from src.utils.config import get_model_config
             meta, _, _ = load_index(_index_path)
             indexed = meta.get("segments", [])
-            if _segments_match_current(indexed, segs):
-                cfg = get_model_config()
-                enc = EmbeddingEncoder(model_path=cfg["embedding"]["model"],
-                                       use_fp16=cfg["embedding"].get("use_fp16", True),
-                                       device=cfg.get("device", "cuda"))
-                query_adapter = None
-                try:
-                    from src.llm import load_llm_adapter
-                    query_adapter = load_llm_adapter()
-                except Exception:
-                    query_adapter = None
-                enc.load(); ret = Retriever(index_path=_index_path, encoder=enc, query_rewriter=query_adapter)
-                results = ret.search(query, top_k=top_k); enc.unload()
+            if _segments_match_current(indexed, _searchable_segments_for_index(segs)):
+                enc = _get_retrieval_encoder()
+                query_adapter = _get_query_rewriter_adapter()
+                ret = Retriever(index_path=_index_path, encoder=enc, query_rewriter=query_adapter)
+                candidate_k = max(int(top_k) * 4, 10)
+                results = _select_display_search_results(ret.search(query, top_k=candidate_k), query, int(top_k))
                 results = _attach_file_indices_to_search_results(results, segs)
             else:
                 results = _simple_search(segs, query, top_k)
         except Exception:
             results = _simple_search(segs, query, top_k)
     else: results = _simple_search(segs, query, top_k)
-    if not results: return "<p style='color:#888'>未找到</p>"
+    elapsed_ms = (time.time() - t0) * 1000
+    source_text = "、".join(sources) if sources else "当前会话"
+    if not results:
+        return (
+            f"<p style='color:#777;font-size:0.9em;margin:0 0 8px 0'>"
+            f"{escape(index_status)}；当前检索语料 {len(segs)} 段，来源：{escape(source_text)}；"
+            f"本次耗时 {elapsed_ms:.1f} ms</p>"
+            "<p style='color:#888'>未找到</p>"
+        )
     used_files = sorted({int(s.get("_file_index", 0)) for s in results if "_file_index" in s})
     audio_tags = _audio_tags_for_current_files(used_files)
     status_html = (
         f"<p style='color:#777;font-size:0.9em;margin:0 0 8px 0'>"
-        f"{escape(index_status)}；当前检索语料 {len(segs)} 段，来源：tests/test_results"
+        f"{escape(index_status)}；当前检索语料 {len(segs)} 段，来源：{escape(source_text)}；"
+        f"本次耗时 {elapsed_ms:.1f} ms"
         f"</p>"
     )
     return status_html + audio_tags + "\n".join(
@@ -878,6 +1011,49 @@ def _segments_match_current(indexed: list[dict], current: list[dict]) -> bool:
         if abs(float(a.get("start", 0.0)) - float(b.get("start", 0.0))) > 0.05:
             return False
     return True
+
+
+def _searchable_segments_for_index(segments: list[dict]) -> list[dict]:
+    return [seg for seg in segments if len(str(seg.get("text", "")).strip()) >= 4]
+
+
+def _select_display_search_results(results: list[dict], query: str, top_k: int) -> list[dict]:
+    if top_k <= 0:
+        return []
+    selected = [seg for seg in results if _is_informative_search_result(seg, query)]
+    if len(selected) < top_k:
+        seen = {
+            (
+                str(s.get("file", "")),
+                str(s.get("text", "")),
+                round(float(s.get("start", 0.0)), 2),
+            )
+            for s in selected
+        }
+        for seg in results:
+            key = (
+                str(seg.get("file", "")),
+                str(seg.get("text", "")),
+                round(float(seg.get("start", 0.0)), 2),
+            )
+            if key not in seen:
+                selected.append(seg)
+                seen.add(key)
+            if len(selected) >= top_k:
+                break
+    return selected[:top_k]
+
+
+def _is_informative_search_result(seg: dict, query: str) -> bool:
+    text = str(seg.get("text", "") or "").strip()
+    query_text = str(query or "").strip()
+    if len(query_text) < 8:
+        return True
+    cjk_count = len(re.findall(r"[\u4e00-\u9fff]", text))
+    latin_words = re.findall(r"[A-Za-z]+", text)
+    # Avoid showing one-word/one-phrase hits such as “会议室。” as the first
+    # result for multi-keyword demonstration queries.
+    return cjk_count >= 8 or len(latin_words) >= 4
 
 
 def _attach_file_indices_to_search_results(results: list[dict], current: list[dict]) -> list[dict]:
@@ -911,12 +1087,17 @@ def _audio_tags_for_current_files(file_indices: list[int]) -> str:
         if fi < 0 or fi >= len(_last_audio_files):
             continue
         try:
-            audio_data, audio_sr = sf.read(_last_audio_files[fi][1])
+            audio_path = Path(_last_audio_files[fi][1])
+            if not audio_path.exists():
+                continue
+            audio_data, audio_sr = sf.read(str(audio_path), dtype="float32", always_2d=False)
             if audio_data.ndim > 1:
                 audio_data = audio_data.mean(axis=1)
-            b64 = audio_to_base64(audio_data.astype(np.float32), audio_sr)
+            audio_src = "data:audio/wav;base64," + audio_to_base64(
+                audio_data.astype(np.float32), audio_sr
+            )
             parts.append(
-                f"<audio id='file-audio-{fi}' src='data:audio/wav;base64,{b64}' "
+                f"<audio id='file-audio-{fi}' src='{audio_src}' "
                 f"preload='metadata' style='display:none'></audio>"
             )
         except Exception:
@@ -1300,7 +1481,7 @@ def create_ui(host: str = "127.0.0.1") -> gr.Blocks:
                 with gr.Column(scale=1):
                     gr.Markdown("### 🔍 条件")
                     search_query = gr.Textbox(label="查询", placeholder="Speaker B 的反对意见", lines=2)
-                    search_topk = gr.Slider(1, 50, value=10, step=1, label="返回条数")
+                    search_topk = gr.Slider(1, 50, value=3, step=1, label="返回条数")
                     search_btn = gr.Button("🔍 搜索", variant="primary")
                 with gr.Column(scale=2):
                     search_output = gr.HTML(value="<p style='color:#888'>请先在文件转写模式处理音频</p>")

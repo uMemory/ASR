@@ -3,15 +3,43 @@
 PLAY_JS = """<script>
 let activeTimeout=null;
 let activeAudio=null;
-function _getAudio(audioId){
+function _audioHasSource(a){
+  if(!a)return false;
+  if(a.currentSrc || a.src || a.getAttribute('src'))return true;
+  var s=a.querySelector ? a.querySelector('source[src]') : null;
+  return !!(s && s.getAttribute('src'));
+}
+function _firstAudioIn(root){
+  if(!root || !root.querySelector)return null;
+  var list=root.querySelectorAll('audio,video');
+  for(var i=0;i<list.length;i++){if(_audioHasSource(list[i]))return list[i];}
+  return null;
+}
+function _getAudio(audioId, trigger){
   if(audioId){
+    if(audioId==='history-audio-player' || audioId==='main-audio-player'){
+      var preferred=document.getElementById(audioId);
+      var preferredAudio=_firstAudioIn(preferred);
+      if(preferredAudio)return preferredAudio;
+    }
     var direct=document.getElementById(audioId);
-    if(direct && direct.getAttribute('src'))return direct;
+    if(_audioHasSource(direct))return direct;
+    var nested=_firstAudioIn(direct);
+    if(nested)return nested;
   }
-  var wrap=document.getElementById('main-audio-player');
-  if(wrap){var a=wrap.querySelector('audio');if(a)return a;}
-  var all=document.querySelectorAll('audio');
-  for(var i=0;i<all.length;i++){if(all[i].src)return all[i];}
+  if(trigger && trigger.closest){
+    var panel=trigger.closest('.file-panel,.history-panel,.transcript-file');
+    var scoped=_firstAudioIn(panel);
+    if(scoped)return scoped;
+  }
+  var playerIds=['main-audio-player','history-audio-player'];
+  for(var p=0;p<playerIds.length;p++){
+    var wrap=document.getElementById(playerIds[p]);
+    var a=_firstAudioIn(wrap);
+    if(a)return a;
+  }
+  var all=document.querySelectorAll('audio,video');
+  for(var i=0;i<all.length;i++){if(_audioHasSource(all[i]))return all[i];}
   return all.length>0?all[0]:null;
 }
 function _seekAndPlay(a,s,e){
@@ -29,14 +57,29 @@ function _seekAndPlay(a,s,e){
     activeTimeout=setTimeout(()=>{try{a.pause();}catch(err){}},duration);
   };
   if(a.readyState>=1){start();return;}
+  a.preload='auto';
   a.addEventListener('loadedmetadata',start,{once:true});
   a.addEventListener('canplay',start,{once:true});
   try{a.load();}catch(err){}
 }
-function playSeg(s,e,audioId){let a=_getAudio(audioId);if(!a){console.log('no audio found');return;}
+function playSeg(s,e,audioId,trigger){let a=_getAudio(audioId,trigger);if(!a){console.log('no audio found for',audioId);return;}
 _seekAndPlay(a,s,e);}
-function playRtSeg(c,o,d){let a=document.getElementById('rt-audio-'+c);if(!a){a=_getAudio();if(!a)return;}
+function playRtSeg(c,o,d){let a=document.getElementById('rt-audio-'+c);if(!a){a=_getAudio(null,null);if(!a)return;}
 _seekAndPlay(a,o,o+d);}
+window.playSeg=playSeg;
+window.playRtSeg=playRtSeg;
+document.addEventListener('click',function(ev){
+  var line=ev.target && ev.target.closest ? ev.target.closest('.seg-line[data-play-start]') : null;
+  if(!line)return;
+  if(line.getAttribute('onclick'))return;
+  ev.preventDefault();
+  ev.stopPropagation();
+  var s=parseFloat(line.dataset.playStart);
+  var e=parseFloat(line.dataset.playEnd);
+  if(!isFinite(s)||!isFinite(e))return;
+  var audioId=line.dataset.audioId||null;
+  playSeg(s,e,audioId,line);
+},true);
 function applyRename(){
 const map={};
 document.querySelectorAll('.speaker-rename').forEach(inp=>{
@@ -50,6 +93,7 @@ var fid=el.getAttribute('data-file-index')||'';
 el.textContent=map[fid+'|'+raw]||raw;
 });
 }
+window.applyRename=applyRename;
 </script>"""
 
 

@@ -324,7 +324,7 @@ class RealtimeController:
             play_start = float(seg.get("playback_start", seg["start"]))
             play_end = float(seg.get("playback_end", seg["end"]))
             onclick = (
-                f"playSeg({play_start:.3f},{play_end:.3f},'rt-audio-full')"
+                f"playSeg({play_start:.3f},{play_end:.3f},'rt-audio-full',this)"
                 if can_play else
                 "void(0)"
             )

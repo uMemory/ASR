@@ -357,7 +357,31 @@ def _parse_query(query: str) -> dict[str, Any]:
 
 
 def _intent_matches(seg_intent: Any, intents: list[str]) -> bool:
-    intents_set = set(intents)
+    intents_set = {_normalise_intent_label(v) for v in intents}
     if isinstance(seg_intent, list):
-        return any(v in intents_set for v in seg_intent)
-    return seg_intent in intents_set
+        return any(_normalise_intent_label(v) in intents_set for v in seg_intent)
+    return _normalise_intent_label(seg_intent) in intents_set
+
+
+_INTENT_NORMALISE = {
+    "question": "提问",
+    "ask": "提问",
+    "statement": "陈述",
+    "proposal": "提议",
+    "suggestion": "提议",
+    "agreement": "同意",
+    "agree": "同意",
+    "disagreement": "反对",
+    "disagree": "反对",
+    "summary": "总结",
+    "confirmation": "确认",
+    "confirm": "确认",
+    "response": "回应",
+    "transition": "转场",
+    "comment": "评论",
+}
+
+
+def _normalise_intent_label(value: Any) -> str:
+    label = str(value or "").strip()
+    return _INTENT_NORMALISE.get(label.lower(), label)

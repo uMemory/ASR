@@ -108,8 +108,10 @@ _SYSTEM_ZH = """你是一个中文语音识别后处理助手。你的任务是�
 3. 输出 JSON 格式的修正结果
 
 修正原则：
+- 默认保持原文，只有在确认存在明显 ASR 错误时才修改
 - 修正同音字混淆、语义不通、上下文矛盾
 - 保留说话风格和口语化表达
+- 不要润色、改写、概括、补充信息或把口语改成书面语
 - 不要添加或删除完整句子
 - 如果某句话没有明显的识别错误，保持原样
 - 不修改时间戳和说话人标识
@@ -121,6 +123,9 @@ _SYSTEM_ZH = """你是一个中文语音识别后处理助手。你的任务是�
      → "对，十二对，还得看我们这个价钱和规律。"
    - 保留少量自然的口语重复（如"对对"、"嗯嗯"），但删除机械性的大量重复。
 2. 数字编号：保留实际朗读的会议编号（如"零零六"），不要删除真实对话内容。
+   - 报号、叫号、编号、验证码、房间号、工位号、名单编号等数字/字母数字序列必须原样保留。
+   - 不要把"001,016,017"这类报号内容改写成"各位"、"大家"或其他语义句子。
+   - 不要把阿拉伯数字改写成概括性词语；除非只是补充标点，否则保持原字符串。
 3. 语气词规范：少量"嗯"、"啊"等口语词可以保留，但大段机械重复必须删除。
 4. 繁体转简体：文本中的繁体中文必须转为简体中文输出。
 5. 标点符号恢复：为每句话添加适当的中文标点符号（。！？，、），
@@ -139,10 +144,13 @@ _SYSTEM_EN = """You are an English speech recognition post-processing assistant.
 3. Output corrections in JSON format
 
 Correction principles:
+- Keep the original text by default. Only modify a segment when there is a clearly identifiable ASR error.
 - Only fix clearly wrong words (homophone confusion, semantic errors, context contradictions)
 - Preserve speaking style and colloquial expressions
+- Do not polish, paraphrase, summarize, normalize style, or make the sentence more formal.
 - Do not add or remove complete sentences
 - If a sentence has no obvious errors, keep it as-is
+- Preserve numbers, IDs, names, titles, abbreviations, and code-like strings unless they are clearly recognized incorrectly.
 - Do not modify timestamps or speaker labels
 
 Output format (strict JSON):
@@ -345,8 +353,65 @@ def _parse_corrections(raw: str, count: int) -> list[dict[str, Any]]:
 
 def _build_user_prompt(transcript: str, language: str) -> str:
     if language == "en":
-        return f"Please review and correct the following conversation transcript:\n\n{transcript}"
-    return f"请检查并修正以下对话转写：\n\n{transcript}"
+        return (
+            "Please review the following transcript. Only correct clear speech recognition errors. "
+            "If uncertain, or if the text is merely colloquial or not perfectly fluent, keep it unchanged. "
+            "Do not polish, paraphrase, summarize, or change the original meaning.\n\n"
+            f"{transcript}"
+        )
+    return (
+        "请检查以下对话转写。只修正明确的语音识别错误；"
+        "如果不确定、只是表达不够通顺、或只是口语化表达，请保持原文不变。"
+        "不要润色、概括或改写原意。\n\n"
+        f"{transcript}"
+    )
+
+
+def _numeric_tokens(text: str) -> list[str]:
+    """Return digit/alphanumeric tokens that should survive correction."""
+    return re.findall(r"[A-Za-z]?\d+(?:[-_]\d+)?", text or "")
+
+
+def _is_number_callout(text: str) -> bool:
+    """Detect short call-number / ID-list utterances that LLM must not rewrite."""
+    raw = (text or "").strip()
+    if not raw:
+        return False
+    digits = re.findall(r"\d", raw)
+    if len(digits) >= 3:
+        non_space = re.sub(r"\s+", "", raw)
+        numeric_like = re.sub(r"[0-9A-Za-z,，.。:：;；、/\-_\[\]()（）号第零一二三四五六七八九十百千万]+", "", non_space)
+        # Mostly identifiers, separators, and number words: e.g. 001,016,017.
+        if len(numeric_like) <= max(1, len(non_space) * 0.2):
+            return True
+    zh_digit_chars = len(re.findall(r"[零一二三四五六七八九十百千万]", raw))
+    if zh_digit_chars >= 4 and len(raw) <= 30:
+        return True
+    return False
+
+
+def _should_accept_correction(original: str, corrected: str, language: str) -> bool:
+    """Reject LLM rewrites that destroy number/code utterances."""
+    original = (original or "").strip()
+    corrected = (corrected or "").strip()
+    if not corrected:
+        return False
+    if language != "zh":
+        return True
+
+    if _is_number_callout(original):
+        # For call-number utterances, allow at most punctuation/full-width changes.
+        orig_core = re.sub(r"[\s,，.。;；:：、]+", "", zh_simplify(original))
+        corr_core = re.sub(r"[\s,，.。;；:：、]+", "", zh_simplify(corrected))
+        return orig_core == corr_core
+
+    orig_tokens = _numeric_tokens(original)
+    if orig_tokens:
+        corr_tokens = _numeric_tokens(corrected)
+        missing = [tok for tok in orig_tokens if tok not in corr_tokens]
+        if missing:
+            return False
+    return True
 
 
 def llm_correct_segments(
@@ -398,7 +463,17 @@ def llm_correct_segments(
             corr = corrections[i]
             new_seg = dict(seg)
             if corr["text"]:
-                if corr["text"] != seg.get("text", "").strip():
+                original_text = str(seg.get("text", "")).strip()
+                if not _should_accept_correction(original_text, corr["text"], language):
+                    logger.info(
+                        "Corrector: rejected unsafe numeric/code rewrite [%d]: %r -> %r",
+                        batch_start + i,
+                        original_text,
+                        corr["text"],
+                    )
+                    result.append(new_seg)
+                    continue
+                if corr["text"] != original_text:
                     logger.debug(
                         "  Corrected [%d]: %r → %r  (%s)",
                         batch_start + i,
